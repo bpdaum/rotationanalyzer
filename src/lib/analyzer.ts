@@ -6,6 +6,9 @@ export interface AnalysisFeedback {
     type: 'error' | 'warning' | 'info';
     timestamp: string;
     message: string;
+    spellName?: string;
+    timelineIndex?: number;
+    correctSequence?: string[];
 }
 
 export interface AnalysisResult {
@@ -39,7 +42,8 @@ export async function analyzeRotation(
     const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" }, { apiVersion: 'v1beta' });
 
     // Map the timeline down to something concise to save prompt tokens
-    const conciseTimeline = timeline.map(e => `[${e.timestamp}] ${e.spellName}`).join('\n');
+    // Include the index so the AI can reference specific casts
+    const conciseTimeline = timeline.map((e, i) => `[${i}] [${e.timestamp}] ${e.spellName}`).join('\n');
     const conciseInstructions = rotation.priorityList.map((str, i) => `${i + 1}. ${str}`).join('\n');
 
     const prompt = `You are a World of Warcraft expert analyst evaluating a player's combat log against optimal target dummy guidelines.
@@ -51,6 +55,7 @@ Hero Specialization: ${heroSpec}
 ${conciseInstructions}
 
 ### Player Combat Log (Chronological Casts)
+Each line is formatted as: [index] [timestamp] SpellName (Active Auras)
 ${conciseTimeline}
 
 ### Task
@@ -67,7 +72,10 @@ Provide a JSON object with this exact structure (no markdown fences, just the JS
     {
       "type": "error" | "warning" | "info",
       "timestamp": "<the timestamp from the combat log where the issue occurred, or 00:00 for overall stuff>",
-      "message": "<A brief, actionable critique>"
+      "message": "<A brief, actionable critique>",
+      "spellName": "<The name of the spell being critiqued, without aura info. e.g. 'Arcane Blast' not 'Arcane Blast (Active Auras: ...)'>",
+      "timelineIndex": <the 0-based index from the combat log where this issue occurred, or -1 for overall feedback>,
+      "correctSequence": [<optional array of 2-5 spell names showing what the player SHOULD have cast at this moment, in order. Only include this for errors and warnings where the correct sequence is clear from the guidelines.>]
     }
   ]
 }

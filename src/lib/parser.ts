@@ -1,5 +1,6 @@
 export interface CombatEvent {
     timestamp: string;
+    spellId: number;
     spellName: string;
     sourceName: string;
 }
@@ -64,6 +65,8 @@ export function parseCombatLog(logText: string): CombatEvent[] {
         }
 
         if (eventType === 'SPELL_CAST_SUCCESS' && sourceGuid === playerGuid) {
+            const spellIdRaw = columns[9];
+            const spellId = parseInt(spellIdRaw, 10) || 0;
             const spellNameRaw = columns[10];
             const spellName = spellNameRaw.replace(/"/g, '');
 
@@ -73,6 +76,7 @@ export function parseCombatLog(logText: string): CombatEvent[] {
 
             events.push({
                 timestamp,
+                spellId,
                 spellName: `${spellName}${auraStr}`,
                 sourceName: playerName || 'Unknown',
             });

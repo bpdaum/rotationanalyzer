@@ -1,7 +1,8 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { FileUpload } from '@/components/FileUpload';
+import { VisualTimeline } from '@/components/VisualTimeline';
 import { Timeline } from '@/components/Timeline';
 import { Feedback } from '@/components/Feedback';
 import type { CombatEvent } from '@/lib/parser';
@@ -16,15 +17,19 @@ interface AnalysisPayload {
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
+  const [loadingStatus, setLoadingStatus] = useState('');
   const [data, setData] = useState<AnalysisPayload | null>(null);
+  const [iconMap, setIconMap] = useState<Record<number, string>>({});
   const [error, setError] = useState<string | null>(null);
 
   const handleAnalyze = async (file: File, classSlug: string, specSlug: string, heroSpec: string, combatType: string) => {
     setIsLoading(true);
     setError(null);
     setData(null);
+    setIconMap({});
 
     try {
+      setLoadingStatus('Analyzing rotation...');
       const formData = new FormData();
       formData.append('logFile', file);
       formData.append('classSlug', classSlug);
@@ -45,13 +50,49 @@ export default function Home() {
 
       const result = await res.json();
       setData(result.data);
+
+      // Resolve spell icons in the background
+      if (result.data?.timeline?.length > 0) {
+        setLoadingStatus('Loading spell icons...');
+        const spellIds = [...new Set(result.data.timeline.map((e: CombatEvent) => e.spellId).filter(Boolean))];
+        if (spellIds.length > 0) {
+          try {
+            const iconRes = await fetch('/api/icons', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ spellIds }),
+            });
+            if (iconRes.ok) {
+              const iconData = await iconRes.json();
+              setIconMap(iconData.iconMap || {});
+            }
+          } catch (iconErr) {
+            console.warn('Failed to load spell icons:', iconErr);
+            // Non-critical, continue without icons
+          }
+        }
+      }
     } catch (err: any) {
       console.error(err);
       setError(err.message || 'An unexpected error occurred.');
     } finally {
       setIsLoading(false);
+      setLoadingStatus('');
     }
   };
+
+  const handleFeedbackClick = useCallback((timelineIndex: number) => {
+    const el = document.getElementById(`vt-cast-${timelineIndex}`);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+      // Flash the icon
+      const iconEl = el.querySelector('.spell-icon-container') as HTMLElement;
+      if (iconEl) {
+        iconEl.style.transform = 'scale(1.4)';
+        setTimeout(() => { iconEl.style.transform = 'scale(1)'; }, 600);
+      }
+    }
+  }, []);
 
   return (
     <main className="container" style={{ padding: '40px 24px' }}>
@@ -64,6 +105,15 @@ export default function Home() {
 
       <FileUpload onAnalyze={handleAnalyze} isLoading={isLoading} />
 
+      {isLoading && loadingStatus && (
+        <div className="card animate-fade-in" style={{ marginTop: '24px', textAlign: 'center' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px' }}>
+            <div className="loading-spinner" />
+            <span className="text-muted">{loadingStatus}</span>
+          </div>
+        </div>
+      )}
+
       {error && (
         <div className="card animate-fade-in" style={{ marginTop: '24px', borderColor: 'var(--color-error)', background: 'rgba(192, 57, 43, 0.1)' }}>
           <p style={{ color: 'var(--color-error)', margin: 0, fontWeight: 500 }}>{error}</p>
@@ -74,13 +124,22 @@ export default function Home() {
         <div className="animate-fade-in" style={{ marginTop: '40px' }}>
           <hr style={{ borderColor: 'var(--color-border)', margin: '40px 0' }} />
 
-          <div className="flex flex-col gap-lg" style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <div className="flex flex-col gap-lg" style={{ maxWidth: '100%', margin: '0 auto' }}>
             <div className="flex justify-between items-center text-muted" style={{ textTransform: 'capitalize' }}>
               <h2>Results for {data.rotation.specSlug} {data.rotation.classSlug}</h2>
             </div>
 
-            <Feedback analysis={data.analysis} />
-            <Timeline timeline={data.timeline} />
+            <Feedback
+              analysis={data.analysis}
+              iconMap={iconMap}
+              onFeedbackClick={handleFeedbackClick}
+            />
+            <VisualTimeline
+              timeline={data.timeline}
+              feedback={data.analysis.feedback}
+              iconMap={iconMap}
+            />
+            <Timeline timeline={data.timeline} iconMap={iconMap} />
           </div>
         </div>
       )}
