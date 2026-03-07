@@ -34,8 +34,11 @@ export async function POST(request: Request) {
                 rotation,
             }
         });
-    } catch (error) {
+    } catch (error: any) {
         console.error('Failed to analyze log:', error);
-        return NextResponse.json({ error: 'Internal server error during analysis' }, { status: 500 });
+        return NextResponse.json({
+            error: 'Internal server error during analysis',
+            details: error.message
+        }, { status: 500 });
     }
 }

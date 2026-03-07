@@ -39,7 +39,8 @@ export default function Home() {
 
       if (!res.ok) {
         const errData = await res.json();
-        throw new Error(errData.error || 'Failed to analyze log.');
+        const msg = errData.details ? `${errData.error}: ${errData.details}` : (errData.error || 'Failed to analyze log.');
+        throw new Error(msg);
       }
 
       const result = await res.json();
