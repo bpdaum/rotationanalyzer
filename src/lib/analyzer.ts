@@ -36,7 +36,7 @@ export async function analyzeRotation(
     }
 
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" }, { apiVersion: 'v1beta' });
 
     // Map the timeline down to something concise to save prompt tokens
     const conciseTimeline = timeline.map(e => `[${e.timestamp}] ${e.spellName}`).join('\n');
