@@ -79,11 +79,15 @@ Return ONLY the raw JSON string. Do not include \`\`\`json wrappers.`;
         const responseText = result.response.text().replace(/```json/g, '').replace(/```/g, '').trim();
         const parsed = JSON.parse(responseText) as AnalysisResult;
         return parsed;
-    } catch (error) {
+    } catch (error: any) {
         console.error('Gemini Analysis Error:', error);
         return {
             score: 50,
-            feedback: [{ type: 'error', timestamp: '00:00', message: 'Failed to complete AI analysis due to an internal error or rate limit.' }],
+            feedback: [{
+                type: 'error',
+                timestamp: '00:00',
+                message: `AI Analysis Error: ${error.message || 'Unknown error'}`
+            }],
             missingSpells: []
         };
     }
