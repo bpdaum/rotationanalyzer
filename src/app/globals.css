@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Core Color Palette - Void/Cosmic Theme suitable for WoW / Devourer DH */
+  --color-bg-base: #0a0510;
+  --color-bg-surface: #140d1e;
+  --color-bg-elevated: #1e132c;
+  
+  --color-primary: #8e44ad;
+  --color-primary-hover: #9b59b6;
+  --color-primary-glow: rgba(142, 68, 173, 0.4);
+  
+  --color-secondary: #ff3366;
+  --color-secondary-hover: #ff4d79;
+
+  --color-text-main: #f0ebf5;
+  --color-text-muted: #a496b8;
+
+  --color-border: #2a1f3d;
+  --color-border-focus: #4b366a;
+
+  --color-success: #27ae60;
+  --color-error: #c0392b;
+
+  /* Typography */
+  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.4);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.6);
+  --glow-primary: 0 0 15px var(--color-primary-glow);
+  
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-base);
+  color: var(--color-text-main);
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Utilities */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.gap-sm { gap: 8px; }
+.gap-md { gap: 16px; }
+.gap-lg { gap: 24px; }
+.gap-xl { gap: 40px; }
+
+/* Typography Utility */
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-center { text-align: center; }
+.text-muted { color: var(--color-text-muted); }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1.2;
+  font-weight: 700;
+}
+h1 { font-size: 3rem; margin-bottom: 24px; }
+h2 { font-size: 2rem; margin-bottom: 16px; }
+
+/* Interactive Elements */
+a, button {
+  all: unset;
+  display: inline-flex;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+  align-items: center;
+  justify-content: center;
+}
+.btn-primary:hover {
+  background: var(--color-primary-hover);
+  box-shadow: var(--glow-primary);
+  transform: translateY(-2px);
+}
+
+.card {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition-normal), border-color var(--transition-fast);
+}
+.card:hover {
+  border-color: var(--color-border-focus);
+}
+
+/* Base Form Inputs */
+input[type="file"], input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  background: var(--color-bg-elevated);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-main);
+  transition: border-color var(--transition-fast);
+}
+input[type="file"]:hover, input[type="file"]:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn var(--transition-slow) forwards;
+}
