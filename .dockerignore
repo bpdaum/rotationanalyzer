@@ -1,0 +1,9 @@
+node_modules
+.next
+.git
+.env.local
+.env
+wowhead-tank.html
+test-*.ts
+wowhead.html
+wowhead-section.html
