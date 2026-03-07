@@ -5,7 +5,7 @@ import React, { useCallback, useState } from 'react';
 // Common classes mapped from our icy-veins scraper expectations
 const CLASSES = [
     { id: 'death-knight', name: 'Death Knight', specs: ['blood', 'frost', 'unholy'], heroSpecs: ['Rider of the Apocalypse', 'Deathbringer', 'San\'layn'] },
-    { id: 'demon-hunter', name: 'Demon Hunter', specs: ['havoc', 'vengeance', 'devourer'], heroSpecs: ['Aldrachi Reaver', 'Fel-Scarred'] },
+    { id: 'demon-hunter', name: 'Demon Hunter', specs: ['havoc', 'vengeance'], heroSpecs: ['Aldrachi Reaver', 'Fel-Scarred'] },
     { id: 'druid', name: 'Druid', specs: ['balance', 'feral', 'guardian', 'restoration'], heroSpecs: ['Keeper of the Grove', 'Elune\'s Chosen', 'Wildstalker', 'Druid of the Claw'] },
     { id: 'evoker', name: 'Evoker', specs: ['devastation', 'preservation', 'augmentation'], heroSpecs: ['Chronowarden', 'Ruby Adept', 'Scalecommander'] },
     { id: 'hunter', name: 'Hunter', specs: ['beast-mastery', 'marksmanship', 'survival'], heroSpecs: ['Sentinel', 'Pack Leader', 'Dark Ranger'] },

@@ -2,7 +2,7 @@ import { scrapeRotation } from './src/lib/scraper';
 
 async function run() {
     console.log("Scraping rotation...");
-    const result = await scrapeRotation('mage', 'arcane', 'Spellslinger', 'Single Target');
+    const result = await scrapeRotation('demon-hunter', 'vengeance', 'Fel-Scarred', 'Single Target');
     console.log("Done!");
     console.log(`Class: ${result.classSlug}`);
     console.log(`Spec: ${result.specSlug}`);

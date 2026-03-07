@@ -1,11 +1,20 @@
-import * as cheerio from 'cheerio';
+import { chromium } from 'playwright';
 
-async function testWowhead() {
-    const url = 'https://www.wowhead.com/guide/classes/mage/arcane/rotation-cooldowns-pve-dps';
-    const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' } });
-    const text = await res.text();
-    const $ = cheerio.load(text);
-    console.log("MARKDOWN: ", $('.markdown').text().substring(0, 200).replace(/\s+/g, ' '));
+async function run() {
+    const browser = await chromium.launch({ headless: true });
+    try {
+        const page = await browser.newPage();
+        await page.goto('https://www.wowhead.com/guide/classes/demon-hunter/vengeance/rotation-cooldowns-pve-tank', { waitUntil: 'domcontentloaded' });
+
+        const ids = await page.evaluate(() => {
+            return Array.from(document.querySelectorAll('[id]'))
+                .map(el => el.id)
+                .filter(id => id.includes('rotation') || id.includes('priority') || id.includes('opener'));
+        });
+
+        console.log("Found IDs:", ids);
+    } finally {
+        await browser.close();
+    }
 }
-
-testWowhead().catch(console.error);
+run();

@@ -10,39 +10,73 @@ export interface ScrapedRotation {
 // In-memory cache for MVP
 const cache: Record<string, ScrapedRotation> = {};
 
-async function scrapeWowhead(classSlug: string, specSlug: string): Promise<string[]> {
-    console.log(`[WoWhead Scraper] Starting for ${specSlug} ${classSlug}...`);
+// Helper function to resolve the correct URL slug based on the spec's role
+function getRoleSuffix(specSlug: string, source: 'icy-veins' | 'wowhead'): string {
+    const tanks = ['blood', 'vengeance', 'guardian', 'brewmaster', 'protection'];
+    const healers = ['restoration', 'preservation', 'holy', 'discipline', 'mistweaver'];
+
+    if (tanks.includes(specSlug)) {
+        return 'pve-tank';
+    }
+    if (healers.includes(specSlug)) {
+        return source === 'icy-veins' ? 'pve-healing' : 'pve-healer';
+    }
+    return 'pve-dps';
+}
+
+async function scrapeWowhead(classSlug: string, specSlug: string, combatType: string = 'Single Target'): Promise<string[]> {
+    console.log(`[WoWhead Scraper] Starting for ${specSlug} ${classSlug} (${combatType})...`);
     let browser;
     try {
         browser = await chromium.launch({ headless: true });
         const page = await browser.newPage();
 
-        const url = `https://www.wowhead.com/guide/classes/${classSlug}/${specSlug}/rotation-cooldowns-pve-dps`;
+        const roleSuffix = getRoleSuffix(specSlug, 'wowhead');
+        const url = `https://www.wowhead.com/guide/classes/${classSlug}/${specSlug}/rotation-cooldowns-${roleSuffix}`;
         await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
 
-        console.log(`[WoWhead Scraper] Waiting for rotation headers on ${url}`);
-        await page.waitForSelector('#tab-rotations-rotation ol', { timeout: 15000 });
+        console.log(`[WoWhead Scraper] Searching for rotation in ${url}`);
 
-        const wowheadLists = await page.evaluate(() => {
-            // We use the active tab's list to avoid pulling rules from explicitly toggled OFF builds
-            const rotNodes = Array.from(document.querySelectorAll('#tab-rotations-rotation > div > div[data-option-active="true"] ol > li:not([data-option-active="false"])'));
-            const opnNodes = Array.from(document.querySelectorAll('#tab-rotations-opener-cooldowns > div > div[data-option-active="true"] ol > li:not([data-option-active="false"])'));
+        // Determine which IDs to prioritize based on combat type (primarily for Tanks/Healers)
+        const idsToTry = ['#tab-rotations-rotation'];
+        if (combatType.toLowerCase().includes('aoe')) {
+            idsToTry.unshift('#tab-rotations-aoe-priority');
+        } else {
+            idsToTry.unshift('#tab-rotations-single-target-priority');
+        }
 
-            // If the structure is slightly different and we didn't find specific active blocks, fallback to all active LIs
-            const fallbackRot = rotNodes.length > 0 ? rotNodes : Array.from(document.querySelectorAll('#tab-rotations-rotation ol > li:not([data-option-active="false"])'));
-            const fallbackOpn = opnNodes.length > 0 ? opnNodes : Array.from(document.querySelectorAll('#tab-rotations-opener-cooldowns ol > li:not([data-option-active="false"])'));
+        const data = await page.evaluate((ids) => {
+            // Find the first ID that actually exists and has an OL
+            const targetId = ids.find(id => document.querySelector(id + ' ol'));
+            if (!targetId) return null;
+
+            const rotNodes = Array.from(document.querySelectorAll(`${targetId} > div > div[data-option-active="true"] ol > li:not([data-option-active="false"])`));
+            const opnNodes = Array.from(document.querySelectorAll('#tab-rotations-opener > div > div[data-option-active="true"] ol > li:not([data-option-active="false"]), #tab-rotations-opener-cooldowns > div > div[data-option-active="true"] ol > li:not([data-option-active="false"])'));
+
+            // Fallbacks
+            const finalRot = rotNodes.length > 0 ? rotNodes : Array.from(document.querySelectorAll(`${targetId} ol > li:not([data-option-active="false"])`));
+            const finalOpn = opnNodes.length > 0 ? opnNodes : Array.from(document.querySelectorAll('#tab-rotations-opener ol > li:not([data-option-active="false"]), #tab-rotations-opener-cooldowns ol > li:not([data-option-active="false"])'));
 
             return {
-                rotation: fallbackRot.map(li => li.textContent?.replace(/\s+/g, ' ').trim() || '').filter(Boolean),
-                opener: fallbackOpn.map(li => li.textContent?.replace(/\s+/g, ' ').trim() || '').filter(Boolean)
+                rotation: finalRot.map(li => li.textContent?.replace(/\s+/g, ' ').trim() || '').filter(Boolean),
+                opener: finalOpn.map(li => li.textContent?.replace(/\s+/g, ' ').trim() || '').filter(Boolean)
             };
-        });
+        }, idsToTry);
+
+        if (!data) {
+            console.warn(`[WoWhead Scraper] No rotation OL found for IDs: ${idsToTry.join(', ')}`);
+            return [];
+        }
 
         const priorityList: string[] = [];
-        priorityList.push('--- WoWhead Opener (Priority List) ---');
-        priorityList.push(...wowheadLists.opener);
-        priorityList.push('--- WoWhead Rotation (Priority List) ---');
-        priorityList.push(...wowheadLists.rotation);
+        if (data.opener.length > 0) {
+            priorityList.push('--- WoWhead Opener (Priority List) ---');
+            priorityList.push(...data.opener);
+        }
+        if (data.rotation.length > 0) {
+            priorityList.push('--- WoWhead Rotation (Priority List) ---');
+            priorityList.push(...data.rotation);
+        }
 
         return priorityList;
     } catch (error) {
@@ -57,7 +91,8 @@ async function scrapeWowhead(classSlug: string, specSlug: string): Promise<strin
 
 async function scrapeIcyVeins(classSlug: string, specSlug: string, heroSpec?: string, combatType: string = 'Single Target'): Promise<string[]> {
     console.log(`[Icy Veins Scraper] Starting for ${specSlug} ${classSlug}...`);
-    const url = `https://www.icy-veins.com/wow/${specSlug}-${classSlug}-pve-dps-rotation-cooldowns-abilities`;
+    const roleSuffix = getRoleSuffix(specSlug, 'icy-veins');
+    const url = `https://www.icy-veins.com/wow/${specSlug}-${classSlug}-${roleSuffix}-rotation-cooldowns-abilities`;
     const priorityList: string[] = [];
 
     try {
@@ -163,26 +198,10 @@ export async function scrapeRotation(classSlug: string, specSlug: string, heroSp
         return cache[cacheKey];
     }
 
-    if (classSlug === 'demon-hunter' && specSlug === 'devourer') {
-        const devourerFallback: ScrapedRotation = {
-            classSlug,
-            specSlug,
-            priorityList: [
-                'Cast Void Metamorphosis',
-                'Cast Collapsing Star on cooldown',
-                'Cast Void Ray',
-                'Cast Reap when you have enough fragments',
-                'Cast Consume to generate fragments'
-            ]
-        };
-        cache[cacheKey] = devourerFallback;
-        return devourerFallback;
-    }
-
     // Run both scrapers concurrently to save time
     const [icyVeinsRules, wowheadRules] = await Promise.all([
         scrapeIcyVeins(classSlug, specSlug, heroSpec, combatType),
-        scrapeWowhead(classSlug, specSlug)
+        scrapeWowhead(classSlug, specSlug, combatType)
     ]);
 
     const combinedList = [...icyVeinsRules, ...wowheadRules];
@@ -200,4 +219,3 @@ export async function scrapeRotation(classSlug: string, specSlug: string, heroSp
     cache[cacheKey] = result;
     return result;
 }
-
