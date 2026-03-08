@@ -3,7 +3,7 @@
   "specSlug": "havoc",
   "heroSpec": "Aldrachi Reaver",
   "combatType": "AoE",
-  "scrapedAt": "2026-03-08T03:01:02.618Z",
+  "scrapedAt": "2026-03-08T04:59:31.518Z",
   "priorityList": [
     "--- Icy Veins Rotation (Priority List) ---",
     "Cast Felblade with Inertia ready - Click for Notes If Felblade isn't available, use Fel Rush instead.",
@@ -38,6 +38,7 @@
     "Cast Fel Rush to trigger Inertia.",
     "Cast Consuming Fire.",
     "Cast Annihilation.",
+    "Cast Abyssal Gaze.",
     "Continue with normal ability priority.",
     "Cast Reaver's Glaive.",
     "Cast Annihilation to apply Reaver's Mark to your priority target.",
