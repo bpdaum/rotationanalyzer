@@ -10,6 +10,39 @@ export interface ScrapedRotation {
 // In-memory cache for MVP
 const cache: Record<string, ScrapedRotation> = {};
 
+// Spells that are mutually exclusive or irrelevant for certain hero specs. 
+// Used to scrub "dirty" guide data that mentions spells from other hero specs.
+const HERO_SPEC_FORBIDDEN_SPELLS: Record<string, string[]> = {
+    'spellslinger': ['frostfire bolt', 'comet storm', 'blizzard'], // Blizzard is AoE/Frostfire ST only
+    'frostfire': ['glacial spike', 'splinter', 'splintering cold', 'splintering orbs'],
+    'sunfury': ['arcane orb', 'orb of barrage'], // Simplified example
+    'chronomancer': ['sunfury', 'phoenix'],
+    'aldrachi reaver': ['fel-scarred'],
+    'fel-scarred': ['aldrachi'],
+};
+
+function scrubRules(rules: string[], heroSpec?: string): string[] {
+    const lowerHero = heroSpec?.toLowerCase() || '';
+    const forbidden = lowerHero ? (HERO_SPEC_FORBIDDEN_SPELLS[lowerHero] || []) : [];
+
+    // Always remove "Icy Veins" keyword if it's being used as a spell name (it's removed in TWW)
+    // unless it's clearly talking about the website or a specific buff that still exists.
+    // But typically "Cast Icy Veins" is what we want to catch.
+    const universalForbidden = ['cast icy veins', 'activate icy veins', 'use icy veins'];
+
+    return rules.filter(rule => {
+        const lowerRule = rule.toLowerCase();
+
+        // Remove rules containing forbidden spells for this hero spec
+        if (forbidden.some(f => lowerRule.includes(f))) return false;
+
+        // Remove universal forbidden patterns
+        if (universalForbidden.some(f => lowerRule.includes(f))) return false;
+
+        return true;
+    });
+}
+
 // Helper function to resolve the correct URL slug based on the spec's role
 function getRoleSuffix(specSlug: string, source: 'icy-veins' | 'wowhead'): string {
     const tanks = ['blood', 'vengeance', 'guardian', 'brewmaster', 'protection'];
@@ -119,7 +152,7 @@ async function scrapeWowhead(classSlug: string, specSlug: string, heroSpec?: str
             priorityList.push(...data.rotation);
         }
 
-        return priorityList;
+        return scrubRules(priorityList, heroSpec);
     } catch (error) {
         console.error(`[WoWhead Scraper] Error fetching wowhead for ${specSlug} ${classSlug}:`, error);
         return [];
@@ -310,7 +343,7 @@ async function scrapeIcyVeins(classSlug: string, specSlug: string, heroSpec?: st
             });
         }
 
-        const uniqueIcy = Array.from(new Set(priorityList));
+        const uniqueIcy = scrubRules(Array.from(new Set(priorityList)), heroSpec);
         if (uniqueIcy.length > 0) {
             // Label as hero-spec-specific when we matched a section
             const label = targetBlockIds.length > 0

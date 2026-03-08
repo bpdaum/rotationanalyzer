@@ -58,22 +58,26 @@ ${conciseInstructions}
 Each line is formatted as: [index] [timestamp] SpellName (Active Auras)
 ${conciseTimeline}
 
-### Task: Zero-Knowledge Literal Analysis
-Compare the player's chronological casts to the provided optimal rotation guidelines using ONLY the provided text.
+### Task: Zero-Knowledge Literal Extraction
+Compare the player's chronological casts to the provided optimal rotation guidelines using **ONLY** the provided text.
 Evaluate their opener, their adherence to the priorities, and whether they missed any critical, high-priority abilities mentioned in the guidelines.
 
 CRITICAL INSTRUCTION: ZERO-KNOWLEDGE MODE.
-- IGNORE all your internal pre-trained knowledge about World of Warcraft classes, specs, and mechanics.
-- Do NOT use terminology that is not found in the provided guidelines (e.g., do NOT use the word "Shatter" unless it appears in the text above).
-- Treat the "Optimal Rotation Guidelines" as the absolute and ONLY source of truth. If a rule is not in that list, it does not exist for this analysis.
-- If the Guidelines mention a spell that is NOT in the player's casts, flag it as missing ONLY if the Guidelines say it is high priority.
+- **IGNORE everything you know about World of Warcraft.** Act as if you have never heard of the game before this moment.
+- You are a literal text-matching engine. If a mechanic, spell interaction, or term is not explicitly defined in the "Optimal Rotation Guidelines", it **DOES NOT EXIST**.
+- **VERBOTEN TERMINOLOGY:** Never use the following terms unless they appear in the guidelines: "Shatter", "Procs", "Winter's Chill", "Fingers of Frost", "Brain Freeze", "Global Cooldown (GCD)", "Uptime". 
+- If you use a term not in the guidelines, the analysis is invalid.
+
+CRITICAL FEEDBACK GROUNDING:
+- Every piece of feedback MUST cite the rule number it is following from the "Optimal Rotation Guidelines" (e.g., "Rule #4 says cast X, but you cast Y").
+- If the Guidelines don't explain WHY a spell is cast, do NOT invent an explanation. Stick to: "Rule #X requires Y at this point."
 
 CRITICAL DATA PRIORITY:
-- Guidelines labeled "Hero-Spec Specific" are the PRIMARY authority.
-- Guidelines labeled "GENERIC" are secondary; IGNORE any GENERIC rule that mentions a spell not also mentioned in the Hero-Spec Specific list.
+- Guidelines labeled "Hero-Spec Specific" are the absolute source of truth.
+- Guidelines labeled "GENERIC" are supplemental; if a GENERIC rule contradicts or introduces a spell not in the Hero-Spec Specific list, **DISCARD IT**.
 
-CRITICAL INSTRUCTION: STRETCHING/INTERPOLATION PROHIBITED.
-- Do NOT hallucinate mechanics. If the guidelines don't explain WHY a spell is cast (e.g. for "Winter's Chill"), do NOT invent that explanation. Stick to "Rule X says cast Y".
+CRITICAL INSTRUCTION: INTERPOLATION PROHIBITED.
+- Do NOT hallucinate mechanics.
 - ONLY reference spells that exist in the CURRENT guidelines provided.
 - Accommodate implicit spell queueing and flight-time mechanics as previously defined.
 
