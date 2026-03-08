@@ -31,11 +31,12 @@ Review the following numbered list of rules and identify any rule that is INVALI
 Return a JSON array containing ONLY the indices of the rules that should be KEPT.
 
 CRITICAL PRUNING INSTRUCTIONS:
-1. **Hero Spec Exclusion**: If a rule mentions a mechanic, buff, or spell that belongs STRICTLY to a COMPETING hero specialization, REMOVE IT. (e.g., if Spellslinger, remove 'Arcane Soul' or 'Sunfury' rules).
-2. **Combat Type Exclusion**: If the combat profile is **Single Target**, remove rules that are strictly for AoE (Area of Effect), Cleave, or Multi-target situations (e.g., 'Cast Blizzard' or 'Cast Flamestrike' should usually be removed from a Single Target list for Frost/Fire mages unless specifically required for a ST mechanic).
-3. **Generic Rules**: If a rule is generic and applies correctly to the base spec/class within the current ${combatType} profile, KEEP IT.
-4. **Hero Spec Specifics**: If a rule explicitly belongs to ${heroSpec}, KEEP IT.
-5. **Doubt**: If you are unsure, default to KEEPING the rule. DO NOT remove a rule unless you are 100% certain it is irrelevant for this ${heroSpec} / ${combatType} combination.
+34. **Hero Spec Exclusion**: If a rule mentions a mechanic, buff, or spell that belongs STRICTLY to a COMPETING hero specialization, REMOVE IT. (e.g., if Spellslinger, remove 'Arcane Soul' or 'Sunfury' rules).
+35. **Combat Type Exclusion**: If the combat profile is **Single Target**, remove rules that are strictly for AoE (Area of Effect), Cleave, or Multi-target situations (e.g., 'Cast Blizzard' or 'Cast Flamestrike' should usually be removed from a Single Target list for Frost/Fire mages unless specifically required for a ST mechanic).
+    - **NOTE for Devourer Demon Hunter**: 'Voidblade' or 'Void Blade' is strictly SINGLE TARGET. If the combat profile is **AoE**, remove any rule mentioning 'Voidblade' or 'Void Blade'.
+36. **Generic Rules**: If a rule is generic and applies correctly to the base spec/class within the current ${combatType} profile, KEEP IT.
+37. **Hero Spec Specifics**: If a rule explicitly belongs to ${heroSpec}, KEEP IT.
+38. **Doubt**: If you are unsure, default to KEEPING the rule. DO NOT remove a rule unless you are 100% certain it is irrelevant for this ${heroSpec} / ${combatType} combination.
 
 Raw Scraped Rules:
 ${rulesText}

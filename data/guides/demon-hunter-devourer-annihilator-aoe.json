@@ -3,7 +3,7 @@
   "specSlug": "devourer",
   "heroSpec": "Annihilator",
   "combatType": "AoE",
-  "scrapedAt": "2026-03-08T05:18:28.565Z",
+  "scrapedAt": "2026-03-08T05:46:29.022Z",
   "priorityList": [
     "--- WoWhead Annihilator Opener ---",
     "Consume 2s before pull",
@@ -11,7 +11,6 @@
     "Void Ray",
     "Reap",
     "Repeat the above untill Void Metamorphosis is ready",
-    "Voidblade",
     "Reap",
     "Void Metamorphosis",
     "Use any trinkets or potions",

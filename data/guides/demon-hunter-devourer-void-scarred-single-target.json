@@ -3,7 +3,7 @@
   "specSlug": "devourer",
   "heroSpec": "Void-Scarred",
   "combatType": "Single Target",
-  "scrapedAt": "2026-03-08T05:19:23.892Z",
+  "scrapedAt": "2026-03-08T05:47:32.047Z",
   "priorityList": [
     "--- WoWhead Void-Scarred Opener ---",
     "Consume 2s before pull",
@@ -34,6 +34,7 @@
     "Void Ray",
     "Cull",
     "Cull",
+    "Reaper's Toll",
     "Vengeful Retreat",
     "Pierce the Veil",
     "Predator's Wake -",

@@ -19,6 +19,15 @@ export interface AnalysisResult {
     missingSpells: string[];
 }
 
+const SPEC_MECHANICS: Record<string, string[]> = {
+    'devourer': [
+        "Void Metamorphosis requires 50 Souls. Do NOT suggest casting it unless the player has enough Soul Fragments/Souls.",
+        "Cull is only castable while in Void Metamorphosis. If Void Metamorphosis is not active (check buffs), casting Cull is an error.",
+        "Void Metamorphosis is active when the 'Void Metamorphosis' buff is present in the Buffs list.",
+        "Void Blade is a Single Target ability and should not be used in AoE rotations.",
+    ]
+};
+
 /**
  * Uses Google Gemini API to compare the user's parsed combat log timeline against the scraped priority list instructions.
  */
@@ -61,6 +70,7 @@ Hero Specialization: ${heroSpec}
 ### Optimal Rotation Guidelines / Priorities
 ${conciseInstructions}
 
+${SPEC_MECHANICS[rotation.specSlug] ? `### Specialization-Specific Mechanical Knowledge\n${SPEC_MECHANICS[rotation.specSlug].map(m => `- ${m}`).join('\n')}\n` : ''}
 ### Player Combat Log (Chronological Casts)
 Each line is formatted as: [index] [timestamp] SpellName | Buffs: [Active Aura List]
 ${conciseTimeline}
