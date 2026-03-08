@@ -19,18 +19,19 @@ export async function POST(request: Request) {
         const logText = await file.text();
 
         // 1. Parse log
-        const timeline = parseCombatLog(logText);
+        const parsedContext = parseCombatLog(logText);
 
         // 2. Scrape rotation priority list
         const rotation = await scrapeRotation(classSlug, specSlug, heroSpec, combatType);
 
         // 3. Analyze against the timeline
-        const analysis = await analyzeRotation(timeline, rotation, heroSpec);
+        const analysis = await analyzeRotation(parsedContext.timeline, rotation, heroSpec);
 
         return NextResponse.json({
             data: {
                 analysis,
-                timeline,
+                timeline: parsedContext.timeline,
+                auraTracks: parsedContext.auraTracks,
                 rotation,
             }
         });

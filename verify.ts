@@ -11,15 +11,15 @@ async function run() {
   `;
 
   console.log("Parsing log...");
-  const timeline = parseCombatLog(dummyLog);
-  console.log("Timeline events (expected 3):", timeline.length);
+  const parsed = parseCombatLog(dummyLog);
+  console.log("Timeline events (expected 3):", parsed.timeline.length);
 
   console.log("\nScraping rotation (Devourer Demon Hunter)...");
   const rotation = await scrapeRotation('demon-hunter', 'devourer');
   console.log("Priority list:", rotation.priorityList);
 
   console.log("\nAnalyzing rotation...");
-  const analysis = await analyzeRotation(timeline, rotation);
+  const analysis = await analyzeRotation(parsed.timeline, rotation);
 
   console.log("Score:", analysis.score);
   console.log("Missing Spells:", analysis.missingSpells);

@@ -5,13 +5,14 @@ import { FileUpload } from '@/components/FileUpload';
 import { VisualTimeline } from '@/components/VisualTimeline';
 import { Timeline } from '@/components/Timeline';
 import { Feedback } from '@/components/Feedback';
-import type { CombatEvent } from '@/lib/parser';
+import type { CombatEvent, AuraTrackEvent } from '@/lib/parser';
 import type { ScrapedRotation } from '@/lib/scraper';
 import type { AnalysisResult } from '@/lib/analyzer';
 
 interface AnalysisPayload {
   analysis: AnalysisResult;
   timeline: CombatEvent[];
+  auraTracks: AuraTrackEvent[];
   rotation: ScrapedRotation;
 }
 
@@ -136,6 +137,7 @@ export default function Home() {
             />
             <VisualTimeline
               timeline={data.timeline}
+              auraTracks={data.auraTracks}
               feedback={data.analysis.feedback}
               iconMap={iconMap}
             />
