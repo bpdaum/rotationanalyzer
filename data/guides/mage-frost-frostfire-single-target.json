@@ -1,0 +1,31 @@
+{
+  "classSlug": "mage",
+  "specSlug": "frost",
+  "heroSpec": "Frostfire",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-08T02:17:29.528Z",
+  "priorityList": [
+    "--- Icy Veins Frostfire Rotation (Hero-Spec Specific) ---",
+    "Cast Flurry to start the cooldown.",
+    "Activate Time Warp if popping on pull.",
+    "Cast Glacial Spike.",
+    "Cast Flurry again.",
+    "Cast Ray of Frost.",
+    "Cast Frozen Orb.",
+    "Cast Comet Storm.",
+    "Follow your normal priority, as indicated below.",
+    "--- WoWhead Frostfire Opener ---",
+    "Glacial Spike",
+    "Flurry",
+    "Frozen Orb",
+    "Ray of Frost",
+    "--- WoWhead Frostfire Rotation ---",
+    "Comet Storm",
+    "Flurry if Thermal Void is not active",
+    "Frozen Orb",
+    "Glacial Spike",
+    "Ice Lance if Fingers of Frost is active",
+    "Ice Lance if Freezing at 10 or more stacks Ray of Frost -",
+    "Frostfire Bolt"
+  ]
+}

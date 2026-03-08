@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { parseCombatLog } from '@/lib/parser';
+import { loadGuide } from '@/lib/guide-data';
 import { scrapeRotation } from '@/lib/scraper';
 import { analyzeRotation } from '@/lib/analyzer';
 
@@ -21,8 +22,12 @@ export async function POST(request: Request) {
         // 1. Parse log
         const parsedContext = parseCombatLog(logText);
 
-        // 2. Scrape rotation priority list
-        const rotation = await scrapeRotation(classSlug, specSlug, heroSpec, combatType);
+        // 2. Load guide from static JSON (falls back to live scrape if no file exists)
+        let rotation = loadGuide(classSlug, specSlug, heroSpec, combatType);
+        if (!rotation || rotation.priorityList.length === 0) {
+            console.warn(`[Analyze] No static guide for ${classSlug}/${specSlug}/${heroSpec}/${combatType}, falling back to live scrape`);
+            rotation = await scrapeRotation(classSlug, specSlug, heroSpec, combatType);
+        }
 
         // 3. Analyze against the timeline
         const analysis = await analyzeRotation(parsedContext.timeline, rotation, heroSpec);

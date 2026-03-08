@@ -4,7 +4,8 @@ export async function filterScrapedRules(
     rules: string[],
     classSlug: string,
     specSlug: string,
-    heroSpec: string
+    heroSpec: string,
+    combatType: string = 'Single Target'
 ): Promise<string[]> {
     if (!heroSpec || heroSpec === 'None') {
         return rules;
@@ -17,25 +18,24 @@ export async function filterScrapedRules(
     }
 
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: 'gemini-3-flash-preview' }, { apiVersion: 'v1beta' });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" }, { apiVersion: 'v1beta' });
 
     const rulesText = rules.map((r, i) => `[${i}] ${r}`).join('\n');
 
     const prompt = `You are an expert World of Warcraft theorycrafter. You are given a list of raw scraped priority rules for a ${specSlug} ${classSlug}.
 The player is playing the **${heroSpec}** Hero Specialization.
-
-Unfortunately, the scraper often leaks rules that are EXCLUSIVE to competing hero specializations. 
-For example, for an Arcane Mage, if the player is 'Spellslinger', any rule mentioning 'Arcane Soul' or 'Sunfury' is invalid and must be removed. If the player is 'Sunfury', rules about 'Splinters' or 'Spellslinger' must be removed.
+The combat profile is **${combatType}**.
 
 Your task:
-Review the following numbered list of rules. Identify any rule that explicitly relies on or mentions a mechanic, buff, or spell that belongs STRICTLY to a HERO SPECIALIZATION OTHER THAN ${heroSpec}.
+Review the following numbered list of rules and identify any rule that is INVALID for this specific combination of Hero Spec and Combat Type.
 Return a JSON array containing ONLY the indices of the rules that should be KEPT.
 
-CRITICAL INSTRUCTIONS:
-1. If a rule is completely generic or applies to the base spec/class, KEEP IT.
-2. If a rule explicitly belongs to ${heroSpec}, KEEP IT.
-3. If a rule clearly belongs to a DIFFERENT hero specialization (e.g. mentions a specific talent of a competing hero tree), DO NOT keep it.
-4. If you are unsure, default to KEEPING the rule. DO NOT remove a rule unless you are 100% certain it belongs to a competing hero specialization.
+CRITICAL PRUNING INSTRUCTIONS:
+1. **Hero Spec Exclusion**: If a rule mentions a mechanic, buff, or spell that belongs STRICTLY to a COMPETING hero specialization, REMOVE IT. (e.g., if Spellslinger, remove 'Arcane Soul' or 'Sunfury' rules).
+2. **Combat Type Exclusion**: If the combat profile is **Single Target**, remove rules that are strictly for AoE (Area of Effect), Cleave, or Multi-target situations (e.g., 'Cast Blizzard' or 'Cast Flamestrike' should usually be removed from a Single Target list for Frost/Fire mages unless specifically required for a ST mechanic).
+3. **Generic Rules**: If a rule is generic and applies correctly to the base spec/class within the current ${combatType} profile, KEEP IT.
+4. **Hero Spec Specifics**: If a rule explicitly belongs to ${heroSpec}, KEEP IT.
+5. **Doubt**: If you are unsure, default to KEEPING the rule. DO NOT remove a rule unless you are 100% certain it is irrelevant for this ${heroSpec} / ${combatType} combination.
 
 Raw Scraped Rules:
 ${rulesText}

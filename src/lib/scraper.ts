@@ -365,7 +365,7 @@ export async function scrapeRotation(classSlug: string, specSlug: string, heroSp
         combinedList.push('Follow standard builder-spender rotation priorities (Scrapers returned 0 data).');
     }
 
-    const filteredList = await filterScrapedRules(combinedList, classSlug, specSlug, heroSpec || 'None');
+    const filteredList = await filterScrapedRules(combinedList, classSlug, specSlug, heroSpec || 'None', combatType);
 
     const result = {
         classSlug,
