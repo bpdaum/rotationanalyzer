@@ -54,8 +54,9 @@ export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }:
     };
 
     const getBaseSpellName = (spellName: string) => {
+        // Now that parser provides pure names, this is just a safety fallback
         const idx = spellName.indexOf(' (Active Auras:');
-        return idx > -1 ? spellName.substring(0, idx) : spellName;
+        return idx > -1 ? spellName.substring(0, idx) : spellName.trim();
     };
 
     // Layout for aura tracks to prevent overlapping
@@ -111,6 +112,8 @@ export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }:
                     {timeline.map((event, i) => {
                         const fbItems = feedbackByIndex[i];
                         const hasFeedback = fbItems && fbItems.length > 0;
+                        const activeAurasList = event.activeAuras || [];
+                        const auraCount = activeAurasList.length;
                         const worstType = hasFeedback
                             ? (fbItems.some(f => f.type === 'error') ? 'error' : fbItems.some(f => f.type === 'warning') ? 'warning' : 'info')
                             : null;
@@ -134,13 +137,9 @@ export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }:
                                     alignItems: 'center',
                                     width: '60px',
                                     zIndex: 10,
-                                    cursor: hasFeedback ? 'pointer' : 'default',
+                                    cursor: 'pointer',
                                 }}
-                                onClick={() => {
-                                    if (hasFeedback) {
-                                        setActiveTooltip(activeTooltip === i ? null : i);
-                                    }
-                                }}
+                                onClick={() => setActiveTooltip(activeTooltip === i ? null : i)}
                             >
                                 {/* Timestamp */}
                                 <span style={{
@@ -167,6 +166,7 @@ export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }:
                                         transition: 'all 0.2s ease',
                                         background: 'var(--color-bg-elevated)',
                                         zIndex: 2,
+                                        position: 'relative'
                                     }}
                                 >
                                     {iconUrl ? (
@@ -174,6 +174,24 @@ export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }:
                                     ) : (
                                         <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.5rem', color: 'var(--color-text-muted)', textAlign: 'center', padding: '2px' }}>
                                             {baseName.substring(0, 3)}
+                                        </div>
+                                    )}
+
+                                    {/* Aura Badge */}
+                                    {auraCount > 0 && (
+                                        <div style={{
+                                            position: 'absolute',
+                                            bottom: '1px',
+                                            right: '1px',
+                                            background: 'rgba(155, 89, 182, 0.9)',
+                                            color: '#fff',
+                                            fontSize: '0.5rem',
+                                            padding: '0 3px',
+                                            borderRadius: '3px',
+                                            fontWeight: 'bold',
+                                            pointerEvents: 'none'
+                                        }}>
+                                            {auraCount}
                                         </div>
                                     )}
                                 </div>
@@ -201,24 +219,38 @@ export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }:
                                 }}>{baseName}</span>
 
                                 {/* Tooltip */}
-                                {activeTooltip === i && fbItems && (
+                                {activeTooltip === i && (
                                     <div className="vt-tooltip" style={{
                                         position: 'absolute',
                                         top: '-32px',
                                         left: '50%',
                                         transform: 'translate(-50%, -100%)',
                                         background: 'var(--color-bg-elevated)',
-                                        border: `1px solid ${glowColor}`,
+                                        border: `1px solid ${hasFeedback ? glowColor : 'var(--color-border)'}`,
                                         borderRadius: 'var(--radius-md)',
                                         padding: '12px',
                                         minWidth: '240px',
                                         maxWidth: '320px',
                                         zIndex: 100,
-                                        boxShadow: `0 4px 20px rgba(0,0,0,0.6), 0 0 15px ${glowColor}33`,
+                                        boxShadow: `0 4px 20px rgba(0,0,0,0.6)${hasFeedback ? `, 0 0 15px ${glowColor}33` : ''}`,
                                     }}>
-                                        {fbItems.map((fb, fi) => (
+                                        {/* Spell & Auras Header */}
+                                        <div style={{ marginBottom: '8px', borderBottom: '1px solid var(--color-border)', paddingBottom: '8px' }}>
+                                            <div style={{ fontWeight: 600, fontSize: '0.9rem', color: 'var(--color-text-main)' }}>{baseName}</div>
+                                            {activeAurasList.length > 0 && (
+                                                <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap', marginTop: '4px' }}>
+                                                    {activeAurasList.map((aura, ai) => (
+                                                        <span key={ai} style={{ fontSize: '0.65rem', color: '#d2b4de', background: 'rgba(155, 89, 182, 0.15)', padding: '1px 5px', borderRadius: '4px' }}>
+                                                            {aura}
+                                                        </span>
+                                                    ))}
+                                                </div>
+                                            )}
+                                        </div>
+
+                                        {fbItems && fbItems.map((fb, fi) => (
                                             <div key={fi} style={{ marginBottom: fi < fbItems.length - 1 ? '8px' : 0 }}>
-                                                <div style={{ fontSize: '0.75rem', fontWeight: 600, color: glowColor, marginBottom: '4px', textTransform: 'uppercase' }}>{fb.type}</div>
+                                                <div style={{ fontSize: '0.75rem', fontWeight: 600, color: getGlowColor(fb.type), marginBottom: '4px', textTransform: 'uppercase' }}>{fb.type}</div>
                                                 <div style={{ fontSize: '0.8rem', color: 'var(--color-text-main)' }}>{fb.message}</div>
                                                 {fb.sourceQuote && (
                                                     <div style={{

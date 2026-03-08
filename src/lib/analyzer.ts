@@ -44,7 +44,11 @@ export async function analyzeRotation(
 
     // Map the timeline down to something concise to save prompt tokens
     // Include the index so the AI can reference specific casts
-    const conciseTimeline = timeline.map((e, i) => `[${i}] [${e.timestamp}] ${e.spellName}`).join('\n');
+    // Use a clear pipe separator for auras/buffs to ensure prominence
+    const conciseTimeline = timeline.map((e, i) => {
+        const auras = e.activeAuras.length > 0 ? ` | Buffs: [${e.activeAuras.join(', ')}]` : '';
+        return `[${i}] [${e.timestamp}] ${e.spellName}${auras}`;
+    }).join('\n');
     const conciseInstructions = rotation.priorityList.map((str, i) => `${i + 1}. ${str}`).join('\n');
 
     const prompt = `You are a World of Warcraft expert analyst evaluating a player's combat log against optimal target dummy guidelines.
@@ -56,26 +60,29 @@ Hero Specialization: ${heroSpec}
 ${conciseInstructions}
 
 ### Player Combat Log (Chronological Casts)
-Each line is formatted as: [index] [timestamp] SpellName (Active Auras)
+Each line is formatted as: [index] [timestamp] SpellName | Buffs: [Active Aura List]
 ${conciseTimeline}
 
 ### Task: Expert Guide-Based Analysis
 Compare the player's chronological casts to the provided optimal rotation guidelines using the provided text as your primary evidence.
 Evaluate their opener, their adherence to the priorities, and whether they missed any critical, high-priority abilities mentioned in the guidelines.
 
+CRITICAL INSTRUCTION: TRANSPARENT SPELLS (Off-GCD / Utilities).
+- Spells like **Touch of the Magi**, **Presence of Mind**, **Time Warp**, **Arcane Surge**, **Icy Veins**, **Bloodlust**, and Trinkets are "Transparent Spells".
+- These spells are typically off the Global Cooldown (GCD) or are utility/setup spells.
+- They **DO NOT** break strict "sequence" or "immediately follow" relationships in the guide.
+- Example: If a guide says "Cast Arcane Orb immediately after Arcane Barrage", the sequence \`[Barrage] -> [Touch of the Magi] -> [Arcane Orb]\` is **CORRECT** because Touch of the Magi is transparent.
+
+CRITICAL INSTRUCTION: AURA & PROC EQUIVALENCE.
+- In the combat log, the "Buffs" section lists active auras.
+- If a guide says "Cast X if you have Clearcasting", this is EXACTLY the same as checking if "Clearcasting" is in the [Buffs] list for that cast.
+- Always prioritize the provided [Buffs] list over your own assumptions. If "Clearcasting" is in the list, the player HAS the proc.
+
 CRITICAL INSTRUCTION: EVIDENCE-BASED EXPERTISE.
 - You are a World of Warcraft expert. You may use your expertise to explain **why** a certain sequence is optimal (e.g., mention interactions like procs, cooldown reduction, or splinter generation) **AS LONG AS** those explanations align with the provided guidelines.
 - YOUR FEEDBACK MUST BE GROUNDED IN THE PROVIDED GUIDELINES. You are **REQUIRED** to provide a direct quote from the "Optimal Rotation Guidelines" that supports every piece of feedback.
 - However, do **NOT** hallucinate mechanics or spells that are not in the provided guidelines. If the guidelines for ${heroSpec} don't mention a spell, don't penalize the player for not using it.
-
-CRITICAL DATA PRIORITY:
-- Guidelines labeled "Hero-Spec Specific" are the absolute source of truth for this player's specialization (${heroSpec}). 
-- Guidelines labeled "GENERIC" are supplemental. If a GENERIC rule contradicts the Hero-Spec Specific list or mentions a spell not in that list, prioritize the Hero-Spec source.
-
-CRITICAL INSTRUCTION: CURRENT GAME VERSION ONLY.
-- Only reference mechanics and spells that exist in the CURRENT guidelines provided. 
-- Avoid outdated terminology from past expansions (like "Shatter" if it is not in the text).
-- Accommodate implicit spell queueing and flight-time mechanics as previously defined.
+- Avoid outdated terminology from past expansions.
 
 Provide a JSON object with this exact structure (no markdown fences, just the JSON):
 {
@@ -86,9 +93,9 @@ Provide a JSON object with this exact structure (no markdown fences, just the JS
       "type": "error" | "warning" | "info",
       "timestamp": "<the timestamp from the combat log where the issue occurred, or 00:00 for overall stuff>",
       "message": "<A brief, actionable critique>",
-      "spellName": "<The name of the spell being critiqued, without aura info. e.g. 'Arcane Blast' not 'Arcane Blast (Active Auras: ...)'>",
+      "spellName": "<The name of the spell being critiqued>",
       "timelineIndex": <the 0-based index from the combat log where this issue occurred, or -1 for overall feedback>,
-      "correctSequence": [<optional array of 2-5 spell names showing what the player SHOULD have cast at this moment, in order. Only include this for errors and warnings where the correct sequence is clear from the guidelines.>],
+      "correctSequence": [<optional array showing what the player SHOULD have cast at this moment>],
       "sourceQuote": "<MANDATORY: The exact text from the Guidelines that justifies this feedback.>"
     }
   ]

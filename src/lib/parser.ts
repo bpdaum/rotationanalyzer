@@ -4,6 +4,7 @@ export interface CombatEvent {
     spellId: number;
     spellName: string;
     sourceName: string;
+    activeAuras: string[];
 }
 
 export interface AuraStackChange {
@@ -152,14 +153,14 @@ export function parseCombatLog(logText: string): ParsedLog {
             const spellName = spellNameRaw.replace(/"/g, '');
 
             const auraPairs = Object.entries(activeAuras).map(([name, count]) => count > 1 ? `${name} x${count}` : name);
-            const auraStr = auraPairs.length > 0 ? ` (Active Auras: ${auraPairs.join(', ')})` : '';
 
             events.push({
                 timestamp: timestampRaw,
                 timestampMs,
                 spellId,
-                spellName: `${spellName}${auraStr}`,
+                spellName,
                 sourceName: playerName || 'Unknown',
+                activeAuras: auraPairs,
             });
         }
     }
