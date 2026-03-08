@@ -3,7 +3,7 @@
   "specSlug": "arcane",
   "heroSpec": "Sunfury",
   "combatType": "AoE",
-  "scrapedAt": "2026-03-08T02:09:59.287Z",
+  "scrapedAt": "2026-03-08T03:30:45.977Z",
   "priorityList": [
     "--- Icy Veins Sunfury Rotation (Hero-Spec Specific) ---",
     "Cast Arcane Barrage when Arcane Soul is active.",
@@ -14,6 +14,7 @@
     "Cast Arcane Missiles whenever you have Clearcasting and less than 3 Arcane Charge stacks.",
     "Cast Arcane Missiles whenever you have 2 or more Clearcasting stacks. - Click for advanced usage tips Only cast Arcane Missiles when you have fewer than 14 Arcane Salvo stacks Only cast Arcane Missiles when you have fewer than 6 Arcane Salvo stacks if you also have Overpowered Missiles",
     "Cast Arcane Orb when you have 0-2 Arcane Charge stacks.",
+    "Cast Arcane Pulse when you have 0-2 Arcane Charge stacks.",
     "Cast Arcane Blast as your filler.",
     "Cast Arcane Barrage if you do not have enough mana for Arcane Blast.",
     "Use any potions, racials or other items that buff your damage/stats that last 15 seconds or longer before Arcane Surge.",
@@ -36,6 +37,7 @@
     "Cast Arcane Barrage with 4x Arcane Charges, less than 19 stacks of Arcane Salvo, and a Clearcasting proc or, if you have also have 3 or more enemies, you can do this with an available Arcane Orb charge.",
     "Cast Arcane Missiles whenever you have Clearcasting.",
     "Cast Arcane Orb whenever you have less than 2x Arcane Charges.",
+    "Cast Arcane Pulse if you have 3 or more targets.",
     "Cast Arcane Blast.",
     "Cast Arcane Barrage if you don't have enough mana for Arcane Blast."
   ]

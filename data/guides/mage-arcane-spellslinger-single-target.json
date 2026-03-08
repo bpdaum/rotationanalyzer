@@ -3,7 +3,7 @@
   "specSlug": "arcane",
   "heroSpec": "Spellslinger",
   "combatType": "Single Target",
-  "scrapedAt": "2026-03-08T02:07:22.100Z",
+  "scrapedAt": "2026-03-08T03:28:35.274Z",
   "priorityList": [
     "--- Icy Veins Spellslinger Rotation (Hero-Spec Specific) ---",
     "Cast Arcane Orb when you have Clearcasting and your previous spell was Arcane Barrage.",
@@ -43,7 +43,6 @@
     "Cast Arcane Orb whenever you have less than 4x Arcane Charges.",
     "Cast Arcane Blast.",
     "Cast Arcane Barrage if you don't have enough mana for Arcane Blast.",
-    "Cast Arcane Missiles if you have Clearcasting and Arcane Surge is about to end.",
     "Cast Arcane Barrage with 4x Arcane Charges if you have just cast Touch of the Magi or it is about to end.",
     "Cast Arcane Barrage with 4x Arcane Charges if you have 25 stacks of Arcane Salvo.",
     "Cast Arcane Missiles whenever you have Clearcasting.",

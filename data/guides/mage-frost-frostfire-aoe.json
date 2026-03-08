@@ -3,7 +3,7 @@
   "specSlug": "frost",
   "heroSpec": "Frostfire",
   "combatType": "AoE",
-  "scrapedAt": "2026-03-08T02:17:54.740Z",
+  "scrapedAt": "2026-03-08T03:36:23.443Z",
   "priorityList": [
     "--- Icy Veins Frostfire Rotation (Hero-Spec Specific) ---",
     "Pre-cast Glacial Spike at 1 second on the countdown. - Click for Notes You want this to finish casting after combat has begun, so if it procs Brain Freeze the following Flurry's Thermal Void is not lost on combat start.",
@@ -23,7 +23,6 @@
     "Glacial Spike",
     "Blizzard",
     "Ice Lance if Fingers of Frost is active",
-    "Ice Lance if Freezing at 10 or more stacks",
     "Frostfire Bolt if Frostfire Empowerment active -",
     "Ray of Frost -"
   ]

@@ -3,7 +3,7 @@
   "specSlug": "fire",
   "heroSpec": "Sunfury",
   "combatType": "AoE",
-  "scrapedAt": "2026-03-08T02:14:16.867Z",
+  "scrapedAt": "2026-03-08T03:33:27.789Z",
   "priorityList": [
     "--- Icy Veins Sunfury Rotation (Hero-Spec Specific) ---",
     "When running Firestarter, delay your first Combustion until the target is below 90% health.",
@@ -12,7 +12,6 @@
     "Cast Fire Blast to convert Heating Up into Hot Streak.",
     "Cast Scorch as your filler to generate Hot Streak / Heating Up when the target is below 30% health.",
     "Cast Fireball as your filler to generate Hot Streak / Heating Up.",
-    "Cast Scorch as filler when on the move and thus unable to cast Frostfire Bolt.",
     "Cast Meteor at any point in the last 8 seconds of Combustion, but ensure it lands before Combustion ends. In practice, this means cast it at any point between 2 to 8 seconds of Combustion left.",
     "Cast Scorch when you have Heat Shimmer and no Hot Streak.",
     "Cast Scorch to generate Hot Streak / Heating Up.",

@@ -1,0 +1,28 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Slayer",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-08T04:11:37.299Z",
+  "priorityList": [
+    "--- Icy Veins Rotation (Priority List) ---",
+    "Rend to apply or refresh Rend with four seconds remaining",
+    "Ravager just before Colossus Smash",
+    "Avatar just before or with Colossus Smash",
+    "Colossus Smash",
+    "Bladestorm during Colossus Smash",
+    "Overpower with two charges of Overpower available",
+    "Mortal Strike",
+    "Execute with Sudden Death proc",
+    "Execute to consume Sudden Death procs",
+    "Execute with Sudden Death",
+    "Overpower with two charges available or less than 40 Rage",
+    "Mortal Strike with two stacks of Executioner's Precision",
+    "Overpower with less than 90 Rage",
+    "Execute with more than 40 Rage or Sudden Death",
+    "Execute with Deep Wounds",
+    "Rend to apply or refresh Rend under 4 seconds remaining",
+    "Sweeping Strikes if Broad Strokes is not talented or Colossus Smash is already on cooldown",
+    "Overpower with Opportunist or two charges available"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "fury",
+  "heroSpec": "Mountain Thane",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-08T04:13:28.342Z",
+  "priorityList": [
+    "--- Icy Veins Rotation (Priority List) ---",
+    "Recklessness on cooldown or whenever burst damage is needed",
+    "Avatar simultaneously with Recklessness",
+    "Odyn's Fury",
+    "Thunder Blast while Enraged",
+    "Bloodthirst or Bloodbath during Recklessness",
+    "Rampage if Enrage is not active or more than 100 Rage",
+    "Bladestorm while Enraged",
+    "Champion's Spear while Enraged",
+    "Crushing Blow during Recklessness",
+    "Thunder Clap during Avatar",
+    "Raging Blow",
+    "Thunder Clap to fill the rotation",
+    "Whirlwind to fill the rotation",
+    "Recklessness",
+    "Whirlwind if the Meat Cleaver buff is not active",
+    "Rampage if Enrage is not active or more than 110 Rage",
+    "Execute with Sudden Death",
+    "Thunder Clap",
+    "Raging Blow or Crushing Blow during Recklessness",
+    "Whirlwind as a filler"
+  ]
+}
