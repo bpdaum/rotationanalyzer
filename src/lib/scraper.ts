@@ -329,6 +329,42 @@ async function scrapeIcyVeins(classSlug: string, specSlug: string, heroSpec?: st
     }
 }
 
+async function scrapeSimC(classSlug: string, specSlug: string): Promise<string[]> {
+    const formattedClass = classSlug.replace(/-/g, '').toLowerCase();
+    const formattedSpec = specSlug.replace(/-/g, '').toLowerCase();
+    const url = `https://raw.githubusercontent.com/simulationcraft/simc/midnight/ActionPriorityLists/default/${formattedClass}_${formattedSpec}.simc`;
+
+    console.log(`[SimC Scraper] Fetching APL for ${specSlug} ${classSlug} from ${url}...`);
+
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            console.warn(`[SimC Scraper] Could not fetch APL: ${response.statusText}`);
+            return [];
+        }
+
+        const text = await response.text();
+        const lines = text.split('\n');
+
+        const priorityList: string[] = [];
+        for (const line of lines) {
+            const trimmed = line.trim();
+            if (trimmed.startsWith('actions=') || trimmed.startsWith('actions+') || trimmed.startsWith('actions.')) {
+                priorityList.push(trimmed);
+            }
+        }
+
+        if (priorityList.length > 0) {
+            return [`--- SimulationCraft APL ---`, ...priorityList];
+        }
+
+        return [];
+    } catch (error) {
+        console.error(`[SimC Scraper] Error fetching SimC for ${specSlug} ${classSlug}:`, error);
+        return [];
+    }
+}
+
 /**
  * Scrapes Icy Veins & WoWhead for the given WoW class and spec.
  * Merges the Priority Lists into a single array for Gemini Context.
@@ -343,12 +379,13 @@ export async function scrapeRotation(classSlug: string, specSlug: string, heroSp
 
     const isDevourerAnnihilator = specSlug === 'devourer' && heroSpec === 'Annihilator';
 
-    const [icyVeinsRules, wowheadRules] = await Promise.all([
+    const [icyVeinsRules, wowheadRules, simcRules] = await Promise.all([
         scrapeIcyVeins(classSlug, specSlug, heroSpec, combatType),
-        isDevourerAnnihilator ? Promise.resolve([]) : scrapeWowhead(classSlug, specSlug, heroSpec, combatType)
+        isDevourerAnnihilator ? Promise.resolve([]) : scrapeWowhead(classSlug, specSlug, heroSpec, combatType),
+        scrapeSimC(classSlug, specSlug)
     ]);
 
-    const combinedList = [...icyVeinsRules, ...wowheadRules];
+    const combinedList = [...icyVeinsRules, ...wowheadRules, ...simcRules];
 
     if (combinedList.length === 0) {
         combinedList.push('Follow standard builder-spender rotation priorities (Scrapers returned 0 data).');
