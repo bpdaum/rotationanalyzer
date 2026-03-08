@@ -23,7 +23,7 @@ export default function Home() {
   const [iconMap, setIconMap] = useState<Record<number, string>>({});
   const [error, setError] = useState<string | null>(null);
 
-  const handleAnalyze = async (file: File, classSlug: string, specSlug: string, heroSpec: string, combatType: string) => {
+  const handleAnalyze = async (file: File, classSlug: string, specSlug: string, heroSpec: string, combatType: string, region: string, realm: string, characterName: string) => {
     setIsLoading(true);
     setError(null);
     setData(null);
@@ -37,6 +37,10 @@ export default function Home() {
       formData.append('specSlug', specSlug);
       formData.append('heroSpec', heroSpec);
       formData.append('combatType', combatType);
+
+      if (region) formData.append('region', region);
+      if (realm) formData.append('realm', realm);
+      if (characterName) formData.append('characterName', characterName);
 
       const res = await fetch('/api/analyze', {
         method: 'POST',

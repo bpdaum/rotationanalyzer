@@ -33,7 +33,8 @@ const SPEC_MECHANICS: Record<string, string[]> = {
 export async function analyzeRotation(
     timeline: CombatEvent[],
     rotation: ScrapedRotation,
-    heroSpec: string = 'None'
+    heroSpec: string = 'None',
+    activeTalents: string[] | null = null
 ): Promise<AnalysisResult> {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) {
@@ -70,6 +71,8 @@ Hero Specialization: ${heroSpec}
 ${conciseInstructions}
 
 ${SPEC_MECHANICS[rotation.specSlug] ? `### Specialization-Specific Mechanical Knowledge\n${SPEC_MECHANICS[rotation.specSlug].map(m => `- ${m}`).join('\n')}\n` : ''}
+${activeTalents && activeTalents.length > 0 ? `### Active Talents\nThe player has the following active talents equipped: [${activeTalents.join(', ')}]. \nCRITICAL INSTRUCTION: If a priority rule requires a spell or talent they DO NOT have equipped, IGNORE that rule completely and do not penalize them for it.` : ''}
+
 ### Player Combat Log (Chronological Casts)
 Each line is formatted as: [index] [timestamp] SpellName | Buffs: [Active Aura List]
 ${conciseTimeline}

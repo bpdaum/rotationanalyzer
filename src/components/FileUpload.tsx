@@ -20,7 +20,7 @@ const CLASSES = [
 ];
 
 interface FileUploadProps {
-    onAnalyze: (file: File, classSlug: string, specSlug: string, heroSpec: string, combatType: string) => void;
+    onAnalyze: (file: File, classSlug: string, specSlug: string, heroSpec: string, combatType: string, region: string, realm: string, characterName: string) => void;
     isLoading: boolean;
 }
 
@@ -30,6 +30,9 @@ export function FileUpload({ onAnalyze, isLoading }: FileUploadProps) {
     const [selectedSpecId, setSelectedSpecId] = useState<string>('arcane');
     const [selectedHeroSpec, setSelectedHeroSpec] = useState<string>('Spellslinger');
     const [selectedCombatType, setSelectedCombatType] = useState<string>('Single Target');
+    const [region, setRegion] = useState<string>('us');
+    const [realm, setRealm] = useState<string>('');
+    const [characterName, setCharacterName] = useState<string>('');
     const [isDragOver, setIsDragOver] = useState(false);
 
     const selectedClass = CLASSES.find(c => c.id === selectedClassId);
@@ -60,7 +63,7 @@ export function FileUpload({ onAnalyze, isLoading }: FileUploadProps) {
 
     const handleAnalyze = () => {
         if (file) {
-            onAnalyze(file, selectedClassId, selectedSpecId, selectedHeroSpec, selectedCombatType);
+            onAnalyze(file, selectedClassId, selectedSpecId, selectedHeroSpec, selectedCombatType, region, realm, characterName);
         }
     };
 
@@ -127,6 +130,44 @@ export function FileUpload({ onAnalyze, isLoading }: FileUploadProps) {
                         <option value="AoE">AoE</option>
                         <option value="Cleave">Cleave</option>
                     </select>
+                </div>
+            </div>
+
+            <div className="flex gap-md" style={{ marginBottom: '24px', flexWrap: 'wrap' }}>
+                <div className="flex-col" style={{ flex: '0 0 100px' }}>
+                    <label style={{ fontSize: '0.9rem', marginBottom: '8px', color: 'var(--color-text-muted)' }}>Region</label>
+                    <select
+                        value={region}
+                        onChange={(e) => setRegion(e.target.value)}
+                        style={{ width: '100%', padding: '12px', borderRadius: 'var(--radius-md)', background: 'var(--color-bg-elevated)', border: '1px solid var(--color-border)', color: 'var(--color-text-main)' }}
+                    >
+                        <option value="us">US</option>
+                        <option value="eu">EU</option>
+                        <option value="kr">KR</option>
+                        <option value="tw">TW</option>
+                    </select>
+                </div>
+
+                <div className="flex-col" style={{ flex: 1 }}>
+                    <label style={{ fontSize: '0.9rem', marginBottom: '8px', color: 'var(--color-text-muted)' }}>Realm (e.g. illidan)</label>
+                    <input
+                        type="text"
+                        placeholder="Optional for talents..."
+                        value={realm}
+                        onChange={(e) => setRealm(e.target.value)}
+                        style={{ width: '100%', padding: '12px', borderRadius: 'var(--radius-md)', background: 'var(--color-bg-elevated)', border: '1px solid var(--color-border)', color: 'var(--color-text-main)' }}
+                    />
+                </div>
+
+                <div className="flex-col" style={{ flex: 1 }}>
+                    <label style={{ fontSize: '0.9rem', marginBottom: '8px', color: 'var(--color-text-muted)' }}>Character Name</label>
+                    <input
+                        type="text"
+                        placeholder="Optional for talents..."
+                        value={characterName}
+                        onChange={(e) => setCharacterName(e.target.value)}
+                        style={{ width: '100%', padding: '12px', borderRadius: 'var(--radius-md)', background: 'var(--color-bg-elevated)', border: '1px solid var(--color-border)', color: 'var(--color-text-main)' }}
+                    />
                 </div>
             </div>
 
