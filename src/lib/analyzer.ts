@@ -58,27 +58,22 @@ ${conciseInstructions}
 Each line is formatted as: [index] [timestamp] SpellName (Active Auras)
 ${conciseTimeline}
 
-### Task: Zero-Knowledge Literal Extraction
-Compare the player's chronological casts to the provided optimal rotation guidelines using **ONLY** the provided text.
+### Task: Expert Guide-Based Analysis
+Compare the player's chronological casts to the provided optimal rotation guidelines using the provided text as your primary evidence.
 Evaluate their opener, their adherence to the priorities, and whether they missed any critical, high-priority abilities mentioned in the guidelines.
 
-CRITICAL INSTRUCTION: ZERO-KNOWLEDGE MODE.
-- **IGNORE everything you know about World of Warcraft.** Act as if you have never heard of the game before this moment.
-- You are a literal text-matching engine. If a mechanic, spell interaction, or term is not explicitly defined in the "Optimal Rotation Guidelines", it **DOES NOT EXIST**.
-- **VERBOTEN TERMINOLOGY:** Never use the following terms unless they appear in the guidelines: "Shatter", "Procs", "Winter's Chill", "Fingers of Frost", "Brain Freeze", "Global Cooldown (GCD)", "Uptime". 
-- If you use a term not in the guidelines, the analysis is invalid.
-
-CRITICAL FEEDBACK GROUNDING:
-- Every piece of feedback MUST cite the rule number it is following from the "Optimal Rotation Guidelines" (e.g., "Rule #4 says cast X, but you cast Y").
-- If the Guidelines don't explain WHY a spell is cast, do NOT invent an explanation. Stick to: "Rule #X requires Y at this point."
+CRITICAL INSTRUCTION: EVIDENCE-BASED EXPERTISE.
+- You are a World of Warcraft expert. You may use your expertise to explain **why** a certain sequence is optimal (e.g., mention interactions like procs, cooldown reduction, or splinter generation) **AS LONG AS** those explanations align with the provided guidelines.
+- Your feedback should feel natural and helpful, not robotic. Avoid phrasing like "Rule #X says..." unless a specific citation is helpful for clarity.
+- However, do **NOT** hallucinate mechanics or spells that are not in the provided guidelines. If the guidelines for ${heroSpec} don't mention a spell, don't penalize the player for not using it.
 
 CRITICAL DATA PRIORITY:
-- Guidelines labeled "Hero-Spec Specific" are the absolute source of truth.
-- Guidelines labeled "GENERIC" are supplemental; if a GENERIC rule contradicts or introduces a spell not in the Hero-Spec Specific list, **DISCARD IT**.
+- Guidelines labeled "Hero-Spec Specific" are the absolute source of truth for this player's specialization (${heroSpec}). 
+- Guidelines labeled "GENERIC" are supplemental. If a GENERIC rule contradicts the Hero-Spec Specific list or mentions a spell not in that list, prioritize the Hero-Spec source.
 
-CRITICAL INSTRUCTION: INTERPOLATION PROHIBITED.
-- Do NOT hallucinate mechanics.
-- ONLY reference spells that exist in the CURRENT guidelines provided.
+CRITICAL INSTRUCTION: CURRENT GAME VERSION ONLY.
+- Only reference mechanics and spells that exist in the CURRENT guidelines provided. 
+- Avoid outdated terminology from past expansions (like "Shatter" if it is not in the text).
 - Accommodate implicit spell queueing and flight-time mechanics as previously defined.
 
 Provide a JSON object with this exact structure (no markdown fences, just the JSON):
