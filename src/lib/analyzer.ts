@@ -3,7 +3,7 @@ import { ScrapedRotation } from './scraper';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 export interface AnalysisFeedback {
-    type: 'error' | 'warning' | 'info';
+    type: 'error' | 'warning' | 'info' | 'good';
     timestamp: string;
     message: string;
     spellName?: string;
@@ -14,6 +14,7 @@ export interface AnalysisFeedback {
 
 export interface AnalysisResult {
     score: number; // 0 to 100
+    tldr: string;
     feedback: AnalysisFeedback[];
     missingSpells: string[];
 }
@@ -34,6 +35,7 @@ export async function analyzeRotation(
     if (timeline.length === 0) {
         return {
             score: 0,
+            tldr: 'No combat events found in this log.',
             feedback: [{ type: 'error', timestamp: '00:00', message: 'No SPELL_CAST_SUCCESS events found for player. Did you upload the right log?' }],
             missingSpells: [],
         };
@@ -51,7 +53,7 @@ export async function analyzeRotation(
     }).join('\n');
     const conciseInstructions = rotation.priorityList.map((str, i) => `${i + 1}. ${str}`).join('\n');
 
-    const prompt = `You are a World of Warcraft expert analyst evaluating a player's combat log against optimal target dummy guidelines.
+    const prompt = `You are a world-first raider and expert World of Warcraft analyst evaluating a player's combat log against optimal target dummy guidelines.
 Class: ${rotation.classSlug}
 Spec: ${rotation.specSlug}
 Hero Specialization: ${heroSpec}
@@ -64,33 +66,39 @@ Each line is formatted as: [index] [timestamp] SpellName | Buffs: [Active Aura L
 ${conciseTimeline}
 
 ### Task: Expert Guide-Based Analysis
+As a world-first raider, your mindset is about perfection and fundamental concepts like "Always Be Casting" (ABC). 
 Compare the player's chronological casts to the provided optimal rotation guidelines using the provided text as your primary evidence.
-Evaluate their opener, their adherence to the priorities, and whether they missed any critical, high-priority abilities mentioned in the guidelines.
+
+First, write a high-level "tl;dr" summary of what the player should work on to improve. Then, dive into specific issues found in the data.
+
+When labeling feedback items, use the following tags carefully:
+- "error": Critical rotation mistakes (e.g., missed cooldown windows, severe priority inversions). Counts heavily against the score.
+- "warning": Sub-optimal cast sequences (e.g., minor casting order errors). Counts slightly against the score.
+- "good": Excellent execution of a complex priority sequence. Does not reduce score.
+- "info": Neutral, conditional observations. Use this ONLY for things like "Did not cast spell X, but the guide states to only cast if talented into it." DO NOT let an "info" item reduce the player's score.
 
 CRITICAL INSTRUCTION: TRANSPARENT SPELLS (Off-GCD / Utilities).
-- Spells like **Touch of the Magi**, **Presence of Mind**, **Time Warp**, **Arcane Surge**, **Icy Veins**, **Bloodlust**, and Trinkets are "Transparent Spells".
+- Spells like Touch of the Magi, Presence of Mind, Time Warp, Arcane Surge, Icy Veins, Bloodlust, and Trinkets are "Transparent Spells".
 - These spells are typically off the Global Cooldown (GCD) or are utility/setup spells.
-- They **DO NOT** break strict "sequence" or "immediately follow" relationships in the guide.
-- Example: If a guide says "Cast Arcane Orb immediately after Arcane Barrage", the sequence \`[Barrage] -> [Touch of the Magi] -> [Arcane Orb]\` is **CORRECT** because Touch of the Magi is transparent.
+- They DO NOT break strict "sequence" or "immediately follow" relationships in the guide.
 
 CRITICAL INSTRUCTION: AURA & PROC EQUIVALENCE.
 - In the combat log, the "Buffs" section lists active auras.
 - If a guide says "Cast X if you have Clearcasting", this is EXACTLY the same as checking if "Clearcasting" is in the [Buffs] list for that cast.
-- Always prioritize the provided [Buffs] list over your own assumptions. If "Clearcasting" is in the list, the player HAS the proc.
 
 CRITICAL INSTRUCTION: EVIDENCE-BASED EXPERTISE.
-- You are a World of Warcraft expert. You may use your expertise to explain **why** a certain sequence is optimal (e.g., mention interactions like procs, cooldown reduction, or splinter generation) **AS LONG AS** those explanations align with the provided guidelines.
-- YOUR FEEDBACK MUST BE GROUNDED IN THE PROVIDED GUIDELINES. You are **REQUIRED** to provide a direct quote from the "Optimal Rotation Guidelines" that supports every piece of feedback.
-- However, do **NOT** hallucinate mechanics or spells that are not in the provided guidelines. If the guidelines for ${heroSpec} don't mention a spell, don't penalize the player for not using it.
-- Avoid outdated terminology from past expansions.
+- You must explain WHY a sequence is optimal (procs, resource generation), but YOUR FEEDBACK MUST BE GROUNDED IN THE PROVIDED GUIDELINES.
+- You are REQUIRED to provide a direct quote from the "Optimal Rotation Guidelines" that supports every piece of feedback.
+- Do NOT hallucinate mechanics or spells not in the guidelines.
 
 Provide a JSON object with this exact structure (no markdown fences, just the JSON):
 {
   "score": <number between 0 and 100 representing how well they followed the guidelines>,
+  "tldr": "<World-first raider summary of their performance and the #1 thing to work on>",
   "missingSpells": [<array of strings of critical spells they failed to cast entirely>],
   "feedback": [
     {
-      "type": "error" | "warning" | "info",
+      "type": "error" | "warning" | "info" | "good",
       "timestamp": "<the timestamp from the combat log where the issue occurred, or 00:00 for overall stuff>",
       "message": "<A brief, actionable critique>",
       "spellName": "<The name of the spell being critiqued>",
@@ -112,6 +120,7 @@ Return ONLY the raw JSON string. Do not include \`\`\`json wrappers.`;
         console.error('Gemini Analysis Error:', error);
         return {
             score: 50,
+            tldr: 'Analysis failed due to an error.',
             feedback: [{
                 type: 'error',
                 timestamp: '00:00',

@@ -132,6 +132,7 @@ export default function Home() {
 
             <Feedback
               analysis={data.analysis}
+              timeline={data.timeline}
               iconMap={iconMap}
               onFeedbackClick={handleFeedbackClick}
             />
