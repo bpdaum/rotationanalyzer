@@ -1,0 +1,32 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Annihilator",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-08T05:17:31.304Z",
+  "priorityList": [
+    "--- WoWhead Annihilator Opener ---",
+    "Consume 2s before pull",
+    "Consume Untill 100 Fury",
+    "Void Ray",
+    "Reap",
+    "Repeat the above untill Void Metamorphosis is ready",
+    "Voidblade",
+    "Reap",
+    "Void Metamorphosis",
+    "Use any trinkets or potions",
+    "Void Ray",
+    "Collapsing Star",
+    "Cull",
+    "Continue with normal rotation",
+    "--- WoWhead Annihilator Rotation ---",
+    "Cast Void Ray -",
+    "Cast Reap when it will proc Voidfall or you have Moment of Craving",
+    "Cast Void Metamorphosis",
+    "Cast Consume",
+    "Cast Void Ray -",
+    "Cast Cull if it will proc Voidfall or Moment of Craving is about to expire",
+    "Cast Collapsing Star",
+    "Cast Devour"
+  ]
+}

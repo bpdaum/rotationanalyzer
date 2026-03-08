@@ -3,7 +3,7 @@
   "specSlug": "havoc",
   "heroSpec": "Fel-Scarred",
   "combatType": "Single Target",
-  "scrapedAt": "2026-03-08T05:00:03.871Z",
+  "scrapedAt": "2026-03-08T05:16:17.233Z",
   "priorityList": [
     "--- Icy Veins Rotation (Priority List) ---",
     "Cast Felblade with Inertia ready - Click for Notes If Felblade isn't available, use Fel Rush instead.",
@@ -24,6 +24,7 @@
     "Cast Fel Rush with nothing else available.",
     "Cast Metamorphosis with Eye Beam, Immolation Aura and Death Sweep on cooldown.",
     "Cast Immolation Aura 1 second before the pull.",
+    "Cast Blade Dance as soon as you arrive in melee - Click for Notes This triggers Screaming Brutality and applies Burning Wound.",
     "Cast Immolation Aura twice.",
     "Cast Felblade to trigger Inertia.",
     "Cast Annihilation to consume Demonsurge.",

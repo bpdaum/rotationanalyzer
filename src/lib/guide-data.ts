@@ -20,7 +20,8 @@ export const DPS_SPECS: DpsSpecEntry[] = [
     { classSlug: 'death-knight', specSlug: 'unholy', heroSpecs: ['Rider of the Apocalypse', "San'layn"], combatTypes: ['Single Target', 'AoE'] },
 
     // Demon Hunter
-    { classSlug: 'demon-hunter', specSlug: 'havoc', heroSpecs: ['Aldrachi Reaver', 'Fel-Scarred', 'Devourer'], combatTypes: ['Single Target', 'AoE'] },
+    { classSlug: 'demon-hunter', specSlug: 'havoc', heroSpecs: ['Aldrachi Reaver', 'Fel-Scarred'], combatTypes: ['Single Target', 'AoE'] },
+    { classSlug: 'demon-hunter', specSlug: 'devourer', heroSpecs: ['Annihilator', 'Void-Scarred'], combatTypes: ['Single Target', 'AoE'] },
 
     // Druid
     { classSlug: 'druid', specSlug: 'balance', heroSpecs: ['Keeper of the Grove', "Elune's Chosen"], combatTypes: ['Single Target', 'AoE'] },
