@@ -58,14 +58,24 @@ ${conciseInstructions}
 Each line is formatted as: [index] [timestamp] SpellName (Active Auras)
 ${conciseTimeline}
 
-### Task
-Compare the player's chronological casts to the optimal rotation guidelines. 
+### Task: Zero-Knowledge Literal Analysis
+Compare the player's chronological casts to the provided optimal rotation guidelines using ONLY the provided text.
 Evaluate their opener, their adherence to the priorities, and whether they missed any critical, high-priority abilities mentioned in the guidelines.
 
-CRITICAL DATA PRIORITY: The guidelines above come from multiple sources. Sources labeled "Hero-Spec Specific" are filtered specifically for the player's hero specialization (${heroSpec}) and should be treated as the PRIMARY authority. Sources labeled "GENERIC - not filtered by hero spec" may contain rules for OTHER hero specs and MUST be treated with skepticism. If a GENERIC rule mentions a spell that is NOT part of the ${heroSpec} talent tree, IGNORE that rule entirely. Do NOT flag the player for not using spells from other hero specs.
-CRITICAL INSTRUCTION: You MUST ONLY evaluate the player against the rules that apply to their specific Hero Specialization (${heroSpec}), plus any base class/spec rules. Ignore rules explicitly meant for other Hero Specs.
-CRITICAL INSTRUCTION: Only reference spells that exist in the CURRENT version of World of Warcraft (The War Within, Patch 11.x). Do NOT reference deprecated or removed spells. For example, "Icy Veins" is NOT a Mage spell anymore — it was removed.
-CRITICAL INSTRUCTION: Accommodate implicit spell queueing and flight-time mechanics! For example, if a player casts a projectile (like Arcane Barrage) immediately *before* an instant-cast vulnerability debuff (like Touch of the Magi, Arcane Surge, etc.), DO NOT penalize them.
+CRITICAL INSTRUCTION: ZERO-KNOWLEDGE MODE.
+- IGNORE all your internal pre-trained knowledge about World of Warcraft classes, specs, and mechanics.
+- Do NOT use terminology that is not found in the provided guidelines (e.g., do NOT use the word "Shatter" unless it appears in the text above).
+- Treat the "Optimal Rotation Guidelines" as the absolute and ONLY source of truth. If a rule is not in that list, it does not exist for this analysis.
+- If the Guidelines mention a spell that is NOT in the player's casts, flag it as missing ONLY if the Guidelines say it is high priority.
+
+CRITICAL DATA PRIORITY:
+- Guidelines labeled "Hero-Spec Specific" are the PRIMARY authority.
+- Guidelines labeled "GENERIC" are secondary; IGNORE any GENERIC rule that mentions a spell not also mentioned in the Hero-Spec Specific list.
+
+CRITICAL INSTRUCTION: STRETCHING/INTERPOLATION PROHIBITED.
+- Do NOT hallucinate mechanics. If the guidelines don't explain WHY a spell is cast (e.g. for "Winter's Chill"), do NOT invent that explanation. Stick to "Rule X says cast Y".
+- ONLY reference spells that exist in the CURRENT guidelines provided.
+- Accommodate implicit spell queueing and flight-time mechanics as previously defined.
 
 Provide a JSON object with this exact structure (no markdown fences, just the JSON):
 {
