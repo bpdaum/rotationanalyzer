@@ -158,12 +158,14 @@ async function scrapeIcyVeins(classSlug: string, specSlug: string, heroSpec?: st
     const url = `https://www.icy-veins.com/wow/${specSlug}-${classSlug}-${roleSuffix}-rotation-cooldowns-abilities`;
     const priorityList: string[] = [];
 
+    let browser;
     try {
-        const res = await fetch(url, { next: { revalidate: 3600 } });
-        if (!res.ok) {
-            throw new Error(`Failed to fetch ${url}: ${res.statusText}`);
-        }
-        const html = await res.text();
+        browser = await chromium.launch({ headless: true });
+        const page = await browser.newPage();
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForTimeout(2000);
+
+        const html = await page.content();
         const $ = cheerio.load(html);
 
         const lowerHero = (heroSpec && heroSpec !== 'None') ? heroSpec.toLowerCase() : '';
@@ -191,22 +193,6 @@ async function scrapeIcyVeins(classSlug: string, specSlug: string, heroSpec?: st
                     }
                 });
             }
-            if (!targetPresetStr) {
-                $('[data-preset]').each((_, el) => {
-                    const text = $(el).text().trim().toLowerCase();
-                    if (text.includes(lowerHero) && text.includes(lowerCombatType) && !targetPresetStr) {
-                        targetPresetStr = $(el).attr('data-preset') || '';
-                    }
-                });
-            }
-            if (!targetPresetStr) {
-                $('[data-preset]').each((_, el) => {
-                    const text = $(el).text().trim().toLowerCase();
-                    if (text.includes(lowerHero) && !targetPresetStr) {
-                        targetPresetStr = $(el).attr('data-preset') || '';
-                    }
-                });
-            }
         }
 
         const configParts = targetPresetStr.split(' ').filter(Boolean);
@@ -221,12 +207,9 @@ async function scrapeIcyVeins(classSlug: string, specSlug: string, heroSpec?: st
         let targetBlockIds: string[] = [];
 
         if (lowerHero) {
-            // Strategy 1: _button prev sibling headings (most reliable)
             $('[id^="rotation_tool_block_"][id$="_button"]').each((_, el) => {
                 const buttonId = $(el).attr('id') || '';
                 const blockId = buttonId.replace('_button', '');
-                if ($(`#${blockId} ol > li`).length === 0) return;
-
                 const prevSibling = $(el).prev();
                 const headingText = prevSibling.text().trim().toLowerCase();
 
@@ -235,53 +218,69 @@ async function scrapeIcyVeins(classSlug: string, specSlug: string, heroSpec?: st
                     console.log(`[Icy Veins] Section match: "${blockId}" heading="${headingText.substring(0, 80)}"`);
                 }
             });
+        }
 
-            // Strategy 2: hero spec only
-            if (targetBlockIds.length === 0) {
-                $('[id^="rotation_tool_block_"][id$="_button"]').each((_, el) => {
-                    const buttonId = $(el).attr('id') || '';
-                    const blockId = buttonId.replace('_button', '');
-                    if ($(`#${blockId} ol > li`).length === 0) return;
+        // ──────────────────────────────────────────────
+        // Strategy 4: Fallback for NEW Midnight-style pages (no tool block, just classes)
+        // ──────────────────────────────────────────────
+        if (targetBlockIds.length === 0) {
+            const lowerHeroCompact = lowerHero.replace(/[-\s]/g, '');
+            const midnightClass = lowerHero ? `rotation_line_${lowerHero.replace(/\s+/g, '-')}_on` : '';
+            const midnightClassCompact = lowerHeroCompact ? `rotation_line_${lowerHeroCompact}_on` : '';
 
-                    const prevSibling = $(el).prev();
-                    const headingText = prevSibling.text().trim().toLowerCase();
+            console.log(`[Icy Veins] Strategy 4 (Midnight) starting. Searching for classes: .${midnightClass} or .${midnightClassCompact}`);
 
-                    if (headingText.includes(lowerHero)) {
-                        targetBlockIds.push(blockId);
-                        console.log(`[Icy Veins] Section fallback: "${blockId}" heading="${headingText.substring(0, 80)}"`);
+            $('ul > li, ol > li').each((_, el) => {
+                const element = $(el);
+                const classStr = (element.attr('class') || '').toLowerCase();
+
+                const isSpecLine = lowerHero && (classStr.includes(midnightClass) || classStr.includes(midnightClassCompact));
+                const isGeneralLine = !classStr.includes('rotation_line_') && !classStr.includes('hidden_section');
+
+                if (isSpecLine || (isGeneralLine && !lowerHero)) {
+                    // Search for ALL preceding headings to get full context
+                    let combinedContext = '';
+                    let current: any = element.parent();
+                    while (current.length > 0) {
+                        let sib = current.prev();
+                        while (sib.length > 0) {
+                            const h = sib.is('h2, h3') ? sib : sib.find('h2, h3');
+                            h.each((_idx: number, hVal: any) => {
+                                combinedContext += ' ' + $(hVal).text().toLowerCase();
+                            });
+                            sib = sib.prev();
+                        }
+                        current = current.parent();
+                        if (current.is('body') || current.is('html')) break;
                     }
-                });
-            }
 
-            // Strategy 3: block prev siblings directly
-            if (targetBlockIds.length === 0) {
-                $('[id^="rotation_tool_block_"]').each((_, el) => {
-                    const id = $(el).attr('id') || '';
-                    if (id.includes('_button')) return;
-                    if ($(el).find('ol > li').length === 0) return;
+                    const matchesCombatType = combinedContext.includes(lowerCombatType) ||
+                        (lowerCombatType === 'single target' && (combinedContext.includes('opener') || combinedContext.includes('single-target')));
 
-                    const prevSibling = $(el).prev();
-                    const prevText = prevSibling.text().trim().toLowerCase();
-
-                    if (prevText.includes(lowerHero) && prevText.includes(lowerCombatType)) {
-                        targetBlockIds.push(id);
-                        console.log(`[Icy Veins] Section block-prev match: "${id}" prev="${prevText.substring(0, 80)}"`);
+                    if (combinedContext.includes('rotation') && matchesCombatType) {
+                        const text = element.text().trim().replace(/\s+/g, ' ');
+                        if (text.length > 5 && text.length < 500) {
+                            priorityList.push(text);
+                        }
                     }
-                });
+                }
+            });
+            if (priorityList.length > 0) {
+                console.log(`[Icy Veins] Strategy 4 successfully found ${priorityList.length} rules.`);
             }
         }
 
         // ──────────────────────────────────────────────
-        // STEP 3: Extract <li> elements from matched sections or fall back to global scan.
+        // STEP 3: Extract <li> elements from matched sections if priorityList still empty
         // ──────────────────────────────────────────────
-        if (targetBlockIds.length > 0) {
+        if (priorityList.length === 0 && targetBlockIds.length > 0) {
             console.log(`[Icy Veins] Scraping from sections: ${targetBlockIds.join(', ')}`);
 
             for (const blockId of targetBlockIds) {
                 $(`#${blockId} ol > li`).each((_, element) => {
                     const classStr = $(element).attr('class') || '';
-
                     let keepTalent = true;
+                    // (talent filtering logic)
                     const talentMatches = classStr.match(/talent-\d+_(on|off)/g);
                     if (talentMatches && activeTalents.size > 0) {
                         for (const token of talentMatches) {
@@ -292,39 +291,20 @@ async function scrapeIcyVeins(classSlug: string, specSlug: string, heroSpec?: st
                             if (!isOffReq && !isTalentActive) keepTalent = false;
                         }
                     }
-
-                    if (!keepTalent) return;
-
-                    const text = $(element).text().trim().replace(/\s+/g, ' ');
-                    if (text.length > 10 && text.length < 300) {
-                        priorityList.push(text);
+                    if (keepTalent) {
+                        const text = $(element).text().trim().replace(/\s+/g, ' ');
+                        if (text.length > 10 && text.length < 500) {
+                            priorityList.push(text);
+                        }
                     }
                 });
             }
-        } else {
-            console.log(`[Icy Veins] No section match, using global li scan with preset/talent filtering`);
+        }
 
+        // Final fallback: Global scan
+        if (priorityList.length === 0) {
+            console.log(`[Icy Veins] No matching sections or Midnight classes found, using global li scan.`);
             $('ol > li').each((_, element) => {
-                const classStr = $(element).attr('class') || '';
-                const isPresetRule = /preset-\d+/.test(classStr);
-                if (isPresetRule && targetPreset && !classStr.includes(`${targetPreset}_on`)) {
-                    return;
-                }
-
-                let keepTalent = true;
-                const talentMatches = classStr.match(/talent-\d+_(on|off)/g);
-                if (talentMatches) {
-                    for (const token of talentMatches) {
-                        const isOffReq = token.endsWith('_off');
-                        const talentId = token.replace(/_(on|off)$/, '');
-                        const isTalentActive = activeTalents.has(talentId);
-                        if (isOffReq && isTalentActive) keepTalent = false;
-                        if (!isOffReq && !isTalentActive) keepTalent = false;
-                    }
-                }
-
-                if (!keepTalent) return;
-
                 const text = $(element).text().trim().replace(/\s+/g, ' ');
                 if (text.length > 10 && text.length < 300) {
                     priorityList.push(text);
@@ -332,19 +312,21 @@ async function scrapeIcyVeins(classSlug: string, specSlug: string, heroSpec?: st
             });
         }
 
-        const uniqueIcy = scrubRules(Array.from(new Set(priorityList)));
-        if (uniqueIcy.length > 0) {
-            // Label as hero-spec-specific when we matched a section
-            const label = targetBlockIds.length > 0
-                ? `--- Icy Veins ${heroSpec || ''} Rotation (Hero-Spec Specific) ---`
-                : `--- Icy Veins Rotation (Priority List) ---`;
-            return [label, ...uniqueIcy];
+        const uniqueRules = scrubRules(Array.from(new Set(priorityList)));
+        if (uniqueRules.length > 0) {
+            const label = `--- Icy Veins ${heroSpec || ''} Rotation ---`;
+            return [label, ...uniqueRules];
         }
-    } catch (error) {
-        console.error('Icy Veins Scraping error:', error);
-    }
 
-    return priorityList;
+        return [];
+    } catch (error) {
+        console.error(`[Icy Veins Scraper] Error:`, error);
+        return [];
+    } finally {
+        if (browser) {
+            await browser.close().catch(console.error);
+        }
+    }
 }
 
 /**
@@ -359,9 +341,11 @@ export async function scrapeRotation(classSlug: string, specSlug: string, heroSp
         return cache[cacheKey];
     }
 
+    const isDevourerAnnihilator = specSlug === 'devourer' && heroSpec === 'Annihilator';
+
     const [icyVeinsRules, wowheadRules] = await Promise.all([
         scrapeIcyVeins(classSlug, specSlug, heroSpec, combatType),
-        scrapeWowhead(classSlug, specSlug, heroSpec, combatType)
+        isDevourerAnnihilator ? Promise.resolve([]) : scrapeWowhead(classSlug, specSlug, heroSpec, combatType)
     ]);
 
     const combinedList = [...icyVeinsRules, ...wowheadRules];
