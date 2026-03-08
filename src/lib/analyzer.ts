@@ -9,6 +9,7 @@ export interface AnalysisFeedback {
     spellName?: string;
     timelineIndex?: number;
     correctSequence?: string[];
+    sourceQuote?: string; // Direct quote from the guidelines that justifies this feedback
 }
 
 export interface AnalysisResult {
@@ -64,7 +65,7 @@ Evaluate their opener, their adherence to the priorities, and whether they misse
 
 CRITICAL INSTRUCTION: EVIDENCE-BASED EXPERTISE.
 - You are a World of Warcraft expert. You may use your expertise to explain **why** a certain sequence is optimal (e.g., mention interactions like procs, cooldown reduction, or splinter generation) **AS LONG AS** those explanations align with the provided guidelines.
-- Your feedback should feel natural and helpful, not robotic. Avoid phrasing like "Rule #X says..." unless a specific citation is helpful for clarity.
+- YOUR FEEDBACK MUST BE GROUNDED IN THE PROVIDED GUIDELINES. You are **REQUIRED** to provide a direct quote from the "Optimal Rotation Guidelines" that supports every piece of feedback.
 - However, do **NOT** hallucinate mechanics or spells that are not in the provided guidelines. If the guidelines for ${heroSpec} don't mention a spell, don't penalize the player for not using it.
 
 CRITICAL DATA PRIORITY:
@@ -87,7 +88,8 @@ Provide a JSON object with this exact structure (no markdown fences, just the JS
       "message": "<A brief, actionable critique>",
       "spellName": "<The name of the spell being critiqued, without aura info. e.g. 'Arcane Blast' not 'Arcane Blast (Active Auras: ...)'>",
       "timelineIndex": <the 0-based index from the combat log where this issue occurred, or -1 for overall feedback>,
-      "correctSequence": [<optional array of 2-5 spell names showing what the player SHOULD have cast at this moment, in order. Only include this for errors and warnings where the correct sequence is clear from the guidelines.>]
+      "correctSequence": [<optional array of 2-5 spell names showing what the player SHOULD have cast at this moment, in order. Only include this for errors and warnings where the correct sequence is clear from the guidelines.>],
+      "sourceQuote": "<MANDATORY: The exact text from the Guidelines that justifies this feedback.>"
     }
   ]
 }

@@ -105,7 +105,20 @@ export function Feedback({ analysis, iconMap, onFeedbackClick }: FeedbackProps) 
                                             </span>
                                         )}
                                     </div>
-                                    <span style={{ fontSize: '0.9rem' }}>{fb.message}</span>
+                                    <div style={{ fontSize: '0.9rem', marginBottom: fb.sourceQuote ? '4px' : '0' }}>{fb.message}</div>
+                                    {fb.sourceQuote && (
+                                        <div style={{
+                                            fontSize: '0.75rem',
+                                            color: 'var(--color-text-muted)',
+                                            fontStyle: 'italic',
+                                            paddingLeft: '12px',
+                                            borderLeft: '2px solid var(--color-border)',
+                                            marginTop: '4px',
+                                            marginBottom: '8px',
+                                        }}>
+                                            &quot;{fb.sourceQuote}&quot;
+                                        </div>
+                                    )}
                                     {fb.correctSequence && fb.correctSequence.length > 0 && (
                                         <div style={{ marginTop: '8px', display: 'flex', gap: '4px', flexWrap: 'wrap', alignItems: 'center' }}>
                                             <span style={{ fontSize: '0.7rem', color: 'var(--color-text-muted)' }}>Should be:</span>
