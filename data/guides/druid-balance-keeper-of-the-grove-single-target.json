@@ -3,7 +3,7 @@
   "specSlug": "balance",
   "heroSpec": "Keeper of the Grove",
   "combatType": "Single Target",
-  "scrapedAt": "2026-03-08T03:03:09.317Z",
+  "scrapedAt": "2026-03-08T05:26:23.499Z",
   "priorityList": [
     "--- Icy Veins Rotation (Priority List) ---",
     "Apply and maintain Sunfire and Moonfire.",
@@ -45,6 +45,7 @@
     "Press Incarnation: Chosen of Elune if you just used Force of Nature",
     "Cast Starfire at the start of Incarnation: Chosen of Elune to consume Ascendant Fires -",
     "Enter Solar Eclipse whenever Starlord expires and you have any procs of Starweaver or Touch the Cosmos or you can overlap with Force of Nature -",
+    "Cast Starfall to consume Starweaver's Warp or Touch the Cosmos",
     "Cast Starsurge to prevent capping on Astral Power or to consume Ascendant Eclipses at the start of Solar Eclipse",
     "Cast Wrath to generate Astral Power",
     "Apply Moonfire and refresh within pandemic",

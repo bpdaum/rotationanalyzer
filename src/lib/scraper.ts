@@ -24,6 +24,11 @@ function scrubRules(rules: string[]): string[] {
         if (universalForbidden.some(f => lowerRule.includes(f))) return false;
 
         return true;
+    }).map(rule => {
+        // Fix typos
+        let fixed = rule;
+        fixed = fixed.replace(/Feral Frenzy/g, 'Frantic Frenzy');
+        return fixed;
     });
 }
 
