@@ -1,0 +1,19 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "affliction",
+  "heroSpec": "Soul Harvester",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Agony and Corruption on your target at all times.",
+    "Cast Haunt if you have fewer than 2 stacks of Nightfall.",
+    "Summon Darkglare on cooldown, ideally when you have fewer than 3 Soul Shards.",
+    "Cast Dark Harvest on cooldown.",
+    "Cast Unstable Affliction to spend Soul Shards if Darkglare is active or if you have 2 or more Soul Shards.",
+    "Cast Unstable Affliction if Shard Instability is active or if the Cascading Calamity buff is about to expire.",
+    "Use Drain Soul (or Shadow Bolt) immediately if you reach maximum Nightfall stacks or if the buff is about to expire.",
+    "Use Drain Soul (or Shadow Bolt) as a priority whenever you have more than 1 stack of Nightfall.",
+    "Use Malefic Grasp (if talented) as your primary filler while Darkglare is active.",
+    "Activate offensive Trinkets, Potions, and Racials during your Darkglare window.",
+    "Cast Drain Soul (or Shadow Bolt) as a filler when no other actions are available."
+  ]
+}

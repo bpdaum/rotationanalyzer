@@ -1,0 +1,23 @@
+{
+  "classSlug": "mage",
+  "specSlug": "fire",
+  "heroSpec": "Frostfire",
+  "buildName": "default",
+  "priorityList": [
+    "Pre-cast Arcane Intellect, Mirror Image, and Frostfire Bolt before combat starts.",
+    "Activate Combustion (along with Trinkets and Potions) while finishing a Frostfire Bolt, Pyroblast, or Meteor cast to ensure they crit.",
+    "During Combustion, cast Meteor as early as possible (ideally within the first 6 seconds).",
+    "During Combustion, spend Hot Streak procs on Flamestrike if there are 4 or more targets, otherwise use Pyroblast.",
+    "During Combustion, spend Pyroclasm procs on Flamestrike (4+ targets) or Pyroblast if the cast will finish before Combustion ends.",
+    "During Combustion, use Scorch if Heat Shimmer is active or if the target is below 30% health to generate procs.",
+    "During Combustion, use Frostfire Bolt as your filler to generate Heating Up when no instant procs are available.",
+    "Use Fire Blast off-GCD to convert a Heating Up proc into a Hot Streak, but only if you do not already have a Hot Streak active.",
+    "Outside of Combustion, cast Meteor whenever available if the fight will last long enough for another Combustion.",
+    "Outside of Combustion, spend Hot Streak procs on Flamestrike for 4 or more targets.",
+    "Outside of Combustion, spend Pyroclasm procs on Flamestrike (4+ targets) only if the Combustion cooldown is longer than 12 seconds or you have 2 stacks.",
+    "Use Scorch whenever Heat Shimmer procs to generate Heating Up.",
+    "Use Scorch as your primary filler instead of Frostfire Bolt when the target is below 30% health if talented into Scald.",
+    "Cast Frostfire Bolt as your standard filler to generate Heating Up and Frostfire Empowerment stacks.",
+    "Always prioritize converting Heating Up into Hot Streak immediately if Combustion is active or if you are currently mid-cast."
+  ]
+}

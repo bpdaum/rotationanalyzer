@@ -1,0 +1,25 @@
+{
+  "classSlug": "druid",
+  "specSlug": "feral",
+  "heroSpec": "Wildstalker",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:48:21.093Z",
+  "priorityList": [
+    "Cast Prowl before combat starts.",
+    "Cast Rake from Stealth to trigger Pouncing Strikes.",
+    "Cast Moonfire.",
+    "Cast Shred until you are at 5 Combo Points.",
+    "Cast Berserk & Tiger's Fury in the same GCD.",
+    "Cast Rip.",
+    "Cast Ferocious Bite.",
+    "Cast Convoke the Spirits.",
+    "Cast Ferocious Bite with Apex Predator's Craving procs.",
+    "Cast Rip if it is missing on the target.",
+    "Cast Rip if it is in Pandemic and you have 5 Combo Points.",
+    "Cast Ferocious Bite if you have 4 or more Combo Points, 25 or greater energy, and Rip is active.",
+    "Berserk and Convoke the Spirits with Tiger's Fury, these should be synced.",
+    "Maintain Rake as it is a highly energy efficient spell.",
+    "Maintain Moonfire (if talented) as it is a highly energy efficient spell."
+  ],
+  "buildName": "Wildstalker ST Opener"
+}

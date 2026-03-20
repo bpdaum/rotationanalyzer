@@ -1,0 +1,32 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Master of Harmony",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:09:00.789Z",
+  "priorityList": [
+    "Cast Touch of Death",
+    "Cast Whirling Dragon Punch",
+    "Cast Tiger Palm with: less than 4 Chi, less than 2 stacks of Blackout Kick!, about to cap energy, AND not during Zenith",
+    "Cast Strike of the Windlord",
+    "Cast Fists of Fury",
+    "Cast Rushing Wind Kick",
+    "Cast Spinning Crane Kick with less than 4 seconds remaining on Dance of Chi-Ji, NOT at 2 stacks of Blackout Kick!, and NOT during Zenith",
+    "Cast Rising Sun Kick",
+    "Cast Tiger Palm if any of the above are available and you do not have enough Chi",
+    "Cast Blackout Kick with Blackout Kick! OR Zenith active",
+    "Cast Spinning Crane Kick with a Dance of Chi-Ji proc",
+    "Cast Blackout Kick",
+    "Cast Spinning Crane Kick",
+    "Cast Tiger Palm",
+    "Cast Strike of the Windlord on cooldown.",
+    "Cast Fists of Fury on cooldown.",
+    "Cast Whirling Dragon Punch if available.",
+    "Cast Spinning Crane Kick if Dance of Chi-Ji is active.",
+    "Cast Rising Sun Kick to maintain Whirling Dragon Punch availability.",
+    "Cast Spinning Crane Kick as the primary Chi spender against 3 or more targets.",
+    "Cast Expel Harm to generate Chi and accumulate Coalescence for Aspect of Harmony.",
+    "Cast Tiger Palm to spend Energy and generate Chi when other options are unavailable."
+  ],
+  "buildName": "Revolving Whirl Build"
+}

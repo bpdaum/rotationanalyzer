@@ -1,0 +1,17 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "demonology",
+  "heroSpec": "Diabolist",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:13:38.532Z",
+  "priorityList": [
+    "Pre-cast Power Siphon with 2 Wild Imps out.",
+    "Pre-cast Shadow Bolt.",
+    "Cast Shadow Bolt.",
+    "Cast Shadow Bolt.",
+    "Cast Call Dreadstalkers.",
+    "Cast Summon Demonic Tyrant.",
+    "Focus on casting as many Hand of Gul'dan possible."
+  ],
+  "buildName": "Diabolist Opener"
+}

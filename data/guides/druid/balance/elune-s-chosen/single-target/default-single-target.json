@@ -1,0 +1,25 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Elune's Chosen",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:18:08.659Z",
+  "priorityList": [
+    "Use Warrior of Elune on cooldown.",
+    "Apply and maintain Sunfire, Moonfire, and Stellar Flare (if talented).",
+    "Cast Celestial Alignment if you have just cast Fury of Elune (unless saving to line up with Convoke the Spirits).",
+    "Cast Convoke the Spirits if Celestial Alignment is active and you have less than 40 Astral Power.",
+    "Enter regular Eclipse if not entering cooldowns.",
+    "Cast Fury of Elune if not entering Celestial Alignment.",
+    "Cast Starfire to generate Astral Power (including inside Celestial Alignment due to the Lunar Calling talent).",
+    "Maintain Sunfire and Moonfire at all times.",
+    "Maintain Stellar Flare if talented.",
+    "Cast Fury of Elune on cooldown, ideally when the target will remain stationary.",
+    "Cast New Moon, Half Moon, and Full Moon to generate Astral Power and avoid capping charges.",
+    "Cast Starsurge to spend Astral Power and prevent overcapping.",
+    "Cast Starsurge to maintain the Starlord buff if talented.",
+    "Cast Warrior of Elune to generate Astral Power or for movement.",
+    "Enter Solar Eclipse by casting Starfire."
+  ],
+  "buildName": "Default Single Target"
+}

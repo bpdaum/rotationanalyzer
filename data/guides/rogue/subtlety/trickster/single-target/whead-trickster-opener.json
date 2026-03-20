@@ -1,0 +1,19 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Trickster",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:46:41.100Z",
+  "priorityList": [
+    "Cast Shadowstrike.",
+    "Use Tempered Potion.",
+    "Cast Shadow Dance.",
+    "Cast Shadow Blades.",
+    "Cast Secret Technique.",
+    "Use combo point builders to generate Combo Points",
+    "Use Finishers to consume Combo Points when close to the maximum amount (6 or 7 Combo Points)",
+    "Align all cooldowns to Secret Technique",
+    "Use Shadow Dance"
+  ],
+  "buildName": "Whead Trickster Opener"
+}

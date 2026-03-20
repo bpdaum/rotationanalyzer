@@ -1,0 +1,19 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "destruction",
+  "heroSpec": "Hellcaller",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:16:41.481Z",
+  "priorityList": [
+    "Maintain Wither at all times.",
+    "Cast Summon Infernal.",
+    "Cast Shadowburn whenever available.",
+    "Cast Soul Fire when available if below 4 shards.",
+    "Cast Chaos Bolt if you are about to cap Soul Shards.",
+    "Cast Channel Demonfire whenever available.",
+    "Cast Conflagrate if you have 2 charges, possibly to hasten a long cast such as Chaos Bolt.",
+    "Cast Conflagrate to generate Soul Shards.",
+    "Cast Incinerate to generate Soul Shards."
+  ],
+  "buildName": "Hellcaller Single Target"
+}

@@ -1,0 +1,19 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "augmentation",
+  "heroSpec": "Scalecommander",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:07:58.425Z",
+  "priorityList": [
+    "Cast Blistering Scales on the main tank",
+    "Cast Living Flame at 1.5s",
+    "Cast Ebon Might",
+    "Cast Prescience",
+    "Cast Prescience",
+    "Use Mastery Trinkets before Breath",
+    "Cast Breath",
+    "Use Trinkets",
+    "Cast Fire Breath"
+  ],
+  "buildName": "Whead Scalecommander Opener"
+}

@@ -1,0 +1,21 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "marksmanship",
+  "heroSpec": "Sentinel",
+  "buildName": "default",
+  "priorityList": [
+    "Summon your pet if you have the Unbreakable Bond talent.",
+    "Cast Aimed Shot as your primary opener before entering combat.",
+    "Use Volley on cooldown to trigger Sentinel's Symphony and other hero talent effects.",
+    "Use Trueshot on cooldown, ideally immediately following a Volley cast.",
+    "Activate offensive Racials (like Berserking or Blood Fury) and on-use Trinkets while Trueshot is active.",
+    "Use your Combat Potion during Trueshot, especially if Bloodlust is active or the fight is ending.",
+    "Cast Rapid Fire if the Unload talent is active and the target is below 20% health or you have low stacks of Bulletstorm.",
+    "Cast Arcane Shot to spend Precise Shots procs.",
+    "Cast Aimed Shot if you are about to cap at 2 charges or if the target has Sentinel's Mark applied.",
+    "Avoid casting Aimed Shot if Volley is coming off cooldown in less than 2 seconds, unless Trueshot is active.",
+    "Cast Moonlight Chakram on cooldown.",
+    "Cast Rapid Fire on cooldown to generate Focus.",
+    "Cast Steady Shot as a filler when you have no other available abilities and need to generate Focus."
+  ]
+}

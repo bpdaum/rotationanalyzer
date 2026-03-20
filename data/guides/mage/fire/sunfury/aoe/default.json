@@ -1,0 +1,22 @@
+{
+  "classSlug": "mage",
+  "specSlug": "fire",
+  "heroSpec": "Sunfury",
+  "buildName": "default",
+  "priorityList": [
+    "Keep Arcane Intellect active and cast Mirror Image before entering combat.",
+    "Activate Combustion while finishing a cast (Scorch, Fireball, or Flamestrike) or immediately after a Meteor lands.",
+    "Use offensive Trinkets, Racials, and Potions while Combustion is active, ideally with more than 6 seconds remaining.",
+    "Cast Meteor during Combustion if it has at least 2 seconds remaining, or when Combustion is about to become available to trigger Sunfury effects.",
+    "Spend Hot Streak procs on Flamestrike if there are 4 or more targets (3 or more outside of Combustion) and you have the Fuel the Fire talent.",
+    "Spend Hot Streak procs on Pyroblast if you are against fewer than 4 targets or Fuel the Fire is not talented.",
+    "During Hyperthermia procs, spam Flamestrike if 4 or more targets are present, otherwise spam Pyroblast.",
+    "Use Pyroclasm procs on Flamestrike (4+ targets) or Pyroblast if Combustion has more than 12 seconds remaining on cooldown or you have 2 stacks.",
+    "Use Fire Blast to convert Heating Up into a Hot Streak while mid-cast of another spell.",
+    "Do not use Fire Blast if you already have a Hot Streak proc ready or if you are currently casting a spell that will consume the Heating Up.",
+    "Use Scorch as your primary filler during Combustion to maximize ignite and generate procs.",
+    "Use Scorch as your filler outside of Combustion if the target is below 30% health or if Heat Shimmer procs.",
+    "Use Scorch as your filler in AoE (4+ targets) even when above 30% health to benefit from Sunfury mechanics.",
+    "Cast Fireball as your default filler when targets are above 30% health and no other procs or priorities are active."
+  ]
+}

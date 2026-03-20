@@ -1,0 +1,17 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Dark Ranger",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:32:02.277Z",
+  "priorityList": [
+    "Ensure Hunter's Mark is active on the target from you or another Hunter in the group!",
+    "Kill Command.",
+    "Kill Command.",
+    "Use Kill Command as much as possible in any given fight to generate Focus",
+    "Avoid using Kill Command too aggressively to prevent wasting Focus",
+    "Use two abilities between each use of Kill Command",
+    "Keep Wildfire Bomb on cooldown, especially in AoE"
+  ],
+  "buildName": "Whead Pack Leader AoE Opener (Twin Fangs On)"
+}

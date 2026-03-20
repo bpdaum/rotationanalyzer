@@ -1,0 +1,21 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Annihilator",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T04:05:39.008Z",
+  "priorityList": [
+    "Cast Cull with 4 or more Soul Fragments for priority damage",
+    "Cast Devour",
+    "Cast Cull",
+    "Cast Hungering Slash",
+    "Cast Vengeful Retreat",
+    "Cast The Hunt",
+    "Cast Reaper",
+    "Cast Predator",
+    "Cast Pierce",
+    "Cast Devour",
+    "Use Trinkets"
+  ],
+  "buildName": "Annihilator Build"
+}

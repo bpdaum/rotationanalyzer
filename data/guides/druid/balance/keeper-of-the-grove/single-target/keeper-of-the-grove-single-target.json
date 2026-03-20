@@ -1,0 +1,23 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Keeper of the Grove",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T04:11:16.764Z",
+  "priorityList": [
+    "Apply Sunfire and Apply Moonfire",
+    "Use Force outside of Eclipse if your next ability is Cast Celestial Alignment",
+    "Cast Celestial Alignment if you have just cast Force unless saving to line up with Convoke",
+    "Cast Wrath to spend Dream Surge unless you will cap on Astral Power",
+    "Cast Convoke if you have cast Force and Cast Celestial Alignment and have less than 40 Astral Power",
+    "Enter Solar Eclipse or Enter Lunar Eclipse appropriate to target count by ending Cast Celestial Alignment with that filler",
+    "Press Force on cooldown",
+    "Spend Dream Surge using Cast Wrath unless you will cap on Astral Power",
+    "Cast Starsurge to spend Astral Power",
+    "Cast Wrath to generate Astral Power",
+    "Apply Moonfire and Apply Sunfire for substantial damage gain",
+    "Enter Solar Eclipse by casting Wrath",
+    "Overlap Eclipse with Press Force"
+  ],
+  "buildName": "Keeper of the Grove Single Target"
+}

@@ -1,0 +1,30 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Keeper of the Grove",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:15:08.375Z",
+  "priorityList": [
+    "Cast two Wraths at 2 seconds on the pull-timer.",
+    "Apply and maintain Sunfire and Moonfire.",
+    "Use any on-use trinkets and potions.",
+    "Cast Celestial Alignment.",
+    "Dump Astral Power on Starsurge if using Convoke the Spirits.",
+    "Cast Force of Nature.",
+    "Cast Convoke the Spirits.",
+    "Spend any remaining Dream Surge by casting Wrath.",
+    "Cast Starsurge until out of Astral Power and resume regular rotation.",
+    "Cast Force of Nature on cooldown to summon Treants and trigger Cenarius' Might.",
+    "Maintain Sunfire on the target.",
+    "Maintain Moonfire on the target.",
+    "Maintain Stellar Flare on the target.",
+    "Cast Celestial Alignment or Incarnation: Chosen of Elune on cooldown.",
+    "Cast Convoke the Spirits, ideally while Celestial Alignment or Incarnation is active.",
+    "Cast Fury of Elune on cooldown.",
+    "Cast Starsurge to prevent Astral Power from capping.",
+    "Cast Starsurge to maintain three stacks of Starlord if talented.",
+    "Cast Starfire twice to enter Solar Eclipse.",
+    "Cast Wrath as your primary filler spell while in Solar Eclipse."
+  ],
+  "buildName": "Keeper of the Grove Single Target Opener"
+}

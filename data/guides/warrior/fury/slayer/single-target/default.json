@@ -1,0 +1,22 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "fury",
+  "heroSpec": "Slayer",
+  "buildName": "default",
+  "priorityList": [
+    "Use Recklessness and Avatar on cooldown, ideally synced together.",
+    "Use On-Use Trinkets and combat Racials (like Berserking) while Recklessness is active.",
+    "Cast Rampage if Enrage has expired (or is about to) or if you are about to cap Rage (100+).",
+    "Cast Bladestorm while Enraged, ideally while Recklessness is active.",
+    "Cast Odyn's Fury on cooldown.",
+    "Cast Bloodbath (Enraged Bloodthirst) on cooldown.",
+    "Cast Rampage while Recklessness is active to maximize Rage spending during the buff.",
+    "Cast Execute whenever available, including Sudden Death procs or when the target is in Execute range (below 35% or 20% health).",
+    "Cast Crushing Blow (Enraged Raging Blow) on cooldown.",
+    "Cast Bloodthirst to generate Rage and maintain Enrage uptime.",
+    "Cast Rampage as your primary Rage spender.",
+    "Refresh Rend if the debuff has less than 6 seconds remaining.",
+    "Cast Raging Blow if you have charges available and no higher priority moves.",
+    "Use Whirlwind as a filler if no other abilities are available."
+  ]
+}

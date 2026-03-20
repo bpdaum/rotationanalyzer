@@ -1,0 +1,13 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Colossus",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:24:33.579Z",
+  "priorityList": [
+    "Colossus Smash",
+    "Mortal Strike",
+    "Sudden Death procs"
+  ],
+  "buildName": "Single-Target Rotation"
+}

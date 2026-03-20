@@ -1,0 +1,16 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Shado-Pan",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:05:31.329Z",
+  "priorityList": [
+    "Cast Tiger Palm",
+    "Channel Algeth with Puzzle Box if equipped",
+    "Cast Fists",
+    "Cast Rising Sun Kick",
+    "Cast Fists if Rising Sun Kick rest its cooldown",
+    "Cast Whirling Dragon Punch"
+  ],
+  "buildName": "Shado-Pan Opener"
+}

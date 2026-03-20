@@ -1,0 +1,20 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "assassination",
+  "heroSpec": "Fatebound",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:30:56.141Z",
+  "priorityList": [
+    "Maintain Garrote",
+    "Use Garrote from Vanish when possible (before every Deathmark)",
+    "Maintain Rupture with 5+ Combo Points",
+    "Activate Deathmark when available",
+    "Use Kingsbane on cooldown",
+    "Sync Kingsbane with Deathmark",
+    "Cast Envenom with 5+ Combo Points",
+    "Cast Ambush to generate Combo Points whenever it is usable",
+    "Cast Mutilate to generate Combo Points",
+    "Use Thistle Tea alongside Kingsbane"
+  ],
+  "buildName": "Fatebound Single Target Ability Priority List"
+}

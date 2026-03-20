@@ -1,0 +1,16 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "affliction",
+  "heroSpec": "Hellcaller",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T06:09:51.036Z",
+  "priorityList": [
+    "Maintain Agony and Wither. If there are 3+ targets stacked together, use Seed of Corruption to apply and maintain Wither.",
+    "Cast Haunt whenever available on the primary target.",
+    "Cast Malevolence on cooldown.",
+    "Cast Seed of Corruption if already at 5 Soul Shards to avoid capping.",
+    "Cast Drain Soul as a filler.",
+    "Cast Shadow Bolt as a filler."
+  ],
+  "buildName": "Hellcaller AoE"
+}

@@ -1,0 +1,28 @@
+{
+  "classSlug": "mage",
+  "specSlug": "frost",
+  "heroSpec": "Frostfire",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:57:32.003Z",
+  "priorityList": [
+    "Pre-cast Blizzard at 2 seconds on the countdown",
+    "Cast Flurry to start the cooldown",
+    "Activate Time Warp if popping on pull",
+    "Cast Glacial Spike",
+    "Cast Flurry again",
+    "Cast Frozen Orb",
+    "Cast Comet Storm",
+    "Cast Blizzard if Freezing Rain is active",
+    "Cast Flurry with Brain Freeze",
+    "Cast Flurry with Brain Freeze if Thermal Void is not already active",
+    "Cast Frozen Orb",
+    "Cast Glacial Spike",
+    "Cast Comet Storm",
+    "Cast Blizzard",
+    "Cast Ice Lance",
+    "Cast Flurry if you have a charge available but no Brain Freeze",
+    "Cast Frostfire Bolt if you have Frostfire Empowerment active",
+    "Cast Frostfire Bolt"
+  ],
+  "buildName": "Frostfire AoE"
+}

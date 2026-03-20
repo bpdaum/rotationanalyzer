@@ -1,0 +1,26 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Elune's Chosen",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:20:25.389Z",
+  "priorityList": [
+    "Cast two Wraths with 2 seconds remaining on the pull-timer.",
+    "Apply and maintain Sunfire and Moonfire.",
+    "Use any on-use trinkets and potions.",
+    "Cast Fury of Elune before Celestial Alignment.",
+    "Cast Celestial Alignment.",
+    "Spend Astral Power.",
+    "Use Starfire to generate Astral Power.",
+    "Proceed with standard multi-target rotation.",
+    "Maintain Starfall uptime without overcapping Astral Power",
+    "Cast Fury of Elune on cooldown, ideally when targets will remain inside the beam for its full duration",
+    "Apply and maintain Sunfire on all targets",
+    "Apply and maintain Moonfire on all targets",
+    "Cast New Moon, Half Moon, and Full Moon on cooldown to generate Astral Power",
+    "Cast Starfire as your primary filler during Lunar Eclipse to benefit from Lunar Calling and Umbral Inspiration",
+    "Use Warrior of Elune charges on Starfire for instant-cast damage and resource generation",
+    "Cast Wrath only if Lunar Eclipse is unavailable or if forced to move without Starfall active"
+  ],
+  "buildName": "Multi-Target Opening Sequence"
+}

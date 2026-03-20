@@ -1,0 +1,23 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Deathstalker",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain poisons and enter Stealth before starting combat.",
+    "Activate Shadow Blades when Shadow Dance and Secret Technique are both ready to be used.",
+    "Activate Shadow Dance if you are out of Stealth, have low combo points, and either Secret Technique is ready or Darkest Night is active.",
+    "Use Vanish to generate combo points and enter Stealth if you have 1 or fewer combo points and 50+ energy.",
+    "Cast Secret Technique as your highest priority finisher during Shadow Dance or if its cooldown is nearly finished.",
+    "Use Shadowstrike to consume the Darkest Night buff if you have 5+ stacks of Shadow Techniques and Secret Technique is not ready.",
+    "Cast Eviscerate as a finisher if the Darkest Night buff is active.",
+    "Use Coup de Grace as a finisher if Secret Technique is on cooldown or Shadow Dance is active.",
+    "Spend combo points on Eviscerate if Secret Technique and Coup de Grace are both unavailable.",
+    "Use finishers only when at 6 or more combo points (wait for 7 combo points if Darkest Night is active).",
+    "Use Shadowstrike to apply Deathstalker's Mark if the debuff is missing from your target.",
+    "Use Shadowstrike as your primary builder while in Stealth or Shadow Dance.",
+    "Use Goremaw's Bite if you have a deficit of 3 or more combo points.",
+    "Use Gloomblade (or Backstab) as your builder when not in Stealth or Shadow Dance and energy is above 60.",
+    "Sync offensive racials and on-use trinkets with your Shadow Blades burst window."
+  ]
+}

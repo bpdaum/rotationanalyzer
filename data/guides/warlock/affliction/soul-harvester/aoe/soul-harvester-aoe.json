@@ -1,0 +1,22 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "affliction",
+  "heroSpec": "Soul Harvester",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:53:06.921Z",
+  "priorityList": [
+    "Maintain Agony and Corruption on all targets (use Seed of Corruption to apply and maintain Corruption if 3+ targets are stacked together).",
+    "Cast Haunt whenever available on the primary target.",
+    "Cast Seed of Corruption if at 5 Soul Shards to avoid capping.",
+    "Cast Drain Soul as a filler.",
+    "Cast Vile Taint to apply Agony and Corruption to all targets in the pack.",
+    "Cast Soul Rot on cooldown to trigger Soul Harvester hero traits and apply Soul Anathema.",
+    "Cast Phantom Singularity on the primary target.",
+    "Cast Summon Darkglare to extend the duration of active damage-over-time effects.",
+    "Cast Malefic Rapture to spend Soul Shards and trigger Shared Fate procs on affected targets.",
+    "Cast Seed of Corruption if Corruption needs to be refreshed on the pack or as a shard spender when Malefic Rapture is less efficient.",
+    "Maintain Unstable Affliction on the highest priority target for Soul Shard generation via Nightfall.",
+    "Use Drain Soul as a filler and to generate Soul Shards by sniping dying targets."
+  ],
+  "buildName": "Soul Harvester AoE"
+}

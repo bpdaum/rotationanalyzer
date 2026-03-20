@@ -1,0 +1,18 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Sentinel",
+  "buildName": "default",
+  "priorityList": [
+    "Cast Bestial Wrath on cooldown, ideally paired with offensive Trinkets, Potions, and Racials.",
+    "Sync offensive Trinkets, Potions, and Racials (like Berserking or Blood Fury) with your Bestial Wrath windows.",
+    "Cast Barbed Shot if Bestial Wrath's cooldown is less than 1.5 seconds to maximize its cooldown reduction.",
+    "Cast Wild Thrash on cooldown to maximize Sentinel hero talent value.",
+    "Cast Kill Command as your primary priority for damage and Kill Cleave, prioritizing it even more if Nature's Ally (Sentinel Owl) or Apex Predator is active.",
+    "Cast Wailing Arrow during Bestial Wrath or if the target is nearly dead.",
+    "Cast Barbed Shot to maintain 3 stacks of Frenzy on your pet or to prevent capping at 2 charges.",
+    "Cast Cobra Shot if the Hogstrider buff is active and you are fighting 2 or 3 targets.",
+    "Cast Cobra Shot as a filler whenever Kill Command and Wild Thrash are on cooldown.",
+    "Use any available utility or remaining combat trinkets on cooldown."
+  ]
+}

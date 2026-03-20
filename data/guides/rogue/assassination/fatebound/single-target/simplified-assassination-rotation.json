@@ -1,0 +1,18 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "assassination",
+  "heroSpec": "Fatebound",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:30:56.143Z",
+  "priorityList": [
+    "Use Mutilate as your single-target builder",
+    "Use Envenom as your single-target spender",
+    "Maintain Rupture and Garrote at all times",
+    "Use Kingsbane and Deathmark on cooldown",
+    "Apply Vanish-empowered Garrote before using Deathmark",
+    "Use Thistle Tea alongside Kingsbane to avoid overcapping charges",
+    "Think about what button is most efficient at a given time, rather than forcing yourself to cast something every time its possible.",
+    "Assassination in Single Target plays around a priority list, but these can be broken down slightly more conceptually than other specs which have hard rules for each button."
+  ],
+  "buildName": "Simplified Assassination Rotation"
+}

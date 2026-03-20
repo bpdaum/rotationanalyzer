@@ -1,0 +1,22 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Flameshaper",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:29:55.644Z",
+  "priorityList": [
+    "Cast Dragonrage on cooldown.",
+    "Cast Fire Breath at Empower level 1 to maximize the damage of Consume Flame.",
+    "Cast Pyre on 3 or more targets, switching to Disintegrate if the pack is 2 targets or less.",
+    "Cast Living Flame at least once between every Fire Breath cast to consume Leaping Flames.",
+    "Cast Eternity Surge when no other higher priority abilities are available.",
+    "Cast Fire Breath at Rank 1 to apply its Damage over Time effect for Engulf and Enkindle.",
+    "Use Engulf on targets affected by Fire Breath to trigger Consume Flame and maximize damage throughput.",
+    "Cast Eternity Surge at a Rank corresponding to the number of active targets.",
+    "Activate Dragonrage on cooldown to ensure maximum Essence Burst generation.",
+    "Spend Essence and Essence Burst procs on Pyre for primary AoE damage.",
+    "Use Azure Strike as your filler spell to generate Essence Burst procs when Essence is low.",
+    "Use Deep Breath as a high-damage burst cooldown or for repositioning."
+  ],
+  "buildName": "Default Flameshaper AoE"
+}

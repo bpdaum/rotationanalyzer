@@ -1,0 +1,19 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "assassination",
+  "heroSpec": "Deathstalker",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:27:01.682Z",
+  "priorityList": [
+    "Use Garrote",
+    "Maintain Garrote, casted from Vanish when possible (before every Deathmark)",
+    "Maintain Rupture with 5+ Combo Points",
+    "Activate Deathmark when available",
+    "Use Kingsbane on cooldown. Make sure to sync it with Deathmark",
+    "Cast Envenom with 5+ Combo Points. Cast it with 7 Combo Points when Darkest Night is active",
+    "Cast Ambush to generate Combo Points whenever it is usable",
+    "Cast Mutilate to generate Combo Points",
+    "Use Thistle Tea alongside Kingsbane"
+  ],
+  "buildName": "Whead Deathstalker Rotation"
+}

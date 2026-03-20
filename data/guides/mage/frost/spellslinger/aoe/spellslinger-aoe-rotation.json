@@ -1,0 +1,23 @@
+{
+  "classSlug": "mage",
+  "specSlug": "frost",
+  "heroSpec": "Spellslinger",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:52:07.543Z",
+  "priorityList": [
+    "Cast Blizzard",
+    "Cast Flurry",
+    "Cast Frozen Orb",
+    "Cast Comet Storm",
+    "Cast Blizzard if Freezing Rain is active",
+    "Cast Flurry with Brain Freeze",
+    "Cast Flurry with Brain Freeze if Thermal Void is not already active",
+    "Cast Ice Lance if you have two Fingers of Frost",
+    "Cast Frozen Orb",
+    "Cast Glacial Spike when available",
+    "Cast Ice Lance whenever you are above 6 Freezing on target, or you have Fingers of Frost",
+    "Cast Flurry",
+    "Cast Blizzard if you are fighting 7 or more enemies"
+  ],
+  "buildName": "Spellslinger AoE Rotation"
+}

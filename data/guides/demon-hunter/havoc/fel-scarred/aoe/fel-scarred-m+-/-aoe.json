@@ -1,0 +1,23 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "havoc",
+  "heroSpec": "Fel-Scarred",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:28:01.369Z",
+  "priorityList": [
+    "Cast Felblade with Inertia ready (Notes If Felblade isn't available, use Fel Rush instead)",
+    "Cast The Hunt",
+    "Cast Death Sweep",
+    "Cast Immolation Aura if at 2 charges",
+    "Cast Vengeful Retreat to trigger Initiative (Notes Always try to align this with Eye Beam)",
+    "Cast Eye Beam / Abyssal Gaze (Notes Make sure you've consumed any Annihilation and Death Sweep procs)",
+    "Cast Essence Break while in Metamorphosis (Notes Aim to fill these 4 seconds with Death Sweep and Annihilation casts)",
+    "Cast Metamorphosis with Eye Beam, Immolation Aura and Death Sweep on cooldown",
+    "Cast Blade Dance",
+    "Cast Immolation Aura / Consuming Fire",
+    "Cast Annihilation / Chaos Strike",
+    "Cast Felblade",
+    "Cast Fel Rush with nothing else available"
+  ],
+  "buildName": "Fel-Scarred M+ / AoE"
+}

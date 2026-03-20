@@ -1,0 +1,31 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "augmentation",
+  "heroSpec": "Chronowarden",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:31:36.311Z",
+  "priorityList": [
+    "Cast Ebon Might if it has 4 or less seconds remaining on its duration.",
+    "Cast Breath of Eons on cooldown.",
+    "Cast Prescience on cooldown.",
+    "Cast Fire Breath at Rank 1.",
+    "Cast Tip the Scales on Cooldown.",
+    "Cast Upheaval on Cooldown.",
+    "Cancel the Tip the Scales Buff if you do not have Upheaval available within the next GCD to maximise uptime of Temporal Burst.",
+    "Cast Hover if you need to move.",
+    "Cast Eruption if Ebon Might is up or you have two Essence Burst.",
+    "Cast Blistering Scales if it not currently active on any tank.",
+    "Cast Chrono Flame.",
+    "Cast Azure Strike for Movement if you do not have any charges of Hover remaining.",
+    "Maintain Prescience on two damage-dealing allies at all times.",
+    "Keep Blistering Scales active on the tank or yourself to benefit from increased armor.",
+    "Cast Ebon Might whenever it is off cooldown to maintain high uptime on the buff.",
+    "Cast Breath of Eons during major group cooldown windows to maximize damage accumulation.",
+    "Use Tip the Scales with Upheaval during the Breath of Eons window to maximize Ebon Might extension.",
+    "Cast Fire Breath at Rank 1 to apply its damage-over-time effect without excessive charging.",
+    "Cast Upheaval on cooldown to extend Ebon Might and trigger Chronowarden's Reverberations.",
+    "Cast Eruption to spend Essence and Essence Burst procs, prioritizing the extension of Ebon Might.",
+    "Cast Living Flame as a filler to generate Essence Bursts and reduce cooldowns via Golden Opportunity."
+  ],
+  "buildName": "Chronowarden M+, Delve and Open World"
+}

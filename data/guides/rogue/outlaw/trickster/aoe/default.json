@@ -1,0 +1,23 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Trickster",
+  "buildName": "default",
+  "priorityList": [
+    "Keep Instant Poison applied and maintain Slice and Dice at all times.",
+    "Maintain Blade Flurry whenever 2 or more targets are present.",
+    "Cast Roll the Bones if no buffs are active or if you only have one buff.",
+    "Cast Adrenaline Rush on cooldown, ideally when not at maximum Combo Points.",
+    "Cast Keep It Rolling if you have 2 or more Roll the Bones buffs active.",
+    "Use Finishers (Between the Eyes, Coup de Grace, Dispatch) when at 6 or more Combo Points.",
+    "Cast Between the Eyes as your priority finisher to maintain its critical strike buff.",
+    "Cast Coup de Grace as a priority finisher if Disorienting Strikes is active.",
+    "Cast Killing Spree as a finisher at 6 or more Combo Points.",
+    "Cast Dispatch as a filler finisher if no other finishers are required.",
+    "Cast Blade Rush on cooldown to maintain Energy flow and deal AoE damage.",
+    "Cast Ambush whenever Hidden Opportunity and Audacity procs are active.",
+    "Cast Pistol Shot when Opportunity is active, especially if at high Fan the Hammer stacks or to build Combo Points.",
+    "Use Vanish to proc Hidden Opportunity when you do not have Audacity or Opportunity buffs available.",
+    "Use Sinister Strike as your primary builder when no other procs or builders are available."
+  ]
+}

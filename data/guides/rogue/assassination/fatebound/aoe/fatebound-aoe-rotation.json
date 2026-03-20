@@ -1,0 +1,17 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "assassination",
+  "heroSpec": "Fatebound",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:32:37.176Z",
+  "priorityList": [
+    "Maintain Garrote and Rupture on all targets by using Crimson Tempest as your AoE builder",
+    "Use Crimson Tempest as your AoE builder to spread bleeds, or Cast Fan instead if all targets have bleeds already",
+    "Activate Deathmark when available",
+    "Use Kingsbane on cooldown and sync it with Deathmark if it is ready",
+    "Use Vanish to re-apply Garrote buffed by Improved Garrote if initial DoTs are close to running out and the pack will live for another 20+ seconds",
+    "Cast Envenom with 5+ Combo Points",
+    "Use Thistle Tea alongside Kingsbane"
+  ],
+  "buildName": "Fatebound AoE Rotation"
+}

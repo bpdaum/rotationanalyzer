@@ -1,0 +1,21 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "destruction",
+  "heroSpec": "Hellcaller",
+  "buildName": "default",
+  "priorityList": [
+    "Summon Infernal on cooldown for major damage and resource generation.",
+    "Cast Malevolence during Summon Infernal or when facing high-priority AoE windows.",
+    "Cast Rain of Fire as your primary Soul Shard spender when facing 4 or more enemies.",
+    "Cast Ruination immediately whenever it becomes available.",
+    "Cast Cataclysm to apply and spread Wither to all targets in the pack.",
+    "Use Shadowburn if Malevolence is active, Fiendish Cruelty is procced, or the target is below 20% health.",
+    "Apply Havoc to a high-health secondary target when facing 2-3 enemies to cleave your spells.",
+    "Cast Chaos Bolt as your Soul Shard spender if there are 3 or fewer enemies.",
+    "Cast Soul Fire if you have fewer than 4 Soul Shards and the target is not about to die.",
+    "Maintain Wither on all targets; manually refresh it if Cataclysm is on cooldown and the target will survive at least 8 seconds.",
+    "Cast Conflagrate if you have fewer than 2 stacks of Backdraft to generate shards and speed up casts.",
+    "Use Channel Demonfire on cooldown if the primary target is afflicted by Wither or Immolate.",
+    "Cast Incinerate as your filler to generate Soul Shards when no other priority actions are available."
+  ]
+}

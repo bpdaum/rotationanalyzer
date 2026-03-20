@@ -1,0 +1,23 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "fury",
+  "heroSpec": "Slayer",
+  "buildName": "default",
+  "priorityList": [
+    "Cast Whirlwind if the Improved Whirlwind cleave buff is missing.",
+    "Use Recklessness and Avatar on cooldown, ideally together.",
+    "Cast Rampage if Enrage is about to expire or you are near Rage cap (110+ Rage).",
+    "Cast Bladestorm while Enraged, specifically when Recklessness is active.",
+    "Cast Odyn's Fury on cooldown.",
+    "Cast Bloodbath (Enraged Bloodthirst) as your primary builder.",
+    "Cast Execute whenever Sudden Death procs.",
+    "Cast Rampage while Recklessness is active to maximize Rage spend.",
+    "Cast Whirlwind while Recklessness is active as a high-priority filler.",
+    "Cast Crushing Blow (Enraged Raging Blow).",
+    "Cast Bloodthirst to generate Rage or refresh Enrage.",
+    "Maintain Rend on your primary target if it has less than 6 seconds remaining.",
+    "Cast Execute on targets below 20% (or 35% with Massacre).",
+    "Cast Rampage to spend remaining Rage.",
+    "Cast Whirlwind as a general filler to maintain cleave or generate Rage."
+  ]
+}

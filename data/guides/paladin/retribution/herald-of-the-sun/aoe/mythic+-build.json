@@ -1,0 +1,28 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "retribution",
+  "heroSpec": "Herald of the Sun",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:16:17.062Z",
+  "priorityList": [
+    "Cast Avenging Wrath (if Radiant Glory is not talented)",
+    "Cast Divine Storm if you have 5 Holy Power",
+    "Cast Wake of Ashes",
+    "Cast Divine Toll",
+    "Cast Blade of Justice with an Art of War proc",
+    "Cast Divine Storm",
+    "Cast Hammer of Wrath",
+    "Cast Blade of Justice",
+    "Cast Judgment",
+    "Cast Templar Strikes or Templar Slash (if talented)",
+    "Cast Crusader Strike (if neither Templar Strikes nor Crusading Strikes are talented)",
+    "Cast Wake of Ashes if you have 2 or fewer Holy Power to generate resources and apply Dawnlight.",
+    "Cast Divine Storm if you have 5 Holy Power or an active Empyrean Armor proc.",
+    "Cast Divine Toll on cooldown to generate Holy Power and apply Greater Judgment to multiple targets.",
+    "Cast Hammer of Wrath whenever available to generate Holy Power.",
+    "Cast Templar Strikes (first and second strikes) to generate Holy Power.",
+    "Cast Judgment to generate Holy Power and apply the Mastery: Highlord's Judgment debuff.",
+    "Cast Divine Storm at 3 or 4 Holy Power if no other Holy Power generators are available."
+  ],
+  "buildName": "Mythic+ Build"
+}

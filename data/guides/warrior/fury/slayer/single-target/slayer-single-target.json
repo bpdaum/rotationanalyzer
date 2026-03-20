@@ -1,0 +1,12 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "fury",
+  "heroSpec": "Slayer",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:32:59.422Z",
+  "priorityList": [
+    "Crushing Blow during Recklessness",
+    "Raging Blow"
+  ],
+  "buildName": "Slayer Single Target"
+}

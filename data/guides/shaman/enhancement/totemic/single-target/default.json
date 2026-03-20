@@ -1,0 +1,23 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "enhancement",
+  "heroSpec": "Totemic",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Windfury Weapon, Flametongue Weapon, and Lightning Shield buffs.",
+    "Cast Voltaic Blaze or Flame Shock if the Flame Shock DoT is not active on the target.",
+    "Cast Surging Totem on cooldown and ensure it remains active.",
+    "Cast Sundering if the Whirling Earth buff is active or to trigger Surging Elements.",
+    "Cast Lava Lash if the Whirling Fire or Hot Hand buffs are active.",
+    "Use Doom Winds on cooldown.",
+    "Cast Primordial Storm at 10 stacks of Maelstrom Weapon (or at 5+ stacks if the buff is expiring).",
+    "Cast Ascendance on cooldown.",
+    "Cast Windstrike while Ascendance is active.",
+    "Cast Crash Lightning or Stormstrike while Doom Winds or Ascendance is active to trigger Thorim's Invocation.",
+    "Cast Lightning Bolt if you have 10 stacks of Maelstrom Weapon.",
+    "Cast Crash Lightning if its buff is not active.",
+    "Cast Lava Lash as your primary filler.",
+    "Cast Stormstrike as your secondary filler.",
+    "Cast Lightning Bolt if you have 5 or more stacks of Maelstrom Weapon."
+  ]
+}

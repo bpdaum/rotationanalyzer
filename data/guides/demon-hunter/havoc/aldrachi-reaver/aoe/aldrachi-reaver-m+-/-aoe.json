@@ -1,0 +1,24 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "havoc",
+  "heroSpec": "Aldrachi Reaver",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:24:39.473Z",
+  "priorityList": [
+    "Cast Reaver's Glaive if you have no active Reaver's Mark. Follow this up with Chaos Strike / Annihilation to apply it.",
+    "Cast The Hunt. Make sure you've spent any active Reaver's Glaive procs before casting.",
+    "Cast Chaos Strike / Annihilation if both Reaver's Glaive buffs are active.",
+    "Cast Death Sweep.",
+    "Cast Immolation Aura if at 2 charges.",
+    "Cast Vengeful Retreat to trigger Initiative. Always try to align this with Eye Beam.",
+    "Cast Eye Beam.",
+    "Cast Metamorphosis with Eye Beam and Death Sweep on cooldown.",
+    "Cast Blade Dance.",
+    "Cast Reaver's Glaive. Only cast this if Glaive Flurry and Rending Strike are not active.",
+    "Cast Annihilation / Chaos Strike.",
+    "Cast Immolation Aura.",
+    "Cast Felblade.",
+    "Cast Fel Rush with nothing else available."
+  ],
+  "buildName": "Aldrachi Reaver M+ / AoE"
+}

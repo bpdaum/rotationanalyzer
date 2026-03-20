@@ -1,0 +1,16 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Pack Leader",
+  "buildName": "default",
+  "priorityList": [
+    "Summon your pet and use any long-duration stat-enhancing trinkets before combat begins.",
+    "Cast Bestial Wrath on cooldown.",
+    "Cast Barbed Shot if Bestial Wrath has less than 1.5 seconds remaining on its cooldown to maximize the cooldown reduction from the Wild Instincts talent.",
+    "Activate offensive trinkets, racial abilities, and potions specifically during the Bestial Wrath window.",
+    "Prioritize Kill Command as your primary attack, especially when the Pack Leader's Nature's Ally buff is active or Howl is ready.",
+    "Use Barbed Shot to maintain 3 stacks of Frenzy on your pet at all times.",
+    "Cast Barbed Shot if the ability is about to reach 2 full charges to prevent wasting cooldown time.",
+    "Cast Cobra Shot as a filler only when Kill Command is on cooldown and you have enough Focus to avoid capping."
+  ]
+}

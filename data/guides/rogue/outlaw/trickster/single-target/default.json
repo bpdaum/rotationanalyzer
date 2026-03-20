@@ -1,0 +1,23 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Trickster",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Roll the Bones buffs; reroll if only one buff is active.",
+    "Cast Adrenaline Rush on cooldown to maximize uptime.",
+    "Use Keep It Rolling if you have 2 or more Roll the Bones buffs active.",
+    "Spend Combo Points on finishers when at 5 or 6 Combo Points (1 below maximum).",
+    "Use Dispatch as a finisher if Slice and Dice is not active.",
+    "Use Between the Eyes on cooldown as your priority finisher.",
+    "Use Killing Spree as a finisher.",
+    "Use Coup de Grace as a finisher, or as a builder if the Disorienting Strikes buff is active.",
+    "Use Dispatch as your default filler finisher.",
+    "Use Vanish to access Ambush if you lack Audacity or Opportunity procs.",
+    "Use Ambush as your primary builder when Audacity is active or when in Stealth/Vanish.",
+    "Use Blade Rush on cooldown for damage and energy generation.",
+    "Use Pistol Shot only with an Opportunity proc, prioritizing it at max stacks or to avoid overcapping Combo Points.",
+    "Use Sinister Strike as your default builder when no other procs are available.",
+    "Use offensive trinkets and racial abilities, ideally while Between the Eyes is active."
+  ]
+}

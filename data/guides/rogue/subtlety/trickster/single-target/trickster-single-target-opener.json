@@ -1,0 +1,25 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Trickster",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:36:42.833Z",
+  "priorityList": [
+    "Enter Stealth.",
+    "Cast Shadowstrike.",
+    "Use any on-use stat trinkets, potions, and stat racials.",
+    "Cast Shadow Dance.",
+    "Cast Shadow Blades.",
+    "Cast Secret Technique.",
+    "Cast Symbols of Death on cooldown, ideally aligned with Shadow Dance charges.",
+    "Cast Shadow Dance while Symbols of Death is active.",
+    "Cast Cold Blood immediately before using Secret Technique.",
+    "Cast Secret Technique during Shadow Dance and Symbols of Death windows when at 5 or more Combo Points.",
+    "Maintain Rupture with 5 or more Combo Points, refreshing when there are fewer than 7 seconds remaining.",
+    "Cast Eviscerate at 5 or more Combo Points to spend resources and trigger Coupe de Grace.",
+    "Use Thistle Tea if you are low on Energy or need to refresh the Mastery buff from the talent.",
+    "Use Shadowstrike to generate Combo Points while in Shadow Dance or Stealth.",
+    "Use Backstab to generate Combo Points when Shadow Dance and Stealth are unavailable."
+  ],
+  "buildName": "Trickster Single Target Opener"
+}

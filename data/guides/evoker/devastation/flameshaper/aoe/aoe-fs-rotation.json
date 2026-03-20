@@ -1,0 +1,21 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Flameshaper",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:02:14.394Z",
+  "priorityList": [
+    "Dragonrage is sent on cooldown",
+    "Fire Breath is always cast at Empower level 1 to maximize the damage of Consume Flame",
+    "Pyre on everything above 3 targets, switch to Disintegrate if the pack is down to 2 targets or less",
+    "Living Flame cast at least once between every Fire Breath cast in order to consume Leaping Flames",
+    "Eternity Surge cast when you have none of the above available",
+    "Use Dragonrage on cooldown as it is the main cooldown",
+    "Use Fire Breath and Eternity Surge on cooldown during Dragonrage to extend its duration",
+    "Spend Essence Burst on Pyre",
+    "Use Living Flame and Azure Strike as filler spells to generate Essence Burst",
+    "Use Hover effectively to cast spells on the move",
+    "Use Fire Breath and Eternity Surge early and often"
+  ],
+  "buildName": "AoE FS Rotation"
+}

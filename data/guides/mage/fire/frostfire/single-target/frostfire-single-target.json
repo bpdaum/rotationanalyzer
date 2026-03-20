@@ -1,0 +1,23 @@
+{
+  "classSlug": "mage",
+  "specSlug": "fire",
+  "heroSpec": "Frostfire",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:46:29.573Z",
+  "priorityList": [
+    "When running Firestarter, delay your first Combustion until the target is below 90% health.",
+    "Cast Combustion when ready and then go into the Combustion Priority List, casting it near the end of a hard-cast Pyroblast (with Pyroclasm), Frostfire Bolt, or Scorch (when target is below 30% health).",
+    "Cast Meteor immediately as it becomes available, unless delayed more than 10 seconds, in which case save Meteor for Combustion.",
+    "Cast Pyroblast when you have Hot Streak after a non-instant Frostfire Bolt so they both land at the same time (Pyroblast Chaining).",
+    "Cast Fire Blast to convert Heating Up into Hot Streak.",
+    "Cast Frostfire Bolt as your filler to generate Hot Streak / Heating Up.",
+    "Cast Scorch as filler when on the move and unable to cast Frostfire Bolt.",
+    "In the Combustion Priority List, cast Meteor between 2 to 8 seconds of Combustion left.",
+    "In the Combustion Priority List, cast Pyroblast when you have Hot Streak.",
+    "In the Combustion Priority List, cast Scorch when you have Heat Shimmer and no Hot Streak.",
+    "In the Combustion Priority List, cast Fire Blast to convert Heating Up into Hot Streak.",
+    "In the Combustion Priority List, cast Frostfire Bolt as filler.",
+    "In the Combustion Priority List, cast Scorch as filler when on the move and unable to cast Frostfire Bolt."
+  ],
+  "buildName": "Frostfire Single Target"
+}

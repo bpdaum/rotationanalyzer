@@ -1,0 +1,24 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "destruction",
+  "heroSpec": "Hellcaller",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T06:18:17.895Z",
+  "priorityList": [
+    "Maintain Wither on as many targets as possible",
+    "Cast Summon Infernal",
+    "Cast Malevolence with as many targets affected by Wither as possible",
+    "Use Conflagrate on the main target to spread Wither on secondary targets",
+    "Cast Chaos Bolt if you have 5 Soul Shards",
+    "Cast Channel Demonfire when available",
+    "Cast Conflagrate to generate Soul Shards and Backdraft stacks",
+    "Cast Incinerate to generate Soul Shards",
+    "Maintain Wither",
+    "Cast Malevolence",
+    "Cast Summon Infernal",
+    "Cast Channel Demonfire",
+    "Cast Conflagrate",
+    "Cast Incinerate"
+  ],
+  "buildName": "Icy Veins Hellcaller Rotation"
+}

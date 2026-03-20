@@ -1,0 +1,21 @@
+{
+  "classSlug": "mage",
+  "specSlug": "arcane",
+  "heroSpec": "Spellslinger",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:36:00.626Z",
+  "priorityList": [
+    "Before Arcane Surge, get to 20 stacks of Arcane Salvo via Arcane Blast",
+    "Cast Arcane Surge",
+    "Cast Touch of the Magi after Arcane Surge",
+    "On 4+ targets, cast Arcane Orb whenever you have Clearcasting and less than 18 Arcane Salvo stacks",
+    "Cast Arcane Orb when you have Clearcasting and your previous spell was Arcane Barrage",
+    "Cast Arcane Barrage when you have 4 Arcane Charge stacks and 20 stacks of Arcane Salvo",
+    "Use Presence of Mind for when you need to move and need to cast Arcane Blast",
+    "Cast Arcane Blast as your filler",
+    "Cast Evocation when out of mana and you are not currently during Touch of the Magi or Arcane Surge",
+    "Cast Arcane Barrage if you do not have enough mana for Arcane Blast",
+    "Cast Touch of the Magi 45 seconds after the first use when it is ready"
+  ],
+  "buildName": "Aoe Orb Build"
+}

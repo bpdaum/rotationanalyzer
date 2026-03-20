@@ -1,0 +1,17 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Keeper of the Grove",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:39:51.797Z",
+  "priorityList": [
+    "With 2-seconds on the pull-timer, cast two Wraths.",
+    "Cast Celestial Alignment.",
+    "Dump Astral Power on Starsurge if using Convoke the Spirits.",
+    "Cast Force of Nature.",
+    "Cast Convoke the Spirits.",
+    "Spend any remaining Dream Surge by casting Wrath.",
+    "Cast Starsurge until out of Astral Power and resume regular rotation."
+  ],
+  "buildName": "Keeper of the Grove Opening Cast Sequence"
+}

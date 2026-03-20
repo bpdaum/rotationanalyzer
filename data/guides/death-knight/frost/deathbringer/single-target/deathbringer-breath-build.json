@@ -1,0 +1,26 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "frost",
+  "heroSpec": "Deathbringer",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-08T23:51:37.014Z",
+  "priorityList": [
+    "Cast Reaper's Mark during Pillar of Frost and Breath of Sindragosa windows",
+    "Use Obliterate with Killing Machine procs",
+    "Use Howling Blast with Rime procs",
+    "Cast Frostwyrm's Fury only after consuming both procs of Exterminate",
+    "Use Frost Strike to spend Runic Power, prioritizing it at 70+ Runic Power if Runes are low",
+    "Use Empower Rune Weapon to generate Killing Machine procs and Runic Power to avoid using naked Obliterates",
+    "Use naked Obliterate as a builder to generate Runic Power for Frost Strike or Breath of Sindragosa",
+    "Cast Reaper's Mark on cooldown.",
+    "Cast Pillar of Frost on cooldown.",
+    "Cast Obliterate if Killing Machine is active.",
+    "Cast Howling Blast if Rime is active and you do not have a Killing Machine proc.",
+    "Cast Frost Strike if you have 5 stacks of Razorice on the target and the Shattering Blade talent.",
+    "Cast Frost Strike to spend Runic Power or to trigger Killing Machine via Obliteration.",
+    "Cast Remorseless Winter on cooldown.",
+    "Cast Howling Blast if Rime is active.",
+    "Cast Obliterate to spend Runes."
+  ],
+  "buildName": "Deathbringer Breath Build"
+}

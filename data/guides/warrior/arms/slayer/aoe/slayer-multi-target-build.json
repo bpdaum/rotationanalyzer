@@ -1,0 +1,15 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Slayer",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T06:31:02.594Z",
+  "priorityList": [
+    "Sweeping Strikes if Broad Strokes is not talented or Colossus Smash is already on cooldown",
+    "Colossus Smash",
+    "Mortal Strike with two stacks of Executioner's Precision",
+    "Mortal Strike",
+    "Sudden Death"
+  ],
+  "buildName": "Slayer Multi-Target Build"
+}

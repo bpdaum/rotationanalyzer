@@ -1,0 +1,25 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Shado-Pan",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:12:26.126Z",
+  "priorityList": [
+    "Cast Tiger Palm",
+    "Channel Algeth'ar Puzzle Box if equipped",
+    "Cast Fists of Fury",
+    "Cast Rising Sun Kick",
+    "Cast Whirling Dragon Punch",
+    "Continue with normal priority",
+    "Never cast the same ability twice in a row to maintain Mastery: Combo Strikes.",
+    "Cast Strike of the Windlord on cooldown for massive AoE damage and to spend Chi toward Flurry Strikes.",
+    "Cast Whirling Dragon Punch as soon as it becomes available (requires Fists of Fury and Rising Sun Kick to be on cooldown).",
+    "Cast Fists of Fury on cooldown, ensuring it completes its full channel.",
+    "Cast Spinning Crane Kick whenever Dance of Chi-Ji procs.",
+    "Cast Rising Sun Kick to put it on cooldown, enabling Whirling Dragon Punch and generating Teachings of the Monastery stacks.",
+    "Cast Blackout Kick to spend Teachings of the Monastery stacks and reduce the cooldown of Fists of Fury and Rising Sun Kick.",
+    "Cast Tiger Palm if you have less than 5 Chi and are about to cap Energy.",
+    "Cast Spinning Crane Kick as a filler in AoE (3+ targets) when no higher priority abilities are available."
+  ],
+  "buildName": "Shado-Pan AoE Opener"
+}

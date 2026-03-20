@@ -1,0 +1,23 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "frost",
+  "heroSpec": "Rider of the Apocalypse",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:08:14.122Z",
+  "priorityList": [
+    "Apocalypse Opener: Empower Rune Weapon",
+    "Apocalypse Opener: Use Obliterate",
+    "Apocalypse Opener: Raise Dead",
+    "Apocalypse Rotation: Use Obliterate if you have a proc of Killing Machine",
+    "Apocalypse Rotation: Use Howling Blast",
+    "Apocalypse Rotation: Use Glacial Advance",
+    "Apocalypse Rotation: Use Empower Rune Weapon to generate a charge of Killing Machine and Runic Power",
+    "Apocalypse Rotation: Use Obliterate",
+    "Use Howling Blast",
+    "Use Glacial Advance to apply Frostbane",
+    "Use Obliterate when Killing Machine is active",
+    "Use Empower Rune Weapon",
+    "Raise Dead"
+  ],
+  "buildName": "Breath Mythic+"
+}

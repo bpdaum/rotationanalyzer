@@ -1,0 +1,32 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "retribution",
+  "heroSpec": "Herald of the Sun",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:14:41.784Z",
+  "priorityList": [
+    "Cast Avenging Wrath (if Radiant Glory is not talented)",
+    "Cast Execution Sentence (if talented)",
+    "Cast Final Verdict if you have 5 Holy Power",
+    "Cast Wake of Ashes",
+    "Cast Divine Toll",
+    "Cast Blade of Justice with an Art of War proc",
+    "Cast Divine Storm if you have an Empyrean Power proc",
+    "Cast Final Verdict",
+    "Cast Hammer of Wrath",
+    "Cast Blade of Justice",
+    "Cast Judgment",
+    "Cast Templar Strikes or Templar Slash (if talented)",
+    "Cast Crusader Strike (if neither Templar Strikes nor Crusading Strikes are talented)",
+    "Cast Avenging Wrath",
+    "Cast Execution Sentence",
+    "Cast Final Verdict with 5 Holy Power",
+    "Cast Wake of Ashes",
+    "Cast Divine Toll",
+    "Cast Final Verdict",
+    "Cast Blade of Justice",
+    "Cast Hammer of Wrath",
+    "Cast Judgment"
+  ],
+  "buildName": "Herald of the Sun (Single Target)"
+}

@@ -1,0 +1,20 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Trickster",
+  "buildName": "default",
+  "priorityList": [
+    "Use Shadow Blades only when Shadow Dance and Secret Technique are both ready.",
+    "Use Shadow Dance if you are not in stealth and have low Combo Points, provided Secret Technique is ready or Darkest Night is active.",
+    "Use Vanish to enter stealth/Subterfuge if you have 1 or fewer Combo Points.",
+    "Spend Combo Points at 5 or more (or 6 if Darkest Night is active).",
+    "Cast Secret Technique as your top priority finisher during Shadow Dance or if it will be available again for your next Dance window.",
+    "Cast Eviscerate as a priority finisher whenever the Darkest Night buff is active, even in AoE.",
+    "Cast Coup de Grace if Secret Technique is on cooldown or Shadow Dance is active.",
+    "Cast Black Powder as your finisher against 3 or more targets if higher priority finishers (Secret Tech, Darkest Night Eviscerate, Coup de Grace) are unavailable.",
+    "Use Shuriken Storm as your primary builder whenever 2 or more targets are present.",
+    "Use Shadowstrike while in Stealth or Shadow Dance to consume Unseen Blade procs or if Darkest Night is active on 4 or fewer targets.",
+    "Use Goremaw's Bite if you have a deficit of 3 or more Combo Points.",
+    "Sync your offensive trinkets, potions, and racials with your Shadow Blades and Shadow Dance burst windows."
+  ]
+}

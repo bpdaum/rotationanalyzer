@@ -1,0 +1,18 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Keeper of the Grove",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:39:51.796Z",
+  "priorityList": [
+    "Use Force of Nature outside of Eclipse if your next ability is Celestial Alignment. Only save Force of Nature if Convoke the Spirits will be off cooldown in 25-seconds.",
+    "Cast Celestial Alignment if you have just cast Force of Nature unless saving to line up with Convoke the Spirits. Then cast Wrath to spend Dream Surge unless you will cap on Astral Power.",
+    "Cast Convoke the Spirits if you have cast Force of Nature and Celestial Alignment and have less than 40-Astral Power.",
+    "Enter the Eclipse state appropriate to your target count by ending your Celestial Alignment with that filler.",
+    "Cast Force of Nature on cooldown.",
+    "Spend Dream Surge using Wrath unless you will cap on Astral Power.",
+    "Cast Starsurge to spend Astral Power, maintain Starlord, or to spend Touch the Cosmos.",
+    "Cast Wrath to generate Astral Power."
+  ],
+  "buildName": "Keeper of the Grove Single-Target Rotation"
+}

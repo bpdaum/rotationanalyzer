@@ -1,0 +1,26 @@
+{
+  "classSlug": "priest",
+  "specSlug": "shadow",
+  "heroSpec": "Archon",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:25:30.147Z",
+  "priorityList": [
+    "Cast Vampiric Touch on any targets as the pack is being grouped up",
+    "Cast Halo once all mobs are engaged in combat and within range",
+    "Cast Voidform",
+    "Use Tempered Potion unless saving for an upcoming pack or boss",
+    "Cast Power Infusion",
+    "Maintain Vampiric Touch and Shadow Word on up to 12 targets",
+    "Spend Insanity on Shadow Word by funneling into the highest health priority target",
+    "Cast Void Volley or Mind Blast to avoid losing their cooldowns",
+    "Cast Halo when it will not cause you to lose short-cooldown use",
+    "Cast Mind Flay when nothing higher priority is available",
+    "Keep Vampiric Touch",
+    "Maintain Shadow Word",
+    "Void Volley",
+    "Mind Blast",
+    "Void Torrent",
+    "Mind Flay"
+  ],
+  "buildName": "Archon AoE"
+}

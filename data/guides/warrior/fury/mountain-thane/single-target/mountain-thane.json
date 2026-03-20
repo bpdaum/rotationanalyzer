@@ -1,0 +1,16 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "fury",
+  "heroSpec": "Mountain Thane",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:37:10.420Z",
+  "priorityList": [
+    "Thunder Blast while Enraged",
+    "Crushing Blow during Recklessness",
+    "Thunder Clap during Avatar",
+    "Raging Blow",
+    "Thunder Clap to fill the rotation",
+    "The single target rotation is filled by a combination of Raging Blow and Thunder Clap."
+  ],
+  "buildName": "Mountain Thane"
+}

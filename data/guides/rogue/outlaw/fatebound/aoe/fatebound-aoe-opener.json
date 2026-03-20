@@ -1,0 +1,25 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Fatebound",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:32:49.287Z",
+  "priorityList": [
+    "Cast Adrenaline Rush and Roll the Bones immediately before the pull.",
+    "Open with Blade Flurry.",
+    "Use Blade Rush immediately.",
+    "Build Combo Points with Ambush (if available) or Sinister Strike.",
+    "Use Killing Spree at 6+ Combo Points if talented.",
+    "Build Combo Points with Ambush (if available) or Sinister Strike.",
+    "Use Between the Eyes at 6+ Combo Points.",
+    "Maintain Blade Flurry at all times to enable AoE cleave.",
+    "Cast Adrenaline Rush on cooldown.",
+    "Use Roll the Bones if no buffs are active or to refresh expiring buffs.",
+    "Cast Between the Eyes at maximum Combo Points while in Stealth, Vanish, or Shadow Dance (Crackshot).",
+    "Cast Blade Rush on cooldown to generate Energy and deal AoE damage.",
+    "Cast Dispatch at maximum Combo Points if Between the Eyes is on cooldown or Crackshot is not active.",
+    "Cast Pistol Shot with Opportunity procs if you are not at maximum Combo Points.",
+    "Cast Sinister Strike as your primary generator to build Combo Points."
+  ],
+  "buildName": "Fatebound AoE Opener"
+}

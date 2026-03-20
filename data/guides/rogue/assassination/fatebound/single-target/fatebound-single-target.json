@@ -1,0 +1,31 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "assassination",
+  "heroSpec": "Fatebound",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:27:28.335Z",
+  "priorityList": [
+    "Start from Stealth and cast Garrote.",
+    "Maintain Garrote, casting from Vanish when possible (ideally before every Deathmark).",
+    "Maintain Rupture with 5 or more Combo Points.",
+    "Activate Deathmark on cooldown, ideally alongside DPS potions and on-use trinkets.",
+    "Use Kingsbane on cooldown and sync it with Deathmark.",
+    "Refresh Improved Garrote by casting Garrote again immediately after starting the Kingsbane window.",
+    "Cast Envenom with 5 or more Combo Points.",
+    "Cast Ambush to generate Combo Points whenever usable via Blindside procs.",
+    "Cast Mutilate to generate Combo Points as your primary builder.",
+    "Use Thistle Tea alongside Kingsbane to avoid overcapping charges.",
+    "Chain Envenom casts by refreshing the buff while it is still active and within the Pandemic window (30% or less duration remaining).",
+    "Maintain Garrote on the target at all times.",
+    "Maintain Rupture with 5 or more Combo Points.",
+    "Cast Deathmark on cooldown.",
+    "Cast Kingsbane on cooldown, ideally synced with Deathmark and Shiv windows.",
+    "Cast Shiv during Kingsbane to maximize Nature damage amplification.",
+    "Cast Envenom with 5 or more Combo Points to maximize Envenom buff uptime and trigger Hand of Fate coin flips.",
+    "Cast Vanish on cooldown to apply an empowered Garrote.",
+    "Cast Ambush when Blindside procs.",
+    "Cast Mutilate as your primary Combo Point generator.",
+    "Use Thistle Tea if Energy falls below 30 or to provide a Mastery buff during your burst window."
+  ],
+  "buildName": "Fatebound Single Target"
+}

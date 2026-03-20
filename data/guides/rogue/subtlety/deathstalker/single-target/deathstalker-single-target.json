@@ -1,0 +1,19 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Deathstalker",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:41:50.265Z",
+  "priorityList": [
+    "Cast Shadow Dance when you have 2 or fewer Combo Points and Secret Technique is ready or Shadow Blades is active",
+    "Cast Shadow Blades during Shadow Dance",
+    "Cast Secret Technique during Shadow Dance with 6 or more Combo Points",
+    "Cast Eviscerate with 6 or more Combo Points",
+    "Cast Shadowstrike whenever possible to build Combo Points, otherwise Cast Backstab",
+    "Always start the fight with a Cast Shadowstrike",
+    "Use two charges of Shadow Dance during Shadow Blades; do not cast Shadow Dance when Shadow Blades has less than 10 seconds remaining on its cooldown",
+    "Cast Vanish at any point whenever Shadow Dance is not up, followed by a Cast Shadowstrike",
+    "Deathstalker Opener: Cast Shadowstrike, Cast Eviscerate, use Tempered Potion, Cast Shadow Dance, Cast Shadow Blades, Cast Shadowstrike, Cast Secret Technique"
+  ],
+  "buildName": "Deathstalker Single Target"
+}

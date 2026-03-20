@@ -1,0 +1,22 @@
+{
+  "classSlug": "priest",
+  "specSlug": "shadow",
+  "heroSpec": "Archon",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:23:56.659Z",
+  "priorityList": [
+    "Keep Vampiric Touch and Maintain Shadow Word active by using Vampiric Touch to apply both DoTs",
+    "Cast Halo",
+    "Cast Voidform",
+    "Cast Power Infusion",
+    "Spend Insanity on Shadow Word if it is not active, about to expire, or you are about to cap out on Insanity",
+    "Cast Mind Blast",
+    "Cast Mind Flay",
+    "Keep Vampiric Touch",
+    "Maintain Shadow Word",
+    "Mind Blast",
+    "Void Torrent",
+    "Mind Flay"
+  ],
+  "buildName": "Archon Single Target"
+}

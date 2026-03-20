@@ -1,0 +1,22 @@
+{
+  "classSlug": "mage",
+  "specSlug": "frost",
+  "heroSpec": "Frostfire",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Arcane Intellect and ensure your Water Elemental is summoned.",
+    "Cast Frozen Orb on cooldown.",
+    "Cast Blizzard immediately whenever Freezing Rain is active (instant cast).",
+    "Cast Glacial Spike if you have 5 Icicles.",
+    "Cast Comet Storm on cooldown.",
+    "Cast Blizzard as a priority filler to maintain its ground effect and cooldown reduction on Frozen Orb.",
+    "Cast Flurry when Brain Freeze is active to apply Winter's Chill and shatter your next spells.",
+    "Cast Ice Lance if you have Fingers of Frost procs.",
+    "Cast Ice Lance if the target has 10 or more stacks of the Freezing debuff to consume the shatter bonus.",
+    "Cast Ray of Frost, but avoid using it if you currently have a Frostfire Empowerment buff active.",
+    "Use offensive cooldowns (Trinkets, Potions, and Racials) during Frozen Orb or Ray of Frost windows.",
+    "Cast Frostfire Bolt as your primary filler to generate Icicles and procs.",
+    "If moving, use Blink for distance or Ice Nova/Ice Lance if no procs are available.",
+    "Cast Ice Lance as a final priority if the target is about to die."
+  ]
+}

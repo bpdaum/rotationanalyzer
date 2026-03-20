@@ -1,0 +1,26 @@
+{
+  "classSlug": "druid",
+  "specSlug": "feral",
+  "heroSpec": "Druid of the Claw",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:24:30.173Z",
+  "priorityList": [
+    "Cast Primal Wrath with 5 Combo Points if Rip is not active, is within its Pandemic timer, or can be strengthened with a Tiger's Fury snapshot.",
+    "Cast Ferocious Bite or Ravage with 5 Combo Points or when an Apex Predator's Craving proc is active.",
+    "Cast Tiger's Fury on cooldown, aiming to be 70 or more Energy below your cap.",
+    "Cast Berserk on cooldown, synced with Tiger's Fury.",
+    "Cast Convoke the Spirits with Tiger's Fury active, preferably during Berserk and at low Combo Points.",
+    "Cast Rake, cycling between targets to maintain bleeds.",
+    "Cast Moonfire (if Lunar Inspiration is talented), cycling between targets.",
+    "Cast Swipe to generate Combo Points.",
+    "Cast Tiger's Fury on cooldown, ensuring you do not overcap energy.",
+    "Cast Berserk on cooldown for major damage windows.",
+    "Cast Ravage whenever it becomes available via procs.",
+    "Cast Primal Wrath at 5 Combo Points to apply and maintain Rip on all targets.",
+    "Maintain Thrash on all targets to enable Bloodtalons or maximize bleed uptime.",
+    "Cast Rake on high-priority targets within the pack to maintain the bleed.",
+    "Cast Brutal Slash (if talented) or Swipe to generate Combo Points on 2+ targets.",
+    "Cast Ferocious Bite only when Apex Predator's Craving procs."
+  ],
+  "buildName": "Druid of the Claw AoE Build"
+}

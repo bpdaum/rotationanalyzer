@@ -1,0 +1,14 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Sentinel",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:38:00.138Z",
+  "priorityList": [
+    "Use Bestial Wrath on cooldown as often as possible.",
+    "Ensure Kill Command never reaches two charges.",
+    "Ensure Kill Command is always buffed by Nature's Ally.",
+    "Cast as many Kill Commands as possible during the cooldown window."
+  ],
+  "buildName": "Sentinel"
+}

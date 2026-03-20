@@ -1,0 +1,17 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Pack Leader",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:26:40.774Z",
+  "priorityList": [
+    "Ensure every non-Kill Command cast is affected by a stack.",
+    "Cast Kill Command to generate stacks if you run out (generates 2 if Primal Surge is active).",
+    "Cast Kill Command with 1 stack if the ability glows.",
+    "Cast Raptor Strike.",
+    "Cast Kill Command as much as possible to generate resources",
+    "Do not Cast Kill Command if it would waste generated resources",
+    "Cast Wildfire Bomb on cooldown"
+  ],
+  "buildName": "Whead Pack Leader Rotation"
+}

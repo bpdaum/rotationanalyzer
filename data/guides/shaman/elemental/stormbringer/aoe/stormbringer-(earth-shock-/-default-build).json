@@ -1,0 +1,23 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "elemental",
+  "heroSpec": "Stormbringer",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:41:10.672Z",
+  "priorityList": [
+    "Cast Stormkeeper, ensuring it is available during Ascendance",
+    "Cast Ascendance synced with on-use trinkets, Bloodlust, and Tempered Potion",
+    "Cast Tempest",
+    "Cast Earthquake as your primary Maelstrom spender",
+    "Cast Chain Lightning as your primary filler (replaces Lightning Bolt at 2+ targets)",
+    "Use Lava Surge while moving",
+    "Cast Stormkeeper on cooldown to empower your next Chain Lightning casts.",
+    "Cast Liquid Magma Totem to apply and spread Flame Shock to all targets.",
+    "Cast Tempest whenever it becomes available.",
+    "Cast Primordial Wave on a target already affected by Flame Shock.",
+    "Cast Earthquake to spend Maelstrom once you reach 60 or more resource.",
+    "Cast Lava Burst if you have the Primordial Wave buff active to trigger multi-target hits.",
+    "Cast Chain Lightning (or Lava Beam during Ascendance) as your primary Maelstrom generator."
+  ],
+  "buildName": "Stormbringer (Earth Shock / Default Build)"
+}

@@ -1,0 +1,23 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Void-Scarred",
+  "buildName": "default",
+  "priorityList": [
+    "Use Potions and offensive Trinkets during Metamorphosis for maximum burst alignment.",
+    "Cast Void Ray to maintain the Eradicate buff in AoE situations.",
+    "At maximum Void Metamorphosis stacks, prioritize casting Voidblade and The Hunt.",
+    "Cast Metamorphosis, ideally while the Eradicate buff is active.",
+    "Cast Pierce the Veil when Moment of Craving is active and Collapsing Star is ready.",
+    "Use Reap, Cull, or Eradicate if Metamorphosis is active and you have consumed at least 4 souls.",
+    "Use Reap, Cull, or Eradicate immediately if the Voidfall Spending proc is active or Eradicate is down in AoE.",
+    "Cast Voidblade if Moment of Craving is active and you are at or near maximum Collapsing Star stacks.",
+    "Cast Collapsing Star when available, prioritizing usage at high stack counts or when Voidblade is on cooldown.",
+    "Maintain Soul Immolation on multiple targets when Metamorphosis is inactive.",
+    "Use Vengeful Retreat when the Voidstep buff is active.",
+    "Cast Hungering Slash as your primary filler in AoE combat.",
+    "Cast Reaper's Toll if the Voidsurge proc is active or when fighting multiple enemies.",
+    "Cast Predator's Wake and Pierce the Veil on cooldown to generate resources and procs.",
+    "Use Devour and Consume as fillers when no higher-priority abilities are available."
+  ]
+}

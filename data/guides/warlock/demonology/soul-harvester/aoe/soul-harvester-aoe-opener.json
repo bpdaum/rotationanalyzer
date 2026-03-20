@@ -1,0 +1,16 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "demonology",
+  "heroSpec": "Soul Harvester",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T06:12:40.657Z",
+  "priorityList": [
+    "Pre-cast Demonbolt.",
+    "Cast Shadow Bolt if below 2 Soul Shards.",
+    "Cast Call Dreadstalkers.",
+    "Cast Summon Demonic Tyrant.",
+    "Focus on casting as many Hand of Gul'dan possible.",
+    "Cast Implosion with 6 Wild Imps out and 1 or less Demonic Core."
+  ],
+  "buildName": "Soul Harvester AoE Opener"
+}

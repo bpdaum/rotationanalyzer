@@ -1,0 +1,25 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "assassination",
+  "heroSpec": "Deathstalker",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:25:27.134Z",
+  "priorityList": [
+    "Start from Stealth and cast Garrote.",
+    "Cast Mutilate until 5+ Combo Points.",
+    "Cast Rupture.",
+    "Cast Deathmark together with DPS potion and on-use trinket.",
+    "Cast Kingsbane.",
+    "Use Garrote again to refresh Improved Garrote duration.",
+    "Use Envenom with 7 Combo Points when Darkest Night triggers, otherwise at 5+ Combo Points.",
+    "Use Mutilate and Ambush (when available through Blindside) as builders.",
+    "Utilize purposeful downtime and play around gaps in the rotation rather than forcing a cast on every GCD.",
+    "Periodically allow the Envenom buff to drop to trigger energy return from the Implacable talent.",
+    "Prioritize Energy efficiency by selecting the most efficient ability for the situation.",
+    "Manage resources carefully to avoid overcapping Energy or Combo Points during pooling phases.",
+    "Plan the usage of cooldowns, bleeds, and resources around specific encounter timings.",
+    "Maintain bleeds and debuffs as the primary method of damage output.",
+    "Use Envenom as the primary Combo Point spender while managing its uptime for Implacable procs."
+  ],
+  "buildName": "Opening Sequence"
+}

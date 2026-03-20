@@ -1,0 +1,21 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "elemental",
+  "heroSpec": "Stormbringer",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:51:45.680Z",
+  "priorityList": [
+    "Cast Stormkeeper (Opener)",
+    "Cast Ascendance with on-use trinkets and Tempered Potion (Opener)",
+    "Cast Stormkeeper, make sure it is available during Ascendance",
+    "Cast Ascendance, sync it with on-use trinkets and Tempered Potion",
+    "Cast Tempest",
+    "Cast Chain Lightning",
+    "Use Lava Surge while moving",
+    "If only fighting 2 targets, cast Chain Lightning instead of Lightning Bolt",
+    "Cast Earthquake, Cast Earth Shock, or Cast Elemental Blast to avoid Maelstrom waste",
+    "Cast Ascendance and pool Tempest procs",
+    "Use Lava Surge to buff Cast Tempest"
+  ],
+  "buildName": "Stormbringer Default"
+}

@@ -1,0 +1,26 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Scalecommander",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:27:45.801Z",
+  "priorityList": [
+    "Cast Deep Breath once the enemies are grouped up.",
+    "Cast Dragonrage.",
+    "Cast Eternity Surge at either rank 1 or matching the amount of targets (Rank 1/2/3 hits 2/4/6 targets with Eternity's Span).",
+    "Cast Fire Breath at rank 1 or with Tip the Scales.",
+    "Cast Disintegrate after casting Empower spells to trigger Mass Disintegrate; cast on different targets to spread the Bombardments debuff.",
+    "Cast Pyre after channeling Mass Disintegrate when fighting 4 or more enemies.",
+    "Cast Azure Strike as a filler to generate Essence Burst procs for Pyre.",
+    "Cast Living Flame with Burnout procs when Leaping Flames is active to maximize Essence Burst stacks.",
+    "Cast empowered spells on cooldown.",
+    "Avoid overcapping Essence.",
+    "Cast Deep Breath on cooldown to apply the Melt Armor debuff and trigger Bombardments.",
+    "Cast Fire Breath at Rank 1 to apply the damage-over-time effect to all targets.",
+    "Cast Eternity Surge at the maximum rank allowed by the target count to trigger Bombardments.",
+    "Spend Essence on Pyre for primary area-of-effect damage when 3 or more targets are present.",
+    "Cast Disintegrate if the Mass Disintegrate proc is active to hit multiple targets.",
+    "Use Azure Strike as your primary filler to generate Essence and trigger Volatility procs."
+  ],
+  "buildName": "Mythic+/AoE Scalecommander"
+}

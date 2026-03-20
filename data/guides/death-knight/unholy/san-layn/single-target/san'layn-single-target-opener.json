@@ -1,0 +1,27 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "San'layn",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-08T23:57:27.828Z",
+  "priorityList": [
+    "Use Outbreak (if not running Blightburst).",
+    "Use Festering Strike twice.",
+    "Cast Army of the Dead, Dark Transformation, Trinkets, Racials, and Potions.",
+    "Use Soul Reaper (if Pestilence is talented, time it 5 seconds before Dark Transformation ends; otherwise use immediately if Reaping is active).",
+    "Cast Army of the Dead on pull or when available.",
+    "Cast Summon Gargoyle on cooldown.",
+    "Cast Dark Transformation on cooldown to trigger Gift of the San'layn.",
+    "Cast Abomination Limb to generate Runic Power and damage.",
+    "Cast Apocalypse if the target has 4 or more Festering Wounds.",
+    "Cast Vampiric Strike while the Gift of the San'layn buff is active.",
+    "Cast Vampiric Strike while the Essence of the Blood Queen buff is active.",
+    "Cast Death Coil if a Sudden Doom proc is active.",
+    "Cast Vampiric Strike to consume Infliction of Sorrow for burst damage.",
+    "Cast Festering Strike if you have 0 Festering Wounds or need to reach 4 for Apocalypse.",
+    "Cast Scourge Strike (or Clawing Shadows) to consume Festering Wounds when Vampiric Strike is unavailable.",
+    "Cast Death Coil to spend Runic Power and avoid capping.",
+    "Cast Death Coil to reduce the remaining cooldown on Army of the Dead and Dark Transformation."
+  ],
+  "buildName": "San'layn Single Target Opener"
+}

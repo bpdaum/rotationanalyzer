@@ -1,0 +1,26 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Colossus",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T02:06:16.321Z",
+  "priorityList": [
+    "Rend to apply or refresh Rend with four seconds remaining",
+    "Avatar just before or with Colossus Smash",
+    "Colossus Smash",
+    "Demolish during Colossus Smash",
+    "Bladestorm during Colossus Smash",
+    "Mortal Strike",
+    "Execute to consume Sudden Death procs",
+    "Overpower",
+    "Slam to fill the rotation",
+    "Use Avatar shortly before or with Colossus Smash",
+    "Cast Colossus Smash",
+    "Keep Demolish on cooldown",
+    "Cast Mortal Strike",
+    "Use Execute during Sudden Death procs",
+    "Cast Overpower",
+    "Apply or refresh Rend when there are less than 4 seconds remaining"
+  ],
+  "buildName": "Colossus - Bladestorm Build"
+}

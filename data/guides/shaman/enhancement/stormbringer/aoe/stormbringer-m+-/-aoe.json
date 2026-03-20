@@ -1,0 +1,22 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "enhancement",
+  "heroSpec": "Stormbringer",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:59:05.691Z",
+  "priorityList": [
+    "Cast Sundering (Aim to align this with Ascendance)",
+    "Cast Crash Lightning (With Storm Unleashed, this is a top priority at all times)",
+    "Cast Ascendance",
+    "Cast Windstrike during Ascendance",
+    "Cast Tempest / Lightning Bolt with 10 Maelstrom Weapon stacks",
+    "Cast Stormstrike",
+    "Cast Lava Lash",
+    "Cast Voltaic Blaze",
+    "Cast Lightning Bolt with 5+ Maelstrom Weapon stacks",
+    "Stormbringer spends to fish for Tempest",
+    "Stormbringer triggers it every GCD using Windstrike",
+    "Stormbringer uses Lava Lash as a filler"
+  ],
+  "buildName": "Stormbringer M+ / AoE"
+}

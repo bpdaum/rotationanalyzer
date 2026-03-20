@@ -1,0 +1,19 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Dark Ranger",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:48:02.045Z",
+  "priorityList": [
+    "Cast Explosive Shot on cooldown.",
+    "Cast Black Arrow on cooldown.",
+    "Cast Kill Shot whenever available via Hunter's Prey procs or when targets are below 20% health.",
+    "Cast Butchery if you are at 3 charges to prevent capping.",
+    "Cast Fury of the Eagle if you have 3 stacks of Tip of the Spear.",
+    "Cast Wildfire Bomb if Mad Bombardier is active.",
+    "Cast Butchery to consume Merciless Blow procs or apply Internal Bleeding.",
+    "Cast Flanking Strike if you need Focus and it is available.",
+    "Cast Kill Command to generate Focus and Tip of the Spear stacks, ensuring you do not overcap either."
+  ],
+  "buildName": "Dark Ranger AoE Default"
+}

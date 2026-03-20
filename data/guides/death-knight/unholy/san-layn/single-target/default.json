@@ -1,0 +1,21 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "San'layn",
+  "buildName": "default",
+  "priorityList": [
+    "Apply and maintain Virulent Plague using Outbreak.",
+    "Cast Army of the Dead when available.",
+    "Cast Dark Transformation whenever available, ideally while Army of the Dead is active.",
+    "Cast Soul Reaper if the target is below 35% health or during Reaping windows.",
+    "Use offensive Trinkets and Racials (like Blood Fury or Berserking) while Dark Transformation is active.",
+    "Cast Death Coil if you have a Sudden Doom proc or if you have fewer than 2 Runes available.",
+    "Cast Death Coil if you are about to cap Runic Power.",
+    "If talented into Festering Scythe, cast Festering Strike to maintain the Festering Scythe buff or debuff.",
+    "Cast Festering Strike if you have 0 stacks of the Lesser Ghoul Ready buff.",
+    "Cast Scourge Strike if you have 1 or more stacks of the Lesser Ghoul Ready buff to summon a ghoul.",
+    "Cast Putrefy if Dark Transformation has more than 12 seconds remaining on cooldown.",
+    "Cast Putrefy if you are at maximum charges and Dark Transformation is not immediately available.",
+    "Cast Death Coil as your primary filler to spend Runic Power."
+  ]
+}

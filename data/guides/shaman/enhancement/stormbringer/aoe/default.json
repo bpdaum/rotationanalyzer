@@ -1,0 +1,23 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "enhancement",
+  "heroSpec": "Stormbringer",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Flame Shock on your primary target to ensure consistent damage over time.",
+    "Cast Ascendance on cooldown to trigger Thorim's Invocation and empower your attacks.",
+    "Cast Doom Winds on cooldown to maximize Windfury procs and AoE pressure.",
+    "Use offensive Trinkets and Potions during Ascendance or Doom Winds for maximum burst alignment.",
+    "Cast Tempest if you have 10 stacks of Maelstrom Weapon, unless both Ascendance and Doom Winds are active.",
+    "Cast Primordial Storm if you have 10 stacks of Maelstrom Weapon and Tempest is unavailable.",
+    "Cast Sundering if Feral Spirit is active or if you have the Surging Elements talent.",
+    "Cast Crash Lightning to maintain your AoE cleave buff or to trigger Thorim's Invocation lightning strikes during Ascendance or Doom Winds.",
+    "Cast Chain Lightning as your primary Maelstrom spender when at 9 or more stacks.",
+    "Cast Windstrike (available during Ascendance) as your highest priority filler.",
+    "Cast Voltaic Blaze whenever it becomes available through procs or talent conditions.",
+    "Cast Stormstrike if you have nearly two charges or have reached maximum stacks of Converging Storms.",
+    "Cast Lava Lash as a filler, prioritizing it if Hot Hand is active or to spread Flame Shock.",
+    "Cast Stormstrike as a general filler if no higher priority melee abilities are available.",
+    "Cast Chain Lightning at 5 or more Maelstrom Weapon stacks if no other abilities are ready."
+  ]
+}

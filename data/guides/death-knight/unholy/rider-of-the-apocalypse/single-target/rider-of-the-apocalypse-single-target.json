@@ -1,0 +1,18 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "Rider of the Apocalypse",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:13:59.222Z",
+  "priorityList": [
+    "Use Outbreak when not running Blightburst to initiate the opener.",
+    "Use 2x Festering Strike.",
+    "Use Army of the Dead + Dark Transformation + Trinket + Racial + Potion.",
+    "Use Outbreak to maintain plagues on the target if Blightburst is not talented.",
+    "Use Death Coil when you have a Sudden Doom proc or 80+ Runic Power.",
+    "Use Death Coil as a filler spell when no other abilities are available.",
+    "Keep cooldown abilities on cooldown as often as possible to maximize damage",
+    "Spend Sudden Doom procs ASAP with Death Coil or Epidemic"
+  ],
+  "buildName": "Rider of the Apocalypse Single Target"
+}

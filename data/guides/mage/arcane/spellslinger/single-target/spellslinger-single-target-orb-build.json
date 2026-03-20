@@ -1,0 +1,19 @@
+{
+  "classSlug": "mage",
+  "specSlug": "arcane",
+  "heroSpec": "Spellslinger",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T03:05:42.433Z",
+  "priorityList": [
+    "Cast Arcane Orb when your previous spell was Arcane Barrage",
+    "Use Presence when you need to move and need to cast Arcane Blast",
+    "Cast Arcane Barrage when you have 4 Arcane Charge stacks and 20 stacks of Arcane Salvo",
+    "Cast Arcane Blast as your filler",
+    "Cast Arcane Barrage if you do not have enough mana for Arcane Blast",
+    "Get to 20 stacks of Arcane Salvo via Arcane Blast before Arcane Surge",
+    "Cast Arcane Surge",
+    "Cast Touch",
+    "Cast Touch when it is ready 45 seconds after previous use"
+  ],
+  "buildName": "Spellslinger Single Target Orb Build"
+}

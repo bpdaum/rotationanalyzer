@@ -1,0 +1,24 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Void-Scarred",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T04:09:42.065Z",
+  "priorityList": [
+    "Cast Vengeful Retreat",
+    "Cast The Hunt to put it on cooldown",
+    "Cast Voidblade to put it on cooldown",
+    "Cast Void Metamorphosis with 35 Souls",
+    "Cast Void Ray on cooldown during Void Metamorphosis",
+    "Cast Void Ray with 100 or more Fury",
+    "Cast Collapsing Star when at 30 Souls",
+    "Cast Devour",
+    "Cast Consume",
+    "Use Void Metamorphosis as soon as it is available",
+    "Use Void Ray as soon as it is available",
+    "Cast Voidblade before entering Void Metamorphosis",
+    "Ensure minimal interruptions during Void Metamorphosis",
+    "Cast as many Collapsing Star as possible in one window"
+  ],
+  "buildName": "Void-Scarred"
+}

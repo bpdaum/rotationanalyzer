@@ -1,0 +1,18 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Keeper of the Grove",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:41:24.506Z",
+  "priorityList": [
+    "Apply Sunfire and Apply Moonfire",
+    "Cast Force outside of Eclipse if your next ability is Cast Celestial Alignment",
+    "Cast Celestial Alignment if you have just used Force and then Cast Starfire to spend Dream Surge if you will not cap on Astral Power",
+    "If you are not entering cooldowns, Enter Lunar Eclipse or Enter Solar Eclipse",
+    "Press Force",
+    "Spend Dream Surge using Cast Starfire unless you will cap on Astral Power",
+    "Cast Starfall to spend Astral Power",
+    "Cast Starfire to generate Astral Power"
+  ],
+  "buildName": "Grove Rotation"
+}

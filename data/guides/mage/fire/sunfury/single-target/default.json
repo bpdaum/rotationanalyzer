@@ -1,0 +1,23 @@
+{
+  "classSlug": "mage",
+  "specSlug": "fire",
+  "heroSpec": "Sunfury",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Arcane Intellect at all times and use Mirror Image before combat begins.",
+    "Pre-cast Meteor (if Sunfury Execution is talented) followed by a hard-cast Pyroblast to start the encounter.",
+    "Always activate Combustion while finishing a hard-cast (Fireball, Scorch, or Pyroclasm Pyroblast) so it benefits from the buff.",
+    "Use offensive trinkets, potions, and racial abilities once Combustion is active.",
+    "Spend Hot Streak procs immediately on instant Pyroblasts during both Combustion and filler phases.",
+    "Use Fire Blast to convert Heating Up into Hot Streak, ensuring you don't cap charges and prioritizing its use during Combustion.",
+    "Cast Meteor during Combustion, ideally after your initial hard-cast has landed.",
+    "During Combustion, hard-cast Pyroblast if the Pyroclasm buff is active and the cast will complete before Combustion ends.",
+    "Use Scorch as your primary filler during Combustion if the target is below 30% health (Sunfury/Scald logic).",
+    "Outside of Combustion, hard-cast Pyroblast only if Pyroclasm is at 2 stacks or if Combustion has more than 12 seconds remaining on cooldown.",
+    "Use Scorch whenever Heat Shimmer procs for a guaranteed crit and movement flexibility.",
+    "Cast Meteor on cooldown outside of Combustion if the Combustion cooldown is longer than 12 seconds.",
+    "Use Scorch as your primary filler instead of Fireball when the target is below 30% health if Scald is talented.",
+    "Use Fireball as your main filler to generate Heating Up procs when above 30% health or outside of execution windows.",
+    "Avoid using Fire Blast if you already have a Hot Streak proc to prevent wasting the charge."
+  ]
+}

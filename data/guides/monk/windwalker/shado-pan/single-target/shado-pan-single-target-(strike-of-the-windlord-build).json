@@ -1,0 +1,27 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Shado-Pan",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:10:58.762Z",
+  "priorityList": [
+    "Cast Touch of Death",
+    "Cast Strike of the Windlord",
+    "Cast Fists of Fury",
+    "Cast Rushing Wind Kick",
+    "Cast Rising Sun Kick",
+    "Cast Tiger Palm if Chi is needed for higher priority spenders",
+    "Cast Slicing Winds (if talented)",
+    "Cast Blackout Kick",
+    "Cast Tiger Palm",
+    "Cast Strike of the Windlord on cooldown.",
+    "Cast Fists of Fury on cooldown.",
+    "Cast Rising Sun Kick on cooldown.",
+    "Cast Whirling Dragon Punch if both Fists of Fury and Rising Sun Kick are on cooldown.",
+    "Cast Blackout Kick if you have 3 stacks of Teachings of the Monastery.",
+    "Cast Blackout Kick to spend Chi and progress Flurry Strikes.",
+    "Cast Tiger Palm to generate Chi, ensuring you do not overcap Chi or Energy.",
+    "Cast Expel Harm as a filler to generate Chi if Energy is low."
+  ],
+  "buildName": "Shado-Pan Single Target (Strike of the Windlord Build)"
+}

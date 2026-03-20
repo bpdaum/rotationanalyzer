@@ -1,0 +1,22 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Scalecommander",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:26:53.408Z",
+  "priorityList": [
+    "Use Fire Breath empower level 1 on cooldown in order to maintain the damage over time effect.",
+    "Use Eternity Surge on cooldown.",
+    "Use Deep Breath on cooldown.",
+    "Use Hover to maintain uptime whenever you are forced to move.",
+    "Use Living Flame as a filler.",
+    "Use Azure Strike as a filler when moving if you have no Hover.",
+    "Cast Dragonrage on cooldown.",
+    "Cast Deep Breath to trigger Bombardments and activate the Might of the Aspects damage buff.",
+    "Cast Fire Breath at Empower Level 1 to apply and maintain the damage-over-time effect.",
+    "Cast Disintegrate to spend Essence and consume Essence Burst procs.",
+    "Cast Living Flame as a filler to generate Essence and trigger Essence Burst procs.",
+    "Cast Azure Strike if movement is required and Hover is unavailable."
+  ],
+  "buildName": "Scalecommander Single-Target Rotation"
+}

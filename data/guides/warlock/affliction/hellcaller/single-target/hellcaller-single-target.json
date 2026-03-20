@@ -1,0 +1,21 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "affliction",
+  "heroSpec": "Hellcaller",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:08:14.320Z",
+  "priorityList": [
+    "Pre-cast Haunt.",
+    "Apply Agony.",
+    "Apply Wither.",
+    "Cast Malevolence.",
+    "Cast Summon Darkglare.",
+    "Maintain your Agony, and Wither effects at all times.",
+    "Cast Haunt whenever available.",
+    "Cast Malevolence on cooldown.",
+    "Cast Shadow Bolt as a filler.",
+    "Don't overcap Soul Shards (maximum of 5)",
+    "Do not pool Soul Shards unless heading into a damage window"
+  ],
+  "buildName": "Hellcaller Single Target"
+}

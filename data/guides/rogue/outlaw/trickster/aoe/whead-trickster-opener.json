@@ -1,0 +1,23 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Trickster",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:36:25.398Z",
+  "priorityList": [
+    "Cast Adrenaline Rush and Roll immediately before the pull",
+    "Maintain Blade Flurry",
+    "Use Blade Rush immediately",
+    "Build Combo Points with Sinister Strike",
+    "Use Killing Spree at 6+ Combo Points",
+    "Build Combo Points with Sinister Strike",
+    "Use Between at 6+ Combo Points",
+    "Use Adrenaline Rush",
+    "Use Between",
+    "Use Blade Rush",
+    "Cast Pistol Shot",
+    "Cast Sinister Strike",
+    "Build Combo Points"
+  ],
+  "buildName": "Whead Trickster Opener"
+}

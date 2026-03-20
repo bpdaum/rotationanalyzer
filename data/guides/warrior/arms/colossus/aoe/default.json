@@ -1,0 +1,23 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Colossus",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Battle Stance at all times and use Pummel to interrupt casts.",
+    "Use Thunder Clap to apply and refresh Rend on all targets.",
+    "Cast Ravager when Colossus Smash (or Warbreaker) is nearly ready (less than 3 seconds).",
+    "Cast Avatar and Colossus Smash (or Warbreaker) together to initiate your burst window.",
+    "Cast Champion's Spear while the Colossus Smash debuff is active.",
+    "Cast Demolish once you reach 10 stacks of Colossal Might.",
+    "Cast Cleave as your primary priority Rage spender in AoE situations.",
+    "Cast Demolish if the Colossus Smash debuff is active on the target, even if below 10 stacks.",
+    "Cast Whirlwind if you have the Fervor of Battle talent and 3 stacks of Collateral Damage.",
+    "Cast Mortal Strike to consume Martial Prowess stacks or if Cleave is unavailable.",
+    "Cast Overpower to generate Martial Prowess and buff your next Cleave/Mortal Strike.",
+    "Cast Execute whenever Sudden Death procs or if the target enters the Execute health threshold.",
+    "Cast Sweeping Strikes if Broad Strokes is not talented and Colossus Smash is on cooldown.",
+    "Use Bladestorm as a low-priority filler when other higher-priority abilities are on cooldown.",
+    "Use offensive racials and damage trinkets during the Colossus Smash debuff window."
+  ]
+}

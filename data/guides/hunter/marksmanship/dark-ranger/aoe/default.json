@@ -1,0 +1,18 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "marksmanship",
+  "heroSpec": "Dark Ranger",
+  "buildName": "default",
+  "priorityList": [
+    "Cast Black Arrow whenever available.",
+    "Cast Multi-Shot if Trick Shots is not active to trigger the buff for your next Aimed Shot or Rapid Fire.",
+    "Cast Multi-Shot to spend Precise Shots stacks.",
+    "Activate Trueshot as your primary offensive cooldown, ideally when Volley is available.",
+    "Cast Volley on cooldown to maintain Trick Shots and deal burst damage.",
+    "Cast Aimed Shot whenever Trick Shots is active and you have charges.",
+    "Cast Rapid Fire whenever Trick Shots is active.",
+    "Cast Wailing Arrow on cooldown.",
+    "Use offensive trinkets and racial abilities during Trueshot for maximum benefit.",
+    "Cast Steady Shot if you are low on Focus and have no other priority abilities available."
+  ]
+}

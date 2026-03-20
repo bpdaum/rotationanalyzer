@@ -1,0 +1,23 @@
+{
+  "classSlug": "druid",
+  "specSlug": "feral",
+  "heroSpec": "Wildstalker",
+  "buildName": "default",
+  "priorityList": [
+    "Use Tiger's Fury on cooldown for energy and damage, ideally when Frantic Frenzy is available or energy is low.",
+    "Cast Berserk (or Incarnation: Avatar of Ashamane) whenever Tiger's Fury is active.",
+    "Cast Feral Frenzy (or Frantic Frenzy) if you have 2 or fewer Combo Points.",
+    "Cast Convoke the Spirits while Tiger's Fury is active, preferably after a Rip or Ferocious Bite.",
+    "Cast Ferocious Bite immediately if Apex Predator's Craving procs.",
+    "Cast Ferocious Bite (Ravage) if the Chomp/Ravage enabler is active.",
+    "At 5 Combo Points, cast Rip if it is missing or has less than 7 seconds remaining.",
+    "At 5 Combo Points, cast Ferocious Bite if Rip is already active and you are at high energy (50+).",
+    "Use Shadowmeld to cast an empowered Rake if the current Rake is refreshable or weak.",
+    "Maintain Rake on the target, refreshing it if it has less than 4 seconds remaining or if Tiger's Fury is active to snapshot the buff.",
+    "Maintain Moonfire (if talented) as a builder to keep the damage over time active.",
+    "Use Shred as your primary builder to reach 5 Combo Points when other bleeds are applied.",
+    "Use Regrowth with Predatory Swiftness procs to manage healing or maintain Bloodtalons (if talented).",
+    "Align on-use damage trinkets with your Tiger's Fury or Berserk windows.",
+    "If in Prowl, open with Rake to apply an empowered bleed."
+  ]
+}

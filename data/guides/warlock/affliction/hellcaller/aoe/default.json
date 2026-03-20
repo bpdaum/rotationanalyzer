@@ -1,0 +1,23 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "affliction",
+  "heroSpec": "Hellcaller",
+  "buildName": "default",
+  "priorityList": [
+    "Before combat, cast Seed of Corruption to apply Wither to the pack immediately.",
+    "Cast Haunt on cooldown.",
+    "Cast Seed of Corruption if Wither is missing or needs refreshing on the primary target.",
+    "Maintain Agony on up to 5 targets, prioritizing those with the lowest remaining duration.",
+    "Cast Dark Harvest, Summon Darkglare, and Malevolence together as your primary burst window.",
+    "If Sow the Seeds is talented, use Seed of Corruption as your primary Soul Shard spender in AoE.",
+    "If Sow the Seeds is not talented, spend Soul Shards on Unstable Affliction during cooldowns or when at 5 shards.",
+    "In 2-target cleave, maintain Wither and Agony on both targets, then use Unstable Affliction as your primary spender.",
+    "Spend Shard Instability procs on Unstable Affliction immediately.",
+    "Use Nightfall procs on Seed of Corruption if Nocturnal Yield is talented and you are in AoE.",
+    "If Nightfall reaches maximum stacks or is about to expire, use it on Shadow Bolt, Drain Soul, or Malefic Grasp.",
+    "If talented, channel Malefic Grasp as your filler while Darkglare is active to maximize its benefit.",
+    "Refresh Wither or Agony manually if they are within pandemic range (less than 5 seconds remaining) and Seed of Corruption won't cover them.",
+    "Use Shadow Bolt or Drain Soul as your standard filler when no other priorities are met.",
+    "In the final seconds of a fight, dump remaining Soul Shards into Unstable Affliction."
+  ]
+}

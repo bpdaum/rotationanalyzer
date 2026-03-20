@@ -1,0 +1,17 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "assassination",
+  "heroSpec": "Deathstalker",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:28:38.401Z",
+  "priorityList": [
+    "Use Garrote and cast it twice to extend the Improved Garrote to its max duration on opener.",
+    "Activate Deathmark when available.",
+    "Use Kingsbane on cooldown, syncing it with Deathmark if it is ready.",
+    "Use Vanish to re-apply Garrote buffed by Improved Garrote if your initial set of DoTs are close to running out and the pack is going to live for another ~20+ seconds.",
+    "Cast Envenom with 5+ Combo Points, or with 7 Combo Points when Darkest Night is active.",
+    "Cast Fan if you are at 6 Combo Points and have the Darkest Night buff.",
+    "Use Thistle Tea alongside Kingsbane."
+  ],
+  "buildName": "Deathstalker Multi-Target Rotation"
+}

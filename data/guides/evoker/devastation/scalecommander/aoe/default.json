@@ -1,0 +1,23 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Scalecommander",
+  "buildName": "default",
+  "priorityList": [
+    "Use Dragonrage if the targets will survive at least 15 seconds.",
+    "Use Deep Breath on cooldown, especially if Strafing Run is not active, to apply Melt Armor and trigger hero talent effects.",
+    "Use Tip the Scales inside Dragonrage, preferably before casting Eternity Surge or Fire Breath.",
+    "Cast Eternity Surge at Rank 1 as your highest priority empowered spell in AoE.",
+    "Cast Fire Breath at Rank 1 to apply its damage-over-time effect and extend Dragonrage via Animosity.",
+    "Spend Essence on Pyre if Dragonrage is not imminent and you have 4 or more targets, or if you have 12+ stacks of Charged Blast.",
+    "Channel Disintegrate (triggering Mass Disintegrate) as your primary Essence spender to apply Bombardments to multiple targets.",
+    "When using Mass Disintegrate, target the enemy with the lowest remaining duration of the Bombardments debuff.",
+    "Use Azure Sweep as your primary filler to generate Essence and maintain the Azure Sweep buff.",
+    "Cast Living Flame when Leaping Flames is active, provided you have a Burnout proc or are not capped on Essence.",
+    "Use Azure Strike as a secondary filler when moving or when Azure Sweep is not optimal.",
+    "Use offensive trinkets and potions during Dragonrage, ideally when Rising Fury stacks are high.",
+    "Only use Emerald Blossom or Verdant Embrace to trigger Scarlet Adaptation damage if no other offensive GCD is high priority.",
+    "Avoid using empowered spells if Dragonrage is about to come off cooldown (within 6 seconds) to ensure they are available for the extension window.",
+    "Interrupt Disintegrate early if there are 8 or more targets and Volatility is talented to maximize splash damage."
+  ]
+}

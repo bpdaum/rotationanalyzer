@@ -1,0 +1,28 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Trickster",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:37:43.525Z",
+  "priorityList": [
+    "Cast Shadow Dance when you have 6 or more combo points and Secret Technique is ready or Shadow Blades is active.",
+    "Do not cast Shadow Dance if Shadow Blades has less than 10 seconds remaining on its cooldown.",
+    "Cast Shadow Blades during Shadow Dance.",
+    "Cast Secret Technique during Shadow Dance with 6 or more combo points.",
+    "Cast Coup de Grace with 6 or more combo points.",
+    "Cast Black Powder with 6 or more combo points.",
+    "Cast Goremaw's Bite when you are not in Shadow Dance.",
+    "Cast Shuriken Storm to build combo points on 3 or more targets.",
+    "Maintain Slice and Dice duration by using finishers at 5+ Combo Points",
+    "Use Shadow Blades on cooldown to maximize Combo Point generation and Shadow damage",
+    "Activate Symbols of Death and Shadow Dance simultaneously for burst windows",
+    "Cast Shuriken Tornado when 3 or more targets are present to maximize Combo Point generation",
+    "Cast Secret Technique at maximum Combo Points as your highest priority finisher, ideally within Shadow Dance",
+    "Cast Black Powder as your primary AoE finisher at 5+ Combo Points",
+    "Use Shuriken Storm as your primary builder when 2 or more targets are present",
+    "Use Thistle Tea when Energy is low or to gain a Mastery buff during Shadow Dance windows",
+    "Maximize the frequency of finishers to trigger Coup de Grace for empowered damage",
+    "Cast Cold Blood (if talented) before Secret Technique to ensure a critical strike on the initial hit"
+  ],
+  "buildName": "Trickster AoE"
+}

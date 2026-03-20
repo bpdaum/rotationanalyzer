@@ -1,0 +1,23 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Elune's Chosen",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T04:13:39.920Z",
+  "priorityList": [
+    "Cast two Wraths with 2-seconds on pull-timer",
+    "Apply Sunfire and Apply Moonfire",
+    "Cast Celestial Alignment",
+    "Cast Fury",
+    "Dump Astral Power",
+    "Use Starfire to generate Astral Power",
+    "Apply Sunfire and Moonfire and maintain them.",
+    "Cast Stellar Flare and maintain it.",
+    "Cast Celestial Alignment or Incarnation: Chosen of Elune on cooldown.",
+    "Cast Convoke the Spirits on cooldown.",
+    "Cast Fury of Elune on cooldown.",
+    "Cast Starsurge to spend Astral Power.",
+    "Cast Starfire as your main filler."
+  ],
+  "buildName": "Elune's Chosen Opening Sequence"
+}

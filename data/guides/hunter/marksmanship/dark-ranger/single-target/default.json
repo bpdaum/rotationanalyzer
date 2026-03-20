@@ -1,0 +1,21 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "marksmanship",
+  "heroSpec": "Dark Ranger",
+  "buildName": "default",
+  "priorityList": [
+    "Use Black Arrow as your top priority whenever available.",
+    "Use Trueshot on cooldown, ideally when you are not currently under the effect of Double Tap.",
+    "Cast Rapid Fire if the Unload talent triggers a Kill Shot proc, especially if the target is below 20% health or Bulletstorm stacks are low.",
+    "Spend Precise Shots stacks on Arcane Shot.",
+    "Cast Volley on cooldown to enable Trick Shots synergy.",
+    "Cast Aimed Shot while the Trick Shots buff from Volley is active and Trueshot is not active.",
+    "Cast Aimed Shot to prevent charges from capping at 2.",
+    "Cast Wailing Arrow on cooldown.",
+    "Cast Rapid Fire on cooldown to generate Focus and maintain the Bulletstorm buff.",
+    "Cast Arcane Shot as a Focus spender to avoid capping your Focus pool.",
+    "Cast Steady Shot as a filler when all other abilities are on cooldown and you need Focus.",
+    "Use offensive racial abilities (like Berserking or Blood Fury) and Combat Potions while Trueshot is active.",
+    "Use on-use Trinkets during Trueshot, especially if the trinket's duration aligns with your Trueshot window."
+  ]
+}

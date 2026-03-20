@@ -1,0 +1,23 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Fatebound",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:40:06.425Z",
+  "priorityList": [
+    "Maintain Blade Flurry at low Combo Points due to Deft Maneuvers",
+    "Use Keep It Rolling when you have 4+ buffs",
+    "Use Adrenaline Rush on cooldown at low Combo Points",
+    "Use Blade Rush on cooldown",
+    "Cast Between on cooldown with 6+ Combo Points",
+    "Cast Dispatch at 5+ Combo Points",
+    "Cast Pistol Shot at 1-3 Combo Points",
+    "Cast Sinister Strike",
+    "Use Adrenaline Rush on cooldown",
+    "Use Blade Rush on cooldown",
+    "Use Between on cooldown",
+    "Efficiently spend Combo Points without overcapping",
+    "Build Combo Points after you cast Between"
+  ],
+  "buildName": "Whead Fatebound Rotation"
+}

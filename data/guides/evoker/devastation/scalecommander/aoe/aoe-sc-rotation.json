@@ -1,0 +1,19 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Scalecommander",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:59:14.609Z",
+  "priorityList": [
+    "Cast Deep Breath once the enemies are grouped up",
+    "Cast Dragonrage",
+    "Cast Eternity Surge at either rank 1 or matching the amount of targets",
+    "Cast Fire Breath at rank 1",
+    "Cast Disintegrate after casting your empowers to trigger Mass Disintegrate on different targets",
+    "Cast Pyre after channeling Mass Disintegrate when fighting 4 or more enemies",
+    "Cast Azure Strike as a filler to generate Essence Burst procs to spend on Pyre",
+    "Cast Living Flame when you have stacks of Leaping Flames up from casting Fire Breath to gain Essence Burst",
+    "Cast empowered spells on cooldown and avoid overcapping Essence"
+  ],
+  "buildName": "AoE SC Rotation"
+}

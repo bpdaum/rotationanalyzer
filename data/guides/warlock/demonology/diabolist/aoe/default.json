@@ -1,0 +1,20 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "demonology",
+  "heroSpec": "Diabolist",
+  "buildName": "default",
+  "priorityList": [
+    "Ensure your pet is summoned and use Power Siphon if you have 1 or fewer Demonic Core stacks.",
+    "Use offensive trinkets, racials, and potions when Summon Demonic Tyrant is active.",
+    "Cast Grimoire: Imp Lord, Grimoire: Fel Ravager, or Summon Doomguard immediately when triggered by Diabolic Ritual.",
+    "Cast Ruination as soon as the proc becomes available.",
+    "Cast Hand of Gul'dan if the Dominion of Argus buff is active.",
+    "Cast Call Dreadstalkers on cooldown.",
+    "Cast Summon Demonic Tyrant when you have 5 Soul Shards.",
+    "In AoE (3+ targets), cast Implosion if you have 6 or more Wild Imps active.",
+    "Cast Hand of Gul'dan whenever you have 3 or more Soul Shards.",
+    "Cast Infernal Bolt if you have Demonic Core stacks and fewer than 3 Soul Shards.",
+    "Cast Demonbolt if you have Demonic Core stacks and fewer than 4 Soul Shards.",
+    "Cast Shadow Bolt as your filler to generate Soul Shards."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Flameshaper",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:00:22.145Z",
+  "priorityList": [
+    "Pre-Cast Living Flame so that it lands on pull",
+    "Cast Dragonrage",
+    "Cast Fire Breath at Empower level 1",
+    "Cast Eternity Surge at Empower level 1",
+    "Cast Disintegrate three times",
+    "Cast Fire Breath at Empower level 1",
+    "Cast Disintegrate until out of Essence"
+  ],
+  "buildName": "Flameshaper Single-Target Opener"
+}

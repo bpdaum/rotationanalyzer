@@ -1,0 +1,23 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Deathstalker",
+  "buildName": "default",
+  "priorityList": [
+    "Sync Shadow Blades with Shadow Dance and Secret Technique for maximum burst.",
+    "Cast Shadow Dance only when Secret Technique is ready or Darkest Night is active.",
+    "Use Secret Technique as your top priority finisher during Shadow Dance.",
+    "Use Eviscerate as your finisher whenever Darkest Night is active to consume the proc.",
+    "Use Coup de Grace as a finisher if Secret Technique is on cooldown.",
+    "Use Black Powder as your finisher against 3 or more targets (unless Darkest Night is active).",
+    "Use Eviscerate as your finisher against 1 or 2 targets.",
+    "Cast Shadowstrike as your primary builder if Deathstalker's Mark is missing from the target.",
+    "Use Shuriken Storm as your builder when 2 or more targets are present.",
+    "Use Shadowstrike as your builder if Darkest Night is active and there are 4 or fewer targets.",
+    "Use Goremaw's Bite if you have a deficit of 3 or more Combo Points.",
+    "Use Vanish to enter stealth and generate Combo Points if you have 1 or fewer Combo Points.",
+    "Use offensive trinkets, potions, and racial abilities during Shadow Blades.",
+    "Spend Combo Points on finishers when you reach 6 or more (or 7 if Darkest Night is active).",
+    "Use Shuriken Storm at the start of Shadow Dance if Premeditation is active to benefit from Danse Macabre."
+  ]
+}

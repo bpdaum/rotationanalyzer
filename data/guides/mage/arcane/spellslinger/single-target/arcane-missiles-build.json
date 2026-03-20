@@ -1,0 +1,24 @@
+{
+  "classSlug": "mage",
+  "specSlug": "arcane",
+  "heroSpec": "Spellslinger",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:34:13.805Z",
+  "priorityList": [
+    "Use Presence when you need to move and need to cast Arcane Blast",
+    "Cast Arcane Barrage when you have 4 Arcane Charge stacks and 20 stacks of Arcane Salvo",
+    "Cast Arcane Barrage if you have 4 Arcane Charge stacks, Clearcasting, at least 5 Arcane Salvo stacks, and Overpowered Missiles",
+    "Cast Arcane Missiles whenever you have Clearcasting and less than 3 Arcane Charge stacks",
+    "Cast Arcane Missiles whenever you have 2 or more Clearcasting stacks",
+    "Only cast Arcane Missiles when you have fewer than 14 Arcane Salvo stacks",
+    "Only cast Arcane Missiles when you have fewer than 6 Arcane Salvo stacks if you also have Overpowered Missiles",
+    "Cast Arcane Orb when you have 0-2 Arcane Charge stacks",
+    "Cast Arcane Blast as your filler",
+    "Cast Arcane Barrage if you do not have enough mana for Arcane Blast",
+    "Before using Arcane Surge, get to 20 stacks of Arcane Salvo via Arcane Blast",
+    "Cast Arcane Surge",
+    "Cast Touch",
+    "Cast Touch 45 seconds later when it is ready"
+  ],
+  "buildName": "Arcane Missiles Build"
+}

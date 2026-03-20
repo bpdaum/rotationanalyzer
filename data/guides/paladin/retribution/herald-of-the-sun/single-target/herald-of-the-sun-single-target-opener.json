@@ -1,0 +1,16 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "retribution",
+  "heroSpec": "Herald of the Sun",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:08:10.086Z",
+  "priorityList": [
+    "Cast Avenging Wrath",
+    "Cast Execution Sentence",
+    "Cast Wake of Ashes",
+    "Cast Final Verdict",
+    "Cast Final Verdict",
+    "Cast Divine Toll"
+  ],
+  "buildName": "Herald of the Sun Single-Target Opener"
+}

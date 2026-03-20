@@ -1,0 +1,24 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Sentinel",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:14:48.852Z",
+  "priorityList": [
+    "Ensure Hunter's Mark is active on the target.",
+    "Trinket Usage Stat-granting on-use Trinkets should be used right before Bestial Wrath.",
+    "Activate Bestial Wrath.",
+    "Use all Barbed Shots right before Bestial Wrath comes off cooldown.",
+    "Cast Kill Command on cooldown.",
+    "If Bestial Wrath is coming up within a few seconds, hold a Kill Command charge for it.",
+    "Cast Barbed Shot on cooldown.",
+    "Cast Cobra Shot as a filler.",
+    "Cast Kill Command if you have 2 charges",
+    "Cast Kill Command if Bestial Wrath is active",
+    "Cast Barbed Shot if you have 2 charges",
+    "Cast Wailing Arrow",
+    "Cast Kill Command",
+    "Cast Cobra Shot"
+  ],
+  "buildName": "Pack Leader"
+}

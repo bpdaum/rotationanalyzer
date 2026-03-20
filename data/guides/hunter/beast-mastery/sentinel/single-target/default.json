@@ -1,0 +1,16 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Sentinel",
+  "buildName": "default",
+  "priorityList": [
+    "Use all offensive cooldowns (Racials, Potions, and Trinkets) when Bestial Wrath is active.",
+    "Cast Barbed Shot if Bestial Wrath is about to come off cooldown (less than 1 GCD remaining).",
+    "Cast Bestial Wrath on cooldown.",
+    "Cast Kill Command if Nature's Ally (Sentinel Owl) is active or ready to be summoned, unless Bestial Wrath is coming back very soon.",
+    "Cast Kill Command if you have an Apex Predator proc to prevent capping.",
+    "Cast Barbed Shot to maintain 3 stacks of Frenzy on your pet.",
+    "Cast Barbed Shot to avoid capping at 2 charges.",
+    "Cast Cobra Shot as a filler when Kill Command is on cooldown and you have excess Focus."
+  ]
+}

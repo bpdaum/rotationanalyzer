@@ -1,0 +1,16 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Pack Leader",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:28:08.937Z",
+  "priorityList": [
+    "Ensure Hunter's Mark is active on the target from you or another Hunter in the group!",
+    "Kill Command",
+    "Kill Command",
+    "Wildfire Bomb",
+    "Wildfire Bomb",
+    "Kill Command"
+  ],
+  "buildName": "Pack Leader AoE (Twin Fangs Off)"
+}

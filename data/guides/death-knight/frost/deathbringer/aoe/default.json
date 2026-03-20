@@ -1,0 +1,23 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "frost",
+  "heroSpec": "Deathbringer",
+  "buildName": "default",
+  "priorityList": [
+    "Interrupt with Mind Freeze whenever the target is casting.",
+    "Cast Reaper's Mark if Pillar of Frost is ready or will be ready within one GCD.",
+    "Cast Pillar of Frost immediately after Reaper's Mark, or on cooldown if Reaper's Mark is unavailable.",
+    "Cast Breath of Sindragosa if talented and Pillar of Frost is active and you have at least 60 Runic Power.",
+    "Maintain Remorseless Winter at all times, especially during Gathering Storm stacks.",
+    "Cast Howling Blast if Rime is active or if Frost Fever is not ticking on your target.",
+    "Cast Frostscythe when Killing Machine is active and there are 3 or more targets.",
+    "Cast Obliterate when Killing Machine is active if Frostscythe is not available or there are fewer than 3 targets.",
+    "Use Frostwyrm's Fury if Pillar of Frost is about to expire or if you have high Strength procs.",
+    "Cast Glacial Advance to spend Runic Power and apply Razorice in AoE situations.",
+    "Cast Frost Strike if the target has 5 stacks of Razorice and Shattering Blade is talented, or as a secondary Runic Power dump.",
+    "Cast Empower Rune Weapon if you have fewer than 2 Runes or lack a Killing Machine proc while low on Runic Power.",
+    "Cast Obliterate or Frostscythe as a filler when you have excess Runes and are not pooling for Reaper's Mark.",
+    "Use all offensive Trinkets and Racial abilities during Pillar of Frost.",
+    "Pool at least 3 Runes when Reaper's Mark has less than 6 seconds remaining on its cooldown."
+  ]
+}

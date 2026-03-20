@@ -1,0 +1,13 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "fury",
+  "heroSpec": "Slayer",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T06:35:35.051Z",
+  "priorityList": [
+    "if the Meat Cleaver buff is not active",
+    "with Sudden Death",
+    "Raging Blow or Crushing Blow"
+  ],
+  "buildName": "Slayer Build"
+}

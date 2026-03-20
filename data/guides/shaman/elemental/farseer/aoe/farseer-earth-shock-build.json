@@ -1,0 +1,26 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "elemental",
+  "heroSpec": "Farseer",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:43:04.196Z",
+  "priorityList": [
+    "Cast Stormkeeper, ensuring procs are available for use during Ascendance.",
+    "Use Ancestral Swiftness.",
+    "Cast Ascendance synchronized with on-use trinkets, Bloodlust, and potions.",
+    "Cast Earthquake as your primary Maelstrom spender for 2 or more targets.",
+    "Cast Chain Lightning as your primary filler (replaces Lightning Bolt).",
+    "Switch targets between each spender if using the Lightning Rod talent on 2 targets.",
+    "Use Lava Surge while moving.",
+    "Use Spiritwalker's Grace or Nature's Swiftness to maintain casting during movement",
+    "Cast Ancestral Swiftness on cooldown to summon an Ancestor",
+    "Cast Liquid Magma Totem to apply Flame Shock to all nearby targets",
+    "Cast Primordial Wave on a target already affected by Flame Shock",
+    "Cast Lava Burst to trigger the Primordial Wave multi-cast and summon Ancestors via the Routine Communication talent",
+    "Cast Earthquake whenever you have sufficient Maelstrom (60+) to spend",
+    "Cast Chain Lightning as your primary filler to generate Maelstrom",
+    "Maintain Flame Shock on targets if Liquid Magma Totem is on cooldown",
+    "Use Fire Elemental or Storm Elemental on cooldown to increase Maelstrom generation or damage"
+  ],
+  "buildName": "Farseer Earth Shock Build"
+}

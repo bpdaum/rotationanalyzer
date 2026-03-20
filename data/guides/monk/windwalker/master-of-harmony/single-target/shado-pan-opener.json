@@ -1,0 +1,15 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Master of Harmony",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:00:12.946Z",
+  "priorityList": [
+    "Cast Tiger Palm",
+    "Channel Algeth'ar Puzzle Box if equipped",
+    "Cast Fists of Fury",
+    "Cast Rising Sun Kick",
+    "Cast Whirling Dragon Punch"
+  ],
+  "buildName": "Shado-Pan Opener"
+}

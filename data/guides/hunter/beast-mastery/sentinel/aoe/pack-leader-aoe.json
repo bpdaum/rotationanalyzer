@@ -1,0 +1,17 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Sentinel",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:16:30.664Z",
+  "priorityList": [
+    "Trinket Usage Stat-granting on-use Trinkets should be used right before Bestial Wrath",
+    "Activate Bestial Wrath",
+    "Always use all of your Barbed Shots right before Bestial Wrath comes off cooldown",
+    "Cast Kill Command on cooldown",
+    "Cast Barbed Shot on cooldown",
+    "Bestial Wrath is used on cooldown as often as possible",
+    "Make sure that Kill Command never reaches two charges"
+  ],
+  "buildName": "Pack Leader AoE"
+}

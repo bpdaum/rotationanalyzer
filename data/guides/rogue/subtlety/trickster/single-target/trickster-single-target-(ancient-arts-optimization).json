@@ -1,0 +1,28 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Trickster",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:36:42.832Z",
+  "priorityList": [
+    "Cast Shadow Dance when you have 6 or more combo points and Secret Technique is ready or Shadow Blades is active.",
+    "Do not cast Shadow Dance when Shadow Blades has less than 10 seconds remaining on its cooldown.",
+    "Cast Shadow Blades during Shadow Dance.",
+    "Cast Secret Technique during Shadow Dance with 6 or more combo points.",
+    "Cast Coup de Grace with 6 or more combo points.",
+    "Cast Eviscerate with 6 or more combo points.",
+    "Cast Vanish at any point when Shadow Dance is not active, followed immediately by Shadowstrike.",
+    "Cast Shadowstrike whenever available to build combo points.",
+    "Cast Goremaw's Bite (if talented) or Backstab to build combo points.",
+    "Cast Symbols of Death on cooldown, ideally aligned with Shadow Dance charges.",
+    "Cast Shadow Dance while Symbols of Death is active.",
+    "Cast Cold Blood immediately before using Secret Technique.",
+    "Cast Secret Technique during Shadow Dance and Symbols of Death windows when at 5 or more Combo Points.",
+    "Maintain Rupture with 5 or more Combo Points, refreshing when there are fewer than 7 seconds remaining.",
+    "Cast Eviscerate at 5 or more Combo Points to spend resources and trigger Coupe de Grace.",
+    "Use Thistle Tea if you are low on Energy or need to refresh the Mastery buff from the talent.",
+    "Use Shadowstrike to generate Combo Points while in Shadow Dance or Stealth.",
+    "Use Backstab to generate Combo Points when Shadow Dance and Stealth are unavailable."
+  ],
+  "buildName": "Trickster Single Target (Ancient Arts Optimization)"
+}

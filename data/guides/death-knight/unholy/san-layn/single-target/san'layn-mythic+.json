@@ -1,0 +1,18 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "San'layn",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:18:09.624Z",
+  "priorityList": [
+    "Use 2x Festering Strike",
+    "Use Army + Dark Transformation + Trinket + Combat Potion",
+    "Use Soul Reaper 5 seconds before Dark Transformation ends",
+    "Use Soul Reaper if the enemy is below 35% health or you have triggered the Reaping effect from Dark Transformation",
+    "Use Death Coil when you have a Sudden Doom proc or 80+ Runic Power",
+    "Use Death Coil",
+    "Prioritize cooldown setup and execution to maximize damage",
+    "Spend Sudden Doom procs with Death Coil or Epidemic as quickly as possible"
+  ],
+  "buildName": "San'layn Mythic+"
+}

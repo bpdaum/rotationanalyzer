@@ -1,0 +1,21 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "marksmanship",
+  "heroSpec": "Dark Ranger",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:24:00.569Z",
+  "priorityList": [
+    "Trinket Usage: Use stat-granting on-use trinkets with Trueshot.",
+    "Cast Black Arrow whenever available; anticipate casting it immediately after every Rapid Fire.",
+    "Cast Rapid Fire during Trueshot.",
+    "Cast Rapid Fire if the Bulletstorm buff would expire before you could finish an Aimed Shot cast.",
+    "Activate Trueshot for an instant Black Arrow proc and use it immediately.",
+    "Cast Aimed Shot whenever possible.",
+    "Cast Rapid Fire on cooldown.",
+    "Cast Steady Shot as a filler to generate Focus and Aimed Shot cooldown reduction.",
+    "Every single Precise Shots proc must be spent.",
+    "Follow up every Aimed Shot with a Multi-Shot on 2+ targets to spend Precise Shots procs.",
+    "Follow up every Rapid Fire with a Multi-Shot on 2+ targets (depending on Talents) to spend Precise Shots procs."
+  ],
+  "buildName": "Dark Ranger Single-Target Rotation"
+}

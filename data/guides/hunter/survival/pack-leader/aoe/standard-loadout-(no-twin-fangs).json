@@ -1,0 +1,24 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Pack Leader",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:45:29.733Z",
+  "priorityList": [
+    "Ensure Hunter's Mark is active on the target.",
+    "Cast Kill Command.",
+    "Cast Kill Command.",
+    "Cast Wildfire Bomb.",
+    "Cast Wildfire Bomb.",
+    "Cast Kill Command.",
+    "Cast Coordinated Assault",
+    "Cast Explosive Shot on cooldown",
+    "Cast Wildfire Bomb if you are about to cap at 2 charges",
+    "Cast Kill Command if you have 2 charges or to avoid capping Focus",
+    "Cast Fury of the Eagle if you have 3 stacks of Tip of the Spear",
+    "Cast Butchery to spend Tip of the Spear stacks",
+    "Cast Flanking Strike to generate Focus and Tip of the Spear",
+    "Cast Kill Command to generate Tip of the Spear and Focus"
+  ],
+  "buildName": "Standard Loadout (No Twin Fangs)"
+}

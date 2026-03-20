@@ -1,0 +1,22 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "retribution",
+  "heroSpec": "Herald of the Sun",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:09:32.373Z",
+  "priorityList": [
+    "Cast Avenging Wrath",
+    "Cast Divine Storm if you have 5 Holy Power",
+    "Cast Wake of Ashes",
+    "Cast Divine Toll",
+    "Cast Blade of Justice with an Art of War proc",
+    "Cast Final Verdict if you have Empyrean Legacy active",
+    "Cast Divine Storm",
+    "Cast Hammer of Wrath",
+    "Cast Blade of Justice",
+    "Cast Judgment",
+    "Cast Templar Strikes or Templar Slash",
+    "Cast Crusader Strike"
+  ],
+  "buildName": "Herald of the Sun AoE"
+}

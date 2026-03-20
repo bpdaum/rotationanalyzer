@@ -1,0 +1,19 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Deathstalker",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:43:39.745Z",
+  "priorityList": [
+    "Cast Shadow Dance when you have 2 or fewer combo points and Secret Technique is ready or Shadow Blades is active.",
+    "Cast Shadow Blades during Shadow Dance.",
+    "Cast Secret Technique during Shadow Dance with 6 or more combo points.",
+    "Cast Eviscerate with 6 or more combo points when Darkest Night is active.",
+    "Cast Black Powder with 6 or more combo points.",
+    "Cast Shuriken Storm to build combo points.",
+    "Always start the fight off with a Shadowstrike.",
+    "Do not cast Shadow Dance when Shadow Blades has less than 10 seconds left of its cooldown.",
+    "On exactly 2 targets it is slightly better to build combo points with Shadowstrike over Shuriken Storm whenever it is available."
+  ],
+  "buildName": "Deathstalker AoE"
+}

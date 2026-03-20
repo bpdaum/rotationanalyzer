@@ -1,0 +1,23 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Annihilator",
+  "buildName": "default",
+  "priorityList": [
+    "Cast Metamorphosis if Eradicate is active or in a single-target encounter.",
+    "Cast The Hunt or Voidblade immediately if Void Metamorphosis is at maximum stacks.",
+    "Cast Pierce the Veil if Moment of Craving is active and Collapsing Star is ready.",
+    "Cast Void Ray to maintain the Eradicate buff or as a high-priority single-target attack.",
+    "Cast Voidblade if Moment of Craving is active and you are near maximum Collapsing Star stacks.",
+    "Execute the Reap priority (Eradicate > Cull > Reap) if you have 4+ souls consumed during Metamorphosis or if Voidfall procs.",
+    "Cast Collapsing Star whenever available, provided Dark Matter or Star Fragments are active.",
+    "Cast Vengeful Retreat if Voidstep is active and Collapsing Star stacks are not yet at the limit.",
+    "Cast Reapers Toll if Voidsurge is proc'd.",
+    "Cast The Hunt as a primary damage cooldown.",
+    "Cast Pierce the Veil on Voidsurge procs or for resource generation.",
+    "Cast Predator's Wake on cooldown.",
+    "Cast Voidblade as your primary filler if talented into Duty Eternal or Devourer's Bite.",
+    "Use Devour and Consume as baseline fillers to generate resources.",
+    "Use damage trinkets and combat potions during Metamorphosis windows for maximum burst."
+  ]
+}

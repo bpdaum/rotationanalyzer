@@ -6,7 +6,7 @@ import { VisualTimeline } from '@/components/VisualTimeline';
 import { Timeline } from '@/components/Timeline';
 import { Feedback } from '@/components/Feedback';
 import type { CombatEvent, AuraTrackEvent } from '@/lib/parser';
-import type { ScrapedRotation } from '@/lib/scraper';
+import type { ScrapedRotation } from '@/lib/guide-data';
 import type { AnalysisResult } from '@/lib/analyzer';
 
 interface AnalysisPayload {

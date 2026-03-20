@@ -1,0 +1,23 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "frost",
+  "heroSpec": "Rider of the Apocalypse",
+  "buildName": "default",
+  "priorityList": [
+    "Interrupt with Mind Freeze whenever possible.",
+    "Cast Remorseless Winter on cooldown if there are multiple targets or if Gathering Storm is talented.",
+    "Cast Pillar of Frost on cooldown, ensuring you have resources available to spend during its window.",
+    "Cast Breath of Sindragosa while Pillar of Frost is active and your Runic Power is at least 60.",
+    "Cast Frostwyrm's Fury at the very end of Pillar of Frost or during Breath of Sindragosa to maximize buff snapshots.",
+    "Cast Howling Blast if you have a Rime proc or if Frost Fever is not ticking on your targets.",
+    "Cast Frostscythe when Killing Machine is active if there are 3 or more targets.",
+    "Cast Obliterate when Killing Machine is active, targeting the enemy affected by the Trollbane slow if applicable.",
+    "Cast Glacial Advance to spend Runic Power in AoE situations, provided you are not pooling for an upcoming Breath of Sindragosa.",
+    "Cast Frost Strike to spend Runic Power on targets with 5 stacks of Razorice if Shattering Blade is talented.",
+    "Cast Empower Rune Weapon if you have fewer than 2 Runes or are low on Runic Power to sustain your rotation.",
+    "Cast Raise Dead on cooldown.",
+    "Cast Obliterate as your primary Rune spender when no Killing Machine procs are available.",
+    "Use combat potions and offensive trinkets during Pillar of Frost windows.",
+    "Use Anti-Magic Shell to generate Runic Power when taking predictable magic damage."
+  ]
+}

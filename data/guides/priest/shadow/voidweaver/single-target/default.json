@@ -1,0 +1,22 @@
+{
+  "classSlug": "priest",
+  "specSlug": "shadow",
+  "heroSpec": "Voidweaver",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Shadowform at all times.",
+    "Cast Halo on cooldown to activate Entropic Rift.",
+    "Synchronize and cast Power Infusion with Voidform (or Dark Ascension).",
+    "Cast Devouring Plague (or Shadow Word: Madness) if you are about to cap Insanity (65+ Insanity) or have a Mind Devourer proc.",
+    "Cast Void Blast as your highest priority whenever Entropic Rift is active.",
+    "Cast Void Torrent on cooldown, ensuring your DoTs (Vampiric Touch and Shadow Word: Pain) are active.",
+    "Cast Tentacle Slam whenever it is available or about to reach maximum charges.",
+    "Cast Mind Blast when charges are available and Entropic Rift is not active.",
+    "Cast Mind Flay: Insanity whenever the buff is available.",
+    "Cast Shadow Word: Death if the target is below 20% health or if the Deathspeaker talent procs.",
+    "Maintain Vampiric Touch and Shadow Word: Pain on your primary target.",
+    "Cast Shadowfiend (or Mindbender) on cooldown to maximize Insanity generation and Inescapable Torment damage.",
+    "Use offensive Trinkets and Potions during your Power Infusion and Voidform window.",
+    "Use Mind Flay as a filler spell when no other higher-priority abilities are available."
+  ]
+}

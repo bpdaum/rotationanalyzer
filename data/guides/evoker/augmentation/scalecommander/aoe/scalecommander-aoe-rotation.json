@@ -1,0 +1,32 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "augmentation",
+  "heroSpec": "Scalecommander",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:10:49.321Z",
+  "priorityList": [
+    "Cast Ebon Might if it has 4 or less seconds remaining on its duration.",
+    "Cast Breath of Eons on cooldown.",
+    "Cast Prescience on cooldown.",
+    "Cast Fire Breath at Rank 1.",
+    "Cast Tip the Scales if Fire Breath is on cooldown and Upheaval is available.",
+    "Cast Tip the Scales if Fire Breath is up.",
+    "Cast Upheaval on Cooldown.",
+    "Cast Hover if you need to move.",
+    "Cast Eruption if Ebon Might is up or you have two Essence Burst.",
+    "Cast Blistering Scales if it not currently active on any tank.",
+    "Cast Azure Strike.",
+    "Cast Living Flame.",
+    "Cast Azure Strike for Movement if you do not have any charges of Hover remaining.",
+    "Cast Blistering Scales in downtime while no enemies are available.",
+    "Maximize uptime of Ebon Might",
+    "Cast Upheaval and Fire Breath at appropriate ranks on cooldown",
+    "Spend Essence Burst when capped",
+    "Cast Eruption to spend resources",
+    "Fill downtime with Living Flame or Azure Strike to deal damage and generate Essence Burst",
+    "Cast Prescience and Living Flame to generate Essence Burst",
+    "Cast Hover effectively to cast spells on the move",
+    "Align Breath of Eons with allies' cooldowns and big damage moments"
+  ],
+  "buildName": "Scalecommander AoE Rotation"
+}

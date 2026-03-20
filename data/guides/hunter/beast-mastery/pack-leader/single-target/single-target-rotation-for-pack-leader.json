@@ -1,0 +1,17 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Pack Leader",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:12:16.122Z",
+  "priorityList": [
+    "Trinket Usage Stat-granting on-use Trinkets should be used right before Bestial Wrath",
+    "Activate Bestial Wrath. Always use all of your Barbed Shots right before Bestial Wrath comes off cooldown",
+    "Cast Kill Command on cooldown. If Bestial Wrath is coming up within a few seconds, hold a Kill Command charge for it",
+    "Cast Barbed Shot on cooldown",
+    "Cast Cobra Shot as a filler",
+    "Use Bestial Wrath on cooldown as often as possible",
+    "Ensure Kill Command never reaches two charges"
+  ],
+  "buildName": "Single-Target Rotation for Pack Leader"
+}

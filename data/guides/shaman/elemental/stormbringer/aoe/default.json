@@ -1,0 +1,21 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "elemental",
+  "heroSpec": "Stormbringer",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Lightning Shield, Flametongue Weapon, and Thunderstrike Ward buffs at all times.",
+    "Use Stormkeeper on cooldown, but avoid overlapping it with the start of Ascendance.",
+    "Cast Ascendance as your primary offensive cooldown, provided Stormkeeper is not immediately available.",
+    "Use Ancestral Swiftness and Trinkets/Potions alongside your major cooldowns.",
+    "Cast Voltaic Blaze (from Purging Flames/Surge of Power) to spread Flame Shock or when Master of Elements is down.",
+    "Cast Tempest if Master of Elements is active for maximum damage.",
+    "Cast Tempest immediately if you have 2 stacks available to prevent overcapping.",
+    "Cast Earthquake as your primary Maelstrom spender on 3 or more targets.",
+    "Cast Elemental Blast as a secondary Maelstrom spender (if talented), targeting enemies without Lightning Rod.",
+    "Cast Lava Burst if Voltaic Blaze is available or to consume Lava Surge procs when Master of Elements is needed.",
+    "Use Stormkeeper-empowered Chain Lightning to rapidly generate Maelstrom.",
+    "Cast Chain Lightning as your primary filler and builder on 3 or more targets.",
+    "Use Flame Shock, Voltaic Blaze, or Frost Shock while moving if Spiritwalker's Grace is unavailable."
+  ]
+}

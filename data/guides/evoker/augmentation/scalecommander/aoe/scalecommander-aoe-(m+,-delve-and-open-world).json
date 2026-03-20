@@ -1,0 +1,30 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "augmentation",
+  "heroSpec": "Scalecommander",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:35:08.324Z",
+  "priorityList": [
+    "Cast Ebon Might if it has 4 or less seconds remaining on its duration.",
+    "Cast Breath of Eons on cooldown.",
+    "Cast Prescience on cooldown.",
+    "Cast Fire Breath at Rank 1.",
+    "Cast Tip the Scales if Fire Breath is on cooldown and Upheaval is available.",
+    "Cast Upheaval on Cooldown.",
+    "Cast Hover if you need to move.",
+    "Cast Eruption if Ebon Might is up or you have two Essence Burst.",
+    "Cast Blistering Scales if it not currently active on any tank.",
+    "Cast Azure Strike.",
+    "Cast Azure Strike for Movement if you do not have any charges of Hover remaining.",
+    "Cast Blistering Scales in downtime while no enemies are available.",
+    "Maintain Ebon Might uptime at all times.",
+    "Keep Prescience active on two high-priority damage dealers.",
+    "Cast Breath of Eons on cooldown, ideally synchronized with ally burst windows.",
+    "Use Upheaval at Empowerment Level 1 to apply Melt Armor and extend the duration of Ebon Might.",
+    "Spend Essence on Eruption to trigger Bombardments and extend Ebon Might duration.",
+    "Prioritize Mass Eruption during the Breath of Eons window to maximize AoE damage.",
+    "Use Azure Strike as your primary filler on 2 or more targets to fish for Essence Burst procs.",
+    "Keep Blistering Scales active on the tank for additional passive AoE damage."
+  ],
+  "buildName": "Scalecommander AoE (M+, Delve and Open World)"
+}

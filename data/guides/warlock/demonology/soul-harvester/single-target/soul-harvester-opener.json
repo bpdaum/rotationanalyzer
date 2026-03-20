@@ -1,0 +1,15 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "demonology",
+  "heroSpec": "Soul Harvester",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:11:23.892Z",
+  "priorityList": [
+    "Pre-cast Demonbolt.",
+    "Cast Shadow Bolt if below 2 Soul Shards.",
+    "Cast Call Dreadstalkers.",
+    "Cast Summon Demonic Tyrant.",
+    "Focus on casting as many Hand of Gul'dan possible."
+  ],
+  "buildName": "Soul Harvester Opener"
+}

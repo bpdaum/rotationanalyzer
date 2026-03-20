@@ -1,0 +1,20 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "Rider of the Apocalypse",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:15:17.359Z",
+  "priorityList": [
+    "Use Outbreak",
+    "Use 2x Festering Strike",
+    "Use Army, Dark Transformation, Trinket, and Combat Potion",
+    "Use Soul Reaper",
+    "Use Outbreak to maintain your plagues on the target",
+    "Use Festering Scythe if its debuff has fallen off",
+    "Use Epidemic when you have 80+ Runic Power or a Sudden Doom proc",
+    "Use Death Coil when fighting less than 3 targets, or 5 targets during Forbidden Knowledge",
+    "Use Epidemic",
+    "Use Death Coil when fighting less than 3 targets, or 5 targets during Forbidden Knowledge"
+  ],
+  "buildName": "Rider of the Apocalypse Mythic+"
+}

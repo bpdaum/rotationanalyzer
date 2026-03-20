@@ -1,0 +1,23 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "retribution",
+  "heroSpec": "Templar",
+  "buildName": "default",
+  "priorityList": [
+    "Use Execution Sentence immediately before casting Wake of Ashes.",
+    "Use Avenging Wrath (or Crusade) on cooldown, ideally when Expurgation is ticking on the target.",
+    "Spend Holy Power if you are at 5 charges or if the Hammer of Light free proc is about to expire.",
+    "Cast Hammer of Light as your highest priority finisher when available.",
+    "Cast Divine Storm as a finisher only if Empyrean Power is active.",
+    "Cast Templar's Verdict as your standard Holy Power finisher.",
+    "Cast Wake of Ashes if Avenging Wrath is active or has more than 6 seconds remaining on cooldown.",
+    "Cast Divine Toll on cooldown, ideally synchronized with Avenging Wrath.",
+    "Cast Hammer of Wrath as a high-priority generator if the Walk into Light talent is active.",
+    "Cast Blade of Justice if Art of War or Righteous Cause procs.",
+    "Cast Blade of Justice to generate Holy Power.",
+    "Cast Hammer of Wrath to generate Holy Power.",
+    "Cast Judgment to generate Holy Power and apply its debuff.",
+    "Cast Templar Strike, Templar Slash, or Crusader Strike as filler generators.",
+    "Use offensive trinkets and potions during Avenging Wrath or when Execution Sentence is active."
+  ]
+}

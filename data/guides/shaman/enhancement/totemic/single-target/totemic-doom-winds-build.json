@@ -1,0 +1,33 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "enhancement",
+  "heroSpec": "Totemic",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:48:13.961Z",
+  "priorityList": [
+    "Cast Voltaic Blaze if Flame Shock is not active",
+    "Cast Surging Totem",
+    "Cast Lava Lash if Hot Hand or Whirling Fire is active",
+    "Cast Sundering, aiming to sync every other cast with Surging Totem",
+    "Cast Doom Winds",
+    "Cast Stormstrike during Doom Winds",
+    "Cast Lightning Bolt at 10 Maelstrom Weapon stacks, or as low as 5+ if Elemental Tempo will reset Lava Lash cooldown",
+    "Cast Lava Lash",
+    "Cast Stormstrike",
+    "Cast Voltaic Blaze",
+    "Cast Lightning Bolt at 5+ Maelstrom Weapon stacks",
+    "Feral Spirit: Cast on cooldown",
+    "Primordial Wave: Cast on cooldown",
+    "Lightning Bolt: Cast at 10 stacks of Maelstrom Weapon if the Primordial Wave buff is active",
+    "Ascendance: Cast on cooldown",
+    "Windstrike: Use as the primary strike during Ascendance",
+    "Stormstrike: Cast if Maelstrom Weapon is below 10 stacks to fish for procs",
+    "Lightning Bolt: Cast at 10 stacks of Maelstrom Weapon to spend and extend Hot Hand",
+    "Flame Shock: Apply and maintain the damage-over-time effect",
+    "Lava Lash: Cast if Hot Hand is active",
+    "Ice Strike: Cast on cooldown",
+    "Frost Shock: Cast if Hailstorm is active",
+    "Stormstrike: Use as a filler to trigger Thorim's Invocation"
+  ],
+  "buildName": "Totemic Doom Winds Build"
+}

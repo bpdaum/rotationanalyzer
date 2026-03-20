@@ -1,0 +1,17 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Pack Leader",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:12:16.121Z",
+  "priorityList": [
+    "Cast all of your Barbed Shots",
+    "Bestial Wrath",
+    "Kill Command",
+    "Barbed Shot",
+    "Kill Command",
+    "Use Bestial Wrath on cooldown as often as possible",
+    "Ensure Kill Command never reaches two charges"
+  ],
+  "buildName": "Single-Target Opener for Pack Leader"
+}

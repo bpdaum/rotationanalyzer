@@ -1,0 +1,15 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Slayer",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:28:16.427Z",
+  "priorityList": [
+    "Colossus Smash",
+    "Mortal Strike with two stacks of Executioner's Precision",
+    "Colossus Smash",
+    "Mortal Strike",
+    "Sudden Death"
+  ],
+  "buildName": "Slayer Execute Rotation"
+}

@@ -1,0 +1,28 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "elemental",
+  "heroSpec": "Stormbringer",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:40:19.650Z",
+  "priorityList": [
+    "Cast Stormkeeper ~3 seconds before the pull.",
+    "Cast Lava Burst ~1.5 second before the pull so it lands right after the pull.",
+    "Cast Ascendance with on-use trinkets and potions.",
+    "Cast Tempest.",
+    "Cast Lava Burst.",
+    "Proceed with regular rotation.",
+    "Cast Stormkeeper 1-2 GCDs before Ascendance.",
+    "Cast Ascendance, sync with on-use trinkets, Bloodlust, and Tempered Potion.",
+    "Cast Elemental Blast if Ascendance will fade within the next 3 seconds.",
+    "Cast Tempest, preferably with the Master of the Elements buff active.",
+    "Cast Elemental Blast whenever you are less than 15 Maelstrom from capping or when Master of the Elements is active.",
+    "Cast Lava Burst if Flame Shock is up (if using Master of the Elements, only cast if the buff is not currently active).",
+    "Cast Lightning Bolt.",
+    "Spend Master of the Elements on Tempest",
+    "Sync Ascendance with pooled resources including Maelstrom and Tempest procs",
+    "Cast Elemental Blast or Earth Shock to avoid wasting Maelstrom",
+    "Cast Lava Burst to trigger Lava Surge procs for Master of the Elements",
+    "Utilize Nature's Swiftness and Spiritwalker's Grace to maintain casting uptime during movement"
+  ],
+  "buildName": "Elemental Blast Build"
+}

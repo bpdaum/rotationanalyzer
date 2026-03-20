@@ -1,0 +1,33 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "havoc",
+  "heroSpec": "Fel-Scarred",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:02:53.313Z",
+  "priorityList": [
+    "Cast Felblade with Inertia ready (if unavailable, use Fel Rush instead)",
+    "Cast The Hunt",
+    "Cast Death Sweep",
+    "Cast Immolation Aura if at 2 charges (requires A Fire Inside talent)",
+    "Cast Vengeful Retreat to trigger Initiative, aligning with Eye Beam",
+    "Cast Eye Beam or Abyssal Gaze (ensure any Annihilation and Death Sweep procs of Demonsurge are consumed first)",
+    "Cast Essence Break while in Metamorphosis, filling the 4-second window with Death Sweep and Annihilation casts",
+    "Cast Metamorphosis with Eye Beam and Death Sweep on cooldown",
+    "Cast Blade Dance",
+    "Cast Annihilation or Chaos Strike",
+    "Cast Immolation Aura or Consuming Fire",
+    "Cast Felblade",
+    "Cast Throw Glaive or Fel Rush if no other abilities are available and you are waiting on Fury",
+    "Cast Metamorphosis on cooldown, or when the boss encounter requires high burst damage.",
+    "Cast The Hunt on cooldown.",
+    "Cast Eye Beam on cooldown to trigger the Fel-Scarred Inner Demon and Demonic buffs.",
+    "Cast Death Sweep (or Blade Dance) on cooldown.",
+    "Cast Essence Break (if talented) immediately following an Eye Beam.",
+    "Cast Annihilation (or Chaos Strike) as your primary Fury spender, prioritizing windows where Essence Break or Metamorphosis are active.",
+    "Cast Sigil of Flame on cooldown to generate Fury and maintain periodic damage.",
+    "Cast Immolation Aura on cooldown to generate Fury.",
+    "Cast Felblade to generate Fury or to close the gap to your target.",
+    "Cast Demon's Bite if you have no other Fury generation abilities available and are below your spender threshold."
+  ],
+  "buildName": "Fel-Scarred Raid / Single Target"
+}

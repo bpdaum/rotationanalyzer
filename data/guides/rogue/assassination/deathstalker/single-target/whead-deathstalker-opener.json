@@ -1,0 +1,18 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "assassination",
+  "heroSpec": "Deathstalker",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:27:01.683Z",
+  "priorityList": [
+    "Cast Garrote",
+    "Cast Mutilate until 5+ Combo Points",
+    "Cast Rupture",
+    "Cast Deathmark and use Power Infusion",
+    "Cast Kingsbane",
+    "Use Garrote again to refresh your Improved Garrote duration",
+    "Use Envenom with 7 Combo Points when Darkest Night triggers, else use it at 5+ Combo Points",
+    "Use Mutilate and Ambush as builders"
+  ],
+  "buildName": "Whead Deathstalker Opener"
+}

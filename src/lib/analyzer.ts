@@ -1,5 +1,5 @@
 import { CombatEvent } from './parser';
-import { ScrapedRotation } from './scraper';
+import { ScrapedRotation } from './guide-data';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 export interface AnalysisFeedback {
@@ -81,25 +81,21 @@ ${conciseTimeline}
 As a world-first raider, your mindset is about perfection and fundamental concepts like "Always Be Casting" (ABC). 
 Compare the player's chronological casts to the provided optimal rotation guidelines using the provided text as your primary evidence.
 
-First, write a high-level "tl;dr" summary of what the player should work on to improve. Then, dive into specific issues found in the data.
+CRITICAL INSTRUCTION: HIERARCHY OF TRUTH.
+- The SimulationCraft APL lines (starting with '--- SimulationCraft APL ---') are the MOST MATHEMATICALLY ACCURATE guidelines.
+- The Icy Veins and WoWhead sections are "General" rules for humans. 
+- If a general rule (e.g. "Always spend Clearcasting at 2 stacks") conflicts with a specific SimulationCraft rule (e.g. "Barrage if Salvo >= 20"), YOU MUST FOLLOW THE SIMC RULE. 
+- Do NOT penalize a player for violating a general rule if they were following a more specific SimulationCraft priority line.
 
-When labeling feedback items, use the following tags carefully:
-- "error": Critical rotation mistakes (e.g., missed cooldown windows, severe priority inversions). Counts heavily against the score.
-- "warning": Sub-optimal cast sequences (e.g., minor casting order errors). Counts slightly against the score.
-- "good": Excellent execution of a complex priority sequence. Does not reduce score.
-- "info": Neutral, conditional observations. Use this ONLY for things like "Did not cast spell X, but the guide states to only cast if talented into it." DO NOT let an "info" item reduce the player's score.
-
-CRITICAL INSTRUCTION: TRANSPARENT SPELLS (Off-GCD / Utilities).
-- Spells like Touch of the Magi, Presence of Mind, Time Warp, Arcane Surge, Icy Veins, Bloodlust, and Trinkets are "Transparent Spells".
-- These spells are typically off the Global Cooldown (GCD) or are utility/setup spells.
-- They DO NOT break strict "sequence" or "immediately follow" relationships in the guide.
-
-CRITICAL INSTRUCTION: AURA & PROC EQUIVALENCE.
-- In the combat log, the "Buffs" section lists active auras.
-- If a guide says "Cast X if you have Clearcasting", this is EXACTLY the same as checking if "Clearcasting" is in the [Buffs] list for that cast.
+CRITICAL INSTRUCTION: SimC VARIABLE TRANSLATION.
+- \`talent.some_talent_name\`: Evaluates as true if "Some Talent Name" (case-insensitive, ignore punctuation) is in the player's Active Talents list.
+- \`buff.some_buff.up\` or \`buff.some_buff.react\`: Evaluates as true if that buff is in the [Buffs] list in the combat log.
+- \`buff.clearcasting.react\`: Refers to the number of 'Clearcasting' stacks.
+- \`buff.arcane_salvo.react\`: Refers to 'Arcane Salvo' stacks (specific to Spellslinger).
+- \`buff.arcane_charge.stack\`: Refers to the number of Arcane Charges.
 
 CRITICAL INSTRUCTION: EVIDENCE-BASED EXPERTISE.
-- You must explain WHY a sequence is optimal (procs, resource generation), but YOUR FEEDBACK MUST BE GROUNDED IN THE PROVIDED GUIDELINES.
+- You must explain WHY a sequence is optimal (procs, resource generation), but YOUR FEEDBACK MUST BE MAJORLY GROUNDED IN THE PROVIDED GUIDELINES.
 - You are REQUIRED to provide a direct quote from the "Optimal Rotation Guidelines" that supports every piece of feedback.
 - Do NOT hallucinate mechanics or spells not in the guidelines.
 

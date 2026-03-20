@@ -1,0 +1,15 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Slayer",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:28:16.426Z",
+  "priorityList": [
+    "Colossus Smash",
+    "Mortal Strike",
+    "Colossus Smash",
+    "Mortal Strike",
+    "Sudden Death"
+  ],
+  "buildName": "Slayer Single-Target Rotation"
+}

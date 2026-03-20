@@ -1,0 +1,21 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Flameshaper",
+  "buildName": "default",
+  "priorityList": [
+    "Pre-combat: Cast Verdant Embrace to activate the Scarlet Adaptation buff.",
+    "Cast Dragonrage as your primary burst cooldown when available.",
+    "Use Tip the Scales during Dragonrage for an instant Eternity Surge or Fire Breath.",
+    "Sync Power Infusion, Potions, and offensive Trinkets with your Dragonrage window.",
+    "Cast Eternity Surge at Empower Level 1, but hold it if Dragonrage is available in less than 9 seconds.",
+    "Cast Fire Breath at Empower Level 1, but hold it if Dragonrage is available in less than 9 seconds.",
+    "Spend Essence and Essence Burst procs on Disintegrate; chain the next cast when the current one has 1 tick remaining.",
+    "Cast Living Flame whenever the Burnout proc is active.",
+    "Use Azure Sweep as a filler if the Tier Set bonus (Mid1_2pc) is active.",
+    "Use Living Flame as your primary filler, or while Leaping Flames or Ancient Flame buffs are active.",
+    "Use Azure Strike as a filler only when moving and Hover is unavailable.",
+    "Outside of Dragonrage, cast Emerald Blossom or Verdant Embrace to trigger Ancient Flame and Scarlet Adaptation for the haste and damage buffs.",
+    "Use Quell off-GCD to interrupt enemy spellcasting whenever possible."
+  ]
+}

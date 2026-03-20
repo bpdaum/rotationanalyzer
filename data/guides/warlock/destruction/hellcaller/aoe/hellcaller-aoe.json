@@ -1,0 +1,30 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "destruction",
+  "heroSpec": "Hellcaller",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T02:01:55.878Z",
+  "priorityList": [
+    "Maintain Wither on as many targets as possible.",
+    "Cast Summon Infernal.",
+    "Cast Malevolence with as many targets affected by Wither as possible.",
+    "Use Conflagrate on the main target to spread Wither on secondary targets.",
+    "Cast Cataclysm on cooldown unless it can be delayed a few seconds to hit additional targets.",
+    "Cast Rain of Fire if there are 5+ targets with Havoc up, or 3+ if on cooldown.",
+    "Cast Chaos Bolt if you have 5 Soul Shards.",
+    "Cast Cataclysm.",
+    "Apply Havoc if a secondary target is present.",
+    "Cast Channel Demonfire when available.",
+    "Cast Conflagrate to generate Soul Shards and Backdraft stacks.",
+    "Cast Incinerate to generate Soul Shards.",
+    "Cast Cataclysm to apply Wither to all targets.",
+    "Cast Malevolence on cooldown to empower Wither and increase Soul Shard generation.",
+    "Summon Infernal for high-density pulls to maximize Soul Shard fragment generation.",
+    "Spend Soul Shards on Rain of Fire when 3 or more targets are present.",
+    "Cast Channel Demonfire on cooldown, ensuring all targets are afflicted by Wither.",
+    "Use Conflagrate to generate Soul Shard fragments and prevent charge capping.",
+    "Cast Incinerate as your primary filler to generate Soul Shard fragments.",
+    "Manually refresh Wither on priority targets if Cataclysm is on cooldown and the DoT is expiring."
+  ],
+  "buildName": "Hellcaller AoE"
+}

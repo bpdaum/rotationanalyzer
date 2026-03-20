@@ -1,0 +1,23 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "retribution",
+  "heroSpec": "Herald of the Sun",
+  "buildName": "default",
+  "priorityList": [
+    "Use offensive trinkets and potions when Avenging Wrath or Radiant Glory is active.",
+    "Cast Avenging Wrath (or Radiant Glory) on cooldown, but ensure Expurgation is ticking first if talented into Holy Flames.",
+    "Cast Execution Sentence if Wake of Ashes is ready to be used.",
+    "Cast Hammer of Light whenever it is available (triggered after using Wake of Ashes).",
+    "Spend Holy Power on Templar's Verdict (or Final Verdict) if you are at 5 Holy Power or if a free Hammer of Light proc is about to expire.",
+    "Cast Wake of Ashes if Avenging Wrath is active or soon ready, and you are not at max Holy Power.",
+    "Cast Divine Toll on cooldown, ideally while Avenging Wrath is active.",
+    "Cast Hammer of Wrath whenever it is available (during Avenging Wrath or on targets below 20% health).",
+    "Cast Divine Storm only if you have an Empyrean Power proc.",
+    "Cast Blade of Justice if Art of War or Righteous Cause procs.",
+    "Spend Holy Power on Templar's Verdict (or Final Verdict) if you have 3 or more Holy Power.",
+    "Cast Blade of Justice to generate Holy Power and maintain the Expurgation dot.",
+    "Cast Judgment to generate Holy Power.",
+    "Use Templar Strike, Templar Slash, or Crusader Strike as a filler to generate Holy Power.",
+    "Use Arcane Torrent if you need Holy Power and all other generators are on cooldown."
+  ]
+}

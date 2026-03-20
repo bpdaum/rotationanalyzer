@@ -1,0 +1,22 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "San'layn",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Virulent Plague on all targets using Outbreak.",
+    "Cast Death and Decay (or Desecrate) if it is not currently active on the ground.",
+    "Cast Army of the Dead when your major cooldowns are ready or during Festering Scythe windows.",
+    "Cast Dark Transformation as often as possible, ideally synced with Army of the Dead.",
+    "Use on-use trinkets, potions, and racial abilities during Dark Transformation or while your Ghoul Army is active.",
+    "Cast Soul Reaper on targets below 35% health.",
+    "Cast Putrefy if you are at max charges or if Dark Transformation has more than 15 seconds remaining on cooldown.",
+    "Cast Festering Strike if Festering Scythe is talented and needs to be applied or is about to expire.",
+    "Cast Epidemic to spend Runic Power if you have a Sudden Doom proc or if you have fewer than 2 Runes available.",
+    "Cast Festering Strike if you have 0 stacks of Lesser Ghoul Ready to build resources.",
+    "Cast Scourge Strike (or Clawing Shadows) if you have 1 or more stacks of Lesser Ghoul Ready to summon San'layn ghouls.",
+    "Cast Putrefy as a priority filler to consume charges.",
+    "Cast Epidemic as your primary Runic Power spender in AoE situations (4+ targets).",
+    "Cast Death Coil only if there are fewer than 4 targets and you need to spend Runic Power."
+  ]
+}

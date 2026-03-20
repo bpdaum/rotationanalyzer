@@ -1,0 +1,25 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "enhancement",
+  "heroSpec": "Totemic",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:00:52.369Z",
+  "priorityList": [
+    "Cast Voltaic Blaze if Flame Shock isn't active.",
+    "Cast Surging Totem.",
+    "Cast Lava Lash with Hot Hand or Whirling Fire active.",
+    "Cast Sundering - Notes Aim to sync up every other cast with Surging Totem.",
+    "Cast Doom Winds.",
+    "Cast Crash Lightning - Notes With Storm Unleashed, this is a top priority at all times.",
+    "Cast Stormstrike during Doom Winds.",
+    "Cast Lightning Bolt with 10 Maelstrom Weapon stacks - Notes This can be used as low as 5+ if Elemental Tempo will reset Lava Lash cooldown.",
+    "Cast Lava Lash.",
+    "Cast Stormstrike.",
+    "Cast Voltaic Blaze.",
+    "Cast Lightning Bolt with 5+ Maelstrom Weapon stacks.",
+    "Totemic spends to extend Hot Hand",
+    "Totemic uses Stormstrike as a filler",
+    "Totemic triggers the effect with Stormstrike and Crash Lightning"
+  ],
+  "buildName": "Totemic Raid / ST (Doom Winds)"
+}

@@ -1,0 +1,23 @@
+{
+  "classSlug": "priest",
+  "specSlug": "shadow",
+  "heroSpec": "Voidweaver",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:15:20.650Z",
+  "priorityList": [
+    "Cast Voidform",
+    "Use Tempered Potion",
+    "Cast Power Infusion",
+    "Cast Shadow Word",
+    "Cast Void Torrent",
+    "Keep Vampiric Touch and Shadow Word active by using Vampiric Touch to apply both DoTs",
+    "Cast Voidform",
+    "Cast Power Infusion",
+    "Spend Insanity on Shadow Word if it is not active, about to expire, or you are about to cap out on Insanity",
+    "Cast Void Blast while available if Shadow Word is active or Entropic Rift is about to expire",
+    "Cast Void Torrent to open up Entropic Rift",
+    "Cast Mind Blast",
+    "Cast Mind Flay"
+  ],
+  "buildName": "Voidweaver Single Target"
+}

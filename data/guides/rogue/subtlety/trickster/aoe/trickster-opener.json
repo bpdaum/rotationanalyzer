@@ -1,0 +1,14 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Trickster",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:48:03.889Z",
+  "priorityList": [
+    "Use Tempered Potion and any on-use stat trinket or stat racial.",
+    "Shadow Dance",
+    "Shadow Blades",
+    "Secret Technique"
+  ],
+  "buildName": "Trickster Opener"
+}

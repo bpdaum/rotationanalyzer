@@ -1,0 +1,18 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "San'layn",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:20:22.223Z",
+  "priorityList": [
+    "Use Outbreak",
+    "Use Festering Strike two times",
+    "Use Army, Dark Transformation, Trinket, and Combat Potion",
+    "Use Outbreak to maintain your plagues on the target",
+    "Use Epidemic when you have 80+ Runic Power or a Sudden Doom proc",
+    "Use Death Coil when fighting less than 3 targets (5 targets during Forbidden Knowledge)",
+    "Use Epidemic",
+    "Use Death Coil when fighting less than 3 targets (5 targets during Forbidden Knowledge)"
+  ],
+  "buildName": "San'layn Raid"
+}

@@ -1,0 +1,23 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "enhancement",
+  "heroSpec": "Stormbringer",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:57:25.530Z",
+  "priorityList": [
+    "Cast Sundering - Aim to align this with Ascendance or Doom Winds",
+    "Cast Doom Winds",
+    "Cast Ascendance",
+    "Cast Windstrike during Ascendance",
+    "Cast Stormstrike during Doom Winds",
+    "Cast Tempest / Lightning Bolt with 10 Maelstrom Weapon stacks",
+    "Cast Stormstrike",
+    "Cast Lava Lash",
+    "Cast Voltaic Blaze",
+    "Cast Lightning Bolt with 5+ Maelstrom Weapon stacks",
+    "Stormbringer spends to fish for Tempest",
+    "Stormbringer uses Lava Lash as a filler",
+    "Stormbringer triggers it every GCD using Windstrike"
+  ],
+  "buildName": "Stormbringer Raid / ST"
+}

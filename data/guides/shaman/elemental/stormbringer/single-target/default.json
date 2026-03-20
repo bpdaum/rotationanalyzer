@@ -1,0 +1,23 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "elemental",
+  "heroSpec": "Stormbringer",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Lightning Shield and Thunderstrike Ward at all times.",
+    "Use Ancestral Swiftness on cooldown.",
+    "Cast Ascendance if Stormkeeper has more than 15 seconds remaining on cooldown.",
+    "Cast Stormkeeper if Ascendance has more than 10 seconds remaining on cooldown.",
+    "Use Trinkets and Potions during Ascendance or when Stormkeeper is available.",
+    "Maintain Flame Shock (or Voltaic Blaze) on the target, but prioritize doing so when Master of the Elements is NOT active.",
+    "Cast Lava Burst if Master of the Elements is NOT active to generate the buff.",
+    "Cast Tempest if Master of the Elements is active.",
+    "Cast Lightning Bolt if Stormkeeper is active and Master of the Elements is active.",
+    "Cast Elemental Blast to spend Maelstrom.",
+    "Cast Earth Shock to spend Maelstrom if Elemental Blast is not talented.",
+    "Cast Tempest whenever it is available.",
+    "Cast Lightning Bolt as your primary filler.",
+    "Use Spiritwalker's Grace to maintain your rotation while moving.",
+    "If moving and Spiritwalker's Grace is unavailable, use Flame Shock, Voltaic Blaze, or Frost Shock."
+  ]
+}

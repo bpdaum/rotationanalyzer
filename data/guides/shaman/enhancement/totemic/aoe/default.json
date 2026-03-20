@@ -1,0 +1,23 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "enhancement",
+  "heroSpec": "Totemic",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Windfury Weapon, Flametongue Weapon, and Lightning Shield at all times.",
+    "Cast Voltaic Blaze or Flame Shock if the target does not have Flame Shock ticking.",
+    "Drop Surging Totem on cooldown.",
+    "Cast Sundering if Whirling Earth is active or the Surging Elements talent is taken.",
+    "Cast Lava Lash if Whirling Fire is active.",
+    "Cast Doom Winds on cooldown for massive physical damage and windfury procs.",
+    "Cast Ascendance if Thorim's Invocation is talented to trigger automatic Chain Lightnings.",
+    "Cast Tempest at 10 stacks of Maelstrom Weapon, unless currently in Ascendance or Doom Winds.",
+    "Cast Primordial Storm at 10 stacks of Maelstrom Weapon.",
+    "Cast Chain Lightning when at 9 or 10 stacks of Maelstrom Weapon.",
+    "Cast Crash Lightning if Whirling Air is active or to maintain the Crash Lightning cleave buff.",
+    "Cast Windstrike or Stormstrike during Doom Winds and Ascendance windows, especially if Whirling Air is active.",
+    "Cast Voltaic Blaze whenever it procs from your totem.",
+    "Cast Lava Lash as your primary filler, especially if your Searing Totem from the hero tree is active.",
+    "Cast Chain Lightning as a filler if you have 5 or more stacks of Maelstrom Weapon."
+  ]
+}

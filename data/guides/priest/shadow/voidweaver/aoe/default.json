@@ -1,0 +1,21 @@
+{
+  "classSlug": "priest",
+  "specSlug": "shadow",
+  "heroSpec": "Voidweaver",
+  "buildName": "default",
+  "priorityList": [
+    "Ensure Shadowform is active at all times.",
+    "Maintain Vampiric Touch on all targets (up to 12) to enable your cleave and resource generation.",
+    "Cast Voidform (Entropic Rift) as soon as your primary dots are applied to targets.",
+    "Cast Power Infusion and Halo on cooldown, ideally overlapping with your Voidform/Entropic Rift window.",
+    "Priority: Cast Void Volley and Void Blast as the highest priority whenever they are available during Entropic Rift.",
+    "Cast Shadow Word: Madness (replaces Devouring Plague) if you are about to cap Insanity, to refresh its DoT, or if you have a Mind Devourer proc.",
+    "Cast Tentacle Slam to refresh Vampiric Touch on your target or if you are about to reach 2 charges.",
+    "Cast Void Torrent as a high priority channel, but only if Vampiric Touch and Shadow Word: Pain are already active on your targets.",
+    "Cast Mind Blast to generate Insanity and prevent charge capping.",
+    "Use Mind Flay: Insanity procs as your primary filler.",
+    "Cast Shadow Word: Death on targets below 20% health or while your Shadowfiend/Mindbender is active.",
+    "Use offensive Trinkets and Potions during Power Infusion or Voidform for maximum benefit.",
+    "Channel Mind Flay as your final filler if no other abilities are available."
+  ]
+}

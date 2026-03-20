@@ -1,0 +1,23 @@
+{
+  "classSlug": "mage",
+  "specSlug": "arcane",
+  "heroSpec": "Spellslinger",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Arcane Intellect at all times.",
+    "Use Evocation if mana is below 10% and your major cooldowns (Arcane Surge and Touch of the Magi) are not active.",
+    "Cast Arcane Surge on cooldown.",
+    "Cast Touch of the Magi immediately after Arcane Surge, or if Surge is on cooldown for more than 30 seconds.",
+    "Use offensive trinkets and racial buffs during your Arcane Surge and Touch of the Magi window.",
+    "Cast Arcane Orb if you have fewer than 4 Arcane Charges to quickly build resources in AoE.",
+    "Cast Arcane Barrage when you have 4 Arcane Charges and Arcane Salvo has reached 20 stacks.",
+    "Cast Arcane Barrage at the end of an Arcane Surge or Touch of the Magi window if you have 15 or more Arcane Salvo stacks.",
+    "Cast Arcane Orb immediately after an Arcane Barrage if Orb Mastery is talented to reset charges.",
+    "Cast Arcane Missiles with Clearcasting to build Arcane Salvo stacks, but prioritize other actions if Salvo is already at 15 or more stacks.",
+    "Use Presence of Mind to quickly reach 4 Arcane Charges with Arcane Blast when your other charge generators are on cooldown.",
+    "Cast Arcane Pulse (if talented) whenever 3 or more enemies are present.",
+    "Cast Arcane Blast as your filler spell to generate Arcane Charges when Orb is unavailable.",
+    "Cast Arcane Barrage to dump charges in AoE situations if you are not in a cooldown window and have no Salvo stacks to build.",
+    "Use Counterspell to interrupt dangerous enemy casts."
+  ]
+}

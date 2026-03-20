@@ -1,0 +1,23 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Elune's Chosen",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:43:48.387Z",
+  "priorityList": [
+    "Cast two Wraths with 2-seconds on the pull-timer",
+    "Apply Sunfire and Apply Moonfire",
+    "Cast Celestial Alignment",
+    "Cast Fury of Elune",
+    "Spend Astral Power",
+    "Use Starfire to generate Astral Power",
+    "Enter Solar Eclipse or Enter Lunar Eclipse",
+    "Cast Fury during Eclipse",
+    "Apply Moonfire",
+    "Apply Sunfire",
+    "Cast Starsurge",
+    "Cast Wrath",
+    "Cast Starfire"
+  ],
+  "buildName": "Elune's Chosen Opening Cast Sequence"
+}

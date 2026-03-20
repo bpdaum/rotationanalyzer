@@ -1,0 +1,28 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Slayer",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T02:09:04.251Z",
+  "priorityList": [
+    "Rend to apply or refresh Rend with four seconds remaining",
+    "Ravager just before Colossus Smash",
+    "Avatar just before or with Colossus Smash",
+    "Colossus Smash",
+    "Overpower with two charges of Overpower available",
+    "Mortal Strike",
+    "Execute with Sudden Death proc",
+    "Overpower",
+    "Slam to fill the rotation",
+    "Cast Avatar on cooldown, ideally synchronized with Colossus Smash.",
+    "Cast Colossus Smash on cooldown to maintain the physical damage vulnerability on the target.",
+    "Cast Execute whenever it is available, either through the target being below 35% health or Sudden Death procs.",
+    "Cast Bladestorm on cooldown to trigger Slayer's Strike and generate high burst damage.",
+    "Cast Mortal Strike if you have 2 stacks of Martial Prowess.",
+    "Cast Overpower to generate stacks of Martial Prowess and avoid capping charges.",
+    "Cast Mortal Strike on cooldown to maintain Deep Wounds and consume Martial Prowess stacks.",
+    "Cast Thunder Clap to apply or refresh Rend if it is not currently active on the target.",
+    "Cast Slam as a filler ability if you have more than 60 Rage and all other priority abilities are on cooldown."
+  ],
+  "buildName": "Slayer Single-Target (Ravager Build)"
+}

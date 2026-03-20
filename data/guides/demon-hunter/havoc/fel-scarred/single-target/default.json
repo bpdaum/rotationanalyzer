@@ -1,0 +1,23 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "havoc",
+  "heroSpec": "Fel-Scarred",
+  "buildName": "default",
+  "priorityList": [
+    "Cast Reaver's Glaive whenever it is available to apply Reaver's Mark and trigger buffs.",
+    "During the Fel-Scarred Demonsurge window (after Eye Beam/Meta), prioritize empowered Death Sweep and Annihilation.",
+    "Cast Essence Break only if Fury is available and Death Sweep is ready or will be ready within 1 GCD.",
+    "During the Essence Break window, prioritize Death Sweep followed by Annihilation.",
+    "Cast Eye Beam on cooldown to trigger Demonic form and Fel-Scarred procs, ensuring Blade Dance is already on cooldown.",
+    "Cast Death Sweep (or Blade Dance) on cooldown.",
+    "Use Metamorphosis as your primary offensive cooldown, ideally after your initial Eye Beam/Demonsurge window ends.",
+    "Cast The Hunt on cooldown, ideally when not in the middle of a Reaver's Glaive or Essence Break window.",
+    "Use Vengeful Retreat to trigger Initiative or Inertia buffs before Eye Beam or high-damage sequences.",
+    "Cast Felblade if Fury is low (below 40) or to generate Fury when major abilities are on cooldown.",
+    "Cast Immolation Aura on cooldown for Fury generation and consistent damage.",
+    "Cast Annihilation (while in Meta) or Chaos Strike (while out of Meta) to spend excess Fury and avoid capping.",
+    "Cast Fel Rush as a filler if Inertia is talented and the trigger buff is active.",
+    "Cast Throw Glaive as a filler if you have the Soulscar talent and no other priority actions are available.",
+    "Use Arcane Torrent if you are low on Fury and in range of the target."
+  ]
+}

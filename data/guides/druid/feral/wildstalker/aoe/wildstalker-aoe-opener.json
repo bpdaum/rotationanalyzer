@@ -1,0 +1,18 @@
+{
+  "classSlug": "druid",
+  "specSlug": "feral",
+  "heroSpec": "Wildstalker",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:51:28.033Z",
+  "priorityList": [
+    "Cast Prowl before combat starts.",
+    "Cast Rake from Stealth to trigger Pouncing Strikes.",
+    "Cast Rake on different targets until you reach 5 Combo Points.",
+    "Cast Berserk & Tiger's Fury in the same GCD.",
+    "Cast Primal Wrath.",
+    "Cast Convoke the Spirits.",
+    "Avoid wasting Tiger's Fury through misuse or natural over-capping",
+    "Maintain Rake"
+  ],
+  "buildName": "Wildstalker AoE Opener"
+}

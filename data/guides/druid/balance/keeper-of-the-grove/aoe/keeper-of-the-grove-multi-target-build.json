@@ -1,0 +1,28 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Keeper of the Grove",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:16:54.368Z",
+  "priorityList": [
+    "Apply and maintain Sunfire if the target will live approximately 5 seconds",
+    "Apply and maintain Moonfire if the target will live approximately 6 seconds",
+    "Cast Force of Nature outside of Eclipse if your next ability is Celestial Alignment",
+    "Cast Celestial Alignment immediately after casting Force of Nature",
+    "Cast Starfire to spend Dream Surge after entering Celestial Alignment, provided you will not cap on Astral Power",
+    "Enter regular Eclipse if not entering cooldowns",
+    "Cast Force of Nature on cooldown",
+    "Spend Dream Surge using Starfire unless you will cap on Astral Power",
+    "Cast Starfall to spend Astral Power, maintain Starlord, or to spend Touch the Cosmos",
+    "Cast Starfire as a filler to generate Astral Power",
+    "Cast Force of Nature on cooldown to summon Treants and generate Astral Power.",
+    "Apply and maintain Sunfire on all targets.",
+    "Apply and maintain Moonfire on all targets to maximize Shooting Stars procs.",
+    "Cast Starfall to spend Astral Power, ensuring the buff is maintained and power does not cap.",
+    "Cast Wild Mushroom on cooldown to generate Astral Power and apply Fungal Growth.",
+    "Cast Starfire as the primary builder during Lunar Eclipse for AoE cleave damage.",
+    "Cast Fury of Elune on cooldown for burst Astral Power generation.",
+    "Use Warrior of Elune to facilitate instant Starfire casts for movement or quick Eclipse entry."
+  ],
+  "buildName": "Keeper of the Grove Multi-Target Build"
+}

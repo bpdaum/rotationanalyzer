@@ -1,0 +1,16 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "frost",
+  "heroSpec": "Rider of the Apocalypse",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:06:44.062Z",
+  "priorityList": [
+    "Raise Dead",
+    "Use Obliterate if you have a proc of Killing Machine",
+    "Use Howling Blast if you have a proc",
+    "Use Frost Strike",
+    "Use Empower Rune Weapon to generate a charge of Killing Machine and 40 Runic Power",
+    "Use a naked Obliterate"
+  ],
+  "buildName": "Frostbane Raid"
+}

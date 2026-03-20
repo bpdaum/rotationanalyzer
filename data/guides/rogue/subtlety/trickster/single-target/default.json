@@ -1,0 +1,23 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Trickster",
+  "buildName": "default",
+  "priorityList": [
+    "Apply poisons and enter Stealth before combat.",
+    "Use Shadow Blades when Shadow Dance and Secret Technique are both ready.",
+    "Use Shadow Dance if Secret Technique is ready or if Darkest Night is active (ensure at least 30 Energy).",
+    "Use Vanish to generate Combo Points if not in Stealth and at 1 or 0 Combo Points.",
+    "Use Shadowstrike if Darkest Night is active and Shadow Techniques has 5+ stacks to maximize Combo Point generation.",
+    "Spend Combo Points at maximum (6-7) or 1 less than maximum if Darkest Night is active.",
+    "Use Secret Technique as your priority finisher if Shadow Dance is active.",
+    "Use Eviscerate as a finisher if Darkest Night is active.",
+    "Use Coup de Grace as a finisher if Shadow Dance is active or if Secret Technique is on cooldown (>= 3s).",
+    "Use Eviscerate as a finisher if Shadow Dance/Shadow Blades is active or if Secret Technique is on cooldown (>= 3s).",
+    "Use Shadowstrike as your primary builder while Stealthed or during Shadow Dance.",
+    "Use Goremaw's Bite if you need 3 or more Combo Points.",
+    "Use Gloomblade (or Backstab) to build Combo Points when not in Stealth or Shadow Dance.",
+    "Use offensive trinkets and racial abilities during Shadow Blades and Shadow Dance windows.",
+    "Use Arcane Torrent if energy is low to help smooth the rotation."
+  ]
+}

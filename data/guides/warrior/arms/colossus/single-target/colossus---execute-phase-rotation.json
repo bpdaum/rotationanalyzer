@@ -1,0 +1,27 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Colossus",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T02:06:16.324Z",
+  "priorityList": [
+    "Ravager (if talented)",
+    "Avatar just before or with Colossus Smash",
+    "Colossus Smash",
+    "Execute with Sudden Death",
+    "Demolish during Colossus Smash",
+    "Overpower with two charges available or less than 40 Rage",
+    "Mortal Strike",
+    "Bladestorm during Colossus Smash (if talented)",
+    "Overpower",
+    "Slam",
+    "Use Avatar shortly before or with Colossus Smash",
+    "Cast Colossus Smash",
+    "Keep Demolish on cooldown",
+    "Cast Mortal Strike",
+    "Use Execute during Sudden Death procs",
+    "Cast Overpower",
+    "Apply or refresh Rend when there are less than 4 seconds remaining"
+  ],
+  "buildName": "Colossus - Execute Phase Rotation"
+}

@@ -1,0 +1,16 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "frost",
+  "heroSpec": "Deathbringer",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:11:50.618Z",
+  "priorityList": [
+    "Use Empower Rune Weapon to generate Killing Machine procs and Runic Power",
+    "Use Raise Dead",
+    "Use Obliterate if you have a proc of Killing Machine",
+    "Use Howling Blast",
+    "Use Glacial Advance to spend Runic Power",
+    "Use Obliterate to generate Runic Power"
+  ],
+  "buildName": "Deathbringer Breath Raid"
+}

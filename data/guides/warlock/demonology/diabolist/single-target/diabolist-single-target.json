@@ -1,0 +1,17 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "demonology",
+  "heroSpec": "Diabolist",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:13:38.531Z",
+  "priorityList": [
+    "Cast Summon Demonic Tyrant.",
+    "Cast Power Siphon with 2 or less Demonic Core and at least 2 Wild Imps out.",
+    "Cast Call Dreadstalkers whenever available.",
+    "Cast Hand of Gul'dan if you have 4-5 Soul Shards.",
+    "Cast Demonbolt if you have 2+ stacks of Demonic Core.",
+    "Cast Infernal Bolt when at 2 or less Soul Shards.",
+    "Cast Shadow Bolt to generate Soul Shards."
+  ],
+  "buildName": "Diabolist Single Target"
+}

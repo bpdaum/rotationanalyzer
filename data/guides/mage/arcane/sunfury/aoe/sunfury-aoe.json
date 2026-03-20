@@ -1,0 +1,30 @@
+{
+  "classSlug": "mage",
+  "specSlug": "arcane",
+  "heroSpec": "Sunfury",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:38:16.717Z",
+  "priorityList": [
+    "On 3+ targets, cast Arcane Barrage if you have 4 Arcane Charge stacks, less than 18 Arcane Salvo stacks, and Arcane Orb ready.",
+    "Cast Arcane Barrage when you have 4 Arcane Charge stacks and 25 Arcane Salvo stacks.",
+    "Cast Arcane Surge.",
+    "When there are around 5 seconds left of Arcane Surge, cast Arcane Barrage into Touch.",
+    "Cast Touch when it is ready (45 seconds after previous use).",
+    "On 3+ targets, use Arcane Pulse as your filler instead of Arcane Blast.",
+    "Cast Arcane Blast as filler.",
+    "Use Presence for when you need to move and need to cast Arcane Blast.",
+    "Cast Evocation when out of mana and you are not currently during Touch or Arcane Surge.",
+    "Cast Arcane Barrage if you do not have enough mana for Arcane Blast.",
+    "Cast Evocation",
+    "Cast Arcane Surge",
+    "Cast Touch",
+    "Cast Arcane Missiles if Arcane Salvo is active",
+    "Cast Arcane Missiles if Overpowered Missiles is active",
+    "Cast Arcane Barrage at 4 Arcane Charges",
+    "Cast Arcane Orb to generate Arcane Charges",
+    "Cast Arcane Pulse",
+    "Use Presence",
+    "Cast Arcane Blast to generate Arcane Charges"
+  ],
+  "buildName": "Sunfury AoE"
+}

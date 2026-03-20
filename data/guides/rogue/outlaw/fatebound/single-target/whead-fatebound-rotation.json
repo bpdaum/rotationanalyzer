@@ -1,0 +1,23 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Fatebound",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:38:29.419Z",
+  "priorityList": [
+    "Use Roll on cooldown unless you are already in Stage 2 or higher",
+    "Use Keep It Rolling when you are in Stage 2 or higher",
+    "If your next Roll will be buffed by Loaded Dice, you can hold onto Keep It Rolling to hope to get into Stage 3 or 4",
+    "Use Adrenaline Rush on cooldown, at low Combo Points",
+    "Use Blade Rush on cooldown as if it were a regular builder",
+    "Cast Between on cooldown with 6+ Combo Points",
+    "Cast Dispatch as your main finisher with 5+ Combo Points",
+    "Cast Pistol Shot at 1-3 Combo Points only",
+    "Cast Sinister Strike to generate Combo Points",
+    "Use Adrenaline Rush on cooldown",
+    "Use Between on cooldown",
+    "Use Blade Rush on cooldown",
+    "Spend Combo Points efficiently without overcapping"
+  ],
+  "buildName": "Whead Fatebound Rotation"
+}

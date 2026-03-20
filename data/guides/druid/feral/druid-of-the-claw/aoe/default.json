@@ -1,0 +1,23 @@
+{
+  "classSlug": "druid",
+  "specSlug": "feral",
+  "heroSpec": "Druid of the Claw",
+  "buildName": "default",
+  "priorityList": [
+    "Use Tiger's Fury on cooldown, ideally when energy is low or to sync with Berserk.",
+    "Use Rake from Prowl or Shadowmeld to apply an empowered bleed.",
+    "Cast Chomp immediately whenever the Chomp Enabler buff is active.",
+    "Cast Berserk (or Incarnation) while Tiger's Fury is active.",
+    "Use Frantic Frenzy (or Feral Frenzy) to generate Combo Points, ideally when at 2 or fewer CP.",
+    "Use Convoke the Spirits while Tiger's Fury is active, ideally after using a Finisher.",
+    "Use Ferocious Bite whenever Apex Predator's Craving procs for a free cast.",
+    "Cast Primal Wrath at 5 Combo Points to apply or refresh its bleed on all targets.",
+    "Use Ferocious Bite at 4+ Combo Points when the Ravage proc is available or if Rampant Ferocity is talented.",
+    "Maintain Rake on as many targets as possible, up to 5 targets if Double-Clawed Rake is talented.",
+    "Maintain Moonfire on all targets if talented with Lunar Inspiration.",
+    "Use Swipe as your primary builder filler during Berserk or when Clearcasting is active.",
+    "Use Swipe as the main builder when 3 or more targets are present.",
+    "Use Shred as an AoE builder only if there are exactly 2 targets and Swipe is not enhanced.",
+    "Use Regrowth with Predatory Swiftness procs for utility or to trigger Bloodtalons if talented."
+  ]
+}

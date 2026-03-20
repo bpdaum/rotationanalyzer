@@ -1,0 +1,29 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "marksmanship",
+  "heroSpec": "Dark Ranger",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:42:57.982Z",
+  "priorityList": [
+    "Ensure Hunter's Mark is active on the highest-health target.",
+    "Use stat-granting on-use trinkets with Trueshot.",
+    "Cast Black Arrow whenever available, anticipating a guaranteed proc immediately after every Rapid Fire.",
+    "Cast Multi-Shot to spend Precise Shots stacks and activate Trick Shots.",
+    "Cast Multi-Shot immediately after every Aimed Shot or Rapid Fire to maintain Trick Shots and spend Precise Shots.",
+    "Cast Rapid Fire if the Bulletstorm buff would expire before you can finish an Aimed Shot cast.",
+    "Activate Trueshot and immediately use the granted Black Arrow proc.",
+    "Cast Aimed Shot whenever possible.",
+    "Cast Rapid Fire on cooldown.",
+    "Cast Steady Shot as a filler to generate Focus and reduce the cooldown of Aimed Shot.",
+    "Cast Multi-Shot to maintain the Trick Shots buff if it is not active and you are about to cast Aimed Shot or Rapid Fire",
+    "Cast Volley on cooldown",
+    "Cast Explosive Shot on cooldown",
+    "Cast Black Arrow on cooldown",
+    "Cast Aimed Shot if you are about to reach 2 charges",
+    "Cast Rapid Fire on cooldown",
+    "Cast Aimed Shot",
+    "Cast Multi-Shot to spend Precise Shots procs",
+    "Cast Steady Shot if you have no other actions available and need Focus"
+  ],
+  "buildName": "Dark Ranger Dungeons/AoE"
+}

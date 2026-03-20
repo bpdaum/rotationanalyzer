@@ -1,0 +1,31 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Slayer",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T02:11:03.835Z",
+  "priorityList": [
+    "Rend to apply or refresh Rend under 4 seconds remaining",
+    "Sweeping Strikes if Broad Strokes is not talented or Colossus Smash is already on cooldown",
+    "Ravager",
+    "Avatar",
+    "Colossus Smash",
+    "Cleave",
+    "Execute with Sudden Death",
+    "Overpower with Opportunist or two charges available",
+    "Mortal Strike with two stacks of Executioner's Precision",
+    "Overpower",
+    "Mortal Strike",
+    "Cast Avatar shortly before or with Warbreaker or Colossus Smash.",
+    "Cast Sweeping Strikes whenever available when 2 or more targets are present.",
+    "Cast Warbreaker (or Colossus Smash) on cooldown.",
+    "Cast Bladestorm during the Colossus Smash / Warbreaker window to maximize Slayer's Finesse.",
+    "Cast Execute whenever Sudden Death procs to trigger Reap the Storm.",
+    "Cast Cleave as the primary Rage spender to maintain Deep Wounds on multiple targets.",
+    "Cast Overpower to generate stacks of Dreadnaught to buff Cleave.",
+    "Cast Mortal Strike to refresh Deep Wounds on the primary target.",
+    "Cast Thunder Clap to apply or refresh Rend (if talented).",
+    "Cast Whirlwind as a filler when other high-priority abilities are on cooldown and Rage is available."
+  ],
+  "buildName": "Slayer (Ravager Build)"
+}

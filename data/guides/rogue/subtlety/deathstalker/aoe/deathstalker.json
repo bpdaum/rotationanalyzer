@@ -1,0 +1,30 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Deathstalker",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:34:52.836Z",
+  "priorityList": [
+    "Always start the fight with Shadowstrike to apply Deathstalker's Mark.",
+    "Cast Shadow Dance when you have 2 or fewer combo points and Secret Technique is ready or Shadow Blades is active.",
+    "Cast Shadow Blades during Shadow Dance.",
+    "Cast Secret Technique during Shadow Dance with 6 or more combo points.",
+    "Cast Eviscerate with 6 or more combo points when Darkest Night is active.",
+    "Cast Black Powder with 6 or more combo points.",
+    "Cast Goremaw's Bite when you are not in Shadow Dance.",
+    "On exactly 2 targets, build combo points with Shadowstrike over Shuriken Storm whenever available.",
+    "Cast Shuriken Storm to build combo points.",
+    "Do not cast Shadow Dance if Shadow Blades has less than 10 seconds left on its cooldown.",
+    "Maintain Slice and Dice (ideally through Premeditation or Invidious Venom).",
+    "Cast Symbols of Death on cooldown, ideally paired with Shadow Dance.",
+    "Cast Shadow Dance when you have at least 1 charge available and Symbols of Death is active.",
+    "Cast Shuriken Storm as your primary Combo Point builder when 2 or more targets are present.",
+    "Cast Secret Technique at 6 or more Combo Points, prioritizing its use during Shadow Dance.",
+    "Cast Black Powder as your primary finisher at 6 or more Combo Points.",
+    "Cast Shuriken Tornado during large pulls to maximize Combo Point generation.",
+    "Apply Rupture to at least one target to trigger energy regeneration from Venomous Shadows.",
+    "Use Cold Blood in conjunction with Secret Technique for maximum burst damage.",
+    "Ensure Deathstalker's Mark is applied to your primary target via Shadowstrike or Ambush."
+  ],
+  "buildName": "Deathstalker"
+}

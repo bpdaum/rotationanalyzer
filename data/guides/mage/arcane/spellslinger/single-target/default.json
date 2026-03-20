@@ -1,0 +1,21 @@
+{
+  "classSlug": "mage",
+  "specSlug": "arcane",
+  "heroSpec": "Spellslinger",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Arcane Intellect at all times.",
+    "Cast Arcane Surge as your primary cooldown to initiate your burn phase.",
+    "Cast Touch of the Magi immediately after Arcane Surge, or on cooldown if Surge is not available for at least 30 seconds.",
+    "Use Evocation if mana drops below 10% and your major cooldowns (Surge/Touch) are not active.",
+    "Cast Arcane Barrage whenever you reach 20 stacks of Arcane Salvo to spend the proc.",
+    "Cast Arcane Missiles whenever Clearcasting is active to build Arcane Salvo stacks.",
+    "Cast Arcane Orb to generate Arcane Charges if you have 2 or fewer charges.",
+    "Use Presence of Mind with Arcane Blast if you have 1 or fewer Arcane Charges to build power quickly.",
+    "Cast Arcane Pulse (if talented) as a high-priority filler if you have fewer than 3 Arcane Charges and mana is above 30%.",
+    "Cast Arcane Blast as your main filler to generate Arcane Charges.",
+    "Use offensive trinkets, potions, and racial abilities (like Berserking) during the Arcane Surge and Touch of the Magi window.",
+    "Cast Arcane Barrage at the very end of your Touch of the Magi or Arcane Surge window if you have 15 or more Arcane Salvo stacks.",
+    "Cast Arcane Barrage if the target is about to die."
+  ]
+}

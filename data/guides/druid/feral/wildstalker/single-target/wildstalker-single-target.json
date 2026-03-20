@@ -1,0 +1,26 @@
+{
+  "classSlug": "druid",
+  "specSlug": "feral",
+  "heroSpec": "Wildstalker",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:21:29.377Z",
+  "priorityList": [
+    "Cast Tiger's Fury on cooldown, ideally alongside 5 Combo Points or when 50 Energy below your cap.",
+    "Cast Berserk on cooldown, synced with Tiger's Fury.",
+    "Cast Convoke the Spirits on cooldown, always aligned with Berserk.",
+    "Cast Rip with 5 Combo Points if it is not active or is in Pandemic range, ideally with Tiger's Fury active.",
+    "Cast Ferocious Bite with 5 Combo Points while Rip is applied.",
+    "Cast Shred with Sudden Ambush active.",
+    "Cast Rake if it is not active or is in Pandemic range.",
+    "Cast Moonfire if it is not active or is in Pandemic range.",
+    "Cast Shred to build Combo Points.",
+    "Cast Berserk on cooldown.",
+    "Cast Convoke the Spirits if you have 0 or 1 Combo Points.",
+    "Cast Rip at 5 Combo Points if the bleed is not active or is within pandemic range.",
+    "Cast Ferocious Bite at 5 Combo Points if Rip is active.",
+    "Cast Rake if the bleed is not active or is within pandemic range.",
+    "Cast Thrash if the bleed is not active or is within pandemic range.",
+    "Cast Shred to generate Combo Points."
+  ],
+  "buildName": "Wildstalker Single Target"
+}

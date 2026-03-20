@@ -1,0 +1,26 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Pack Leader",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:13:09.794Z",
+  "priorityList": [
+    "Ensure Hunter is active on the target",
+    "Barbed Shot",
+    "Bestial Wrath",
+    "Kill Command",
+    "Barbed Shot",
+    "Kill Command",
+    "Trinket Usage Stat-granting on-use Trinkets should be used right before Bestial Wrath",
+    "Activate Bestial Wrath",
+    "Use all Barbed Shots right before Bestial Wrath comes off cooldown",
+    "Cast Kill Command on cooldown",
+    "Cast Barbed Shot on cooldown",
+    "Cast Misdirection",
+    "Cast Barbed Shot",
+    "Cast Kill Command",
+    "Activate Bestial Wrath",
+    "Cast Wailing Arrow"
+  ],
+  "buildName": "Pack Leader AoE"
+}

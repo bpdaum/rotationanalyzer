@@ -1,0 +1,21 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Annihilator",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T04:03:58.548Z",
+  "priorityList": [
+    "Cast Reap with 3 stacks of Voidfall (Outside of Void Metamorphosis)",
+    "Cast Void Metamorphosis when available",
+    "Cast Void Ray with 100 or more Fury (Aim to cast right before Void Metamorphosis to leverage the Fury refund)",
+    "Cast Consume",
+    "Cast Voidblade before Collapsing Star or a Moment of Craving buffed Cull (During Void Metamorphosis)",
+    "Cast Collapsing Star when at 30 Souls (During Void Metamorphosis)",
+    "Cast Void Ray (During Void Metamorphosis)",
+    "Cast Cull with 3 Voidfall stacks, or 4 Soul Fragments on the ground (Gather souls if it will not overcap Fury)",
+    "Never overcap on Soul Fragments",
+    "Cast Voidblade and Cast Consume before entering Void Metamorphosis",
+    "Cast as many Collapsing Star as possible in one Void Metamorphosis window"
+  ],
+  "buildName": "Annihilator Single Target"
+}

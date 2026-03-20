@@ -1,0 +1,22 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "elemental",
+  "heroSpec": "Farseer",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Lightning Shield and Thunderstrike Ward at all times.",
+    "Cast Stormkeeper on cooldown, provided Ascendance is either ready or has more than 10 seconds remaining on its cooldown.",
+    "Cast Ancestral Swiftness on cooldown to summon Ancestors.",
+    "Cast Ascendance on cooldown, provided Stormkeeper is currently on cooldown for at least 15 seconds.",
+    "Maintain Flame Shock on the target; use Voltaic Blaze procs to refresh it when the duration is low, ideally when Master of the Elements is not active.",
+    "Cast Lava Burst if Master of the Elements is not active and you have room for the Maelstrom, prioritizing Lava Surge procs.",
+    "Cast Tempest if Master of the Elements is active to benefit from the damage buff.",
+    "Cast Lightning Bolt if Stormkeeper is active, ideally while Master of the Elements is also active.",
+    "Cast Elemental Blast to spend Maelstrom and avoid capping.",
+    "Cast Earth Shock to spend Maelstrom if Elemental Blast is not talented or available.",
+    "Cast Tempest whenever it becomes available and you are not holding it for a Master of the Elements window.",
+    "Cast Lightning Bolt as your primary filler for Maelstrom generation.",
+    "Use Spiritwalker's Grace if forced to move for more than 6 yards.",
+    "Use Flame Shock or Frost Shock as fillers while moving if Spiritwalker's Grace is unavailable."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "classSlug": "mage",
+  "specSlug": "arcane",
+  "heroSpec": "Spellslinger",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:36:00.626Z",
+  "priorityList": [
+    "Before Arcane Surge, get to 20 stacks of Arcane Salvo via Arcane Blast",
+    "Cast Arcane Surge",
+    "Cast Touch of the Magi after Arcane Surge",
+    "Cast Arcane Barrage if you have 4 Arcane Charge stacks, Clearcasting, at least 5 Arcane Salvo stacks, and Overpowered Missiles",
+    "On 3+ targets, cast Arcane Barrage if you have 4 Arcane Charge stacks, less than 10 Arcane Salvo stacks, and either a Clearcasting proc or an Arcane Orb ready",
+    "Cast Arcane Missiles whenever you have 2 or more Clearcasting stacks (if fewer than 14 Arcane Salvo stacks, or fewer than 6 if you have Overpowered Missiles)",
+    "Cast Arcane Orb when you have 0-2 Arcane Charge stacks",
+    "Cast Arcane Barrage when you have 4 Arcane Charge stacks and 20 stacks of Arcane Salvo",
+    "Cast Touch of the Magi 45 seconds after the first use when it is ready"
+  ],
+  "buildName": "Arcane Missiles Build"
+}

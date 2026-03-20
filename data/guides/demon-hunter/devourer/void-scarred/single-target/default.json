@@ -1,0 +1,23 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Void-Scarred",
+  "buildName": "default",
+  "priorityList": [
+    "Use Trinkets and Potions during Metamorphosis.",
+    "Cast Void Ray to maintain the Eradicate buff.",
+    "Cast Pierce the Veil if Moment of Craving is active and Collapsing Star is ready.",
+    "Cast Voidblade if you have maximum stacks of Void Metamorphosis (requires Devourer's Bite).",
+    "Cast The Hunt if you have maximum stacks of Void Metamorphosis (requires Devourer's Bite and Voidsurge).",
+    "Cast Metamorphosis on cooldown (or while Eradicate is active).",
+    "Execute the Reaps sequence (Eradicate > Cull > Reap) if you have 4+ Souls consumed and Metamorphosis is active.",
+    "Execute the Reaps sequence (Eradicate > Cull > Reap) whenever Voidfall spending procs.",
+    "Cast Voidblade if Moment of Craving is active and you are at or near max Collapsing Star stacks.",
+    "Cast Collapsing Star if Dark Matter is active, Apex is proc'd, or if talented into Star Fragments.",
+    "Cast Vengeful Retreat when the Voidstep buff is active.",
+    "Cast Reapers Toll if the Voidsurge/Reapers Toll proc is active.",
+    "Cast Pierce the Veil as your primary melee strike when talented into Duty Eternal (Single Target) or Devourer's Bite.",
+    "Cast Voidblade if Metamorphosis is up and you have Devourer's Bite (but not Voidsurge).",
+    "Use Devour and Consume as fillers to generate resources and fragments."
+  ]
+}

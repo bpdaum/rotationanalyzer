@@ -1,0 +1,21 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "Rider of the Apocalypse",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T03:48:18.517Z",
+  "priorityList": [
+    "Use Outbreak",
+    "Use 2x Festering Strike",
+    "Use Army + Cast Dark Transformation + Use Trinket + Use Combat Potion",
+    "Cast Soul Reaper",
+    "Use Outbreak to maintain Virulent Plague on the target",
+    "Cast Death Coil when you have a Sudden Doom proc or 80+ Runic Power",
+    "Cast Death Coil as filler",
+    "Cast Outbreak if Virulent Plague is not active",
+    "Spend Sudden Doom procs ASAP with Death Coil",
+    "Use Dark Transformation on cooldown",
+    "Use Army on cooldown"
+  ],
+  "buildName": "Rider of the Apocalypse Raid (Single Target)"
+}

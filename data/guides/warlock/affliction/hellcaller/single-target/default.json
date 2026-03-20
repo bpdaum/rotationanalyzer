@@ -1,0 +1,21 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "affliction",
+  "heroSpec": "Hellcaller",
+  "buildName": "default",
+  "priorityList": [
+    "Cast Haunt on cooldown.",
+    "Maintain Agony on your target at all times, ensuring it is refreshed just before summoning your Darkglare.",
+    "Maintain Wither on your target at all times.",
+    "Cast Dark Harvest on cooldown, provided your primary DoTs (Agony and Wither) are active.",
+    "Cast Summon Darkglare on cooldown.",
+    "Cast Malevolence on cooldown.",
+    "Cast Unstable Affliction while Summon Darkglare or Malevolence is active to maximize burst damage.",
+    "Cast Unstable Affliction to avoid reaching maximum Soul Shards (5).",
+    "Cast Unstable Affliction if Shard Instability is active or if the Cascading Calamity buff is about to expire.",
+    "Use Nightfall procs for Drain Soul (or Shadow Bolt) immediately if you reach maximum stacks (2).",
+    "Channel Malefic Grasp as your primary filler while Summon Darkglare is active.",
+    "Channel Drain Soul (or cast Shadow Bolt) as your primary filler during all other windows.",
+    "Use offensive trinkets and racial abilities (like Berserking or Blood Fury) during your Summon Darkglare window."
+  ]
+}

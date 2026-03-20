@@ -1,0 +1,20 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "assassination",
+  "heroSpec": "Fatebound",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:30:56.142Z",
+  "priorityList": [
+    "Cast Garrote",
+    "Cast Mutilate until 5+ Combo Points",
+    "Cast Rupture",
+    "Cast Deathmark",
+    "Ask for Power Infusion if you are the recipient",
+    "Cast Kingsbane",
+    "Use Garrote again to refresh Improved Garrote duration",
+    "Use Envenom at 5+ Combo Points",
+    "Use Mutilate as a builder",
+    "Use Ambush as a builder"
+  ],
+  "buildName": "Assassination Rogue Opener"
+}

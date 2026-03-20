@@ -1,0 +1,30 @@
+{
+  "classSlug": "mage",
+  "specSlug": "frost",
+  "heroSpec": "Frostfire",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:54:10.754Z",
+  "priorityList": [
+    "Cast Flurry to start the cooldown",
+    "Activate Time Warp if popping on pull",
+    "Cast Glacial Spike",
+    "Cast Flurry again",
+    "Cast Ray of Frost",
+    "Cast Frozen Orb",
+    "Cast Flurry if Thermal Void is not already active and you have Brain Freeze",
+    "Cast Frozen Orb",
+    "Cast Glacial Spike when available",
+    "Cast Comet Storm",
+    "Cast Ice Lance at 10 or more stacks of Freezing, or if Fingers of Frost is active",
+    "Cast Flurry if you have a charge available but no Brain Freeze",
+    "Cast Ray of Frost",
+    "Cast Frostfire Bolt",
+    "Consume stacks with Ice Lance and Comet Storm to avoid wasting them",
+    "Use Frozen Orb often as it deals high damage",
+    "Use Flurry and Glacial Spike often",
+    "Spend Brain Freeze procs quickly",
+    "Cast Frostfire Bolt as the main filler spell",
+    "Use Ice Lance while moving"
+  ],
+  "buildName": "Frostfire Single Target"
+}

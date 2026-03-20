@@ -1,0 +1,22 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Pack Leader",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:26:40.773Z",
+  "priorityList": [
+    "Ensure Hunter is active on the target.",
+    "Cast Kill Command.",
+    "Cast Kill Command.",
+    "Cast Raptor Strike.",
+    "Cast Raptor Strike.",
+    "Cast Kill Command.",
+    "Cast Wildfire Bomb.",
+    "Cast Wildfire Bomb.",
+    "Cast Kill Command as much as possible to generate resources",
+    "Do not Cast Kill Command if it would waste generated resources",
+    "Cast two abilities between each use of Kill Command",
+    "Cast Wildfire Bomb on cooldown"
+  ],
+  "buildName": "Whead Pack Leader Opener"
+}

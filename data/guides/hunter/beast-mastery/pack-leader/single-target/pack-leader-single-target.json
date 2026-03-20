@@ -1,0 +1,27 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Pack Leader",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:35:48.321Z",
+  "priorityList": [
+    "Ensure Hunter's Mark is active on the target.",
+    "Use stat-granting on-use Trinkets right before Bestial Wrath.",
+    "Activate Bestial Wrath.",
+    "Use all Barbed Shot charges right before Bestial Wrath comes off cooldown to maximize cooldown reduction.",
+    "Hold a Kill Command charge if Bestial Wrath is coming off cooldown within a few seconds.",
+    "Cast Kill Command regardless of the Nature's Ally weaving requirement if Howl of the Pack Leader is ready (ability icon is glowing).",
+    "Cast Barbed Shot on cooldown.",
+    "Cast Cobra Shot as a filler.",
+    "Cast Kill Command if you are about to reach 2 charges to avoid capping.",
+    "Cast Barbed Shot if Frenzy is about to expire on your pet (less than 2 seconds remaining).",
+    "Cast Kill Shot whenever Vicious Hunt is active from Pack Coordination.",
+    "Cast Bestial Wrath on cooldown.",
+    "Cast Kill Command as your primary focus spender and to generate Vicious Hunt stacks.",
+    "Cast Barbed Shot if you have 2 charges or a Wild Call proc to reduce the cooldown of Bestial Wrath.",
+    "Cast Bloodshed on cooldown.",
+    "Cast Dire Beast on cooldown.",
+    "Cast Cobra Shot as a filler when you have excess focus and no other priority abilities are available."
+  ],
+  "buildName": "Pack Leader Single Target"
+}

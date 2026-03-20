@@ -1,0 +1,22 @@
+{
+  "classSlug": "mage",
+  "specSlug": "fire",
+  "heroSpec": "Sunfury",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:41:24.598Z",
+  "priorityList": [
+    "When running Firestarter, delay your first Combustion until the target is below 90% health.",
+    "Cast Combustion when ready and then go into the Combustion Priority List. Cast Combustion near the end of a hard-cast Fireball or Scorch (In Execute).",
+    "Cast Pyroblast when you have Hot Streak using Pyroblast Chaining after a Fireball or Scorch (In Execute) so they both land at the same time.",
+    "Cast Scorch if you have a Heat Shimmer proc and you are Without Hot Streak.",
+    "Cast Fire Blast to convert Heating Up into Hot Streak.",
+    "Cast Scorch as your filler to generate Hot Streak or Heating Up when In Execute (target below 30% health).",
+    "Cast Fireball as your filler to generate Hot Streak or Heating Up.",
+    "Combustion Priority List: Cast Meteor between 2 to 8 seconds of Combustion left, ensuring it lands before Combustion ends.",
+    "Combustion Priority List: Cast Pyroblast when you have Hot Streak.",
+    "Combustion Priority List: Cast Scorch when you have Heat Shimmer and no Hot Streak.",
+    "Combustion Priority List: Cast Fire Blast to convert Heating Up into Hot Streak.",
+    "Combustion Priority List: Cast Scorch to generate Hot Streak or Heating Up."
+  ],
+  "buildName": "Sunfury Single Target"
+}

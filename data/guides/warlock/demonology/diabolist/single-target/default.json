@@ -1,0 +1,20 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "demonology",
+  "heroSpec": "Diabolist",
+  "buildName": "default",
+  "priorityList": [
+    "Summon Felguard and use Power Siphon pre-combat.",
+    "Use Potions, Racials, and on-use Trinkets while Demonic Tyrant is active.",
+    "Use Power Siphon if you have 1 or fewer Demonic Core stacks remaining.",
+    "Cast Hand of Gul'dan whenever the Dominion of Argus buff is active.",
+    "Cast Grimoire: Imp Lord, Grimoire: Fel Ravager, and Summon Doomguard on cooldown.",
+    "Call Dreadstalkers on cooldown.",
+    "Summon Demonic Tyrant once you reach 5 Soul Shards.",
+    "Cast Ruination whenever it is available.",
+    "Cast Hand of Gul'dan if you have 3 or more Soul Shards.",
+    "Cast Infernal Bolt if you have fewer than 3 Soul Shards.",
+    "Cast Demonbolt if you have Demonic Core stacks and fewer than 4 Soul Shards, prioritizing targets without Doom.",
+    "Cast Shadow Bolt as your basic generator filler."
+  ]
+}

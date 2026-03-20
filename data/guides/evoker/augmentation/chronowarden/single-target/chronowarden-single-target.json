@@ -1,0 +1,32 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "augmentation",
+  "heroSpec": "Chronowarden",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:03:56.678Z",
+  "priorityList": [
+    "Cast Ebon Might if it has 4 or less seconds remaining on its duration",
+    "Cast Breath on cooldown",
+    "Cast Prescience on cooldown",
+    "Cast Fire Breath at Rank 1",
+    "Cast Tip on Cooldown",
+    "Cast Upheaval on Cooldown",
+    "Cancel the Cast Tip buff if you do not have Upheaval available within the next GCD to maximise uptime of Temporal Burst",
+    "Cast Hover if you need to move",
+    "Cast Eruption if Ebon Might is up or you have two Essence Burst",
+    "Cast Blistering Scales if it not currently active on any tank",
+    "Cast Chrono Flame",
+    "Cast Azure Strike for Movement if you do not have any charges of Hover remaining",
+    "Cast Blistering Scales in downtime while no enemies are available",
+    "Maintain Ebon Might to maximize group damage output",
+    "Align major cooldowns like Breath with allies' cooldowns and big damage moments during an encounter",
+    "Cast Upheaval on cooldown at appropriate ranks to extend the duration of Ebon Might",
+    "Cast Fire Breath on cooldown at appropriate ranks to extend the duration of Ebon Might",
+    "Spend Essence Burst on Eruption when capped at 2 to avoid wasting resources",
+    "Spend Essence Burst before casting generators like Prescience and Living Flame",
+    "Cast Prescience to generate Essence Burst",
+    "Fill downtime with Living Flame or Azure Strike to deal damage and generate Essence Burst",
+    "Use Hover effectively to cast spells on the move"
+  ],
+  "buildName": "Chronowarden Single Target"
+}

@@ -1,0 +1,29 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Colossus",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T02:07:20.535Z",
+  "priorityList": [
+    "Rend to apply or refresh Rend under 4 seconds remaining",
+    "Sweeping Strikes if Broad Strokes is not talented or Colossus Smash is already on cooldown",
+    "Avatar",
+    "Colossus Smash",
+    "Demolish during Colossus Smash",
+    "Cleave",
+    "Bladestorm",
+    "Mortal Strike",
+    "Overpower",
+    "Execute with Sudden Death proc",
+    "Keep Sweeping Strikes active whenever 2 or more targets are present.",
+    "Cast Avatar, ideally synchronized with Colossus Smash or Warbreaker.",
+    "Cast Colossus Smash or Warbreaker on cooldown to apply the damage-increase debuff.",
+    "Cast Demolish while the Colossus Smash vulnerability is active on the targets.",
+    "Cast Cleave on cooldown as the primary Rage spender in multi-target scenarios.",
+    "Cast Overpower to generate stacks of Martial Prowess and trigger Dreadnaught waves.",
+    "Cast Mortal Strike while Sweeping Strikes is active to maximize high-priority target damage.",
+    "Cast Thunder Clap to apply or refresh Rend via Blood and Thunder if needed.",
+    "Cast Bladestorm during Colossus Smash windows if Demolish is unavailable."
+  ],
+  "buildName": "Colossus AoE (Bladestorm Build)"
+}

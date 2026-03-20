@@ -1,0 +1,17 @@
+{
+  "classSlug": "mage",
+  "specSlug": "arcane",
+  "heroSpec": "Spellslinger",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:34:13.804Z",
+  "priorityList": [
+    "Cast Arcane Orb when you have Clearcasting and your previous spell was Arcane Barrage",
+    "Use Presence when you need to move and need to cast Arcane Blast",
+    "Cast Arcane Blast as your filler",
+    "Cast Arcane Barrage if you do not have enough mana for Arcane Blast",
+    "Cast Arcane Surge",
+    "Cast Touch",
+    "Cast Touch 45 seconds later when it is ready"
+  ],
+  "buildName": "Single Target Orb Build"
+}

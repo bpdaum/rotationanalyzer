@@ -1,0 +1,23 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Shado-Pan",
+  "buildName": "default",
+  "priorityList": [
+    "Interrupt with Spear Hand Strike when the target is casting.",
+    "Use Invoke Xuen the White Tiger on cooldown, ideally paired with potions and trinkets.",
+    "Use Zenith when Xuen is active or if you are about to cap charges, especially if Rising Sun Kick and Fists of Fury are on cooldown.",
+    "Use Celestial Conduit when Zenith is active and your primary rotational abilities (RSK, FoF, SotW) are on cooldown.",
+    "Use Whirling Dragon Punch whenever available (requires both Rising Sun Kick and Fists of Fury to be on cooldown).",
+    "Use Fists of Fury on cooldown, prioritizing it if you have 30 Flurry Charges or during Bloodlust.",
+    "Use Strike of the Windlord on cooldown.",
+    "Use Rushing Wind Kick on cooldown.",
+    "Use Rising Sun Kick on cooldown.",
+    "Use Touch of Death whenever it becomes available.",
+    "Use Spinning Crane Kick if Dance of Chi-Ji is active, especially at 2 stacks or if the buff is about to expire.",
+    "Use Blackout Kick if Combo Breaker is active to avoid wasting the proc.",
+    "Use Tiger Palm if you have less than 4 Chi and your Energy is near maximum capacity.",
+    "Use Blackout Kick as your primary Chi spender filler, ensuring you never cast it twice in a row to maintain Combo Strikes.",
+    "Use Tiger Palm to generate Chi as needed, always alternating with other abilities to maintain Combo Strikes."
+  ]
+}

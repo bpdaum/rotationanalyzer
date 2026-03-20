@@ -1,0 +1,24 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Dark Ranger",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:29:55.162Z",
+  "priorityList": [
+    "Ensure Hunter is active on the target",
+    "Cast Kill Command",
+    "Cast Takedown",
+    "Cast Kill Command",
+    "Cast Raptor Strike",
+    "Cast Raptor Strike",
+    "Cast Kill Command",
+    "Cast Wildfire Bomb",
+    "Cast Wildfire Bomb",
+    "Use as many as possible Kill Command in any given fight.",
+    "Do not use Kill Command too aggressively to avoid wasting generated Focus.",
+    "Use Kill Command as much as possible in any given encounter without over-capping on Focus.",
+    "Use two abilities between each use of Kill Command.",
+    "Maximize the uses of Raptor Strike."
+  ],
+  "buildName": "Whead Pack Leader Opener"
+}

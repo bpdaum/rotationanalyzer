@@ -1,0 +1,22 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "havoc",
+  "heroSpec": "Aldrachi Reaver",
+  "buildName": "default",
+  "priorityList": [
+    "Cast Reaver's Glaive if you do not have the Rending Strike or Glaive Flurry buffs active to initiate the Aldrachi cycle.",
+    "If Rending Strike and Glaive Flurry are active, prioritize Death Sweep or Annihilation (Chaos Strike if not in Meta) to consume these buffs.",
+    "Cast Metamorphosis if Eye Beam is on cooldown and you have recently used Death Sweep/Blade Dance.",
+    "Cast Eye Beam on cooldown to trigger Demonic and set up for Essence Break.",
+    "Cast Essence Break immediately after Eye Beam while in Metamorphosis, ensuring you have Fury for the window.",
+    "Cast Death Sweep (if in Meta) or Blade Dance on cooldown.",
+    "Cast The Hunt on cooldown, preferably when Essence Break is not active and Reaver's Glaive buffs are clear.",
+    "Use Annihilation or Chaos Strike as your primary Fury spender, especially during the Essence Break debuff window.",
+    "Use Immolation Aura on cooldown to generate Fury and maintain Ragefire (if talented).",
+    "Use Felblade to generate Fury if you are below 40 Fury or to close the gap to your target.",
+    "Cast Vengeful Retreat on cooldown if using Initiative or Inertia talents to trigger their respective buffs.",
+    "Cast Fel Rush if Inertia is ready to be consumed and major cooldowns like Eye Beam are nearly ready.",
+    "Use Throw Glaive as a filler if Soulscar is talented and you have nothing else to press.",
+    "Use Arcane Torrent if you are low on Fury and all other generators are on cooldown."
+  ]
+}

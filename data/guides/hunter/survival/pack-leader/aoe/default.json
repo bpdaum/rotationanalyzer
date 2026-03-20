@@ -1,0 +1,20 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Pack Leader",
+  "buildName": "default",
+  "priorityList": [
+    "Use Takedown and all offensive cooldowns (Trinkets, Racials, Potions) together.",
+    "Cast Kill Command if Tip of the Spear is below 2 stacks and you have any Pack Leader buff (Wyvern, Boar, or Bear active).",
+    "Cast Kill Command if Takedown is nearly ready and you have fewer than 2 stacks of Tip of the Spear.",
+    "Cast Takedown if you have at least 1 stack of Tip of the Spear (or 0 stacks if talented into Twin Fangs).",
+    "Cast Flamefang Pitch on cooldown.",
+    "Cast Wildfire Bomb if you are about to reach maximum charges to avoid capping.",
+    "Cast Boomstick whenever you have at least 1 stack of Tip of the Spear.",
+    "Cast Wildfire Bomb whenever you have at least 1 stack of Tip of the Spear.",
+    "Cast Raptor Strike (or Mongoose Bite) to maintain your Raptor Swipe cleave buff or whenever you have Tip of the Spear.",
+    "Cast Kill Command as your primary generator while Takedown is on cooldown.",
+    "Cast Wildfire Bomb as a filler if available.",
+    "Cast Aspect of the Eagle if you are forced out of melee range of your targets."
+  ]
+}

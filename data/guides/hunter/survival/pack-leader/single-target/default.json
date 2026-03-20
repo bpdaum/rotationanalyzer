@@ -1,0 +1,19 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Pack Leader",
+  "buildName": "default",
+  "priorityList": [
+    "Use offensive cooldowns (Trinkets, Racials, and Potions) when Coordinated Assault is active or ready to be cast.",
+    "Cast Kill Command if you have fewer than 2 stacks of Tip of the Spear and any Howl of the Pack Leader buff (Wyvern, Boar, or Bear) is active.",
+    "Cast Kill Command if Coordinated Assault is about to come off cooldown and you have fewer than 2 stacks of Tip of the Spear.",
+    "Cast Coordinated Assault (Takedown) on cooldown, ideally with at least 1 stack of Tip of the Spear (unless using Twin Fangs).",
+    "Cast Flamefang Pitch on cooldown.",
+    "Cast Boomstick whenever you have a stack of Tip of the Spear active.",
+    "Cast Wildfire Bomb if you have Tip of the Spear active and need to extend the duration of Fury of the Wyvern.",
+    "Cast Raptor Strike (or Mongoose Bite) if Tip of the Spear is active or if the Raptor Swipe buff is missing.",
+    "Cast Kill Command whenever Coordinated Assault is on cooldown to generate Focus and Tip of the Spear stacks.",
+    "Cast Wildfire Bomb as a filler if you have charges available and Tip of the Spear is active.",
+    "Use Aspect of the Eagle if you are forced out of melee range to continue attacking."
+  ]
+}

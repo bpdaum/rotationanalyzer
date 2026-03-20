@@ -1,0 +1,21 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Dark Ranger",
+  "buildName": "default",
+  "priorityList": [
+    "Ensure your pet is summoned and use Aspect of the Eagle if you are out of melee range (6+ yards).",
+    "Use offensive racials, potions, and trinkets when Takedown is active or ready to be cast.",
+    "Cast Kill Command if you have 0 stacks of Tip of the Spear.",
+    "Cast Kill Command to generate Tip of the Spear stacks if Takedown's cooldown is almost refreshed (less than 1.5 seconds remaining).",
+    "Cast Takedown if Tip of the Spear is active (you may cast it at 0 stacks if the Twin Fangs talent is taken).",
+    "Cast Boomstick if you have a stack of Tip of the Spear active.",
+    "Cast Wildfire Bomb if you have a stack of Tip of the Spear active and you are about to reach maximum charges (less than 4 seconds until a charge refreshes).",
+    "Cast Flamefang Pitch on cooldown.",
+    "Cast Raptor Strike (or Mongoose Bite) if Tip of the Spear is active.",
+    "Cast Raptor Strike (or Mongoose Bite) if the Raptor Swipe (or Mongoose Fury) buff is missing or about to expire.",
+    "Cast Kill Command as your primary filler to generate Tip of the Spear stacks whenever Takedown is on cooldown.",
+    "Cast Wildfire Bomb as a filler if no other priority actions are available.",
+    "Cast Takedown as a fallback if it is available and no other conditions are met."
+  ]
+}

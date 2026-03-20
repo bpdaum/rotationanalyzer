@@ -1,0 +1,26 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "marksmanship",
+  "heroSpec": "Dark Ranger",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:24:00.568Z",
+  "priorityList": [
+    "Ensure Hunter's Mark is active on the highest-health target from you or another Hunter in the group!",
+    "Pre-cast Aimed Shot around 2.5 seconds before combat begins.",
+    "Cast Black Arrow.",
+    "Cast Rapid Fire.",
+    "Cast Black Arrow.",
+    "Cast Volley (if talent active).",
+    "Activate Trueshot.",
+    "Cast Black Arrow.",
+    "Cast Aimed Shot.",
+    "Cast Aimed Shot.",
+    "Cast Wailing Arrow.",
+    "Cast Black Arrow.",
+    "Continue your normal rotation, spending Black Arrow procs as you get them.",
+    "Every single Precise Shots proc must be spent.",
+    "Follow up every Aimed Shot with a Multi-Shot on 2+ targets to spend Precise Shots procs.",
+    "Follow up every Rapid Fire with a Multi-Shot on 2+ targets (depending on Talents) to spend Precise Shots procs."
+  ],
+  "buildName": "Dark Ranger Single-Target Opener"
+}

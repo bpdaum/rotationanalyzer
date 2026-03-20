@@ -1,0 +1,17 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "destruction",
+  "heroSpec": "Diabolist",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:19:54.197Z",
+  "priorityList": [
+    "Pre-cast Soul Fire.",
+    "Pre-cast Incinerate.",
+    "Pre-cast Immolate.",
+    "Cast Conflagrate.",
+    "Cast Summon Infernal.",
+    "Cast Chaos Bolt.",
+    "Cast Conflagrate."
+  ],
+  "buildName": "Diabolist Single Target Opener"
+}

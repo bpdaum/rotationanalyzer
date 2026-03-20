@@ -1,0 +1,29 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Master of Harmony",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:08:04.930Z",
+  "priorityList": [
+    "Cast Touch of Death",
+    "Cast Whirling Dragon Punch",
+    "Cast Strike of the Windlord",
+    "Cast Fists of Fury",
+    "Cast Rushing Wind Kick",
+    "Cast Rising Sun Kick",
+    "Cast Tiger Palm if any of the above are available and you do not have enough Chi",
+    "Cast Spinning Crane Kick with a Dance of Chi-Ji proc",
+    "Cast Blackout Kick",
+    "Cast Tiger Palm",
+    "Cast Aspect of Harmony whenever available to begin storing damage into your pool.",
+    "Cast Rising Sun Kick if you have 10 stacks of Coalescence to trigger Manifestation.",
+    "Cast Strike of the Windlord on cooldown.",
+    "Cast Fists of Fury on cooldown.",
+    "Cast Rising Sun Kick on cooldown.",
+    "Cast Whirling Dragon Punch whenever available.",
+    "Cast Blackout Kick if you have 3 stacks of Teachings of the Monastery.",
+    "Cast Tiger Palm if you have 1 or less Chi and are about to cap energy.",
+    "Cast Blackout Kick as a filler to avoid overcapping Chi and maintain Mastery: Combo Strikes."
+  ],
+  "buildName": "Echo Build"
+}

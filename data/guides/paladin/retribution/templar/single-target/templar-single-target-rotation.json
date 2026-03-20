@@ -1,0 +1,32 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "retribution",
+  "heroSpec": "Templar",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:11:43.542Z",
+  "priorityList": [
+    "Cast Avenging Wrath",
+    "Cast Execution Sentence",
+    "Cast Hammer of Light",
+    "Cast Final Verdict if you have 5 Holy Power",
+    "Cast Wake of Ashes",
+    "Cast Divine Toll",
+    "Cast Blade of Justice with an Art of War proc",
+    "Cast Divine Storm if you have an Empyrean Power proc",
+    "Cast Final Verdict",
+    "Cast Blade of Justice",
+    "Cast Hammer of Wrath",
+    "Cast Judgment",
+    "Cast Templar Strikes or Templar Slash",
+    "Cast Crusader Strike",
+    "Cast Avenging Wrath",
+    "Cast Execution Sentence",
+    "Cast Hammer of Light",
+    "Cast Final Verdict with 5 Holy Power",
+    "Cast Wake of Ashes",
+    "Cast Divine Toll",
+    "Cast Blade of Justice with an Art of War proc",
+    "Cast Final Verdict"
+  ],
+  "buildName": "Templar Single-Target Rotation"
+}

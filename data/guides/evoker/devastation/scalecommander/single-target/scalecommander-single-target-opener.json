@@ -1,0 +1,23 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Scalecommander",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:26:53.406Z",
+  "priorityList": [
+    "Pre-cast Living Flame so that it lands on pull.",
+    "Cast Deep Breath.",
+    "Cast Dragonrage.",
+    "Cast Fire Breath with Tip the Scales.",
+    "Cast Eternity Surge.",
+    "Cast Disintegrate until you run out of Essence.",
+    "Cast Dragonrage on cooldown.",
+    "Cast Deep Breath to trigger Bombardments and activate the Might of the Aspects damage buff.",
+    "Cast Fire Breath at Empower Level 1 to apply and maintain the damage-over-time effect.",
+    "Cast Eternity Surge at Empower Level 1 to trigger Casuality for cooldown reduction on other empower spells.",
+    "Cast Disintegrate to spend Essence and consume Essence Burst procs.",
+    "Cast Living Flame as a filler to generate Essence and trigger Essence Burst procs.",
+    "Cast Azure Strike if movement is required and Hover is unavailable."
+  ],
+  "buildName": "Scalecommander Single-Target Opener"
+}

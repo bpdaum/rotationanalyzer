@@ -1,0 +1,23 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "enhancement",
+  "heroSpec": "Totemic",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T06:02:41.709Z",
+  "priorityList": [
+    "Cast Voltaic Blaze if Flame Shock isn't active",
+    "Cast Surging Totem",
+    "Cast Lava Lash with Hot Hand or Whirling Fire active",
+    "Cast Sundering (Notes: Aim to sync up every other cast with Surging Totem)",
+    "Cast Doom Winds",
+    "Cast Crash Lightning (Notes: With Storm Unleashed, this is a top priority at all times)",
+    "Cast Stormstrike during Doom Winds",
+    "Cast Lava Lash",
+    "Cast Stormstrike",
+    "Cast Voltaic Blaze",
+    "Spend to extend Hot Hand",
+    "Trigger the effect with Stormstrike and Crash Lightning",
+    "Use Stormstrike as a filler"
+  ],
+  "buildName": "Totemic M+ / AoE"
+}

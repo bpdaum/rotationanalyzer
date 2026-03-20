@@ -1,0 +1,22 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "augmentation",
+  "heroSpec": "Scalecommander",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:07:58.424Z",
+  "priorityList": [
+    "Cast Ebon Might if it has 4 or less seconds remaining on its duration",
+    "Cast Breath on cooldown",
+    "Cast Prescience on cooldown",
+    "Cast Fire Breath at Rank 1",
+    "Cast Tip if Fire Breath is on cooldown and Upheaval is available",
+    "Cast Upheaval on Cooldown",
+    "Cast Hover if you need to move",
+    "Cast Eruption if Ebon Might is up or you have two Essence Burst",
+    "Cast Blistering Scales if it not currently active on any tank",
+    "Cast Living Flame",
+    "Cast Azure Strike for Movement if you do not have any charges of Hover remaining",
+    "Cast Blistering Scales in downtime while no enemies are available"
+  ],
+  "buildName": "Icy Veins Scalecommander Rotation"
+}

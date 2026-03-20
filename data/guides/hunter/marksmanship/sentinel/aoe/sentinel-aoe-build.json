@@ -1,0 +1,30 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "marksmanship",
+  "heroSpec": "Sentinel",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:40:26.775Z",
+  "priorityList": [
+    "Ensure Hunter's Mark is active on the highest-health target.",
+    "Use stat-granting on-use trinkets during Trueshot.",
+    "Cast Multi-Shot to spend Precise Shots stacks and activate Trick Shots (ideally immediately after every Aimed Shot and Rapid Fire).",
+    "Cast Rapid Fire if the Bulletstorm buff is not active.",
+    "Activate Trueshot, ideally right before an Aimed Shot and shortly after a Rapid Fire to ensure Bulletstorm is active.",
+    "Cast Moonlight Chakram when you have fewer than 1.2 charges of Aimed Shot remaining or if you have less than 35 Focus.",
+    "Cast Aimed Shot whenever possible.",
+    "Cast Rapid Fire whenever possible.",
+    "Cast Steady Shot as a filler to generate Focus and reduce the cooldown of Aimed Shot.",
+    "Apply Hunter's Mark to a target that will live for at least 30 seconds.",
+    "Cast Trueshot on cooldown for high-density packs.",
+    "Cast Salvo before your next Volley or Multi-Shot.",
+    "Cast Volley to activate Trick Shots.",
+    "Cast Explosive Shot on cooldown.",
+    "Cast Aimed Shot while Trick Shots is active to trigger Sentinel Watcher and Lunar Storm.",
+    "Cast Rapid Fire while Trick Shots is active to trigger Sentinel Watcher and Lunar Storm.",
+    "Cast Multi-Shot to maintain the Trick Shots buff if Volley is unavailable.",
+    "Cast Multi-Shot to spend Precise Shots stacks.",
+    "Cast Kill Shot on targets below 20% health.",
+    "Cast Steady Shot if you have insufficient Focus to cast any other ability."
+  ],
+  "buildName": "Sentinel AoE Build"
+}

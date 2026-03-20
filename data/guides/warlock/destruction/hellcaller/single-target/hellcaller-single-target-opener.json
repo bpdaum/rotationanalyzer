@@ -1,0 +1,17 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "destruction",
+  "heroSpec": "Hellcaller",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:16:41.482Z",
+  "priorityList": [
+    "Pre-cast Soul Fire.",
+    "Cast Wither.",
+    "Cast Conflagrate.",
+    "Cast Summon Infernal.",
+    "cast Malevolence.",
+    "Cast Chaos Bolt.",
+    "Cast Conflagrate."
+  ],
+  "buildName": "Hellcaller Single Target Opener"
+}

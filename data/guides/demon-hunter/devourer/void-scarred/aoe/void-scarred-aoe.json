@@ -1,0 +1,31 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Void-Scarred",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:37:59.605Z",
+  "priorityList": [
+    "Outside of Void Metamorphosis: Cast Hungering Slash",
+    "Outside of Void Metamorphosis: Cast Vengeful Retreat",
+    "Outside of Void Metamorphosis: Cast The Hunt to put it on cooldown",
+    "Outside of Void Metamorphosis: Cast Voidblade to put it on cooldown",
+    "Outside of Void Metamorphosis: Cast Void Metamorphosis with 35 Souls",
+    "Outside of Void Metamorphosis: Cast Eradicate",
+    "Outside of Void Metamorphosis: Cast Void Ray with 100 or more Fury",
+    "Outside of Void Metamorphosis: Cast Consume",
+    "During Void Metamorphosis: Cast Vengeful Retreat",
+    "During Void Metamorphosis: Cast Eradicate",
+    "During Void Metamorphosis: Cast Void Ray",
+    "During Void Metamorphosis: Cast Collapsing Star when at 30 Souls",
+    "During Void Metamorphosis: Cast Cull with 4 or more Soul Fragments for priority damage",
+    "During Void Metamorphosis: Cast Devour",
+    "Cast Void Metamorphosis on cooldown.",
+    "Cast Collapsing Star if inside Void Metamorphosis.",
+    "Cast Reap to collect Soul Fragments.",
+    "Cast Consume to generate Fury.",
+    "Cast Void Ray on cooldown.",
+    "Cast Voidblade to consume Voidfall.",
+    "Cast Cull to spend Fury."
+  ],
+  "buildName": "Void-Scarred AoE"
+}

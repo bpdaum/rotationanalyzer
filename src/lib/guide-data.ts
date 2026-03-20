@@ -1,8 +1,13 @@
 import fs from 'fs';
 import path from 'path';
-import type { ScrapedRotation } from './scraper';
-
-/**
+// Scraped rotation data structure
+export interface ScrapedRotation {
+    classSlug: string;
+    specSlug: string;
+    heroSpec: string;
+    buildName: string;
+    priorityList: string[];
+}/**
  * Every valid DPS spec + its available hero specs.
  * Hero specs are listed per-spec (not per-class) for accuracy.
  * combatTypes: the combat profiles we scrape for.
@@ -70,28 +75,33 @@ export const DPS_SPECS: DpsSpecEntry[] = [
 ];
 
 /**
- * Produces a consistent filename key for a guide combination.
+ * Produces a consistent nested path for a guide combination.
+ * Format: class/spec/hero/combat-type/build.json
  */
-export function guideKey(classSlug: string, specSlug: string, heroSpec: string, combatType: string): string {
-    const hero = heroSpec.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '');
+export function getGuidePath(classSlug: string, specSlug: string, heroSpec: string, combatType: string, buildName: string = 'default'): string {
+    const hero = heroSpec ? heroSpec.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '') : 'none';
     const combat = combatType.toLowerCase().replace(/\s+/g, '-');
-    return `${classSlug}-${specSlug}-${hero}-${combat}`;
+    const build = buildName.toLowerCase().replace(/\s+/g, '-');
+
+    return path.join(classSlug, specSlug, hero, combat, `${build}.json`);
 }
 
 /**
- * Loads a pre-scraped guide from the static JSON directory.
- * Returns null if no file exists for this combination.
+ * Loads a pre-scraped guide from the nested directory structure.
  */
-export function loadGuide(classSlug: string, specSlug: string, heroSpec: string, combatType: string): ScrapedRotation | null {
-    const key = guideKey(classSlug, specSlug, heroSpec, combatType);
-    const filePath = path.join(process.cwd(), 'data', 'guides', `${key}.json`);
+export function loadGuide(classSlug: string, specSlug: string, heroSpec: string, combatType: string, buildName: string = 'default'): ScrapedRotation | null {
+    const relativePath = getGuidePath(classSlug, specSlug, heroSpec, combatType, buildName);
+    const filePath = path.join(process.cwd(), 'data', 'guides', relativePath);
 
     try {
+        if (!fs.existsSync(filePath)) return null;
         const raw = fs.readFileSync(filePath, 'utf-8');
         const data = JSON.parse(raw);
         return {
             classSlug: data.classSlug,
             specSlug: data.specSlug,
+            heroSpec: data.heroSpec || heroSpec,
+            buildName: data.buildName || buildName,
             priorityList: data.priorityList || [],
         };
     } catch {

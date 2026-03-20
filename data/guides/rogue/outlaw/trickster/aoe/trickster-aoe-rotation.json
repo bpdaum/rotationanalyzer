@@ -1,0 +1,31 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Trickster",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:31:19.211Z",
+  "priorityList": [
+    "Maintain Blade Flurry, aiming to use it at low Combo Points.",
+    "Use Keep It Rolling (if talented) when you have 4+ buffs; if missing Broadside, wait until the last second of the lowest duration buff.",
+    "Use Adrenaline Rush on cooldown at low Combo Points.",
+    "Use Blade Rush on cooldown as a builder.",
+    "Cast Between the Eyes on cooldown with 6+ Combo Points.",
+    "Use Killing Spree on cooldown at 6+ Combo Points.",
+    "Cast Dispatch as your main finisher with 6+ Combo Points if it is buffed by Coup de Grace.",
+    "Cast Dispatch as your main finisher at 6+ Combo Points.",
+    "Cast Pistol Shot if you have 6 stacks of Opportunity, or at 1-3 Combo Points if you have 3 stacks.",
+    "Cast Sinister Strike to generate Combo Points.",
+    "Keep Blade Flurry active at all times to enable multi-target cleave.",
+    "Use Adrenaline Rush on cooldown to maximize Energy regeneration and reduce global cooldowns.",
+    "Maintain Roll the Bones buffs, re-rolling if you have no buffs or only one low-value buff (e.g., Buried Treasure) unless using Keep It Rolling.",
+    "Use Vanish on cooldown to enter Stealth and trigger the Crackshot window.",
+    "Cast Between the Eyes at max Combo Points, prioritizing its use during the Crackshot/Stealth window for massive cleave damage.",
+    "Cast Coupe de Grace at max Combo Points to consume Finesse stacks and deal significant finishing damage.",
+    "Use Keep It Rolling when you have a strong set of Roll the Bones buffs (2+) to extend their duration.",
+    "Cast Dispatch at max Combo Points as a filler finisher if Coupe de Grace is not available and Between the Eyes is on cooldown.",
+    "Use Blade Rush on cooldown for high AoE burst and Energy restoration.",
+    "Cast Pistol Shot when Opportunity procs to generate Combo Points efficiently.",
+    "Use Sinister Strike as your primary filler generator to build Combo Points."
+  ],
+  "buildName": "Trickster AoE Rotation"
+}

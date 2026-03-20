@@ -1,0 +1,18 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "frost",
+  "heroSpec": "Rider of the Apocalypse",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T03:40:55.793Z",
+  "priorityList": [
+    "Use Empower Rune Weapon",
+    "Use Obliterate",
+    "Use Raise Dead",
+    "Use Obliterate if you have a proc of Killing Machine",
+    "Use Howling Blast if you have a proc of Rime",
+    "Use Glacial Advance to spend Runic Power at 3+ targets",
+    "Use Empower Rune Weapon to generate a charge of Killing Machine and 40 Runic Power",
+    "Use Obliterate as a builder to gain Runic Power"
+  ],
+  "buildName": "Rider of the Apocalypse Frostbane Mythic+"
+}

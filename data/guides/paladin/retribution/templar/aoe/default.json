@@ -1,0 +1,23 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "retribution",
+  "heroSpec": "Templar",
+  "buildName": "default",
+  "priorityList": [
+    "Cast Avenging Wrath (or Radiant Glory) on cooldown, ideally when Expurgation is already ticking on the target.",
+    "Cast Execution Sentence (if talented) when Wake of Ashes is nearly ready and Avenging Wrath is active or soon available.",
+    "Cast Wake of Ashes if you are not at max Holy Power and Avenging Wrath is active or has more than 6 seconds remaining on cooldown.",
+    "Cast Hammer of Light as your highest priority spender, especially if its free proc is about to expire or Avenging Wrath is ending.",
+    "Cast Divine Toll on cooldown, ideally during Avenging Wrath.",
+    "Cast a Finisher (Divine Storm for AoE) if you are at 5 Holy Power to avoid over-capping.",
+    "Cast Divine Storm as your primary spender if there are 3+ targets or if you have an Empyrean Power proc.",
+    "Cast Templar's Verdict as your spender if there are fewer than 3 targets and Empyrean Power is not active.",
+    "Cast Blade of Justice if Art of War procs to generate Holy Power.",
+    "Cast Hammer of Wrath on cooldown.",
+    "Cast Blade of Justice to generate Holy Power and maintain Expurgation.",
+    "Cast Judgment to generate Holy Power and apply the Judgment debuff.",
+    "Cast Templar Strike and Templar Slash as your primary filler generators.",
+    "Cast Crusader Strike if no other generators are available.",
+    "Cast Arcane Torrent or Light's Judgment during Avenging Wrath for extra burst if available."
+  ]
+}

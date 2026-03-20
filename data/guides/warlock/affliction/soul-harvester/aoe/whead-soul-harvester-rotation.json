@@ -1,0 +1,16 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "affliction",
+  "heroSpec": "Soul Harvester",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T06:06:27.940Z",
+  "priorityList": [
+    "Maintain Agony and Corruption. If there are 3+ targets stacked together, use Seed to apply and maintain Corruption.",
+    "Cast Haunt whenever available on the primary target.",
+    "Cast Seed if already at 5 Soul Shards to avoid capping.",
+    "Cast Seed if above 2 shards before Dark Harvest comes off cooldown.",
+    "Cast Dark Harvest whenever available with any periodic effect such as Corruption, Agony or Unstable Affliction active on every target.",
+    "Cast Drain Soul as a filler."
+  ],
+  "buildName": "Whead Soul Harvester Rotation"
+}

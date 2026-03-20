@@ -1,0 +1,17 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "elemental",
+  "heroSpec": "Farseer",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:53:01.938Z",
+  "priorityList": [
+    "Cast Stormkeeper. Make sure the procs are available during Ascendance, typically cast one or two GCDs before it.",
+    "Use Ancestral Swiftness.",
+    "Cast Ascendance, sync it with Tempered Potion.",
+    "Cast Elemental Blast if Ascendance will fade within the next 3 seconds.",
+    "Cast Elemental Blast whenever you are less than 15 Maelstrom from capping.",
+    "Cast Lava Burst if Flame Shock is up.",
+    "Cast Lightning Bolt."
+  ],
+  "buildName": "Farseer Elemental Blast Build"
+}

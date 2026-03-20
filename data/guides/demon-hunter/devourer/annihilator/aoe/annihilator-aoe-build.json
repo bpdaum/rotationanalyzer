@@ -1,0 +1,26 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Annihilator",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:09:55.960Z",
+  "priorityList": [
+    "Cast Reap or Eradicate when at 3 stacks of Voidfall (prioritize this before using Void Metamorphosis to consume the Voidfall stacks)",
+    "Cast Void Metamorphosis when at 35 Souls",
+    "Cast Eradicate (favored over Reap or Cull in AoE scenarios)",
+    "Cast Void Ray when at 100 or more Fury (aim to cast right before Void Metamorphosis to leverage the Fury refund)",
+    "Cast Consume",
+    "During Void Metamorphosis, cast Eradicate",
+    "During Void Metamorphosis, cast Void Ray on cooldown to pause Fury drain",
+    "During Void Metamorphosis, cast Collapsing Star when at 30 Souls",
+    "During Void Metamorphosis, cast Devour",
+    "Use Void Metamorphosis as soon as it is available",
+    "Use Void Ray as soon as it is available",
+    "Spend Moment of Craving procs immediately to avoid waste",
+    "Consume Shattered Souls to avoid overcapping",
+    "Cast Voidblade before entering Void Metamorphosis",
+    "Consume Voidfall before entering Void Metamorphosis",
+    "Maximize Collapsing Star casts during the Void Metamorphosis window"
+  ],
+  "buildName": "Annihilator AoE Build"
+}

@@ -1,0 +1,33 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "affliction",
+  "heroSpec": "Soul Harvester",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:04:51.801Z",
+  "priorityList": [
+    "Maintain your Agony, and Corruption effects at all times.",
+    "Cast Unstable Affliction if you are at maximum Soul Shards.",
+    "Cast Haunt whenever available.",
+    "Make sure to have 2 or less Soul Shards before casting Dark Harvest.",
+    "Cast Dark Harvest whenever available with any periodic effect such as Corruption, Agony or Unstable Affliction active on target.",
+    "Cast Unstable Affliction to avoid capping shards.",
+    "Cast Drain Soul as a filler.",
+    "Cast Shadow Bolt as a filler.",
+    "Precast Haunt",
+    "Cast Agony",
+    "Cast Corruption",
+    "Cast Unstable Affliction",
+    "Cast Dark Harvest",
+    "Cast Summon Darkglare",
+    "Cast Malefic Grasp until Soul Shards are exhausted",
+    "Cast Haunt on cooldown",
+    "Cast Agony if not active",
+    "Cast Corruption if not active",
+    "Cast Unstable Affliction if not active",
+    "Cast Dark Harvest on cooldown",
+    "Cast Summon Darkglare if Dark Harvest is active",
+    "Cast Malefic Grasp if Soul Shards are at 3 or more",
+    "Cast Drain Soul as a filler"
+  ],
+  "buildName": "Whead Soul Harvester Rotation"
+}

@@ -1,0 +1,26 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Fatebound",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:32:49.286Z",
+  "priorityList": [
+    "Maintain Blade Flurry, preferably using it at low Combo Points to benefit from Deft Maneuvers.",
+    "If talented, use Keep It Rolling when you have 4+ buffs active. If missing Broadside, wait until the last second of your lowest duration buff to use it.",
+    "Use Adrenaline Rush on cooldown at low Combo Points.",
+    "Use Blade Rush on cooldown as a builder.",
+    "Cast Between the Eyes on cooldown with 6+ Combo Points.",
+    "Cast Dispatch as your main finisher at 5+ Combo Points.",
+    "Cast Pistol Shot if you have 6 stacks of Opportunity, or at 1-3 Combo Points if you have 3 stacks.",
+    "Cast Sinister Strike to generate Combo Points.",
+    "Maintain Blade Flurry at all times to enable AoE cleave.",
+    "Cast Adrenaline Rush on cooldown.",
+    "Use Roll the Bones if no buffs are active or to refresh expiring buffs.",
+    "Cast Between the Eyes at maximum Combo Points while in Stealth, Vanish, or Shadow Dance (Crackshot).",
+    "Cast Blade Rush on cooldown to generate Energy and deal AoE damage.",
+    "Cast Dispatch at maximum Combo Points if Between the Eyes is on cooldown or Crackshot is not active.",
+    "Cast Pistol Shot with Opportunity procs if you are not at maximum Combo Points.",
+    "Cast Sinister Strike as your primary generator to build Combo Points."
+  ],
+  "buildName": "Fatebound Multi-Target Rotation"
+}

@@ -1,0 +1,26 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "augmentation",
+  "heroSpec": "Scalecommander",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:10:49.323Z",
+  "priorityList": [
+    "Cast Blistering Scales on the main tank.",
+    "Precast Living Flame at 1.5s.",
+    "Cast Ebon Might.",
+    "Cast Prescience.",
+    "Cast Prescience.",
+    "Use Mastery Trinkets before Breath of Eons.",
+    "Cast Breath of Eons.",
+    "Use Trinkets.",
+    "Cast Fire Breath.",
+    "Maximize uptime of Ebon Might",
+    "Cast Upheaval and Fire Breath at appropriate ranks on cooldown",
+    "Spend Essence Burst when capped",
+    "Cast Eruption to spend resources",
+    "Fill downtime with Living Flame or Azure Strike to deal damage and generate Essence Burst",
+    "Cast Hover effectively to cast spells on the move",
+    "Align Breath of Eons with allies' cooldowns and big damage moments"
+  ],
+  "buildName": "Scalecommander Opener"
+}

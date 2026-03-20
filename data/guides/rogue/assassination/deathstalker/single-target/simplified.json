@@ -1,0 +1,21 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "assassination",
+  "heroSpec": "Deathstalker",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:25:27.134Z",
+  "priorityList": [
+    "Use Mutilate as your single-target builder and Envenom as your single-target spender.",
+    "Cast Envenom with maximum Combo Points if you have Darkest Night.",
+    "Maintain Rupture and Garrote at all times.",
+    "Use Kingsbane and Deathmark on cooldown.",
+    "Apply Vanish-empowered Garrote before using Deathmark.",
+    "Use Thistle Tea alongside Kingsbane to avoid overcapping charges.",
+    "Utilize purposeful downtime and play around gaps in the rotation rather than forcing a cast on every GCD.",
+    "Prioritize Energy efficiency by selecting the most efficient ability for the situation.",
+    "Manage resources carefully to avoid overcapping Energy or Combo Points during pooling phases.",
+    "Plan the usage of cooldowns, bleeds, and resources around specific encounter timings.",
+    "Maintain bleeds and debuffs as the primary method of damage output."
+  ],
+  "buildName": "Simplified"
+}

@@ -1,0 +1,22 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "Rider of the Apocalypse",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-08T23:53:58.085Z",
+  "priorityList": [
+    "Use Death Coil when you have a Sudden Doom proc or 80+ Runic Power.",
+    "Use Death Coil as a filler spell.",
+    "Apply and maintain Virulent Plague using Outbreak",
+    "Cast Army of the Dead on cooldown to summon the Horsemen of the Apocalypse",
+    "Cast Dark Transformation on cooldown",
+    "Cast Apocalypse when the target has 4 or more Festering Wounds to summon additional Horsemen",
+    "Cast Abomination Limb on cooldown",
+    "Cast Soul Reaper if the target is below 35% health",
+    "Cast Death Coil if a Sudden Doom proc is active",
+    "Cast Festering Strike if the target has fewer than 4 Festering Wounds",
+    "Cast Scourge Strike or Clawing Shadows if the target has 1 or more Festering Wounds",
+    "Cast Death Coil to spend excess Runic Power and reduce major cooldowns via Army of the Damned"
+  ],
+  "buildName": "Rider of the Apocalypse (Single Target)"
+}

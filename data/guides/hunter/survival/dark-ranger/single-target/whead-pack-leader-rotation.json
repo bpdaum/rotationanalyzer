@@ -1,0 +1,22 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Dark Ranger",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:29:55.163Z",
+  "priorityList": [
+    "Ensure every non-Kill Command cast is affected by a stack",
+    "Cast Kill Command to generate stacks if you run out",
+    "Cast Kill Command if it has a proc (it glows)",
+    "Activate Takedown",
+    "Cast Wildfire Bomb only to extend buff",
+    "Cast Raptor Strike",
+    "Cast Takedown regardless of conditions if you would otherwise have nothing to do",
+    "Use as many as possible Kill Command in any given fight.",
+    "Do not use Kill Command too aggressively to avoid wasting generated Focus.",
+    "Use Kill Command as much as possible in any given encounter without over-capping on Focus.",
+    "Use two abilities between each use of Kill Command.",
+    "Maximize the uses of Raptor Strike."
+  ],
+  "buildName": "Whead Pack Leader Rotation"
+}

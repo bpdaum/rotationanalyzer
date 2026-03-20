@@ -1,0 +1,19 @@
+{
+  "classSlug": "priest",
+  "specSlug": "shadow",
+  "heroSpec": "Voidweaver",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:21:53.576Z",
+  "priorityList": [
+    "Keep Vampiric Touch",
+    "Maintain Shadow Word",
+    "Cast Voidform",
+    "Cast Power Infusion",
+    "Cast Void Volley",
+    "Cast Void Blast while available if Shadow Word is active or Entropic Rift is about to expire",
+    "Cast Void Torrent to open Entropic Rift",
+    "Cast Mind Blast",
+    "Cast Mind Flay"
+  ],
+  "buildName": "Whead Voidweaver Rotation"
+}

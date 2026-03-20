@@ -1,0 +1,18 @@
+{
+  "classSlug": "mage",
+  "specSlug": "fire",
+  "heroSpec": "Sunfury",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:44:47.293Z",
+  "priorityList": [
+    "Cast Meteor immediately as it becomes available; if you had to delay it more than 10 seconds, save Meteor for Combustion.",
+    "Cast Scorch if you have a Heat Shimmer proc and do not currently have Hot Streak.",
+    "Cast Fire Blast to convert Heating Up into Hot Streak.",
+    "Cast Scorch as your filler to generate Hot Streak / Heating Up when the target is below 30% health.",
+    "Combustion Priority List: Cast Meteor at any point between 2 to 8 seconds of Combustion left, ensuring it lands before Combustion ends.",
+    "Combustion Priority List: Cast Scorch when you have Heat Shimmer and no Hot Streak.",
+    "Combustion Priority List: Cast Fire Blast to convert Heating Up into Hot Streak.",
+    "Combustion Priority List: Cast Scorch to generate Hot Streak / Heating Up."
+  ],
+  "buildName": "Sunfury AoE"
+}

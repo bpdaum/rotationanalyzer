@@ -1,0 +1,22 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "destruction",
+  "heroSpec": "Hellcaller",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T06:18:17.895Z",
+  "priorityList": [
+    "Pre-cast Incinerate",
+    "Cast Wither",
+    "Cast Conflagrate",
+    "Cast Summon Infernal",
+    "Cast Malevolence",
+    "Cast Conflagrate",
+    "Maintain Wither",
+    "Cast Malevolence",
+    "Cast Summon Infernal",
+    "Cast Channel Demonfire",
+    "Cast Conflagrate",
+    "Cast Incinerate"
+  ],
+  "buildName": "Whead Hellcaller Opener"
+}

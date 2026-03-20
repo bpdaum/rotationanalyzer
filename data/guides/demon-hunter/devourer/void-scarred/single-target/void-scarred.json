@@ -1,0 +1,24 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Void-Scarred",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:35:58.864Z",
+  "priorityList": [
+    "Cast Voidblade right before entering Void Metamorphosis",
+    "Cast Void Metamorphosis when available",
+    "Cast Void Ray with 100 or more Fury, aiming to cast right before Void Metamorphosis to leverage the Fury refund",
+    "Cast Consume",
+    "Cast Pierce before Collapsing Star or a Cull",
+    "Cast Collapsing Star when at 30 Soul Fragments",
+    "Cast Cull with 4 Soul Fragments or if it will overcap charges",
+    "Cast Void Ray on cooldown while transformed to pause Fury drain",
+    "Cast Devour",
+    "Use Void Metamorphosis as soon as available",
+    "Use Void Ray as soon as available",
+    "Cast Voidblade before entering Void Metamorphosis",
+    "Cast as many Collapsing Star as possible in one window",
+    "Collect the maximum number of Soul Fragments"
+  ],
+  "buildName": "Void-Scarred"
+}

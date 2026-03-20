@@ -1,0 +1,21 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "augmentation",
+  "heroSpec": "Chronowarden",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:06:39.681Z",
+  "priorityList": [
+    "Cast Ebon Might if it has 4 or less seconds remaining on its duration.",
+    "Cast Breath of Eons on cooldown.",
+    "Cast Prescience on cooldown.",
+    "Cast Fire Breath at Rank 1.",
+    "Cast Tip the Scales on Cooldown.",
+    "Cast Upheaval on Cooldown.",
+    "Cancel the Tip the Scales Buff if you do not have Upheaval available within the next GCD to maximise uptime of Temporal Burst.",
+    "Cast Hover if you need to move.",
+    "Cast Eruption if Ebon Might is up or you have two Essence Burst.",
+    "Cast Blistering Scales if it not currently active on any tank.",
+    "Cast Blistering Scales in downtime while no enemies are available."
+  ],
+  "buildName": "Chronowarden Raid Build"
+}

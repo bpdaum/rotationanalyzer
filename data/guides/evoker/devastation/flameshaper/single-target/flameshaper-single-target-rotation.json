@@ -1,0 +1,15 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Flameshaper",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:00:22.147Z",
+  "priorityList": [
+    "Cast Fire Breath on cooldown, always at Empower level 1",
+    "Cast Eternity Surge on cooldown",
+    "Cast Disintegrate as your Essence spender",
+    "Cast Living Flame as your filler",
+    "Cast Azure Strike if you have to cast whilst moving without any Hover charges"
+  ],
+  "buildName": "Flameshaper Single-Target Rotation"
+}

@@ -1,0 +1,19 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Annihilator",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:33:43.004Z",
+  "priorityList": [
+    "Cast Reap",
+    "Cast Eradicate",
+    "Cast Consume",
+    "Cast Collapsing Star",
+    "Cast Cull with 4 Soul Fragments",
+    "Cast Devour",
+    "Never overcap on Soul Fragments",
+    "Cast as many Collapsing Star as possible in one window",
+    "Cast Reap on cooldown"
+  ],
+  "buildName": "Annihilator"
+}

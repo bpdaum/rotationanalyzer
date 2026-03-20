@@ -1,0 +1,21 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Trickster",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:34:38.482Z",
+  "priorityList": [
+    "Use Adrenaline Rush on cooldown, at low Combo Points.",
+    "Use Blade Rush on cooldown as if it were a regular builder.",
+    "Cast Between on cooldown with 6+ Combo Points.",
+    "Use Killing Spree on cooldown, at 6+ Combo Points.",
+    "Cast Dispatch as your main finisher with 6+ Combo Points, if it is buffed by Coup de Grace.",
+    "Cast Dispatch as your main finisher with 6+ Combo Points.",
+    "Cast Pistol Shot if you have 6 stacks. If you have 3 stacks, use it at 1-3 Combo Points only.",
+    "Cast Sinister Strike to generate Combo Points.",
+    "Use Blade Rush",
+    "Use Adrenaline Rush",
+    "Use Between"
+  ],
+  "buildName": "Whead Trickster Rotation"
+}

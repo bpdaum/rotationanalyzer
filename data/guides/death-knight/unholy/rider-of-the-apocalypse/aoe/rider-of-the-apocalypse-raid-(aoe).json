@@ -1,0 +1,27 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "Rider of the Apocalypse",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-08T23:55:51.063Z",
+  "priorityList": [
+    "Use Outbreak to apply plagues.",
+    "Use Festering Strike twice.",
+    "Use Army of the Dead, Dark Transformation, Trinkets, Racial abilities, and Potion.",
+    "Use Soul Reaper.",
+    "Use Outbreak to maintain plagues on the target.",
+    "Use Festering Scythe if its debuff has fallen off.",
+    "Use Epidemic when at 80+ Runic Power or on a Sudden Doom proc (at 3+ targets, or 5+ targets during Forbidden Knowledge).",
+    "Use Epidemic as a filler (or Death Coil for fewer than 3/5 targets).",
+    "Apply and maintain Virulent Plague via Outbreak.",
+    "Cast Dark Transformation on cooldown to empower your primary pet.",
+    "Cast Apocalypse to summon a Rider of the Apocalypse.",
+    "Cast Abomination Limb to group enemies and trigger Pustule Burst procs.",
+    "Cast Defile or Death and Decay and remain within the area for Scourge Cleave.",
+    "Spend Sudden Doom procs immediately on Epidemic.",
+    "Cast Scourge Strike or Clawing Shadows while standing in Defile to hit up to 8 targets.",
+    "Cast Epidemic to spend Runic Power and avoid capping.",
+    "Cast Festering Strike if the primary target has no Festering Wounds."
+  ],
+  "buildName": "Rider of the Apocalypse Raid (AoE)"
+}

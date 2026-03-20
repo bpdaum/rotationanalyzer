@@ -1,0 +1,23 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Fatebound",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Blade Flurry at all times when 2 or more targets are present.",
+    "Keep Roll the Bones active; reroll if you only have 1 buff active.",
+    "Use Adrenaline Rush on cooldown, ideally when not already at maximum energy.",
+    "Use Keep It Rolling when you have 2 or more buffs active to extend their duration.",
+    "Spend Combo Points on finishers when at 5 or 6 (Max - 1).",
+    "Use Between the Eyes as your highest priority finisher.",
+    "Maintain Slice and Dice using a finisher if the buff expires.",
+    "Use Coup de Grace as a finisher whenever the Disorienting Strikes buff is active.",
+    "Use Killing Spree as a finisher on cooldown.",
+    "Use Dispatch as a filler finisher if Between the Eyes is on cooldown.",
+    "Use Vanish to trigger Hidden Opportunity if you do not have Audacity or Opportunity buffs active.",
+    "Use Blade Rush on cooldown for damage and energy regeneration.",
+    "Use Ambush whenever Hidden Opportunity or Audacity procs are active.",
+    "Use Pistol Shot with Opportunity procs if you have a large Combo Point deficit or are about to cap stacks.",
+    "Use Sinister Strike as your basic filler to generate Combo Points."
+  ]
+}

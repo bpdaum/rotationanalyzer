@@ -1,0 +1,22 @@
+{
+  "classSlug": "mage",
+  "specSlug": "arcane",
+  "heroSpec": "Sunfury",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Arcane Intellect at all times.",
+    "Use Evocation if mana is below 10% and your major cooldowns are not active.",
+    "Cast Arcane Surge as your primary cooldown, ideally at 4 Arcane Charges.",
+    "Cast Touch of the Magi immediately after Arcane Surge, or on cooldown if Arcane Surge has more than 30 seconds remaining.",
+    "Use offensive Trinkets, Potions, and Racial abilities during your Arcane Surge and Touch of the Magi windows.",
+    "While the Arcane Soul buff is active (immediately following Arcane Surge), prioritize casting Arcane Barrage at 4 Arcane Charges.",
+    "Cast Arcane Barrage if you reach 25 stacks of Arcane Salvo to consume the proc.",
+    "Cast Arcane Barrage at 4 Arcane Charges right before the Touch of the Magi debuff expires on the target.",
+    "Cast Arcane Missiles when Clearcasting is active, prioritizing its use during the Touch of the Magi window.",
+    "Cast Arcane Missiles with Clearcasting if you are about to cap at 3 stacks of Clearcasting.",
+    "Use Arcane Orb to generate charges if you have 0 or 1 Arcane Charges.",
+    "Use Presence of Mind on cooldown to cast instant Arcane Blasts if you have fewer than 2 Arcane Charges.",
+    "Cast Arcane Blast as your primary filler to build Arcane Charges and spend mana.",
+    "Cast Arcane Barrage at 4 Arcane Charges to reset your charges when outside of your main cooldown windows or to conserve mana."
+  ]
+}

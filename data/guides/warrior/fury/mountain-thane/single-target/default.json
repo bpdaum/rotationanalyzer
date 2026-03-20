@@ -1,0 +1,23 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "fury",
+  "heroSpec": "Mountain Thane",
+  "buildName": "default",
+  "priorityList": [
+    "Use Charge to engage or close gaps.",
+    "Use Recklessness and Avatar on cooldown, ideally together.",
+    "Cast Odyn's Fury on cooldown.",
+    "Cast Rampage if Rage is above 100 or if Enrage is about to expire.",
+    "Cast Thunder Blast if you have 2 stacks of the Thunder Blast buff.",
+    "Cast Bloodbath (empowered Bloodthirst).",
+    "Cast Rampage while Recklessness is active.",
+    "Cast Thunder Blast while Avatar is active.",
+    "Cast Bloodthirst.",
+    "Cast Execute whenever it is available.",
+    "Cast Crushing Blow (empowered Raging Blow).",
+    "Cast Thunder Blast whenever it is available.",
+    "Cast Rampage to spend Rage.",
+    "Cast Raging Blow.",
+    "Cast Thunder Clap if no other abilities are available."
+  ]
+}

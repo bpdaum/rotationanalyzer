@@ -1,0 +1,19 @@
+{
+  "classSlug": "druid",
+  "specSlug": "feral",
+  "heroSpec": "Wildstalker",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:51:28.032Z",
+  "priorityList": [
+    "Cast Primal Wrath with 5 Combo Points if Rip is not active, or is within its Pandemic timer, or if the Rip snapshot can be strengthened with Tiger's Fury.",
+    "Cast Ferocious Bite with 5 Combo Points, or with an Apex Predator's Craving proc.",
+    "Cast Tiger's Fury on cooldown, aiming to be 70 or more Energy below your cap when used.",
+    "Cast Berserk on cooldown, synced with Tiger's Fury.",
+    "Cast Convoke the Spirits with Tiger's Fury active, during Berserk, before Tiger's Fury expires, with as few Combo Points as possible.",
+    "Cast Rake, cycling between targets.",
+    "Cast Swipe to generate Combo Points.",
+    "Avoid wasting Tiger's Fury through misuse or natural over-capping",
+    "Maintain Rake"
+  ],
+  "buildName": "Wildstalker M+ / AoE"
+}

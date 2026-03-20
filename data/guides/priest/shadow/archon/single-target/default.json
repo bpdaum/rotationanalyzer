@@ -1,0 +1,20 @@
+{
+  "classSlug": "priest",
+  "specSlug": "shadow",
+  "heroSpec": "Archon",
+  "buildName": "default",
+  "priorityList": [
+    "Ensure Shadowform is active at all times.",
+    "Cast Halo on cooldown to trigger Archon effects and begin your burst cycle.",
+    "Activate Voidform and Power Infusion simultaneously; use all offensive Trinkets and Potions during this window.",
+    "Cast Void Blast on cooldown whenever available (Archon's primary priority).",
+    "Cast Shadow Word: Madness if it is about to expire, if you are nearing maximum Insanity (65+), or if you have a Mind Devourer proc.",
+    "Cast Tentacle Slam if Vampiric Touch is missing/refreshable on your target or to prevent the ability from reaching 2 charges.",
+    "Cast Void Torrent on cooldown, provided your primary DOTs (Vampiric Touch and Shadow Word: Pain) are currently active.",
+    "Cast Shadow Word: Death if the target is below 20% health or if your Shadowfiend/Mindbender is active to trigger Inescapable Torment.",
+    "Cast Mind Blast to generate Insanity and prevent charges from capping.",
+    "Cast Mind Flay: Insanity whenever the proc is available.",
+    "Manually cast Vampiric Touch if Tentacle Slam is unavailable and the DOT is about to expire.",
+    "Channel Mind Flay as your primary filler when no other abilities are available."
+  ]
+}

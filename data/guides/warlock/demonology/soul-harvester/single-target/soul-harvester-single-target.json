@@ -1,0 +1,15 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "demonology",
+  "heroSpec": "Soul Harvester",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T06:11:23.891Z",
+  "priorityList": [
+    "Cast Summon Demonic Tyrant.",
+    "Cast Call Dreadstalkers whenever available.",
+    "Cast Hand of Gul'dan if you have 4-5 Soul Shards.",
+    "Cast Demonbolt if you have 2+ stacks of Demonic Core.",
+    "Cast Shadow Bolt to generate Soul Shards."
+  ],
+  "buildName": "Soul Harvester Single Target"
+}

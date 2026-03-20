@@ -1,0 +1,21 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "marksmanship",
+  "heroSpec": "Sentinel",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:19:56.964Z",
+  "priorityList": [
+    "Ensure Hunter's Mark is active on the highest-health target.",
+    "Trinket Usage We generally want to use stat-granting on-use trinkets with Trueshot.",
+    "Cast Multi immediately after every Aimed Shot and Rapid Fire to spend Precise Shots stacks and activate Trick Shots.",
+    "Activate Trueshot right before we would normally intend to Cast Aimed Shot.",
+    "Cast Moonlight Chakram when you have fewer than 1.2 charges of Aimed Shot remaining, or if you have less than 35 Focus.",
+    "Cast Aimed Shot whenever possible.",
+    "Cast Rapid Fire whenever possible.",
+    "Cast Steady Shot as a filler.",
+    "Every single Precise Shots proc must be spent",
+    "Spend Precise Shots procs on Multi on 2+ targets",
+    "Follow up every Aimed Shot or Rapid Fire with a Multi"
+  ],
+  "buildName": "Sentinel Dungeons/AoE"
+}

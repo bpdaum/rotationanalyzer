@@ -1,0 +1,29 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Pack Leader",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:36:24.269Z",
+  "priorityList": [
+    "Ensure Hunter's Mark is active on the target.",
+    "Cast Barbed Shot (Opener).",
+    "Cast Bestial Wrath (Opener).",
+    "Cast Kill Command (Opener).",
+    "Cast Barbed Shot (Opener).",
+    "Cast Kill Command (Opener).",
+    "Use stat-granting on-use Trinkets right before Bestial Wrath.",
+    "Activate Bestial Wrath and aim the resulting Stampede to cover as many targets as possible.",
+    "Use all Barbed Shot charges right before Bestial Wrath comes off cooldown.",
+    "Cast Kill Command on cooldown.",
+    "Cast Barbed Shot on cooldown.",
+    "Maintain 100% uptime on Beast Cleave by casting Multi-Shot every 4 seconds.",
+    "Cast Bestial Wrath on cooldown to maximize damage windows.",
+    "Cast Kill Command as your primary priority to trigger Vicious Hunt and consume stacks.",
+    "Maintain 3 stacks of Frenzy on your pets using Barbed Shot, ideally refreshing with less than 2 seconds remaining.",
+    "Cast Explosive Shot on cooldown against 3+ targets.",
+    "Cast Kill Shot on targets below 20% health to trigger Cull the Weak.",
+    "Cast Dire Beast on cooldown to gain additional haste and pet pressure.",
+    "Use Cobra Shot only as a filler when Kill Command is on cooldown and you are at risk of capping Focus."
+  ],
+  "buildName": "Default AoE"
+}

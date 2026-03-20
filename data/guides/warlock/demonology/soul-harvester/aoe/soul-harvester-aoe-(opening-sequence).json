@@ -1,0 +1,25 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "demonology",
+  "heroSpec": "Soul Harvester",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:58:55.649Z",
+  "priorityList": [
+    "Pre-cast Demonbolt.",
+    "Cast Shadow Bolt if below 2 Soul Shards.",
+    "Cast Call Dreadstalkers.",
+    "Cast Summon Demonic Tyrant.",
+    "Focus on casting as many Hand of Gul'dan as possible.",
+    "Cast Implosion with 6 Wild Imps out and 1 or less Demonic Core.",
+    "Cast Grimoire: Felguard on cooldown.",
+    "Cast Call Dreadstalkers on cooldown.",
+    "Cast Summon Demonic Tyrant while Dreadstalkers are active to extend their duration.",
+    "Cast Vile Fiend on cooldown to apply and maintain Wither via the Soul Harvester specialization.",
+    "Use Implosion with 6 or more Wild Imps, or fewer if the targets are about to die.",
+    "Cast Hand of Gul'dan when you have 3 or more Soul Shards to generate Wild Imps.",
+    "Use Power Siphon if you have at least 2 Wild Imps and no Demonic Core stacks available.",
+    "Use Demonbolt with Demonic Core procs to generate Soul Shards.",
+    "Cast Shadow Bolt to generate Soul Shards as a filler."
+  ],
+  "buildName": "Soul Harvester AoE (Opening Sequence)"
+}

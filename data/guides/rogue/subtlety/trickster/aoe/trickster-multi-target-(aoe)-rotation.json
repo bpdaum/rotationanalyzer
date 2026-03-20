@@ -1,0 +1,18 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Trickster",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:48:03.888Z",
+  "priorityList": [
+    "Cast Shadow Dance when you have 6 or more combo points and Secret Technique is ready or Shadow Blades is active.",
+    "Cast Shadow Blades during Shadow Dance.",
+    "Cast Secret Technique during Shadow Dance with 6 or more combo points.",
+    "Cast Coup de Grace with 6 or more combo points.",
+    "Cast Black Powder with 6 or more combo points.",
+    "Cast Shuriken Storm to build combo points.",
+    "On exactly 2 targets it is slightly better to build combo points with Shadowstrike over Shuriken Storm whenever it is available.",
+    "Do not cast Shadow Dance when Shadow Blades has less than 10 seconds left of its cooldown."
+  ],
+  "buildName": "Trickster Multi Target (AoE) Rotation"
+}

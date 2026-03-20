@@ -1,0 +1,29 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "retribution",
+  "heroSpec": "Templar",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:13:01.368Z",
+  "priorityList": [
+    "Cast Avenging Wrath",
+    "Cast Hammer of Light",
+    "Cast Divine Storm if you have 5 Holy Power",
+    "Cast Wake of Ashes",
+    "Cast Divine Toll",
+    "Cast Blade of Justice with an Art of War proc",
+    "Cast Final Verdict if you have Empyrean Legacy active",
+    "Cast Divine Storm",
+    "Cast Blade of Justice",
+    "Cast Hammer of Wrath",
+    "Cast Judgment",
+    "Cast Templar Strikes or Templar Slash",
+    "Cast Crusader Strike",
+    "Generating and spending Holy Power comprises the majority of your damage",
+    "Do not waste Holy Power by generating it above the level you need",
+    "Use Blade to avoid wasting procs",
+    "Use Avenging Wrath as soon as it comes up as it is usually the best option",
+    "Delay Avenging Wrath slightly in order for cooldowns to line up",
+    "Hold Avenging Wrath for mechanics or extra add spawns when better overall"
+  ],
+  "buildName": "Mythic+ Build"
+}

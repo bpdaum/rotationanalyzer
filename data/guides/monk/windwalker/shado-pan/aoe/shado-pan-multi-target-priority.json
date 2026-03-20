@@ -1,0 +1,24 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Shado-Pan",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:05:31.328Z",
+  "priorityList": [
+    "Cast Touch",
+    "Cast Whirling Dragon Punch",
+    "Cast Tiger Palm with: less than 4 Chi, less than 2 stacks of Blackout Kick, about to cap energy, AND not during Zenith",
+    "Cast Fists",
+    "Cast Rushing Wind Kick",
+    "Cast Spinning Crane Kick with less than 4 seconds remaining on proc, NOT at 2 stacks of Blackout Kick, and NOT during Zenith",
+    "Cast Rising Sun Kick",
+    "Cast Tiger Palm if any of the above are available and you do not have enough Chi",
+    "Cast Blackout Kick with Blackout Kick OR Zenith active",
+    "Cast Spinning Crane Kick with Zenith AND more than 3 Chi",
+    "Cast Spinning Crane Kick with a proc",
+    "Cast Blackout Kick",
+    "Cast Spinning Crane Kick",
+    "Cast Tiger Palm"
+  ],
+  "buildName": "Shado-Pan Multi-Target Priority"
+}

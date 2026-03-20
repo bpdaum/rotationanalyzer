@@ -1,0 +1,23 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "frost",
+  "heroSpec": "Rider of the Apocalypse",
+  "buildName": "default",
+  "priorityList": [
+    "Mind Freeze to interrupt spellcasting whenever possible.",
+    "Cast Pillar of Frost on cooldown, ensuring it syncs with Breath of Sindragosa or Reaper's Mark if they are available.",
+    "Cast Reaper's Mark when Pillar of Frost is ready or about to become ready.",
+    "Cast Breath of Sindragosa if Pillar of Frost is active or combat is nearly over.",
+    "Cast Frostwyrm's Fury at the end of a Pillar of Frost window or when Unholy Strength is about to expire to maximize damage.",
+    "Cast Remorseless Winter if Gathering Storm is talented or if multiple enemies are present.",
+    "Use Empower Rune Weapon if you are low on Runes/Runic Power or during Pillar of Frost to sustain resources.",
+    "Cast Obliterate if you have 2 stacks of Killing Machine or if you have 1 stack and at least 3 Runes.",
+    "Cast Howling Blast whenever Rime is active.",
+    "Cast Frost Strike if the target has 5 stacks of Razorice and you have the Shattering Blade talent.",
+    "Cast Frost Strike if you are near maximum Runic Power to avoid capping.",
+    "Cast Obliterate whenever Killing Machine is active.",
+    "Cast Frost Strike as your primary Runic Power spender to maintain resource flow.",
+    "Cast Obliterate to spend Runes when not in an Obliteration window.",
+    "Use offensive trinkets and racial abilities specifically during your Pillar of Frost window."
+  ]
+}

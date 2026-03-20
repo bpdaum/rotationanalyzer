@@ -1,0 +1,28 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "retribution",
+  "heroSpec": "Templar",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:17:39.913Z",
+  "priorityList": [
+    "Cast Hammer of Light",
+    "Cast Final Verdict if you have 5 Holy Power",
+    "Cast Wake of Ashes",
+    "Cast Divine Toll",
+    "Cast Blade of Justice with an Art of War proc",
+    "Cast Final Verdict",
+    "Cast Blade of Justice",
+    "Cast Hammer of Wrath",
+    "Cast Judgment",
+    "Cast Wake of Ashes to generate Holy Power and enable Hammer of Light.",
+    "Cast Hammer of Light as your primary spender whenever available.",
+    "Cast Execution Sentence on cooldown.",
+    "Cast Final Verdict if at 5 Holy Power to avoid overcapping.",
+    "Cast Blade of Justice immediately when Light Within or Art of War procs.",
+    "Cast Hammer of Wrath on cooldown.",
+    "Cast Judgment to generate Holy Power.",
+    "Cast Blade of Justice to generate Holy Power.",
+    "Cast Crusader Strike if no other generators are available."
+  ],
+  "buildName": "Single-Target Templar"
+}

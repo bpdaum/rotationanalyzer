@@ -1,0 +1,23 @@
+{
+  "classSlug": "priest",
+  "specSlug": "shadow",
+  "heroSpec": "Archon",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Shadowform at all times.",
+    "Use Halo on cooldown as it is the primary trigger for Archon hero talents.",
+    "Cast Voidform (or Dark Ascension) once Vampiric Touch and Shadow Word: Pain are active on your targets.",
+    "Use Power Infusion, ideally coinciding with Voidform or other major damage windows.",
+    "Cast Void Blast on cooldown as your top priority while Voidform is active.",
+    "Cast Void Volley on cooldown.",
+    "Use Tentacle Slam to apply or refresh Vampiric Touch and deal heavy AoE damage.",
+    "Maintain Vampiric Touch on up to 12 targets, using Shadow Crash or manual applications.",
+    "Cast Void Torrent when your dots (Vampiric Touch and Shadow Word: Pain) are ticking on targets.",
+    "Use Shadow Word: Madness if you are close to capping Insanity or if its damage-over-time effect has expired.",
+    "Cast Shadow Word: Death on targets below 20% health to generate Insanity and trigger execute effects.",
+    "Cast Mind Blast to prevent charges from capping and to generate Insanity.",
+    "Cast Mind Flay: Insanity whenever you have the proc available.",
+    "Use trinkets and combat potions during your Voidform and Power Infusion window for maximum benefit.",
+    "Use Mind Flay as a filler if all other high-priority abilities are on cooldown."
+  ]
+}

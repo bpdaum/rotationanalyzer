@@ -1,0 +1,21 @@
+{
+  "classSlug": "druid",
+  "specSlug": "feral",
+  "heroSpec": "Druid of the Claw",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:54:01.694Z",
+  "priorityList": [
+    "Cast Prowl before combat starts.",
+    "Cast Rake from Stealth to trigger Pouncing Strikes.",
+    "Cast Shred until you are at 5 Combo Points.",
+    "Cast Berserk & Tiger's Fury in the same GCD.",
+    "Cast Rip.",
+    "Cast Ravage.",
+    "Cast Convoke the Spirits.",
+    "Cast Ferocious Bite with Apex Predator's Craving procs.",
+    "Cast Rip if it is missing on the target.",
+    "Cast Rip if it is in Pandemic and you have 5 Combo Points.",
+    "Cast Ferocious Bite if you have 4 or more Combo Points, 25 or greater energy, and Rip is active."
+  ],
+  "buildName": "Druid of the Claw Opener (Single Target)"
+}

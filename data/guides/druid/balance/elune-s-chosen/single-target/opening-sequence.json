@@ -1,0 +1,26 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Elune's Chosen",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:18:08.660Z",
+  "priorityList": [
+    "Cast two Wraths 2 seconds before the pull-timer ends.",
+    "Apply and maintain Sunfire and Moonfire.",
+    "Use any on-use trinkets and potions.",
+    "Cast Celestial Alignment.",
+    "Cast Fury of Elune.",
+    "Spend Astral Power.",
+    "Proceed with standard single-target rotation.",
+    "Maintain Sunfire and Moonfire at all times.",
+    "Maintain Stellar Flare if talented.",
+    "Cast Fury of Elune on cooldown, ideally when the target will remain stationary.",
+    "Cast New Moon, Half Moon, and Full Moon to generate Astral Power and avoid capping charges.",
+    "Cast Starsurge to spend Astral Power and prevent overcapping.",
+    "Cast Starsurge to maintain the Starlord buff if talented.",
+    "Cast Warrior of Elune to generate Astral Power or for movement.",
+    "Enter Solar Eclipse by casting Starfire.",
+    "Cast Wrath as your primary filler while in Solar Eclipse."
+  ],
+  "buildName": "Opening Sequence"
+}

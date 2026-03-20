@@ -1,0 +1,22 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Keeper of the Grove",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T04:12:40.755Z",
+  "priorityList": [
+    "Apply Sunfire if targets will live approximately 5 seconds and Apply Moonfire if targets will live 6 seconds",
+    "Press Force outside of Eclipse if the next ability is Cast Celestial Alignment",
+    "Cast Celestial Alignment if Force was just cast, then Cast Starfire to Spend Dream Surge if you will not cap on Astral Power",
+    "If not entering cooldowns, Enter Lunar Eclipse if hitting 4+ targets, else Enter Solar Eclipse",
+    "Press Force",
+    "Spend Dream Surge using Cast Starfire unless you will cap on Astral Power",
+    "Cast Starfall to spend Astral Power and do not cap on Astral Power",
+    "Cast Starfire to generate Astral Power",
+    "Cast Convoke before casting other Starfalls on multiple targets to raise the chance of casting a free Starfall",
+    "Cast Wrath to enter Solar Eclipse",
+    "Cast Starfire to enter Lunar Eclipse",
+    "Overlap Eclipse with Force"
+  ],
+  "buildName": "Keeper of the Grove Multi-Target"
+}

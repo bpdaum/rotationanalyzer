@@ -1,0 +1,24 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "subtlety",
+  "heroSpec": "Trickster",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:46:41.099Z",
+  "priorityList": [
+    "Cast Shadow Dance when you have 6 or more combo points and Secret Technique is ready or Shadow Blades is active.",
+    "Cast Shadow Blades during Shadow Dance.",
+    "Cast Secret Technique during Shadow Dance with 6 or more combo points.",
+    "Cast Coup with 6 or more combo points.",
+    "Cast Eviscerate with 6 or more combo points.",
+    "Cast Shadowstrike whenever you can to build combo points.",
+    "Cast Backstab to build combo points.",
+    "Cast Vanish at any point whenever Shadow Dance is not up, followed by Cast Shadowstrike.",
+    "Do not cast Shadow Dance when Shadow Blades has less than 10 seconds left of its cooldown.",
+    "Use two of Cast Shadow Dance during Cast Shadow Blades.",
+    "Use combo point builders to generate Combo Points",
+    "Use Finishers to consume Combo Points when close to the maximum amount (6 or 7 Combo Points)",
+    "Align all cooldowns to Secret Technique",
+    "Use Shadow Dance"
+  ],
+  "buildName": "Icy Veins Trickster Rotation"
+}

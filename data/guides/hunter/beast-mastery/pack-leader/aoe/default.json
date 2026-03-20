@@ -1,0 +1,20 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "beast-mastery",
+  "heroSpec": "Pack Leader",
+  "buildName": "default",
+  "priorityList": [
+    "Ensure your pet is summoned before combat starts.",
+    "Use Bestial Wrath on cooldown to maximize uptime.",
+    "Cast Wild Thrash on cooldown as your primary Pack Leader ability.",
+    "Cast Barbed Shot if Bestial Wrath is about to come off cooldown (less than 1.5 seconds remaining) to maximize cooldown reduction.",
+    "Cast Kill Command as your top priority attack whenever it is available.",
+    "Use Cobra Shot if the Hogstrider buff is active and Wild Thrash is currently on cooldown.",
+    "Cast Barbed Shot to maintain 3 stacks of Frenzy on your pet or to avoid reaching 2 charges.",
+    "Use Cobra Shot as a filler if Kill Command and Wild Thrash are on cooldown and you have excess Focus.",
+    "Activate offensive Racial abilities like Berserking, Blood Fury, or Ancestral Call during Bestial Wrath.",
+    "Use your Combat Potion during Bestial Wrath to align with your highest damage window.",
+    "Sync on-use trinkets (such as Algethar Puzzle Box or Void Execution Mandate) with Bestial Wrath.",
+    "If using Algethar Puzzle Box, use it slightly before Bestial Wrath (when BW has less than 2 seconds remaining on cooldown)."
+  ]
+}

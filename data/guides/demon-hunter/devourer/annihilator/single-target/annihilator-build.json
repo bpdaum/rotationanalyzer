@@ -1,0 +1,16 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "devourer",
+  "heroSpec": "Annihilator",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:31:07.956Z",
+  "priorityList": [
+    "Cast Reap with 3 stacks (Outside of Void Metamorphosis)",
+    "Cast Consume (Outside of Void Metamorphosis)",
+    "Cast Cull with 3 stacks or 4 Soul Fragments on the ground (During Void Metamorphosis)",
+    "Cast Devour (During Void Metamorphosis)",
+    "Use Reap on cooldown",
+    "Always collect the maximum number of Soul Fragments"
+  ],
+  "buildName": "Annihilator Build"
+}

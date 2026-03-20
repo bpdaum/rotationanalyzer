@@ -1,0 +1,20 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Master of Harmony",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:00:12.945Z",
+  "priorityList": [
+    "Cast Touch of Death",
+    "Cast Whirling Dragon Punch",
+    "Cast Tiger Palm with: less than 4 Chi, less than 2 stacks of Blackout Kick!, about to cap energy, AND not during Zenith",
+    "Cast Fists of Fury",
+    "Cast Rushing Wind Kick",
+    "Cast Rising Sun Kick",
+    "Cast Tiger Palm if any of the above are available and you do not have enough Chi",
+    "Cast Blackout Kick with Blackout Kick! OR Zenith active",
+    "Cast Blackout Kick",
+    "Cast Tiger Palm"
+  ],
+  "buildName": "Shado-Pan Single Target"
+}

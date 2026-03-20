@@ -1,0 +1,23 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Shado-Pan",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain your Mastery: Combo Strikes by never casting the same ability twice in a row.",
+    "Use Spear Hand Strike to interrupt spellcasting whenever possible.",
+    "Invoke Xuen the White Tiger on cooldown, ideally when Zenith is available or active.",
+    "Use Zenith whenever Xuen is active, during Bloodlust, or when you reach 30 Flurry Charges.",
+    "Cast Celestial Conduit if Zenith is active and your main spenders (Fists of Fury, Rising Sun Kick, or Strike of the Windlord) are on cooldown.",
+    "Cast Fists of Fury as your highest priority spender, especially if Heart of the Jade Serpent is active or you have 30 Flurry Charges.",
+    "Cast Whirling Dragon Punch whenever available (requires Fists of Fury and Rising Sun Kick to be on cooldown).",
+    "Cast Strike of the Windlord on cooldown, preferably while Zenith is active.",
+    "Cast Rushing Wind Kick on cooldown.",
+    "Cast Rising Sun Kick to enable Whirling Dragon Punch or if Zenith is active.",
+    "Use Touch of Death on any valid low-health target to quickly eliminate them.",
+    "Cast Spinning Crane Kick whenever a Dance of Chi-Ji proc is active.",
+    "Use Blackout Kick to consume Combo Breaker procs or as a filler spender to avoid capping Chi.",
+    "Cast Tiger Palm to generate Chi if you have 3 or fewer Chi and are nearing maximum Energy.",
+    "Cast Slicing Winds as a filler if all other priority abilities are on cooldown."
+  ]
+}

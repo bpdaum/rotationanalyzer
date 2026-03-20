@@ -1,0 +1,18 @@
+{
+  "classSlug": "mage",
+  "specSlug": "arcane",
+  "heroSpec": "Sunfury",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:37:13.100Z",
+  "priorityList": [
+    "Cast Arcane Barrage when Arcane Soul is active.",
+    "Spend any Clearcasting stacks on Arcane Missiles when Arcane Surge is about to end, so you have no Clearcasting stacks left when Arcane Soul procs.",
+    "Cast Arcane Blast as your filler.",
+    "Cast Arcane Barrage if you do not have enough mana for Arcane Blast.",
+    "Cast Arcane Surge.",
+    "Use any potions, racials or other items that buff your damage/stats in such a way so that they last throughout Touch.",
+    "When there are around 5 seconds left of Arcane Surge, cast Arcane Barrage into Touch to ensure Touch is active when Arcane Soul procs.",
+    "Cast Touch when it is ready, approximately 45 seconds after the previous use, once in-between Arcane Surge uses."
+  ],
+  "buildName": "Sunfury Single Target"
+}

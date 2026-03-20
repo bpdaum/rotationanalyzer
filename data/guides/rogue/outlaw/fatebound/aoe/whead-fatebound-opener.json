@@ -1,0 +1,23 @@
+{
+  "classSlug": "rogue",
+  "specSlug": "outlaw",
+  "heroSpec": "Fatebound",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:40:06.424Z",
+  "priorityList": [
+    "Cast Adrenaline Rush and Cast Roll immediately before the pull",
+    "Blade Flurry",
+    "Cast Blade Rush immediately",
+    "Build Combo Points with Cast Sinister Strike",
+    "Cast Killing Spree at 6+ Combo Points",
+    "Build Combo Points with Cast Sinister Strike",
+    "Use Between at 6+ Combo Points",
+    "Cast Preparation",
+    "Use Adrenaline Rush on cooldown",
+    "Use Blade Rush on cooldown",
+    "Use Between on cooldown",
+    "Efficiently spend Combo Points without overcapping",
+    "Build Combo Points after you cast Between"
+  ],
+  "buildName": "Whead Fatebound Opener"
+}

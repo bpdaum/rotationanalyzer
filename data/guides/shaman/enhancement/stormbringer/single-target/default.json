@@ -1,0 +1,23 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "enhancement",
+  "heroSpec": "Stormbringer",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Windfury Weapon, Flametongue Weapon, and Lightning Shield at all times.",
+    "Cast Flame Shock if the damage-over-time effect is not ticking on the target.",
+    "Cast Primordial Storm if you have 9+ Maelstrom Weapon stacks, or 5+ stacks if the Primordial Storm buff is about to expire.",
+    "Cast Sundering if Surging Elements or Feral Spirit is talented.",
+    "Cast Doom Winds on cooldown.",
+    "Cast Ascendance on cooldown.",
+    "Use offensive trinkets and potions during your Ascendance or Doom Winds windows.",
+    "Cast Windstrike (replaces Stormstrike during Ascendance) as long as you have at least 1 Maelstrom Weapon stack.",
+    "Cast Tempest (replaces Lightning Bolt) when you reach 10 Maelstrom Weapon stacks.",
+    "Cast Lightning Bolt when you reach 10 Maelstrom Weapon stacks to avoid overcapping.",
+    "Cast Stormstrike if you have 1.8 or more charges available or while Doom Winds is active.",
+    "Cast Lava Lash if it is available.",
+    "Cast Voltaic Blaze whenever the proc is available.",
+    "Cast Lightning Bolt as a priority filler if you have 8 or more Maelstrom Weapon stacks.",
+    "Cast Crash Lightning if the buff is missing or as a final filler, followed by Lightning Bolt at 5+ stacks."
+  ]
+}

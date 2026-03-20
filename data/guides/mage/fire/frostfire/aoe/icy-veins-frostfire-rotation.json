@@ -1,0 +1,22 @@
+{
+  "classSlug": "mage",
+  "specSlug": "fire",
+  "heroSpec": "Frostfire",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T04:47:42.571Z",
+  "priorityList": [
+    "Delay first Combustion until the target is below 90% health",
+    "Cast Combustion near the end of a hard-cast Frostfire Bolt",
+    "Cast Meteor immediately as it becomes available (save for Combustion if delayed more than 10 seconds)",
+    "Cast Scorch if you have a Heat Shimmer proc and do not currently have Hot Streak",
+    "Cast Fire Blast to convert Heating Up into Hot Streak",
+    "In Execute (target below 30% health), cast Scorch as filler to generate Hot Streak or Heating Up",
+    "Cast Frostfire Bolt as filler to generate Hot Streak or Heating Up",
+    "Cast Scorch as filler when on the move and thus unable to cast Frostfire Bolt",
+    "Within the Combustion Priority List, cast Meteor between 2 to 8 seconds of duration remaining",
+    "Within the Combustion Priority List, cast Scorch when you have Heat Shimmer and no Hot Streak",
+    "Within the Combustion Priority List, cast Fire Blast to convert Heating Up into Hot Streak",
+    "Within the Combustion Priority List, cast Frostfire Bolt as filler"
+  ],
+  "buildName": "Icy Veins Frostfire Rotation"
+}

@@ -1,0 +1,17 @@
+{
+  "classSlug": "priest",
+  "specSlug": "shadow",
+  "heroSpec": "Voidweaver",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:21:53.575Z",
+  "priorityList": [
+    "Cast Vampiric Touch as targets are grouped",
+    "Cast Voidform",
+    "Use Tempered Potion",
+    "Cast Power Infusion",
+    "Cast Shadow Word",
+    "Cast Void Volley",
+    "Cast Void Torrent"
+  ],
+  "buildName": "Whead Voidweaver Opener"
+}

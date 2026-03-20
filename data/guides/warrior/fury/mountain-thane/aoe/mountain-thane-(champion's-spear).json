@@ -1,0 +1,29 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "fury",
+  "heroSpec": "Mountain Thane",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T02:16:20.980Z",
+  "priorityList": [
+    "Recklessness",
+    "Avatar simultaneously with Recklessness",
+    "Rampage if Enrage is not active or more than 110 Rage",
+    "Bloodthirst or Bloodbath during Recklessness",
+    "Rampage",
+    "Champion's Spear while Enraged",
+    "Execute",
+    "Thunder Clap",
+    "Raging Blow or Crushing Blow during Recklessness",
+    "Cast Whirlwind if the Meat Cleaver buff is not active to enable AoE cleaving.",
+    "Cast Thunder Clap whenever Thunder Blast is available.",
+    "Cast Recklessness and Avatar on cooldown.",
+    "Cast Odyn's Fury.",
+    "Cast Bladestorm while Recklessness is active.",
+    "Cast Execute whenever Sudden Death is active to trigger Reap the Storm.",
+    "Cast Rampage if at or near 120 Rage, or to maintain Enrage uptime.",
+    "Cast Thunder Clap on cooldown to generate Rage and trigger Lightning Strikes.",
+    "Cast Bloodthirst or Bloodbath.",
+    "Cast Raging Blow or Crushing Blow as a filler ability."
+  ],
+  "buildName": "Mountain Thane (Champion's Spear)"
+}

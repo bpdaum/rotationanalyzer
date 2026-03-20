@@ -1,0 +1,21 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Pack Leader",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:43:45.910Z",
+  "priorityList": [
+    "Ensure every non-Kill Command cast is affected by a Tip of the Spear stack.",
+    "Cast Kill Command to generate Tip of the Spear stacks if you run out (generates 2 stacks with Primal Surge).",
+    "Cast Kill Command with 1 Tip stack if it has a Howl of the Pack Leader proc (glowing icon).",
+    "Activate Takedown, ideally with zero Tip of the Spear stacks, to generate 3 stacks while consuming one immediately.",
+    "Cast Raptor Strike (must be Tipped if upgraded to Raptor Swipe).",
+    "Cast Takedown as a filler if no other abilities are available.",
+    "Use Kill Command as frequently as possible to generate Focus and Tip of the Spear stacks.",
+    "Avoid using Kill Command too aggressively to prevent over-capping Focus or wasting Tip of the Spear stacks.",
+    "Maintain a rotation cadence of using two abilities between each use of Kill Command.",
+    "Use Wildfire Bomb as frequently as possible on cooldown.",
+    "Ensure as many abilities as possible are buffed by Tip of the Spear and Strike as One enhancements."
+  ],
+  "buildName": "Pack Leader Single-Target"
+}

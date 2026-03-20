@@ -1,0 +1,23 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "unholy",
+  "heroSpec": "Rider of the Apocalypse",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Raise Dead at all times.",
+    "Apply and maintain Virulent Plague using Outbreak, refreshing if it has fewer than 3 ticks remaining.",
+    "Cast Army of the Dead whenever available.",
+    "Cast Dark Transformation while Army of the Dead is active or if Army's cooldown is longer than 30 seconds.",
+    "Cast Soul Reaper on any target below 35% health.",
+    "Drop Death and Decay (Desecrate) if it is not already active on the ground to enable Scourge Strike cleave.",
+    "Use Festering Strike to refresh Festering Scythe or its debuff if they are about to expire (under 3 seconds).",
+    "Cast Festering Strike if you have 0 stacks of the 'Lesser Ghoul Ready' buff to prepare a Horseman summon.",
+    "Cast Scourge Strike (or Clawing Shadows) if you have 1 or more stacks of 'Lesser Ghoul Ready' to summon a Horseman.",
+    "Cast Putrefy on cooldown, prioritising windows where Dark Transformation is active or if you are at max charges.",
+    "Spend Runic Power on Epidemic (in AoE) or Death Coil (in ST) if you have fewer than 2 Runes available or a Sudden Doom proc.",
+    "Cast Epidemic as your primary spender if 4 or more enemies are present (or 3 if Whitemane is active).",
+    "Cast Death Coil as your primary spender if there are fewer than 4 enemies.",
+    "Use offensive Trinkets, Potions, and Racial abilities during Dark Transformation or while Horsemen are active.",
+    "Use Power Infusion (if received) during Dark Transformation or while your Army of the Dead is active."
+  ]
+}

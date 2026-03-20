@@ -1,0 +1,19 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Dark Ranger",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T00:47:12.824Z",
+  "priorityList": [
+    "Cast Kill Shot if Death Blow is active or the target is below 20% health.",
+    "Cast Black Arrow on cooldown.",
+    "Cast Explosive Shot on cooldown.",
+    "Cast Wildfire Bomb if you are about to reach 2 charges to avoid over-capping.",
+    "Cast Kill Command to generate Focus and Tip of the Spear stacks, ensuring you do not over-cap either resource.",
+    "Maintain a cadence of using two abilities between each use of Kill Command to optimize Tip of the Spear and Focus generation.",
+    "Cast Raptor Strike (or Mongoose Bite) to spend Focus and consume Tip of the Spear stacks, maximizing uses to trigger Apex procs.",
+    "Cast Flanking Strike if you require immediate Focus generation.",
+    "Cast Fury of the Eagle when at 3 stacks of Tip of the Spear."
+  ],
+  "buildName": "Dark Ranger Single Target"
+}

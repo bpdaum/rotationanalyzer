@@ -1,0 +1,20 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "marksmanship",
+  "heroSpec": "Dark Ranger",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T04:21:38.943Z",
+  "priorityList": [
+    "Trinket Usage We generally want to use stat-granting on-use trinkets with Trueshot.",
+    "Cast Black Arrow whenever available. Since Rapid Fire guarantees a proc, anticipate casting Black Arrow immediately after every Rapid Fire.",
+    "Cast Rapid Fire during Trueshot.",
+    "Cast Arcane Shot to consume Precise Shots stacks from Aimed Shot and Rapid Fire. Generally, you should follow every Aimed Shot or Rapid Fire with Arcane Shot.",
+    "Cast Aimed Shot whenever possible.",
+    "Cast Rapid Fire on cooldown.",
+    "Cast Steady Shot as a filler. Do not neglect the importance of filling every \"empty\" moment with these, as they generate a lot of Focus and Aimed Shot cooldown reduction.",
+    "Spend every Precise Shots proc on Arcane Shot on single-target",
+    "Follow up every Aimed Shot with an Arcane Shot",
+    "Follow up every Rapid Fire with an Arcane Shot"
+  ],
+  "buildName": "Dark Ranger Single-Target"
+}

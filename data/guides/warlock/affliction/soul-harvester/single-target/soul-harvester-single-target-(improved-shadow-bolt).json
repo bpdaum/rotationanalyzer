@@ -1,0 +1,20 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "affliction",
+  "heroSpec": "Soul Harvester",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-09T01:51:08.965Z",
+  "priorityList": [
+    "Maintain Agony and Corruption at all times.",
+    "Cast Unstable Affliction if you are at maximum Soul Shards.",
+    "Cast Haunt whenever available.",
+    "Ensure you have 2 or less Soul Shards before casting Dark Harvest to avoid overcapping shards.",
+    "Cast Dark Harvest whenever available with any periodic effect (Corruption, Agony, or Unstable Affliction) active on the target.",
+    "Cast Unstable Affliction to avoid capping shards.",
+    "Cast Shadow Bolt as a filler.",
+    "Do not overcap your Soul Shards (limit 5).",
+    "Do not pool Soul Shards unless heading into a damage window.",
+    "React to Nightfall procs to maximize damage and avoid overcapping the effect."
+  ],
+  "buildName": "Soul Harvester Single Target (Improved Shadow Bolt)"
+}

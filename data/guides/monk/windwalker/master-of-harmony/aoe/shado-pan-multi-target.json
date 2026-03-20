@@ -1,0 +1,22 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Master of Harmony",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T05:02:11.292Z",
+  "priorityList": [
+    "Cast Touch of Death",
+    "Cast Whirling Dragon Punch",
+    "Cast Fists of Fury",
+    "Cast Rushing Wind Kick",
+    "Cast Rising Sun Kick",
+    "Cast Tiger Palm if any of the above are available and you do not have enough Chi",
+    "Cast Spinning Crane Kick with a Dance of Chi-Ji proc",
+    "Cast Blackout Kick",
+    "Cast Spinning Crane Kick",
+    "Cast Tiger Palm",
+    "Use Rising Sun Kick as often as you can to avoid lost damage potential.",
+    "Use Fists as often as you can to avoid lost damage potential."
+  ],
+  "buildName": "Shado-Pan Multi-Target"
+}

@@ -1,0 +1,23 @@
+{
+  "classSlug": "hunter",
+  "specSlug": "survival",
+  "heroSpec": "Dark Ranger",
+  "buildName": "default",
+  "priorityList": [
+    "Use offensive cooldowns, trinkets, and potions when Black Arrow is active or ready to be cast.",
+    "Cast Kill Command if you have 0 stacks of Tip of the Spear to ensure your next ability is buffed.",
+    "Cast Kill Command if Black Arrow is about to come off cooldown and you have fewer than 2 stacks of Tip of the Spear.",
+    "Cast Black Arrow (Takedown) if you have at least 1 stack of Tip of the Spear.",
+    "Cast Wildfire Bomb if you are about to cap at 2 charges.",
+    "Cast Boomstick (Wildfire Shells proc) if you have Tip of the Spear active.",
+    "Cast Wildfire Bomb if you have Tip of the Spear active.",
+    "Cast Moonlight Chakram if you have Tip of the Spear active.",
+    "Cast Flamefang Pitch whenever available.",
+    "Cast Raptor Strike (or Mongoose Bite) if your Raptor Swipe cleave buff is missing or about to expire.",
+    "Cast Raptor Strike (or Mongoose Bite) if you have Tip of the Spear active.",
+    "Cast Kill Command to generate Tip of the Spear stacks if Black Arrow is on cooldown.",
+    "Cast Wildfire Bomb as a filler if Tip of the Spear is not active.",
+    "Cast Black Arrow (Takedown) if available and you have no other priority actions.",
+    "Use Aspect of the Eagle if you are forced out of melee range (target distance > 6 yards)."
+  ]
+}

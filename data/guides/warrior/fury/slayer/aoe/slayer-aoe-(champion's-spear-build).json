@@ -1,0 +1,31 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "fury",
+  "heroSpec": "Slayer",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T02:13:33.168Z",
+  "priorityList": [
+    "Recklessness",
+    "Bladestorm while Enraged",
+    "Whirlwind if the Meat Cleaver buff is not active",
+    "Rampage if Enrage is not active or more than 110 Rage",
+    "Bloodthirst or Bloodbath during Recklessness",
+    "Execute with Sudden Death",
+    "Rampage",
+    "Champion's Spear while Enraged",
+    "Execute",
+    "Raging Blow or Crushing Blow during Recklessness",
+    "Whirlwind as a filler",
+    "Cast Whirlwind to maintain the Meat Cleaver buff.",
+    "Cast Recklessness on cooldown.",
+    "Cast Odyn's Fury on cooldown.",
+    "Cast Rampage when over 120 Rage or during Recklessness.",
+    "Cast Bladestorm during Recklessness.",
+    "Cast Execute on Sudden Death procs to trigger Reap the Storm.",
+    "Cast Bloodthirst or Bloodbath.",
+    "Cast Crushing Blow during Recklessness.",
+    "Cast Raging Blow.",
+    "Cast Whirlwind as filler when no other abilities are available."
+  ],
+  "buildName": "Slayer AoE (Champion's Spear Build)"
+}

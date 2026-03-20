@@ -1,0 +1,23 @@
+{
+  "classSlug": "shaman",
+  "specSlug": "elemental",
+  "heroSpec": "Farseer",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Lightning Shield, Thunderstrike Ward, and Flametongue Weapon at all times.",
+    "Pre-cast Stormkeeper before combat begins.",
+    "Cast Ancestral Swiftness on cooldown.",
+    "Cast Ascendance as your primary burst cooldown, ideally when Stormkeeper is on cooldown (>15s remaining).",
+    "Cast Stormkeeper if Ascendance has more than 10s remaining or is currently active.",
+    "Cast Earthquake as your primary Maelstrom spender when facing 3 or more targets.",
+    "Cast Elemental Blast as a spender if Earthquake is not talented or if you are at exactly 3 targets.",
+    "Cast Tempest if the Master of the Elements buff is active to maximize its damage.",
+    "Cast Tempest if you are about to cap stacks (at 2 stacks) and have no Stormkeeper stacks active.",
+    "Use Chain Lightning to consume all Stormkeeper stacks.",
+    "Cast Voltaic Blaze if Purging Flames is active, prioritizing targets that need Flame Shock.",
+    "Cast Lava Burst if Lava Surge or Purging Flames is active, especially at 3 targets to trigger Master of the Elements.",
+    "Cast Flame Shock to refresh the DoT and trigger Master of the Elements if Ascendance is not active.",
+    "Cast Tempest as a high-priority generator and Chain Lightning as your primary filler.",
+    "Use Spiritwalker's Grace for movement; use Frost Shock or Voltaic Blaze as instant fillers if forced to move."
+  ]
+}

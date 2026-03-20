@@ -1,0 +1,22 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Scalecommander",
+  "buildName": "default",
+  "priorityList": [
+    "Cast Living Flame pre-combat to generate initial resources.",
+    "Use Dragonrage on cooldown, ensuring the target will live for at least 30 seconds.",
+    "Sync combat potions and external buffs like Power Infusion with your Dragonrage window.",
+    "Use Tip the Scales while Dragonrage is active, prioritizing Eternity Surge or Fire Breath.",
+    "Cast Deep Breath if the Strafing Run buff is about to expire to maintain Scalecommander uptime.",
+    "Cast Eternity Surge at Empowerment Level 1 in single-target situations.",
+    "Cast Fire Breath at Empowerment Level 1 to maintain its damage over time effect.",
+    "Cast Disintegrate as your primary Essence spender when Mass Disintegrate stacks are active.",
+    "Cast Disintegrate to spend Essence and Essence Burst procs, chaining the cast when 1 tick remains to avoid clipping.",
+    "Cast Living Flame whenever the Burnout proc is active.",
+    "Cast Living Flame as your primary filler spell while standing stationary.",
+    "Cast Azure Strike as a filler while moving if Disintegrate or Living Flame are unavailable.",
+    "Use Hover to allow casting while moving and maintain uptime during mechanics.",
+    "Use Quell to interrupt enemy spellcasting whenever necessary."
+  ]
+}

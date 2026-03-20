@@ -1,0 +1,23 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Elune's Chosen",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T03:46:20.793Z",
+  "priorityList": [
+    "Use Warrior on cooldown",
+    "Apply Sunfire if the target will live approximately 5-seconds",
+    "Apply Moonfire if the target will live 6-seconds",
+    "Cast Fury",
+    "Cast Celestial Alignment",
+    "Enter Lunar Eclipse (Solar Eclipse is not accessible while using Elune's Chosen)",
+    "Cast Starfall to spend Astral Power",
+    "Cast Starfire to generate Astral Power",
+    "If using Cast Convoke on multiple targets, cast it before casting other Starfalls",
+    "Press Fury to overlap with Eclipse",
+    "Apply Sunfire on as many targets as possible",
+    "Spread Moonfire on as many targets as possible",
+    "Cast Starfall to spend Astral Power"
+  ],
+  "buildName": "Elune's Chosen Multi-Target Rotation"
+}

@@ -1,0 +1,21 @@
+{
+  "classSlug": "monk",
+  "specSlug": "windwalker",
+  "heroSpec": "Shado-Pan",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T05:03:23.628Z",
+  "priorityList": [
+    "Cast Touch",
+    "Cast Whirling Dragon Punch",
+    "Cast Fists",
+    "Cast Rushing Wind Kick",
+    "Cast Rising Sun Kick",
+    "Cast Tiger Palm if any of the above are available and you do not have enough Chi",
+    "Cast Spinning Crane Kick with a proc",
+    "Cast Blackout Kick",
+    "Cast Tiger Palm",
+    "Cast Rising Sun Kick as often as possible",
+    "Cast Fists of Fury as often as possible"
+  ],
+  "buildName": "Shado-Pan Single Target"
+}

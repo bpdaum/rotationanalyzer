@@ -1,0 +1,25 @@
+{
+  "classSlug": "evoker",
+  "specSlug": "devastation",
+  "heroSpec": "Scalecommander",
+  "combatType": "Single Target",
+  "scrapedAt": "2026-03-12T03:57:25.564Z",
+  "priorityList": [
+    "Pre-cast Living Flame so that it lands on pull",
+    "Cast Deep Breath",
+    "Cast Dragonrage",
+    "Cast Fire Breath",
+    "Cast Eternity Surge",
+    "Cast Disintegrate until you run out of Essence",
+    "Cast Deep Breath a second time",
+    "Cast Disintegrate whenever you are near the Essence cap to ensure that you do not waste any resources",
+    "Use Fire Breath empower level 1 on cooldown in order to maintain the damage over time effect",
+    "Use Eternity Surge on cooldown",
+    "Cast Fire Breath and Eternity Surge when they are on cooldown, making sure to leave a 4-5 second window between each Empower cast",
+    "Use Deep Breath on cooldown, followed by its additional charge from Strafing Run 7-8 seconds later",
+    "Use Hover to maintain uptime whenever you are forced to move",
+    "Use Living Flame as a filler",
+    "Use Azure Strike as a filler when moving if you have no Hover"
+  ],
+  "buildName": "Single-Target Scalecommander"
+}

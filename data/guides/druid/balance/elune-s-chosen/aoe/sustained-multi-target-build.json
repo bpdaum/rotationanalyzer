@@ -1,0 +1,26 @@
+{
+  "classSlug": "druid",
+  "specSlug": "balance",
+  "heroSpec": "Elune's Chosen",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:20:25.388Z",
+  "priorityList": [
+    "Use Warrior of Elune on cooldown.",
+    "Apply and maintain Sunfire if the target will live approximately 5 seconds.",
+    "Apply and maintain Moonfire if the target will live approximately 6 seconds.",
+    "Cast Fury of Elune.",
+    "Cast Celestial Alignment.",
+    "Enter regular Lunar Eclipse (Note: Solar Eclipse is inaccessible due to Lunar Calling).",
+    "Cast Starfall to spend Astral Power, maintain Starlord, or spend Touch the Cosmos.",
+    "Cast Starfire to generate Astral Power.",
+    "Maintain Starfall uptime without overcapping Astral Power",
+    "Cast Fury of Elune on cooldown, ideally when targets will remain inside the beam for its full duration",
+    "Apply and maintain Sunfire on all targets",
+    "Apply and maintain Moonfire on all targets",
+    "Enter Lunar Eclipse by casting Starfire",
+    "Cast New Moon, Half Moon, and Full Moon on cooldown to generate Astral Power",
+    "Cast Starfire as your primary filler during Lunar Eclipse to benefit from Lunar Calling and Umbral Inspiration",
+    "Use Warrior of Elune charges on Starfire for instant-cast damage and resource generation"
+  ],
+  "buildName": "Sustained Multi-Target Build"
+}

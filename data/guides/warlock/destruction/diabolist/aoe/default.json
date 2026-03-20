@@ -1,0 +1,22 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "destruction",
+  "heroSpec": "Diabolist",
+  "buildName": "default",
+  "priorityList": [
+    "Summon Infernal on cooldown, ideally synced with trinkets and potions.",
+    "Cast Ruination as soon as it becomes available.",
+    "Cast Cataclysm to apply Immolate to the pack and maintain the Lake of Fire debuff.",
+    "Maintain Havoc on a secondary target whenever available in 2-3 target situations.",
+    "Spend Soul Shards on Rain of Fire when facing 4 or more enemies.",
+    "Cast Chaos Bolt to trigger or progress your Diabolic Ritual, especially if Demonic Art is active or the ritual is about to expire.",
+    "Cast Soul Fire if you have fewer than 4 Soul Shards and the target will survive the cast.",
+    "Cast Shadowburn if the target is below 20% health or if you have Fiendish Cruelty or Conflagration of Chaos procs.",
+    "Cast Infernal Bolt if you have fewer than 3 Soul Shards.",
+    "Spend Soul Shards on Chaos Bolt in low-target AoE (2-3 targets) to avoid capping shards.",
+    "Cast Channel Demonfire on cooldown if talented.",
+    "Cast Conflagrate if you have fewer than 4 Soul Shards or to maintain Backdraft stacks.",
+    "Manually apply Immolate to up to 5 targets if Cataclysm is on cooldown.",
+    "Cast Incinerate as your primary filler and shard generator."
+  ]
+}

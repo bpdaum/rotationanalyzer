@@ -1,0 +1,28 @@
+{
+  "classSlug": "mage",
+  "specSlug": "fire",
+  "heroSpec": "Frostfire",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T00:59:52.021Z",
+  "priorityList": [
+    "Delay Combustion and do not cast Flamestrike if the target is above 90% health when talented into Firestarter.",
+    "Cast Combustion when ready, timing the activation to occur near the end of a hard-cast Frostfire Bolt.",
+    "Cast Meteor immediately as it becomes available, unless it has been delayed more than 10 seconds, in which case save it for Combustion.",
+    "During Combustion, cast Meteor so that it lands before the buff expires (ideally when 2 to 8 seconds remain).",
+    "On 4 or more targets, cast Flamestrike when you have Hot Streak.",
+    "Hardcast Flamestrike (on 4+ targets) or Pyroblast (on 1-3 targets) when Pyroclasm procs.",
+    "Cast Scorch if Heat Shimmer is active and you do not have a Hot Streak.",
+    "Cast Fire Blast to convert Heating Up into Hot Streak.",
+    "Use Frostfire Bolt as your primary filler to generate Heating Up and Hot Streak.",
+    "Use Scorch as a filler only when moving and unable to cast Frostfire Bolt.",
+    "Cast Combustion when entering combat with a large pack of enemies.",
+    "Cast Meteor on the target cluster to deal high burst damage and trigger Isothermic Core.",
+    "Cast Flamestrike whenever Hot Streak is active.",
+    "Cast Phoenix Flames to spread Ignite to secondary targets or when Excess Fire is active.",
+    "Cast Fire Blast to convert Heating Up into Hot Streak procs or to trigger Excess Frost cleave.",
+    "Cast Dragon's Breath to consume Lit Fuse procs and trigger Living Bomb on targets.",
+    "Cast Shifting Power to recover ability charges, provided Combustion is on cooldown.",
+    "Cast Frostfire Bolt as your primary filler to generate Heating Up and maintain Frostfire Empowerment stacks."
+  ],
+  "buildName": "Frostfire AoE"
+}

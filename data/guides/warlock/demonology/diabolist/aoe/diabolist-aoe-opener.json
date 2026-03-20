@@ -1,0 +1,16 @@
+{
+  "classSlug": "warlock",
+  "specSlug": "demonology",
+  "heroSpec": "Diabolist",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-12T06:14:51.341Z",
+  "priorityList": [
+    "Pre-cast Demonbolt.",
+    "Cast Shadow Bolt.",
+    "Cast Call Dreadstalkers.",
+    "Cast Summon Demonic Tyrant.",
+    "Focus on casting as many Hand of Gul'dan possible.",
+    "Cast Implosion with 6 Wild Imps out and 1 or less Demonic Core."
+  ],
+  "buildName": "Diabolist AoE Opener"
+}

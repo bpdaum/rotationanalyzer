@@ -1,0 +1,23 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "arms",
+  "heroSpec": "Slayer",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Sweeping Strikes whenever 2 or more targets are present.",
+    "Maintain Rend on all targets, using Thunder Clap to spread it if talented.",
+    "Cast Avatar on cooldown, ideally aligned with other major burst windows.",
+    "Cast Colossus Smash (or Warbreaker) on cooldown to apply the damage taken debuff.",
+    "Cast Champion's Spear on cooldown, preferably while the target has the Colossus Smash debuff.",
+    "Use Ravager during the Colossus Smash debuff window for maximum impact.",
+    "Cast Bladestorm while the Colossus Smash debuff is active to capitalize on Slayer's dominance.",
+    "Use Execute whenever a Sudden Death proc occurs.",
+    "Cast Cleave as your primary Rage spender in multi-target situations.",
+    "Cast Whirlwind if Cleave is on cooldown, especially if you have 3 stacks of Collateral Damage.",
+    "During Execute phase (target <35% health), prioritize Execute to build Executioner's Precision stacks.",
+    "In Execute phase, cast Mortal Strike once you reach 2 stacks of Executioner's Precision or if Colossus Smash is active.",
+    "Use Overpower to generate Rage, avoid capping charges, and trigger Opportunist procs.",
+    "Cast Mortal Strike in AoE to maintain Deep Wounds or as a high-priority filler.",
+    "Activate offensive Trinkets and Racial abilities (like Berserking or Blood Fury) while Colossus Smash is active."
+  ]
+}

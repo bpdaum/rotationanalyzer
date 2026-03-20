@@ -1,0 +1,22 @@
+{
+  "classSlug": "mage",
+  "specSlug": "frost",
+  "heroSpec": "Spellslinger",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Arcane Intellect and summon your Water Elemental before combat.",
+    "Use your Trinkets, Potion, and Racial abilities alongside Frozen Orb or Ray of Frost.",
+    "Cast Comet Storm if the Splinterstorm buff is not active.",
+    "Cast Blizzard whenever the Freezing Rain buff is active (procced by Frozen Orb).",
+    "Cast Frozen Orb on cooldown.",
+    "Cast Ice Lance if you have Fingers of Frost procs.",
+    "Cast Glacial Spike whenever you have 5 Icicles.",
+    "Cast Ice Lance if the target has 6 or more stacks of the Freezing (Winter's Chill) debuff.",
+    "On 4 or more enemies, cast Ice Nova followed by Cone of Cold if talented into Cone of Frost.",
+    "Cast Blizzard as a high priority in AoE (3+ targets) even without Freezing Rain.",
+    "Cast Flurry if you have a Brain Freeze proc.",
+    "Cast Ray of Frost on cooldown.",
+    "Cast Flurry if you have charges available to apply Winter's Chill.",
+    "Cast Frostbolt as your main filler spell to generate Icicles and procs."
+  ]
+}

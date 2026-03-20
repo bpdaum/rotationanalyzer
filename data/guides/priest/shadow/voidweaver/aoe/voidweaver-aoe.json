@@ -1,0 +1,27 @@
+{
+  "classSlug": "priest",
+  "specSlug": "shadow",
+  "heroSpec": "Voidweaver",
+  "combatType": "AoE",
+  "scrapedAt": "2026-03-09T01:21:36.613Z",
+  "priorityList": [
+    "Cast Voidform.",
+    "Cast Power Infusion.",
+    "Cast Shadow Word: Death if the target has an absorb shield to trigger Devour Matter.",
+    "Cast Void Volley.",
+    "Cast Void Blast while available if Shadow Word: Madness is active or Entropic Rift is about to expire.",
+    "Cast Void Torrent to open Entropic Rift.",
+    "Cast Mind Blast.",
+    "Cast Shadow Word: Death if the target is below 20% health (or 35% if specific talents are active).",
+    "Fill with Mind Flay, interrupting for any higher priority action as it becomes available.",
+    "Apply and maintain Vampiric Touch on all targets using Shadow Crash",
+    "Cast Void Torrent on a priority target to trigger Entropic Rift",
+    "Cast Void Blast as the primary priority while Entropic Rift is active",
+    "Cast Devouring Plague to spend Insanity and maintain Mastery: Shadow Weaving",
+    "Cast Mind Blast to trigger Psychic Link cleave damage and generate Insanity",
+    "Cast Halo on cooldown for burst AoE damage",
+    "Cast Mind Spike: Insanity or Mind Flay: Insanity on procs",
+    "Cast Shadow Word: Death on targets below 20% health for Insanity generation and Deathspeaker procs"
+  ],
+  "buildName": "Voidweaver AoE"
+}
