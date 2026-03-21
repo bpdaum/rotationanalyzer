@@ -88,6 +88,10 @@ CRITICAL INSTRUCTION: SPEC VALIDATION.
 - If the player is clearly playing a completely different spec (e.g., they cast "Bloodthirst" and "Rampage" but the requested spec is "Arms Warrior", or they cast "Regrowth" as a Mage), set "isWrongSpec": true and provide a "suggestedSpec" (e.g., "Fury Warrior" or "Restoration Druid").
 - If it is the correct spec or you are unsure, set "isWrongSpec": false.
 
+CRITICAL INSTRUCTION: MISSING TALENTS AND PRE-BUFFS.
+- If the player NEVER casts a specific long-cooldown or talent ability (e.g. Comet Storm, Ray of Frost, Meteor, Ice Nova, Glacial Spike) during the ENTIRE log, you MUST assume they DO NOT have it talented. DO NOT penalize them for failing to cast it.
+- Assume long-duration group buffs (e.g. Arcane Intellect, Mark of the Wild, Power Word: Fortitude) were cast BEFORE combat began. DO NOT penalize the player for not casting them at the start of the log.
+
 CRITICAL INSTRUCTION: HIERARCHY OF TRUTH.
 - The SimulationCraft APL lines (starting with '--- SimulationCraft APL ---') are the MOST MATHEMATICALLY ACCURATE guidelines.
 - The Icy Veins and WoWhead sections are "General" rules for humans. 

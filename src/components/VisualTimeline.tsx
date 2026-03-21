@@ -285,49 +285,66 @@ export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }:
                     {/* Aura Tracks */}
                     {auraRows.map((row, rowIndex) => {
                         const topPx = MAIN_RAIL_HEIGHT + (rowIndex * AURA_ROW_HEIGHT);
-                        return row.map((track, trackIndex) => {
-                            const effStart = Math.max(track.startTimeMs, firstEventMs);
-                            const leftPx = ((effStart - firstEventMs) / 1000) * PIXELS_PER_SECOND;
-                            // Ensure there is at least a small visible width for instant auras or small gaps
-                            const widthPx = Math.max(((track.endTimeMs - effStart) / 1000) * PIXELS_PER_SECOND, 20);
+                        return row.flatMap((track, trackIndex) => {
+                            if (!track.stacks || track.stacks.length === 0) return [];
+                            
+                            // Map each stack change into its own sequential visual segment
+                            return track.stacks.map((stack, stackIndex) => {
+                                const effStart = Math.max(stack.timeMs, firstEventMs);
+                                // The segment lasts until the next stack change, or the track's end time
+                                const nextTimeMs = stackIndex < track.stacks.length - 1 ? track.stacks[stackIndex + 1].timeMs : track.endTimeMs;
+                                const effEnd = Math.max(nextTimeMs, effStart);
+                                
+                                const leftPx = ((effStart - firstEventMs) / 1000) * PIXELS_PER_SECOND;
+                                // Min width so extremely short segments are still visible as ticks
+                                const widthPx = Math.max(((effEnd - effStart) / 1000) * PIXELS_PER_SECOND, 6);
 
-                            return (
-                                <div key={`aura-${rowIndex}-${trackIndex}`} style={{
-                                    position: 'absolute',
-                                    top: `${topPx}px`,
-                                    left: `${leftPx}px`,
-                                    width: `${widthPx}px`,
-                                    height: '24px',
-                                    background: 'rgba(155, 89, 182, 0.15)', // Purple aura theme
-                                    border: '1px solid rgba(155, 89, 182, 0.4)',
-                                    borderRadius: '4px',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    padding: '0 6px',
-                                    overflow: 'hidden',
-                                    fontSize: '0.65rem',
-                                    color: '#d2b4de',
-                                    whiteSpace: 'nowrap',
-                                    zIndex: 5,
-                                    boxShadow: 'inset 0 0 8px rgba(155, 89, 182, 0.1)'
-                                }}>
-                                    <span style={{ fontWeight: 500, marginRight: '6px', overflow: 'hidden', textOverflow: 'ellipsis' }}>{track.name}</span>
+                                return (
+                                    <div key={`aura-${rowIndex}-${trackIndex}-${stackIndex}`} style={{
+                                        position: 'absolute',
+                                        top: `${topPx}px`,
+                                        left: `${leftPx}px`,
+                                        width: `${widthPx}px`,
+                                        height: '24px',
+                                        background: 'rgba(155, 89, 182, 0.15)', // Purple aura theme
+                                        borderTop: '1px solid rgba(155, 89, 182, 0.4)',
+                                        borderBottom: '1px solid rgba(155, 89, 182, 0.4)',
+                                        borderLeft: stackIndex === 0 ? '1px solid rgba(155, 89, 182, 0.4)' : 'none',
+                                        borderRight: stackIndex === track.stacks.length - 1 ? '1px solid rgba(155, 89, 182, 0.4)' : '1px solid rgba(155, 89, 182, 0.2)',
+                                        borderRadius: stackIndex === 0 && stackIndex === track.stacks.length - 1 ? '4px' 
+                                                    : stackIndex === 0 ? '4px 0 0 4px' 
+                                                    : stackIndex === track.stacks.length - 1 ? '0 4px 4px 0' 
+                                                    : '0',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        padding: '0 4px',
+                                        overflow: 'hidden',
+                                        fontSize: '0.65rem',
+                                        color: '#d2b4de',
+                                        whiteSpace: 'nowrap',
+                                        zIndex: 5,
+                                        boxShadow: 'inset 0 0 8px rgba(155, 89, 182, 0.1)'
+                                    }}>
+                                        {stackIndex === 0 && (
+                                            <span style={{ fontWeight: 500, marginRight: '6px', overflow: 'hidden', textOverflow: 'ellipsis' }}>{track.name}</span>
+                                        )}
 
-                                    {/* Show final stack size if it grew */}
-                                    {track.stacks.length > 0 && track.stacks[track.stacks.length - 1].count > 1 && (
-                                        <span style={{
-                                            background: 'rgba(155, 89, 182, 0.6)',
-                                            color: '#fff',
-                                            padding: '1px 5px',
-                                            borderRadius: '10px',
-                                            fontSize: '0.55rem',
-                                            fontWeight: 'bold',
-                                        }}>
-                                            x{track.stacks[track.stacks.length - 1].count}
-                                        </span>
-                                    )}
-                                </div>
-                            );
+                                        {stack.count > 1 && (
+                                            <span style={{
+                                                background: 'rgba(155, 89, 182, 0.6)',
+                                                color: '#fff',
+                                                padding: '1px 4px',
+                                                borderRadius: '10px',
+                                                fontSize: '0.55rem',
+                                                fontWeight: 'bold',
+                                                marginLeft: stackIndex === 0 ? '0' : 'auto'
+                                            }}>
+                                                x{stack.count}
+                                            </span>
+                                        )}
+                                    </div>
+                                );
+                            });
                         });
                     })}
                 </div>
