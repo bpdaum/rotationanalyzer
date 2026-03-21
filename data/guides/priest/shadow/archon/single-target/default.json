@@ -4,17 +4,20 @@
   "heroSpec": "Archon",
   "buildName": "default",
   "priorityList": [
-    "Ensure Shadowform is active at all times.",
-    "Cast Halo on cooldown to trigger Archon effects and begin your burst cycle.",
-    "Activate Voidform and Power Infusion simultaneously; use all offensive Trinkets and Potions during this window.",
-    "Cast Void Blast on cooldown whenever available (Archon's primary priority).",
-    "Cast Shadow Word: Madness if it is about to expire, if you are nearing maximum Insanity (65+), or if you have a Mind Devourer proc.",
-    "Cast Tentacle Slam if Vampiric Touch is missing/refreshable on your target or to prevent the ability from reaching 2 charges.",
-    "Cast Void Torrent on cooldown, provided your primary DOTs (Vampiric Touch and Shadow Word: Pain) are currently active.",
-    "Cast Shadow Word: Death if the target is below 20% health or if your Shadowfiend/Mindbender is active to trigger Inescapable Torment.",
-    "Cast Mind Blast to generate Insanity and prevent charges from capping.",
-    "Cast Mind Flay: Insanity whenever the proc is available.",
-    "Manually cast Vampiric Touch if Tentacle Slam is unavailable and the DOT is about to expire.",
-    "Channel Mind Flay as your primary filler when no other abilities are available."
+    "Maintain Shadowform at all times.",
+    "Keep Vampiric Touch and Shadow Word: Pain active on the target.",
+    "Cast Halo on cooldown to trigger Archon effects.",
+    "Use Power Infusion and Voidform (or Dark Ascension) together as your primary burst window.",
+    "Use offensive trinkets and racial abilities during Voidform and Power Infusion.",
+    "Cast Shadow Word: Madness if your Insanity is nearly full (35 deficit or less) or you have a Mind Devourer proc.",
+    "Cast Void Volley on cooldown.",
+    "Cast Void Blast on cooldown whenever it is available.",
+    "Cast Tentacle Slam to refresh Vampiric Touch or if you are about to cap on charges.",
+    "Channel Void Torrent only when your damage-over-time effects are active on the target.",
+    "Cast Mind Blast as your primary generator if you do not have a Mind Devourer proc.",
+    "Cast Mind Flay: Insanity when you have the proc available.",
+    "Cast Shadow Word: Death when the target is below 20% health or to trigger Inescapable Torment while a pet is active.",
+    "Cast Shadow Word: Death to spend additional charges or when moving.",
+    "Channel Mind Flay as your filler when no other high-priority abilities are available."
   ]
 }

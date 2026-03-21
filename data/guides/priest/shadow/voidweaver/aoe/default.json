@@ -4,18 +4,20 @@
   "heroSpec": "Voidweaver",
   "buildName": "default",
   "priorityList": [
-    "Ensure Shadowform is active at all times.",
-    "Maintain Vampiric Touch on all targets (up to 12) to enable your cleave and resource generation.",
-    "Cast Voidform (Entropic Rift) as soon as your primary dots are applied to targets.",
-    "Cast Power Infusion and Halo on cooldown, ideally overlapping with your Voidform/Entropic Rift window.",
-    "Priority: Cast Void Volley and Void Blast as the highest priority whenever they are available during Entropic Rift.",
-    "Cast Shadow Word: Madness (replaces Devouring Plague) if you are about to cap Insanity, to refresh its DoT, or if you have a Mind Devourer proc.",
-    "Cast Tentacle Slam to refresh Vampiric Touch on your target or if you are about to reach 2 charges.",
-    "Cast Void Torrent as a high priority channel, but only if Vampiric Touch and Shadow Word: Pain are already active on your targets.",
-    "Cast Mind Blast to generate Insanity and prevent charge capping.",
-    "Use Mind Flay: Insanity procs as your primary filler.",
-    "Cast Shadow Word: Death on targets below 20% health or while your Shadowfiend/Mindbender is active.",
-    "Use offensive Trinkets and Potions during Power Infusion or Voidform for maximum benefit.",
-    "Channel Mind Flay as your final filler if no other abilities are available."
+    "Maintain Shadowform at all times.",
+    "Cast Halo on cooldown for AoE damage.",
+    "Use Power Infusion and offensive trinkets, ideally aligned with Voidform or Entropic Rift.",
+    "Activate Voidform once Vampiric Touch and Shadow Word: Pain are applied to your active targets.",
+    "Spend Insanity on Shadow Word: Madness to avoid capping or when Entropic Rift is active.",
+    "Cast Void Volley on cooldown.",
+    "Cast Void Blast as your priority builder whenever it is available during Entropic Rift.",
+    "Use Tentacle Slam to apply or refresh Vampiric Touch on multiple targets or when charges are near capping.",
+    "Cast Void Torrent only when Vampiric Touch and Shadow Word: Pain are already active on your targets.",
+    "Use Shadow Word: Death on targets below 20% health or to trigger Inescapable Torment while Shadowfiend or Mindbender is active.",
+    "Manually apply or refresh Vampiric Touch on targets (up to 12) if Tentacle Slam is unavailable.",
+    "Cast Mind Blast as your primary Insanity generator when Void Blast is not available.",
+    "Cast Mind Flay: Insanity when the proc is active.",
+    "Use Shadow Word: Pain as a filler to spread dots or trigger Invoked Nightmare on priority targets.",
+    "Use Mind Flay as your primary filler, but interrupt it immediately for higher priority procs or cooldowns."
   ]
 }

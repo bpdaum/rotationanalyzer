@@ -4,19 +4,20 @@
   "heroSpec": "Diabolist",
   "buildName": "default",
   "priorityList": [
-    "Summon Infernal on cooldown, ideally synced with trinkets and potions.",
-    "Cast Ruination as soon as it becomes available.",
-    "Cast Cataclysm to apply Immolate to the pack and maintain the Lake of Fire debuff.",
-    "Maintain Havoc on a secondary target whenever available in 2-3 target situations.",
-    "Spend Soul Shards on Rain of Fire when facing 4 or more enemies.",
-    "Cast Chaos Bolt to trigger or progress your Diabolic Ritual, especially if Demonic Art is active or the ritual is about to expire.",
-    "Cast Soul Fire if you have fewer than 4 Soul Shards and the target will survive the cast.",
+    "Summon your pet and cast Cataclysm or Soul Fire as the fight begins.",
+    "Summon Infernal on cooldown, ideally syncing it with Malevolence, Trinkets, and Potions.",
+    "Cast Ruination immediately whenever it becomes available.",
+    "Apply Havoc to a secondary target if Infernal is not active and the target will live at least 8 seconds.",
+    "Cast Rain of Fire when facing 4 or more enemies, especially if you have high Shards or the Alythess's Ire buff.",
+    "Cast Chaos Bolt instead of Rain of Fire if there are 3 or fewer enemies.",
+    "Cast Chaos Bolt regardless of target count if Demonic Art is active or the Diabolic Ritual is about to expire.",
+    "Use Cataclysm on cooldown to apply Immolate to all targets and benefit from Lake of Fire.",
     "Cast Shadowburn if the target is below 20% health or if you have Fiendish Cruelty or Conflagration of Chaos procs.",
+    "Use Conflagrate to generate Shards and Backdraft stacks, ensuring you don't overcap Shards.",
     "Cast Infernal Bolt if you have fewer than 3 Soul Shards.",
-    "Spend Soul Shards on Chaos Bolt in low-target AoE (2-3 targets) to avoid capping shards.",
-    "Cast Channel Demonfire on cooldown if talented.",
-    "Cast Conflagrate if you have fewer than 4 Soul Shards or to maintain Backdraft stacks.",
-    "Manually apply Immolate to up to 5 targets if Cataclysm is on cooldown.",
-    "Cast Incinerate as your primary filler and shard generator."
+    "Cast Soul Fire if you have fewer than 4 Soul Shards and the enemy count is low (5 or fewer targets).",
+    "Manually refresh Immolate on targets if Cataclysm is on cooldown and the dot is expiring.",
+    "Use Channel Demonfire on cooldown if talented.",
+    "Cast Incinerate as your filler to generate Soul Shards when no other priorities are available."
   ]
 }

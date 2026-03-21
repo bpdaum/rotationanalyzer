@@ -4,18 +4,19 @@
   "heroSpec": "Dark Ranger",
   "buildName": "default",
   "priorityList": [
-    "Ensure your pet is summoned and use Aspect of the Eagle if you are out of melee range (6+ yards).",
-    "Use offensive racials, potions, and trinkets when Takedown is active or ready to be cast.",
-    "Cast Kill Command if you have 0 stacks of Tip of the Spear.",
-    "Cast Kill Command to generate Tip of the Spear stacks if Takedown's cooldown is almost refreshed (less than 1.5 seconds remaining).",
-    "Cast Takedown if Tip of the Spear is active (you may cast it at 0 stacks if the Twin Fangs talent is taken).",
-    "Cast Boomstick if you have a stack of Tip of the Spear active.",
-    "Cast Wildfire Bomb if you have a stack of Tip of the Spear active and you are about to reach maximum charges (less than 4 seconds until a charge refreshes).",
-    "Cast Flamefang Pitch on cooldown.",
-    "Cast Raptor Strike (or Mongoose Bite) if Tip of the Spear is active.",
-    "Cast Raptor Strike (or Mongoose Bite) if the Raptor Swipe (or Mongoose Fury) buff is missing or about to expire.",
-    "Cast Kill Command as your primary filler to generate Tip of the Spear stacks whenever Takedown is on cooldown.",
-    "Cast Wildfire Bomb as a filler if no other priority actions are available.",
-    "Cast Takedown as a fallback if it is available and no other conditions are met."
+    "Summon your pet before combat starts.",
+    "Use offensive racials, trinkets, and potions when Takedown is ready or its buff is active.",
+    "Use Aspect of the Eagle if the target is further than 6 yards away.",
+    "Use Kill Command if you have zero stacks of Tip of the Spear.",
+    "Use Boomstick if you have at least one stack of Tip of the Spear and Takedown is not ready.",
+    "Use Wildfire Bomb if Tip of the Spear is active and you are about to reach maximum bomb charges.",
+    "Use Kill Command if Takedown is about to become available to ensure you have Tip of the Spear stacks ready.",
+    "Use Takedown if Tip of the Spear is active (or at zero stacks if Twin Fangs is talented).",
+    "Use Moonlight Chakram if you have at least one stack of Tip of the Spear.",
+    "Use Flamefang Pitch whenever available.",
+    "Use Raptor Strike (or Mongoose Bite) if Tip of the Spear is active or to maintain the Raptor Swipe buff.",
+    "Use Kill Command to generate Focus and Tip of the Spear stacks while Takedown is on cooldown.",
+    "Use Wildfire Bomb as a filler if Tip of the Spear is not available.",
+    "Use Takedown as a final priority if available."
   ]
 }

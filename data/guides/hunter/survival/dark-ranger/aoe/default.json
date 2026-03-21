@@ -4,20 +4,17 @@
   "heroSpec": "Dark Ranger",
   "buildName": "default",
   "priorityList": [
-    "Use offensive cooldowns, trinkets, and potions when Black Arrow is active or ready to be cast.",
-    "Cast Kill Command if you have 0 stacks of Tip of the Spear to ensure your next ability is buffed.",
-    "Cast Kill Command if Black Arrow is about to come off cooldown and you have fewer than 2 stacks of Tip of the Spear.",
-    "Cast Black Arrow (Takedown) if you have at least 1 stack of Tip of the Spear.",
-    "Cast Wildfire Bomb if you are about to cap at 2 charges.",
-    "Cast Boomstick (Wildfire Shells proc) if you have Tip of the Spear active.",
-    "Cast Wildfire Bomb if you have Tip of the Spear active.",
-    "Cast Moonlight Chakram if you have Tip of the Spear active.",
-    "Cast Flamefang Pitch whenever available.",
-    "Cast Raptor Strike (or Mongoose Bite) if your Raptor Swipe cleave buff is missing or about to expire.",
-    "Cast Raptor Strike (or Mongoose Bite) if you have Tip of the Spear active.",
-    "Cast Kill Command to generate Tip of the Spear stacks if Black Arrow is on cooldown.",
-    "Cast Wildfire Bomb as a filler if Tip of the Spear is not active.",
-    "Cast Black Arrow (Takedown) if available and you have no other priority actions.",
-    "Use Aspect of the Eagle if you are forced out of melee range (target distance > 6 yards)."
+    "Use Offensive Cooldowns, Racials, and Trinkets when Takedown (Black Arrow) is active or ready to be cast.",
+    "Use Potions when Takedown is ready or if the fight is nearly over.",
+    "Use Aspect of the Eagle if you are further than 6 yards from your target to continue using melee abilities.",
+    "Cast Kill Command as your top priority if you have zero stacks of Tip of the Spear.",
+    "Cast Boomstick whenever Tip of the Spear is active.",
+    "Cast Wildfire Bomb when Tip of the Spear is active, prioritizing targets with Sentinel's Mark or when you are about to cap charges.",
+    "Cast Kill Command if Takedown is about to come off cooldown and you have fewer than 2 stacks of Tip of the Spear.",
+    "Cast Takedown (Black Arrow) whenever Tip of the Spear is active.",
+    "Cast Moonlight Chakram when Tip of the Spear is active.",
+    "Cast Flamefang Pitch when Tip of the Spear is active.",
+    "Cast Raptor Strike (or Butchery) if you need to refresh the Raptor Swipe cleave buff or if Tip of the Spear is active.",
+    "Cast Kill Command as a general filler to generate Focus and Tip of the Spear stacks."
   ]
 }

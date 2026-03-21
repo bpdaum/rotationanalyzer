@@ -4,18 +4,16 @@
   "heroSpec": "Rider of the Apocalypse",
   "buildName": "default",
   "priorityList": [
-    "Ensure Raise Dead is active at all times.",
-    "Cast Outbreak to maintain Virulent Plague if it has fewer than 3 ticks remaining.",
-    "Cast Army of the Dead whenever available.",
-    "Cast Dark Transformation while Army of the Dead or Horsemen are active, or if Army is on cooldown for more than 30 seconds.",
+    "Maintain Virulent Plague using Outbreak if it has fewer than 3 ticks remaining.",
+    "Cast Army of the Dead when available (ensure 30 Runic Power if Summon Gargoyle is talented).",
+    "Cast Dark Transformation while Army of the Dead is active or if its cooldown is longer than 30 seconds.",
     "Cast Soul Reaper if the target is below 35% health.",
-    "Cast Death Coil if Sudden Doom is active or if you have fewer than 2 Runes available.",
-    "Cast Festering Strike if talented into Festering Scythe and the buff/debuff is about to expire (<= 3s).",
-    "Cast Scourge Strike if you have at least 1 stack of Lesser Ghoul Ready to summon a Horseman.",
-    "Cast Festering Strike if you have 0 stacks of Lesser Ghoul Ready to build toward a summon.",
-    "Cast Putrefy if Dark Transformation has more than 12 seconds remaining on its cooldown.",
-    "Cast Death Coil to spend Runic Power and avoid capping.",
-    "Use offensive Trinkets, Racials, and Potions during Dark Transformation windows.",
-    "Request or accept Power Infusion when Dark Transformation or Horsemen are active."
+    "Use offensive Trinkets, Potions, and combat Racials when Dark Transformation or Army of the Dead is active.",
+    "Cast Putrefy if you are at maximum charges or if Dark Transformation's cooldown is greater than 15 seconds.",
+    "Cast Death Coil if you have a Sudden Doom proc or if you have fewer than 2 Runes available (4 Runes if Forbidden Knowledge is active).",
+    "Cast Festering Strike if the Festering Scythe buff or debuff is about to expire (if talented).",
+    "Cast Festering Strike if you have 0 stacks of the Lesser Ghoul Ready buff to prepare for a Horseman summon.",
+    "Cast Scourge Strike if you have 1 or more stacks of the Lesser Ghoul Ready buff to summon a Horseman.",
+    "Cast Death Coil to dump excess Runic Power and avoid capping."
   ]
 }

@@ -88,7 +88,6 @@ async function main() {
     const SIMC_CACHE: Record<string, string> = {};
 
     for (const spec of DPS_SPECS) {
-        if (spec.classSlug !== 'mage' || spec.specSlug !== 'frost') continue;
         console.log(`\nFetching base APL for ${spec.classSlug} ${spec.specSlug}...`);
         const cacheKey = `${spec.classSlug}-${spec.specSlug}`;
         

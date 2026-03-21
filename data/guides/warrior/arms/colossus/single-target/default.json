@@ -4,19 +4,20 @@
   "heroSpec": "Colossus",
   "buildName": "default",
   "priorityList": [
-    "Charge to the target if out of range.",
-    "Maintain Rend on the target, refreshing it if it has less than 2 seconds remaining or if Colossus Smash is about to be cast.",
-    "Cast Avatar and Colossus Smash (or Warbreaker) together to align your burst windows.",
-    "Cast Ravager when Colossus Smash is ready to be used or is already active.",
+    "Maintain Battle Stance at all times.",
+    "Use Pummel to interrupt enemy spellcasting.",
+    "Maintain Rend on the target, refreshing if it has less than 1.5 seconds remaining (or less than 10 seconds if Colossus Smash is nearly ready).",
+    "Cast Ravager when Colossus Smash has 1.5 seconds or less remaining on cooldown.",
+    "Cast Avatar and Colossus Smash together as your primary burst window.",
     "Cast Champion's Spear while the Colossus Smash debuff is active on the target.",
-    "Cast Demolish while Colossus Smash is active, ideally when you have 10 stacks of Colossal Might.",
-    "Cast Execute whenever Sudden Death procs or the target is within the health threshold (below 20%, or 35% with Massacre).",
-    "During Execute phase, cast Mortal Strike if you have 2 stacks of Executioner's Precision or a Battlelord proc.",
-    "Cast Mortal Strike on cooldown as your primary spender.",
-    "Cast Overpower to generate Rage and buff the damage of your next Mortal Strike.",
-    "Cast Bladestorm as a filler during Colossus Smash if your primary rotational abilities are on cooldown.",
-    "Cast Wrecking Throw as a filler in single-target situations if no other priority abilities are available.",
-    "Use Slam as a low-priority filler when you have excess Rage.",
-    "Use offensive Trinkets and Racials (like Berserking or Blood Fury) during the Avatar and Colossus Smash window."
+    "Use offensive trinkets and racial buffs (like Berserking or Blood Fury) during the Colossus Smash window.",
+    "Cast Demolish while Colossus Smash is active and you have stacks of Colossal Might.",
+    "When the target is in Execute range (<35% HP with Massacre), cast Mortal Strike only if you have 2 stacks of Executioner's Precision or a Battlelord proc.",
+    "When the target is in Execute range, prioritize casting Execute as your main Rage spender.",
+    "Outside of Execute range, cast Execute immediately whenever Sudden Death procs.",
+    "Cast Mortal Strike on cooldown.",
+    "Cast Overpower on cooldown.",
+    "Cast Wrecking Throw if no other high-priority abilities are available.",
+    "Cast Slam as a filler to spend excess Rage when all other abilities are on cooldown."
   ]
 }

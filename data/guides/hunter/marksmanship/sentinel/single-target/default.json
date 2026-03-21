@@ -4,18 +4,17 @@
   "heroSpec": "Sentinel",
   "buildName": "default",
   "priorityList": [
-    "Summon your pet if you have the Unbreakable Bond talent.",
-    "Cast Aimed Shot as your primary opener before entering combat.",
-    "Use Volley on cooldown to trigger Sentinel's Symphony and other hero talent effects.",
-    "Use Trueshot on cooldown, ideally immediately following a Volley cast.",
-    "Activate offensive Racials (like Berserking or Blood Fury) and on-use Trinkets while Trueshot is active.",
-    "Use your Combat Potion during Trueshot, especially if Bloodlust is active or the fight is ending.",
-    "Cast Rapid Fire if the Unload talent is active and the target is below 20% health or you have low stacks of Bulletstorm.",
-    "Cast Arcane Shot to spend Precise Shots procs.",
-    "Cast Aimed Shot if you are about to cap at 2 charges or if the target has Sentinel's Mark applied.",
-    "Avoid casting Aimed Shot if Volley is coming off cooldown in less than 2 seconds, unless Trueshot is active.",
+    "Pre-cast Aimed Shot and Steady Shot before combat begins.",
+    "Cast Volley on cooldown.",
+    "Activate Trueshot when available, ideally coinciding with Volley.",
+    "Use offensive racial abilities and combat potions during Trueshot.",
+    "Use on-use trinkets during Trueshot or when Trueshot has more than 20 seconds remaining on its cooldown.",
+    "Cast Rapid Fire if you have the Unload talent and either (Precise Shots is active with fewer than 10 Bulletstorm stacks) or the target is below 20% health.",
+    "Cast Arcane Shot to consume Precise Shots stacks.",
+    "Cast Rapid Fire if your Bulletstorm buff will expire before you can finish an Aimed Shot cast.",
+    "Cast Aimed Shot when Volley is on cooldown (longer than 2 seconds) or during Trueshot, prioritizing targets with Sentinel's Mark.",
     "Cast Moonlight Chakram on cooldown.",
-    "Cast Rapid Fire on cooldown to generate Focus.",
-    "Cast Steady Shot as a filler when you have no other available abilities and need to generate Focus."
+    "Cast Rapid Fire on cooldown.",
+    "Cast Steady Shot if you need to generate Focus or have no other abilities available."
   ]
 }

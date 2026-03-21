@@ -4,17 +4,17 @@
   "heroSpec": "Frostfire",
   "buildName": "default",
   "priorityList": [
-    "Pre-cast Arcane Intellect and Mirror Image before combat.",
-    "Activate Combustion at the end of a Frostfire Bolt or Pyroblast cast when it is ready.",
-    "Use Trinkets, Potions, and Racials while Combustion is active, ideally when more than 6 seconds remain.",
-    "Cast Meteor while Combustion is active or as a lead-in when Combustion is about to become ready.",
-    "Spend Hot Streak procs on Pyroblast.",
-    "Use Fire Blast off-GCD while casting to convert Heating Up into a Hot Streak.",
-    "Do not use Fire Blast if you already have a Hot Streak active or have a crit-guaranteed spell in flight.",
-    "Use Scorch whenever Heat Shimmer is active.",
-    "Use Scorch as your filler instead of Frostfire Bolt if the target is below 30% health and you have the Scald talent.",
-    "During Combustion, cast Pyroclasm-empowered Pyroblasts only if the cast will finish before Combustion expires.",
-    "Outside of Combustion, spend Pyroclasm stacks on Pyroblast if you reach 2 stacks or if the Combustion cooldown is longer than 12 seconds.",
-    "Use Frostfire Bolt as your primary filler spell outside of the target's execute range."
+    "Pre-combat: Buff Arcane Intellect, cast Mirror Image, and pre-cast Frostfire Bolt.",
+    "Activate Combustion while finishing a Fireball or Pyroblast cast, or immediately after casting Meteor.",
+    "Use offensive Trinkets, Potions, and Racials (like Berserking or Blood Fury) during Combustion.",
+    "During Combustion, cast Meteor (ideally while Combustion has more than 2 seconds remaining).",
+    "Spend Hot Streak procs on Pyroblast instantly.",
+    "Use Fire Blast off-GCD during Combustion or Hyperthermia to convert Heating Up into Hot Streak.",
+    "Cast Pyroblast when Pyroclasm is active, provided you do not have a Hot Streak proc.",
+    "In the filler phase, cast Meteor if it is available and you are not currently pooling for a Combustion window.",
+    "Use Fire Blast to bridge Heating Up into Hot Streak if your current hard-cast (Fireball or Pyroblast) will not naturally trigger a Hot Streak.",
+    "Spend Pyroclasm stacks on Pyroblast during the filler phase if you have 2 stacks or if Combustion cooldown is longer than 12 seconds.",
+    "Cast Scorch when Heat Shimmer is active or if the target is below 30% health and Scald is talented.",
+    "Use Fireball (or Frostfire Bolt) as your primary filler to generate Heating Up and Hot Streak procs."
   ]
 }

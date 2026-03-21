@@ -62,7 +62,45 @@ export async function analyzeRotation(
         const auras = e.activeAuras.length > 0 ? ` | Buffs: [${e.activeAuras.join(', ')}]` : '';
         return `[${i}] [${e.timestamp}] ${e.spellName}${auras}`;
     }).join('\n');
-    const conciseInstructions = rotation.priorityList.map((str, i) => `${i + 1}. ${str}`).join('\n');
+
+    // Deterministic talent-based pre-filtering:
+    // If we have the player's active talents, strip any priority rule that
+    // explicitly references a talent they don't have. This prevents the AI
+    // from ever seeing irrelevant rules.
+    let filteredPriorityList = rotation.priorityList;
+    if (activeTalents && activeTalents.length > 0) {
+        const talentSet = new Set(activeTalents.map(t => t.toLowerCase()));
+
+        // Also build a set of all spell names the player actually cast
+        const castSpells = new Set(timeline.map(e => e.spellName.toLowerCase()));
+
+        // Talent-gated spells: if a rule mentions one of these by name and the
+        // player both (a) doesn't have it talented AND (b) never cast it, drop the rule.
+        filteredPriorityList = rotation.priorityList.filter(rule => {
+            const ruleLower = rule.toLowerCase();
+
+            // Extract potential spell/talent names from the rule (capitalized multi-word phrases)
+            const mentions = rule.match(/[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*/g) || [];
+            for (const mention of mentions) {
+                const mentionLower = mention.toLowerCase();
+                // Skip common English words
+                if (['Cast', 'Use', 'Activate', 'Ensure', 'Apply', 'During', 'Always', 'Before', 'After', 'Maintain'].includes(mention)) continue;
+                if (mention.length <= 3) continue;
+
+                // If the mention looks like a spell name and the player never cast it
+                // and it's not in their talent list, likely irrelevant
+                if (!castSpells.has(mentionLower) && !talentSet.has(mentionLower)) {
+                    // Only filter if the rule is specifically about casting this spell
+                    if (ruleLower.includes(`cast ${mentionLower}`) || ruleLower.includes(`use ${mentionLower}`) || ruleLower.startsWith(mentionLower)) {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        });
+    }
+
+    const conciseInstructions = filteredPriorityList.map((str, i) => `${i + 1}. ${str}`).join('\n');
 
     const prompt = `You are a world-first raider and expert World of Warcraft analyst evaluating a player's combat log against optimal target dummy guidelines.
 Class: ${rotation.classSlug}

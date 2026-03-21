@@ -4,20 +4,19 @@
   "heroSpec": "Templar",
   "buildName": "default",
   "priorityList": [
-    "Use Execution Sentence immediately before casting Wake of Ashes.",
-    "Use Avenging Wrath (or Crusade) on cooldown, ideally when Expurgation is ticking on the target.",
-    "Spend Holy Power if you are at 5 charges or if the Hammer of Light free proc is about to expire.",
-    "Cast Hammer of Light as your highest priority finisher when available.",
-    "Cast Divine Storm as a finisher only if Empyrean Power is active.",
-    "Cast Templar's Verdict as your standard Holy Power finisher.",
-    "Cast Wake of Ashes if Avenging Wrath is active or has more than 6 seconds remaining on cooldown.",
-    "Cast Divine Toll on cooldown, ideally synchronized with Avenging Wrath.",
-    "Cast Hammer of Wrath as a high-priority generator if the Walk into Light talent is active.",
-    "Cast Blade of Justice if Art of War or Righteous Cause procs.",
+    "Use Avenging Wrath on cooldown, or allow Wake of Ashes to trigger it if the Radiant Glory talent is active.",
+    "Cast Execution Sentence immediately before using Wake of Ashes, provided the target will survive for the duration.",
+    "Cast Wake of Ashes on cooldown to generate Holy Power and enable the use of Hammer of Light.",
+    "Cast Hammer of Light as your highest priority finisher whenever it is available.",
+    "Cast Templar's Verdict as your primary Holy Power spender when at 5 Holy Power or to avoid overcapping.",
+    "Cast Divine Storm only when the Empyrean Power buff is active in single-target situations.",
+    "Cast Divine Toll on cooldown, ideally during Avenging Wrath windows.",
+    "Cast Blade of Justice whenever Art of War or Righteous Cause procs.",
+    "Cast Hammer of Wrath whenever available, especially during Avenging Wrath or against low-health targets.",
     "Cast Blade of Justice to generate Holy Power.",
-    "Cast Hammer of Wrath to generate Holy Power.",
-    "Cast Judgment to generate Holy Power and apply its debuff.",
-    "Cast Templar Strike, Templar Slash, or Crusader Strike as filler generators.",
-    "Use offensive trinkets and potions during Avenging Wrath or when Execution Sentence is active."
+    "Cast Judgment to generate Holy Power and maintain its damage-taken debuff on the target.",
+    "Use Templar Strike and Templar Slash (or Crusader Strike) as filler generators when other abilities are on cooldown.",
+    "Use offensive trinkets and combat potions during Avenging Wrath windows for maximum burst.",
+    "Use racial damage abilities, such as Fireblood or Light's Judgment, on cooldown during burst phases."
   ]
 }

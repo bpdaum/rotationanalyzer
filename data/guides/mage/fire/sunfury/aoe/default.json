@@ -4,19 +4,19 @@
   "heroSpec": "Sunfury",
   "buildName": "default",
   "priorityList": [
-    "Keep Arcane Intellect active and cast Mirror Image before entering combat.",
-    "Activate Combustion while finishing a cast (Scorch, Fireball, or Flamestrike) or immediately after a Meteor lands.",
+    "Apply Arcane Intellect and cast Mirror Image before combat begins.",
+    "Activate Combustion while finishing a cast (Scorch, Fireball, Meteor, or Flamestrike) when your major cooldowns are ready.",
     "Use offensive Trinkets, Racials, and Potions while Combustion is active, ideally with more than 6 seconds remaining.",
-    "Cast Meteor during Combustion if it has at least 2 seconds remaining, or when Combustion is about to become available to trigger Sunfury effects.",
-    "Spend Hot Streak procs on Flamestrike if there are 4 or more targets (3 or more outside of Combustion) and you have the Fuel the Fire talent.",
-    "Spend Hot Streak procs on Pyroblast if you are against fewer than 4 targets or Fuel the Fire is not talented.",
-    "During Hyperthermia procs, spam Flamestrike if 4 or more targets are present, otherwise spam Pyroblast.",
-    "Use Pyroclasm procs on Flamestrike (4+ targets) or Pyroblast if Combustion has more than 12 seconds remaining on cooldown or you have 2 stacks.",
-    "Use Fire Blast to convert Heating Up into a Hot Streak while mid-cast of another spell.",
-    "Do not use Fire Blast if you already have a Hot Streak proc ready or if you are currently casting a spell that will consume the Heating Up.",
-    "Use Scorch as your primary filler during Combustion to maximize ignite and generate procs.",
-    "Use Scorch as your filler outside of Combustion if the target is below 30% health or if Heat Shimmer procs.",
-    "Use Scorch as your filler in AoE (4+ targets) even when above 30% health to benefit from Sunfury mechanics.",
-    "Cast Fireball as your default filler when targets are above 30% health and no other procs or priorities are active."
+    "Cast Meteor during Combustion if it has more than 2 seconds remaining, or when 4+ targets are present to sync with Combustion.",
+    "Spend Hot Streak procs on Flamestrike if there are 4 or more targets present.",
+    "Spend Hot Streak procs on Pyroblast if there are fewer than 4 targets present.",
+    "Spend Pyroclasm procs on Flamestrike (4+ targets) or Pyroblast (fewer than 4 targets) when Combustion is down or at 2 stacks of the buff.",
+    "During Hyperthermia procs, spam Flamestrike if 4+ targets are present, otherwise spam Pyroblast.",
+    "Use Scorch as your filler and for Heating Up generation if targets are below 30% health (with Scald) or if 4+ targets are present during Combustion.",
+    "Use Fire Blast off-GCD to convert Heating Up into Hot Streak, prioritizing use during Combustion or when a hard-cast spell is mid-flight.",
+    "Use Scorch whenever Heat Shimmer is active.",
+    "Cast Fireball as your primary filler to generate Heating Up when not in Scorch execute range.",
+    "If Firestarter is talented and the target is above 90% health, prioritize Pyroblast to consume Hot Streaks.",
+    "Prioritize hard-casting Flamestrike over Fireball if you have a Pyroclasm proc and Combustion is not active."
   ]
 }

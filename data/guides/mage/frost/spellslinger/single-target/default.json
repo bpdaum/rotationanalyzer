@@ -4,18 +4,19 @@
   "heroSpec": "Spellslinger",
   "buildName": "default",
   "priorityList": [
-    "Cast Arcane Intellect before combat begins.",
-    "Pre-cast Glacial Spike or Frostbolt immediately before the pull.",
-    "Use offensive Trinkets, Potions, and Racials alongside Frozen Orb or Ray of Frost to maximize burst windows.",
-    "Cast Comet Storm if the Splinterstorm buff is not active on you.",
-    "Cast Flurry if Brain Freeze is active, unless the Thermal Void buff is currently active.",
-    "Cast Frozen Orb on cooldown to generate resources and splinters.",
-    "Cast Ice Lance if you have the Fingers of Frost proc active.",
-    "Cast Glacial Spike whenever it is available (at 5 Icicles).",
-    "Cast Ice Lance if the target has 6 or more stacks of the Freezing (Winter's Chill) debuff.",
+    "Maintain Arcane Intellect and pre-cast Glacial Spike and Frostbolt before combat begins.",
+    "Use offensive Trinkets, Potions, and Racial cooldowns alongside Frozen Orb or Ray of Frost.",
+    "Cast Comet Storm if the Splinterstorm buff is not active.",
+    "Cast Flurry if Brain Freeze is active and Thermal Void is not active.",
+    "Cast Frozen Orb on cooldown.",
+    "Cast Ice Lance if you have Fingers of Frost active.",
+    "Cast Glacial Spike as soon as you have 5 Icicles.",
+    "Cast Ice Lance if the target has 6 or more stacks of the Freezing debuff.",
     "Cast Ray of Frost on cooldown.",
-    "Cast Flurry if charges are available to apply Winter's Chill to the target.",
-    "If forced to move, use Blink to maintain casting; otherwise, use Ice Nova, Cone of Cold, or Ice Lance.",
-    "Cast Frostbolt as your primary filler to generate Icicles and Brain Freeze procs."
+    "Cast Flurry if you have a charge available and no Brain Freeze proc.",
+    "Cast Frostbolt as your main filler to generate Icicles and Brain Freeze procs.",
+    "Use Blink or Shimmer for movement to maintain casting uptime.",
+    "Use Ice Nova or Cone of Cold (if talented into Cone of Frost) when forced to move.",
+    "Use Ice Lance as a last resort filler spell while moving."
   ]
 }

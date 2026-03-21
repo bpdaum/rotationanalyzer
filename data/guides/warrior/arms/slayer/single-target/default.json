@@ -4,18 +4,20 @@
   "heroSpec": "Slayer",
   "buildName": "default",
   "priorityList": [
-    "Interrupt with Pummel whenever the target is casting.",
-    "Use Avatar and Colossus Smash on cooldown, ideally synchronized for maximum burst.",
-    "Cast Ravager when Colossus Smash has 1.5 seconds or less remaining on its cooldown.",
-    "Cast Champion's Spear while either Colossus Smash or Avatar is active on the target.",
-    "Cast Bladestorm while the Colossus Smash debuff is active on the target to maximize Slayer procs.",
-    "When the target is above 35% health, cast Mortal Strike on cooldown.",
-    "In Execute range (target below 35% health), cast Mortal Strike only if you have 2 stacks of Executioner's Precision or Colossus Smash is active.",
-    "Cast Execute whenever Sudden Death procs.",
-    "In Execute range, cast Overpower if the Opportunist buff is active.",
-    "In Execute range, cast Execute if you have 40 or more Rage to maximize damage per hit.",
-    "Cast Overpower to generate Rage and build Martial Prowess stacks.",
-    "Maintain the Rend bleed on the target, refreshing when it has less than 5 seconds remaining (or 2 seconds during Execute).",
-    "Use Slam as a filler if you have excess Rage and no other abilities are available."
+    "Charge into combat and use Pummel to interrupt spellcasting.",
+    "Use Avatar on cooldown, ideally synchronized with other major offensive abilities.",
+    "Cast Colossus Smash on cooldown to maintain its damage vulnerability on the target.",
+    "Use Bladestorm only while the Colossus Smash debuff is active on the target.",
+    "Cast Champion's Spear while Colossus Smash or Avatar is active to maximize damage.",
+    "Use Ravager when Colossus Smash has 1.5 seconds or less remaining on its cooldown.",
+    "Use Execute whenever Sudden Death procs, regardless of target health.",
+    "During Execute Phase (target below 20% or 35% health), cast Mortal Strike if you have 2 stacks of Executioner's Precision or Colossus Smash is up.",
+    "During Execute Phase, cast Execute if you have more than 40 Rage.",
+    "During Execute Phase, use Overpower to generate Rage and build Executioner's Precision stacks.",
+    "Maintain the Rend bleed on the target, refreshing it when there are 5 seconds or less remaining.",
+    "Cast Mortal Strike on cooldown as your primary damage dealer outside of Execute Phase.",
+    "Cast Overpower to buff your next Mortal Strike or Execute.",
+    "Use Wrecking Throw if it is available and you have no higher priority actions.",
+    "Use Slam as your final filler if you have excess Rage and all other abilities are on cooldown."
   ]
 }

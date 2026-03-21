@@ -4,19 +4,20 @@
   "heroSpec": "Druid of the Claw",
   "buildName": "default",
   "priorityList": [
-    "Use Tiger's Fury on cooldown, ideally when energy is low and not capped.",
-    "Use Berserk (or Incarnation: King of the Jungle) as your primary offensive cooldown, preferably paired with Tiger's Fury.",
-    "Use Feral Frenzy (or Frantic Frenzy) if you have 2 or fewer Combo Points.",
-    "Cast Convoke the Spirits while Tiger's Fury is active and you have 2 or fewer Combo Points.",
-    "Cast Ravage (via the Chomp/Ravage proc) whenever the buff is active.",
-    "Use Ferocious Bite immediately if Apex Predator's Craving procs.",
-    "At 5 Combo Points, cast Rip if the bleed is missing or has less than 4 seconds remaining.",
-    "At 5 Combo Points, cast Ferocious Bite as your primary finisher.",
-    "Maintain Rake on your target, refreshing it when it has less than 4 seconds remaining or if you are in Stealth/Shadowmeld.",
-    "Maintain Moonfire on the target if you have the Lunar Inspiration talent.",
+    "Enter Cat Form and Prowl before combat.",
+    "Use Tiger's Fury on cooldown, ensuring it is active before using major cooldowns or builders.",
+    "Cast Rake from Prowl or Shadowmeld to apply an empowered bleed to start combat.",
+    "Cast Ravage (Chomp) whenever the Chomp Enabler buff is active.",
+    "Use Ferocious Bite immediately when Apex Predator's Craving procs.",
+    "Activate Berserk or Incarnation: King of the Jungle while Tiger's Fury is active.",
+    "Cast Feral Frenzy or Frantic Frenzy when at 2 or fewer Combo Points while Tiger's Fury is active.",
+    "Use Convoke the Spirits while Tiger's Fury is active, preferably after a finisher when at 0-2 Combo Points.",
+    "Spend 4 or more Combo Points on Rip if the bleed is refreshable and Tiger's Fury is active.",
+    "Spend 5 Combo Points on Ferocious Bite as your primary finisher.",
+    "Use Shadowmeld to refresh Rake if it is refreshable to benefit from the stealth damage bonus.",
+    "Maintain Rake on the target, refreshing when it has less than 4 seconds remaining.",
+    "Maintain Moonfire on the target if talented into Lunar Inspiration.",
     "Use Shred as your primary builder to generate Combo Points.",
-    "Use Shadowmeld (if Night Elf) to access a stealth-buffed Rake application when the current Rake is weak or expiring.",
-    "Cast Regrowth when Predatory Swiftness is active to avoid wasting the proc.",
-    "Use any active DPS trinkets during Berserk or Tiger's Fury windows for maximum benefit."
+    "Use Regrowth with Predatory Swiftness procs if configured for survival or Bloodtalons maintenance."
   ]
 }

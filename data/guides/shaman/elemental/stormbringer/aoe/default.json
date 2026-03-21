@@ -4,18 +4,20 @@
   "heroSpec": "Stormbringer",
   "buildName": "default",
   "priorityList": [
-    "Maintain Lightning Shield, Flametongue Weapon, and Thunderstrike Ward buffs at all times.",
-    "Use Stormkeeper on cooldown, but avoid overlapping it with the start of Ascendance.",
-    "Cast Ascendance as your primary offensive cooldown, provided Stormkeeper is not immediately available.",
-    "Use Ancestral Swiftness and Trinkets/Potions alongside your major cooldowns.",
-    "Cast Voltaic Blaze (from Purging Flames/Surge of Power) to spread Flame Shock or when Master of Elements is down.",
-    "Cast Tempest if Master of Elements is active for maximum damage.",
-    "Cast Tempest immediately if you have 2 stacks available to prevent overcapping.",
-    "Cast Earthquake as your primary Maelstrom spender on 3 or more targets.",
-    "Cast Elemental Blast as a secondary Maelstrom spender (if talented), targeting enemies without Lightning Rod.",
-    "Cast Lava Burst if Voltaic Blaze is available or to consume Lava Surge procs when Master of Elements is needed.",
-    "Use Stormkeeper-empowered Chain Lightning to rapidly generate Maelstrom.",
-    "Cast Chain Lightning as your primary filler and builder on 3 or more targets.",
-    "Use Flame Shock, Voltaic Blaze, or Frost Shock while moving if Spiritwalker's Grace is unavailable."
+    "Maintain Lightning Shield, Flametongue Weapon, and Thunderstrike Ward at all times.",
+    "Use Stormkeeper before combat or whenever Ascendance cooldown is longer than 10 seconds.",
+    "Use Ancestral Swiftness on cooldown.",
+    "Cast Ascendance if Stormkeeper has more than 15 seconds remaining on its cooldown.",
+    "Cast Voltaic Blaze if Master of the Elements is not active and Flame Shock needs refreshing, or if Purging Flames is active.",
+    "Spend Maelstrom on Earthquake as your primary spender against 3 or more targets, especially to apply Lightning Rod.",
+    "Cast Elemental Blast on targets without Lightning Rod if you have fewer than 2 stacks of Tempest (at exactly 3 targets).",
+    "Use Lava Burst when Purging Flames is active or to trigger Master of the Elements for an upcoming Tempest.",
+    "Cast Tempest if you have the Master of the Elements buff to maximize its damage.",
+    "Cast Tempest if you have reached 2 stacks of the Tempest buff to avoid overcapping.",
+    "Use Stormkeeper-empowered Chain Lightning when you have significant room for Maelstrom generation.",
+    "Cast Earthquake to avoid capping Maelstrom (if not talented into Elemental Blast).",
+    "Cast Elemental Blast as a secondary Maelstrom spender.",
+    "Cast Tempest whenever it becomes available as your highest priority spender/generator.",
+    "Use Chain Lightning as your primary filler and Maelstrom generator in AoE situations."
   ]
 }

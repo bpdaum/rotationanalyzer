@@ -4,18 +4,18 @@
   "heroSpec": "Soul Harvester",
   "buildName": "default",
   "priorityList": [
-    "Cast Haunt if you have fewer than 2 stacks of Nightfall.",
-    "Cast Seed of Corruption if Corruption is not ticking or is about to expire on your main target.",
-    "Use Dark Harvest on cooldown.",
-    "Maintain Agony on up to 5 targets, prioritizing those with less than 5 seconds remaining.",
+    "Cast Seed of Corruption pre-combat or to apply and refresh Corruption on all targets.",
+    "Maintain Haunt on your primary target at all times.",
+    "Cast Dark Harvest on cooldown.",
+    "Maintain Agony on all targets (up to 5 targets in heavy AoE), prioritizing refreshes when duration is under 5 seconds.",
     "Summon Darkglare on cooldown.",
-    "Spend Soul Shards on Seed of Corruption if you have the Sow the Seeds talent.",
-    "Spend Soul Shards on Unstable Affliction if Sow the Seeds is not talented.",
-    "Use Nightfall procs via Drain Soul (or Shadow Bolt) if you are at max stacks (2) or the buff is about to expire.",
-    "Refresh Agony on targets if the remaining duration is less than 50% of its total duration.",
-    "Cast Malefic Grasp (if talented) while Darkglare is active to maximize its benefit.",
-    "Use Drain Soul (or Shadow Bolt) as your primary filler when no other high-priority actions are available.",
-    "Use combat potions and racial abilities (like Berserking or Blood Fury) whenever Darkglare is active.",
-    "In pre-combat, ensure your pet is summoned and pre-cast Seed of Corruption to spread dots instantly."
+    "In AoE (3+ targets), spend Soul Shards on Seed of Corruption if Sow the Seeds is talented.",
+    "In Cleave (2 targets) or if Sow the Seeds is not talented, spend Soul Shards on Unstable Affliction.",
+    "Use Malefic Grasp, Drain Soul, or Shadow Bolt whenever you have 2 or more stacks of Nightfall.",
+    "Cast Malefic Grasp immediately if Darkglare is about to expire to maximize its benefit.",
+    "Cast Unstable Affliction if Shard Instability is active, even in AoE scenarios.",
+    "Refresh Agony on any target if its remaining duration is less than 50% of its total length.",
+    "Activate offensive cooldowns, including trinkets, potions, and racials (like Berserking or Blood Fury), while Darkglare is active.",
+    "Use Drain Soul or Shadow Bolt as your filler when you have no other priority actions and Nightfall is not at high stacks."
   ]
 }

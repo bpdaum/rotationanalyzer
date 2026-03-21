@@ -5,19 +5,18 @@
   "buildName": "default",
   "priorityList": [
     "Apply poisons and enter Stealth before combat.",
-    "Use Shadow Blades when Shadow Dance and Secret Technique are both ready.",
-    "Use Shadow Dance if Secret Technique is ready or if Darkest Night is active (ensure at least 30 Energy).",
-    "Use Vanish to generate Combo Points if not in Stealth and at 1 or 0 Combo Points.",
-    "Use Shadowstrike if Darkest Night is active and Shadow Techniques has 5+ stacks to maximize Combo Point generation.",
-    "Spend Combo Points at maximum (6-7) or 1 less than maximum if Darkest Night is active.",
-    "Use Secret Technique as your priority finisher if Shadow Dance is active.",
-    "Use Eviscerate as a finisher if Darkest Night is active.",
-    "Use Coup de Grace as a finisher if Shadow Dance is active or if Secret Technique is on cooldown (>= 3s).",
-    "Use Eviscerate as a finisher if Shadow Dance/Shadow Blades is active or if Secret Technique is on cooldown (>= 3s).",
-    "Use Shadowstrike as your primary builder while Stealthed or during Shadow Dance.",
-    "Use Goremaw's Bite if you need 3 or more Combo Points.",
-    "Use Gloomblade (or Backstab) to build Combo Points when not in Stealth or Shadow Dance.",
-    "Use offensive trinkets and racial abilities during Shadow Blades and Shadow Dance windows.",
-    "Use Arcane Torrent if energy is low to help smooth the rotation."
+    "Use Shadow Blades when Shadow Dance and Secret Technique are both ready and you are at low Combo Points.",
+    "Cast Shadow Dance if not in Stealth, provided you have low Combo Points and either Secret Technique is ready or Darkest Night is active.",
+    "Use Vanish if not in Stealth and at 1 or fewer Combo Points to generate resources and enable Stealth abilities.",
+    "Cast Shadowstrike when Darkest Night is active and Shadow Techniques has 5 or more stacks to trigger Unseen Blade.",
+    "Spend Combo Points on finishers when at max capacity if Darkest Night is active, or at max minus 1 if it is not.",
+    "Cast Secret Technique as your top priority finisher during Shadow Dance, or if it will be available again before the next Shadow Dance.",
+    "Cast Eviscerate as a priority finisher whenever the Darkest Night buff is active.",
+    "Cast Coup de Grace as a finisher if Secret Technique is on cooldown or if Shadow Dance is active.",
+    "Cast Eviscerate as a general finisher if other high-priority finishers are unavailable.",
+    "Cast Shadowstrike as your primary builder while Stealthed or during Shadow Dance.",
+    "Use Goremaw's Bite as a builder if you have a deficit of 3 or more Combo Points.",
+    "Cast Gloomblade (or Backstab) as your primary builder when not in Stealth or Shadow Dance.",
+    "Sync on-use trinkets and offensive racials with your Shadow Blades and Shadow Dance windows."
   ]
 }

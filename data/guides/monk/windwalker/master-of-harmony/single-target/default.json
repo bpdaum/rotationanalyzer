@@ -4,20 +4,20 @@
   "heroSpec": "Master of Harmony",
   "buildName": "default",
   "priorityList": [
-    "Never use the same offensive ability twice in a row to maintain your Mastery: Combo Strikes.",
-    "Cast Invoke Xuen the White Tiger on cooldown, ideally when Zenith is ready or the target will live at least 25 seconds.",
-    "Cast Zenith while Xuen is active or during Bloodlust to maximize Coalescence and Vitality generation.",
-    "Cast Celestial Conduit while the Zenith buff is active, ideally when your main strikes (RSK and FoF) are on cooldown.",
-    "Cast Whirling Dragon Punch as soon as it becomes available (requires both Rising Sun Kick and Fists of Fury to be on cooldown).",
+    "Always maintain Combo Strikes by never casting the same ability twice in a row.",
+    "Invoke Xuen the White Tiger when Zenith is available or active to maximize burst synergy.",
+    "Cast Zenith when Xuen is active, during Bloodlust, or when Rising Sun Kick is on cooldown.",
+    "Use Celestial Conduit during Zenith windows when Rising Sun Kick, Fists of Fury, and Strike of the Windlord are on cooldown.",
+    "Cast Whirling Dragon Punch on cooldown, especially during Zenith or when Xuen is on cooldown.",
+    "Use Fists of Fury when at 30 stacks of Flurry Charge or during Heart of the Jade Serpent and Bloodlust windows.",
     "Cast Rushing Wind Kick on cooldown.",
-    "Cast Strike of the Windlord on cooldown, especially while Heart of the Jade Serpent or Zenith buffs are active.",
+    "Cast Strike of the Windlord on cooldown, prioritizing its use during Zenith windows.",
     "Cast Rising Sun Kick on cooldown as your primary Chi spender.",
-    "Cast Fists of Fury on cooldown, or immediately if you reach 30 stacks of Flurry Charge.",
-    "Cast Touch of Death on targets below 15% health (or to execute) unless Zenith is currently active.",
-    "Cast Spinning Crane Kick only when the Dance of Chi-Ji proc is active.",
-    "Cast Blackout Kick if you have a Combo Breaker proc or if you need to spend excess Chi to avoid overcapping.",
-    "Cast Tiger Palm to generate Chi only if you have 3 or less Chi and are nearing maximum Energy.",
-    "Cast Slicing Winds as a high-priority filler if available.",
-    "Use offensive Trinkets and Racial abilities during your Xuen or Zenith windows for maximum burst impact."
+    "Use Spinning Crane Kick when Dance of Chi-Ji is active or to consume Sequenced Strikes procs.",
+    "Use Blackout Kick with Combo Breaker procs or to spend Chi when near the maximum cap.",
+    "Use Tiger Palm to generate Chi if you have less than 4 Chi and are about to cap Energy.",
+    "Use Touch of Death on cooldown, unless Zenith is currently active.",
+    "Use Slicing Winds as a filler if all other rotational abilities are on cooldown.",
+    "Use offensive Racials, Potions, and Trinkets in alignment with Xuen and Zenith windows."
   ]
 }

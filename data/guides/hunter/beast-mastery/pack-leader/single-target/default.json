@@ -4,13 +4,14 @@
   "heroSpec": "Pack Leader",
   "buildName": "default",
   "priorityList": [
-    "Summon your pet and use any long-duration stat-enhancing trinkets before combat begins.",
-    "Cast Bestial Wrath on cooldown.",
-    "Cast Barbed Shot if Bestial Wrath has less than 1.5 seconds remaining on its cooldown to maximize the cooldown reduction from the Wild Instincts talent.",
-    "Activate offensive trinkets, racial abilities, and potions specifically during the Bestial Wrath window.",
-    "Prioritize Kill Command as your primary attack, especially when the Pack Leader's Nature's Ally buff is active or Howl is ready.",
-    "Use Barbed Shot to maintain 3 stacks of Frenzy on your pet at all times.",
-    "Cast Barbed Shot if the ability is about to reach 2 full charges to prevent wasting cooldown time.",
-    "Cast Cobra Shot as a filler only when Kill Command is on cooldown and you have enough Focus to avoid capping."
+    "Ensure your pet is summoned before combat starts.",
+    "Cast Bestial Wrath as your primary offensive cooldown whenever available.",
+    "Combine Bestial Wrath with racial abilities like Berserking, Blood Fury, or Fireblood.",
+    "Use offensive potions and on-use trinkets (e.g., Algethar Puzzle Box, Light Company Guidon) during Bestial Wrath windows.",
+    "Cast Barbed Shot if Bestial Wrath is about to come off cooldown (less than 1 GCD remaining) to maximize cooldown reduction.",
+    "Cast Kill Command as your highest priority filler, especially when Pack Leader buffs like Nature's Ally are active or Howl of the Pack is ready.",
+    "Cast Kill Command if it is not currently benefitting from an Apex Predator proc.",
+    "Cast Barbed Shot to maintain pet Frenzy stacks and continue reducing the cooldown of Bestial Wrath.",
+    "Cast Cobra Shot as a filler when Kill Command is on cooldown and you have available Focus."
   ]
 }

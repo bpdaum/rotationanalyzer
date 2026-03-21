@@ -4,19 +4,20 @@
   "heroSpec": "San'layn",
   "buildName": "default",
   "priorityList": [
-    "Maintain Virulent Plague on all targets using Outbreak.",
-    "Cast Death and Decay (or Desecrate) if it is not currently active on the ground.",
-    "Cast Army of the Dead when your major cooldowns are ready or during Festering Scythe windows.",
-    "Cast Dark Transformation as often as possible, ideally synced with Army of the Dead.",
-    "Use on-use trinkets, potions, and racial abilities during Dark Transformation or while your Ghoul Army is active.",
+    "Summon your ghoul with Raise Dead before combat starts.",
+    "Maintain Virulent Plague on all targets using Outbreak if it has fewer than 3 ticks remaining.",
+    "Cast Army of the Dead when your main cooldowns are ready, ideally with 30+ Runic Power.",
+    "Use Dark Transformation while Army of the Dead is active or whenever it is off cooldown.",
+    "Place Death and Decay (or Desecrate) if it is not already active on the ground.",
+    "If Festering Scythe is talented, use Festering Strike to maintain the Festering Scythe debuff.",
+    "Cast Epidemic to spend Runic Power if you have fewer than 2 Runes available or a Sudden Doom proc.",
+    "Use Festering Strike if you have zero stacks of Lesser Ghoul Ready.",
+    "Cast Scourge Strike whenever you have at least one stack of Lesser Ghoul Ready to summon a ghoul.",
+    "Use Putrefy as a high priority for AoE damage and San'layn talent synergy.",
     "Cast Soul Reaper on targets below 35% health.",
-    "Cast Putrefy if you are at max charges or if Dark Transformation has more than 15 seconds remaining on cooldown.",
-    "Cast Festering Strike if Festering Scythe is talented and needs to be applied or is about to expire.",
-    "Cast Epidemic to spend Runic Power if you have a Sudden Doom proc or if you have fewer than 2 Runes available.",
-    "Cast Festering Strike if you have 0 stacks of Lesser Ghoul Ready to build resources.",
-    "Cast Scourge Strike (or Clawing Shadows) if you have 1 or more stacks of Lesser Ghoul Ready to summon San'layn ghouls.",
-    "Cast Putrefy as a priority filler to consume charges.",
-    "Cast Epidemic as your primary Runic Power spender in AoE situations (4+ targets).",
-    "Cast Death Coil only if there are fewer than 4 targets and you need to spend Runic Power."
+    "Use Epidemic as your primary Runic Power spender in all 4+ target scenarios.",
+    "Use Death Coil only as a fallback spender if Epidemic priority conditions are not met.",
+    "Activate offensive Trinkets and Racial abilities (like Blood Fury or Berserking) during Dark Transformation.",
+    "Request or use Power Infusion when Dark Transformation or Army of the Dead is active."
   ]
 }

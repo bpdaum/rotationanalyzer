@@ -4,13 +4,17 @@
   "heroSpec": "Sentinel",
   "buildName": "default",
   "priorityList": [
-    "Use all offensive cooldowns (Racials, Potions, and Trinkets) when Bestial Wrath is active.",
-    "Cast Barbed Shot if Bestial Wrath is about to come off cooldown (less than 1 GCD remaining).",
-    "Cast Bestial Wrath on cooldown.",
-    "Cast Kill Command if Nature's Ally (Sentinel Owl) is active or ready to be summoned, unless Bestial Wrath is coming back very soon.",
-    "Cast Kill Command if you have an Apex Predator proc to prevent capping.",
-    "Cast Barbed Shot to maintain 3 stacks of Frenzy on your pet.",
-    "Cast Barbed Shot to avoid capping at 2 charges.",
-    "Cast Cobra Shot as a filler when Kill Command is on cooldown and you have excess Focus."
+    "Summon your pet before combat begins.",
+    "Use Bestial Wrath on cooldown.",
+    "Use Power Infusion and combat potions while Bestial Wrath is active.",
+    "Use racial abilities (Berserking, Blood Fury, Ancestral Call, or Fireblood) during Bestial Wrath.",
+    "Use on-use trinkets like Light Company Guidon, Void Execution Mandate, or Emberwing Feather during Bestial Wrath.",
+    "For trinkets with preparation times like Algethar's Puzzle Box, use them when Bestial Wrath has less than 2 seconds remaining on cooldown.",
+    "Cast Barbed Shot if Bestial Wrath is about to come off cooldown (less than 1.5 seconds) to ensure maximum cooldown reduction.",
+    "Prioritize Kill Command while the Sentinel-specific Nature's Ally buff is active.",
+    "Cast Kill Command if you have an Apex Predator proc available.",
+    "Cast Kill Command as long as Bestial Wrath is not immediately about to reach its full charge count.",
+    "Cast Barbed Shot to maintain pet Frenzy stacks and to reduce the remaining cooldown on Bestial Wrath.",
+    "Cast Cobra Shot as a filler when Kill Command and Barbed Shot are unavailable."
   ]
 }

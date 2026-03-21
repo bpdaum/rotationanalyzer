@@ -4,18 +4,19 @@
   "heroSpec": "Hellcaller",
   "buildName": "default",
   "priorityList": [
-    "Cast Haunt on cooldown.",
-    "Maintain Agony on your target at all times, ensuring it is refreshed just before summoning your Darkglare.",
-    "Maintain Wither on your target at all times.",
-    "Cast Dark Harvest on cooldown, provided your primary DoTs (Agony and Wither) are active.",
-    "Cast Summon Darkglare on cooldown.",
-    "Cast Malevolence on cooldown.",
-    "Cast Unstable Affliction while Summon Darkglare or Malevolence is active to maximize burst damage.",
-    "Cast Unstable Affliction to avoid reaching maximum Soul Shards (5).",
-    "Cast Unstable Affliction if Shard Instability is active or if the Cascading Calamity buff is about to expire.",
-    "Use Nightfall procs for Drain Soul (or Shadow Bolt) immediately if you reach maximum stacks (2).",
-    "Channel Malefic Grasp as your primary filler while Summon Darkglare is active.",
-    "Channel Drain Soul (or cast Shadow Bolt) as your primary filler during all other windows.",
-    "Use offensive trinkets and racial abilities (like Berserking or Blood Fury) during your Summon Darkglare window."
+    "Cast Haunt as your top priority to maintain its debuff on the target.",
+    "Maintain Agony on the target, refreshing it when it is in the refreshable window.",
+    "Maintain Wither on the target, refreshing it when it is in the refreshable window.",
+    "Cast Dark Harvest if your Agony and Wither durations are healthy.",
+    "Summon Darkglare as your primary offensive cooldown.",
+    "Cast Malevolence, ideally while Darkglare is active.",
+    "Use offensive trinkets, potions, and racial abilities while Darkglare is active.",
+    "Spend Soul Shards on Unstable Affliction if you have 5 shards to prevent capping.",
+    "Cast Unstable Affliction if Darkglare or Malevolence is active, or if you have Shard Instability or Cascading Calamity procs.",
+    "Use Malefic Grasp when you have Nightfall procs or if Darkglare is about to expire.",
+    "Use Drain Soul or Shadow Bolt if you have Nightfall procs and Malefic Grasp is not available.",
+    "Use Malefic Grasp as your primary filler spell.",
+    "In the final seconds of a fight, spend remaining Soul Shards on Unstable Affliction.",
+    "In the final seconds of a fight, use any remaining Nightfall procs on Drain Soul or Shadow Bolt."
   ]
 }

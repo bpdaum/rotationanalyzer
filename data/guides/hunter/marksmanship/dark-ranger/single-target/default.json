@@ -4,18 +4,17 @@
   "heroSpec": "Dark Ranger",
   "buildName": "default",
   "priorityList": [
-    "Use Black Arrow as your top priority whenever available.",
-    "Use Trueshot on cooldown, ideally when you are not currently under the effect of Double Tap.",
-    "Cast Rapid Fire if the Unload talent triggers a Kill Shot proc, especially if the target is below 20% health or Bulletstorm stacks are low.",
+    "Initiate combat by casting Aimed Shot followed by Steady Shot.",
+    "Cast Black Arrow on cooldown as your highest priority.",
+    "Use Trueshot whenever available, ideally when the target is at low health or you have maximum Bullseye stacks.",
+    "Use offensive Trinkets, Racial abilities, and Potions while Trueshot is active.",
+    "Cast Rapid Fire if the Unload talent is active and either the target's health is below 20% or you have the No Scope talent.",
     "Spend Precise Shots stacks on Arcane Shot.",
-    "Cast Volley on cooldown to enable Trick Shots synergy.",
-    "Cast Aimed Shot while the Trick Shots buff from Volley is active and Trueshot is not active.",
-    "Cast Aimed Shot to prevent charges from capping at 2.",
+    "Cast Rapid Fire if the Bulletstorm buff duration is shorter than an Aimed Shot cast time.",
+    "Cast Volley on cooldown.",
+    "Cast Aimed Shot as your primary spender and to prevent yourself from capping at 2 charges.",
     "Cast Wailing Arrow on cooldown.",
-    "Cast Rapid Fire on cooldown to generate Focus and maintain the Bulletstorm buff.",
-    "Cast Arcane Shot as a Focus spender to avoid capping your Focus pool.",
-    "Cast Steady Shot as a filler when all other abilities are on cooldown and you need Focus.",
-    "Use offensive racial abilities (like Berserking or Blood Fury) and Combat Potions while Trueshot is active.",
-    "Use on-use Trinkets during Trueshot, especially if the trinket's duration aligns with your Trueshot window."
+    "Cast Rapid Fire on cooldown if not already used for higher-priority procs.",
+    "Use Steady Shot as a filler when you need to generate Focus or have no other abilities available."
   ]
 }

@@ -4,20 +4,20 @@
   "heroSpec": "Deathstalker",
   "buildName": "default",
   "priorityList": [
-    "Maintain poisons and enter Stealth before starting combat.",
-    "Activate Shadow Blades when Shadow Dance and Secret Technique are both ready to be used.",
-    "Activate Shadow Dance if you are out of Stealth, have low combo points, and either Secret Technique is ready or Darkest Night is active.",
-    "Use Vanish to generate combo points and enter Stealth if you have 1 or fewer combo points and 50+ energy.",
-    "Cast Secret Technique as your highest priority finisher during Shadow Dance or if its cooldown is nearly finished.",
-    "Use Shadowstrike to consume the Darkest Night buff if you have 5+ stacks of Shadow Techniques and Secret Technique is not ready.",
-    "Cast Eviscerate as a finisher if the Darkest Night buff is active.",
-    "Use Coup de Grace as a finisher if Secret Technique is on cooldown or Shadow Dance is active.",
-    "Spend combo points on Eviscerate if Secret Technique and Coup de Grace are both unavailable.",
-    "Use finishers only when at 6 or more combo points (wait for 7 combo points if Darkest Night is active).",
+    "Apply poisons and enter Stealth before combat begins.",
+    "Use Shadow Blades when both Shadow Dance and Secret Technique are ready to sync your major burst window.",
+    "Activate Shadow Dance if you are not in stealth and have low combo points, provided Secret Technique is ready or Darkest Night is active.",
+    "Use Vanish to enter stealth and generate builders if you are at 1 or fewer Combo Points and not in a dance.",
+    "Cast Shadowstrike when Darkest Night is active and you have 5 or more stacks of Shadow Techniques, but Secret Technique is on cooldown.",
+    "Cast Secret Technique as your priority finisher whenever Shadow Dance is active.",
+    "Cast Eviscerate as a finisher whenever Darkest Night is active to consume the mark for maximum damage.",
+    "Cast Coup de Grace as a finisher if Secret Technique is on cooldown or Shadow Dance is active.",
+    "Cast Eviscerate as your standard finisher at 5 or more Combo Points if no higher priority finishers are available.",
     "Use Shadowstrike to apply Deathstalker's Mark if the debuff is missing from your target.",
     "Use Shadowstrike as your primary builder while in Stealth or Shadow Dance.",
-    "Use Goremaw's Bite if you have a deficit of 3 or more combo points.",
-    "Use Gloomblade (or Backstab) as your builder when not in Stealth or Shadow Dance and energy is above 60.",
-    "Sync offensive racials and on-use trinkets with your Shadow Blades burst window."
+    "Cast Goremaw's Bite if you have a deficit of at least 3 Combo Points.",
+    "Use Gloomblade (or Backstab) as your filler generator when outside of Stealth or Shadow Dance.",
+    "Sync offensive trinkets and racial bonuses (like Blood Fury or Berserking) with Shadow Blades and Shadow Dance.",
+    "Use Arcane Torrent if you are low on Energy to maintain your rotation."
   ]
 }

@@ -4,18 +4,18 @@
   "heroSpec": "Flameshaper",
   "buildName": "default",
   "priorityList": [
-    "Pre-combat: Cast Verdant Embrace to activate the Scarlet Adaptation buff.",
-    "Cast Dragonrage as your primary burst cooldown when available.",
-    "Use Tip the Scales during Dragonrage for an instant Eternity Surge or Fire Breath.",
-    "Sync Power Infusion, Potions, and offensive Trinkets with your Dragonrage window.",
-    "Cast Eternity Surge at Empower Level 1, but hold it if Dragonrage is available in less than 9 seconds.",
-    "Cast Fire Breath at Empower Level 1, but hold it if Dragonrage is available in less than 9 seconds.",
-    "Spend Essence and Essence Burst procs on Disintegrate; chain the next cast when the current one has 1 tick remaining.",
-    "Cast Living Flame whenever the Burnout proc is active.",
-    "Use Azure Sweep as a filler if the Tier Set bonus (Mid1_2pc) is active.",
-    "Use Living Flame as your primary filler, or while Leaping Flames or Ancient Flame buffs are active.",
-    "Use Azure Strike as a filler only when moving and Hover is unavailable.",
-    "Outside of Dragonrage, cast Emerald Blossom or Verdant Embrace to trigger Ancient Flame and Scarlet Adaptation for the haste and damage buffs.",
-    "Use Quell off-GCD to interrupt enemy spellcasting whenever possible."
+    "Interrupt with Quell when the target is casting.",
+    "Use Dragonrage as your primary DPS cooldown if the target will live for at least 30 seconds.",
+    "Use Potions and Power Infusion while Dragonrage is active.",
+    "Use Tip the Scales during Dragonrage, ideally right before casting Eternity Surge.",
+    "Cast Eternity Surge (Level 1) whenever available.",
+    "Cast Fire Breath (Level 1) if the damage-over-time effect is refreshable.",
+    "Use On-Use Trinkets during Dragonrage, preferably after gaining 4+ stacks of Rising Fury.",
+    "Cast Disintegrate as your main Essence spender; chain your next Disintegrate when only 1 tick remains on the current channel.",
+    "Cast Living Flame when Burnout procs.",
+    "Cast Living Flame if Leaping Flames or Ancient Flame is active.",
+    "Use Verdant Embrace or Emerald Blossom to trigger Ancient Flame and Scarlet Adaptation, provided Dragonrage is not active.",
+    "Use Azure Strike as a filler when moving without Hover or if no other priorities are met.",
+    "Use Hover to maintain mobility and cast while moving."
   ]
 }

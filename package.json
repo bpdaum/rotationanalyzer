@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "update-guides": "npx tsx --env-file=.env.local scripts/update-guides.ts"
+    "update-guides": "npx tsx --env-file=.env.local scripts/update-guides.ts",
+    "validate-guides": "npx tsx scripts/validate-guides.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

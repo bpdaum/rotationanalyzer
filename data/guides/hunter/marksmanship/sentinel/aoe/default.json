@@ -4,15 +4,15 @@
   "heroSpec": "Sentinel",
   "buildName": "default",
   "priorityList": [
-    "Summon your pet if you have the Unbreakable Bond talent.",
-    "Cast Multishot if the Trick Shots buff is missing or if you have Precise Shots stacks to spend.",
-    "When casting Multishot, prioritize targeting enemies that do not have the Sentinel's Mark debuff.",
-    "Cast Rapid Fire if your Bulletstorm buff is about to expire to maintain your stacks.",
-    "Activate Trueshot on cooldown, aligning it with racial abilities, potions, and on-use trinkets.",
-    "Cast Volley on cooldown to immediately gain the Trick Shots effect.",
-    "Cast Aimed Shot when Trick Shots is active, prioritizing the target with the Sentinel's Mark debuff.",
+    "Summon your pet before combat if you have the Unbreakable Bond talent.",
+    "Use offensive racial abilities and combat potions while Trueshot is active to maximize burst damage.",
+    "Sync on-use trinkets with Trueshot, especially the Algethar Puzzle Box if equipped.",
+    "Cast Multi-Shot if the Trick Shots buff is missing or to spend Precise Shots stacks, prioritizing targets without Sentinel's Mark to spread the debuff.",
+    "Use Trueshot on cooldown.",
+    "Cast Volley on cooldown to trigger the Trick Shots effect.",
+    "Cast Aimed Shot while Trick Shots is active, prioritizing targets already afflicted by Sentinel's Mark.",
     "Cast Moonlight Chakram on cooldown.",
-    "Cast Rapid Fire on cooldown, ensuring Trick Shots is active to enable ricochets.",
-    "Cast Steady Shot as a filler to generate Focus."
+    "Cast Rapid Fire while Trick Shots is active, or use it to prevent the Bulletstorm buff from expiring.",
+    "Cast Steady Shot as a filler to generate Focus when no other abilities are available."
   ]
 }

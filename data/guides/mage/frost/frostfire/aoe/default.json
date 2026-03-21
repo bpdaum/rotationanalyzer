@@ -4,17 +4,20 @@
   "heroSpec": "Frostfire",
   "buildName": "default",
   "priorityList": [
-    "Apply Arcane Intellect and pre-cast Blizzard and Glacial Spike before combat begins.",
-    "Use offensive trinkets, potions, and racial cooldowns alongside Frozen Orb or Ray of Frost.",
+    "Pre-combat: Buff Arcane Intellect and prepare to cast Blizzard or Glacial Spike as the pull starts.",
+    "Use offensive Trinkets, Potions, and Racial abilities during Frozen Orb or Ray of Frost windows.",
     "Cast Blizzard immediately whenever the Freezing Rain buff is active.",
-    "Cast Frozen Orb on cooldown as your highest priority resource generator.",
-    "Cast Glacial Spike as a high priority whenever available.",
+    "Cast Frozen Orb on cooldown to generate procs and enable Freezing Rain.",
+    "Cast Glacial Spike as soon as you have 5 Icicles.",
     "Cast Comet Storm on cooldown.",
-    "Use Ice Lance if Fingers of Frost is active or if the target has 10 or more stacks of the Freezing debuff.",
-    "Cast Flurry if Brain Freeze is active (and Thermal Void is not active) or whenever the spell is off cooldown.",
-    "Cast Ray of Frost if you do not have a Frostfire Empowerment proc active.",
-    "Cast Blizzard for 3 or more targets if Frozen Orb is on cooldown.",
-    "Cast Frostbolt as your primary filler to generate Icicles and procs.",
-    "When moving, use Blink/Shimmer to maintain casting, or use Blizzard (with Freezing Rain) and Ice Lance if forced to move."
+    "Use Flurry if you have a Brain Freeze proc (prioritize this when Icy Veins is not active).",
+    "Hardcast Blizzard if 3 or more targets are present and Frozen Orb will not be available soon.",
+    "Use Ice Lance whenever you have Fingers of Frost procs.",
+    "Use Ice Lance if the target has 10 or more stacks of the Freezing debuff.",
+    "Use Flurry whenever it is available to use to apply Winter's Chill.",
+    "Channel Ray of Frost as long as you do not have a Frostfire Empowerment buff active.",
+    "Cast Frostbolt as your primary filler to generate Icicles and Brain Freeze procs.",
+    "When moving, prioritize Blizzard (if Freezing Rain is active), Ice Nova, or Cone of Cold (if talented).",
+    "Use Ice Lance as a filler while moving if no other instant-cast abilities are available."
   ]
 }

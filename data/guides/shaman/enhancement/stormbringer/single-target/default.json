@@ -5,19 +5,19 @@
   "buildName": "default",
   "priorityList": [
     "Maintain Windfury Weapon, Flametongue Weapon, and Lightning Shield at all times.",
-    "Cast Flame Shock if the damage-over-time effect is not ticking on the target.",
-    "Cast Primordial Storm if you have 9+ Maelstrom Weapon stacks, or 5+ stacks if the Primordial Storm buff is about to expire.",
-    "Cast Sundering if Surging Elements or Feral Spirit is talented.",
+    "Cast Primordial Storm if Maelstrom Weapon is at 9+ stacks or if the Primordial Storm buff is about to expire with at least 5 stacks.",
+    "Apply and maintain Flame Shock on your target.",
+    "Use offensive trinkets, potions, and racial abilities during Ascendance, Doom Winds, or if the fight is ending.",
+    "Cast Sundering if talented into Surging Elements or Feral Spirit.",
     "Cast Doom Winds on cooldown.",
+    "Cast Crash Lightning if the Crash Lightning buff is missing or if talented into Storm Unleashed.",
+    "Cast Windstrike while Ascendance is active if you have any Maelstrom Weapon stacks.",
     "Cast Ascendance on cooldown.",
-    "Use offensive trinkets and potions during your Ascendance or Doom Winds windows.",
-    "Cast Windstrike (replaces Stormstrike during Ascendance) as long as you have at least 1 Maelstrom Weapon stack.",
-    "Cast Tempest (replaces Lightning Bolt) when you reach 10 Maelstrom Weapon stacks.",
-    "Cast Lightning Bolt when you reach 10 Maelstrom Weapon stacks to avoid overcapping.",
-    "Cast Stormstrike if you have 1.8 or more charges available or while Doom Winds is active.",
-    "Cast Lava Lash if it is available.",
-    "Cast Voltaic Blaze whenever the proc is available.",
-    "Cast Lightning Bolt as a priority filler if you have 8 or more Maelstrom Weapon stacks.",
-    "Cast Crash Lightning if the buff is missing or as a final filler, followed by Lightning Bolt at 5+ stacks."
+    "Cast Tempest when you have 10 stacks of Maelstrom Weapon.",
+    "Cast Lightning Bolt when you have 10 stacks of Maelstrom Weapon.",
+    "Cast Stormstrike if it has nearly 2 charges or during Doom Winds.",
+    "Cast Lava Lash on cooldown.",
+    "Cast Voltaic Blaze whenever available.",
+    "Cast Lightning Bolt if you have 5 or more stacks of Maelstrom Weapon and nothing else is available."
   ]
 }

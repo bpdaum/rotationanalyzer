@@ -4,19 +4,19 @@
   "heroSpec": "Soul Harvester",
   "buildName": "default",
   "priorityList": [
-    "Pre-combat: Summon your primary pet and use Power Siphon to generate Demonic Core stacks.",
-    "Sync Potions, Power Infusion, and offensive Racials with the Summon Demonic Tyrant window.",
-    "Use offensive trinkets during Summon Demonic Tyrant or if the Tyrant cooldown is longer than 20 seconds.",
-    "Cast Power Siphon if you have 1 or fewer Demonic Core stacks remaining.",
-    "Cast Hand of Gul'dan immediately if the Dominion of Argus hero talent buff is active.",
-    "Cast Grimoire: Fel Guard (or Grimoire: Fel Ravager) on cooldown.",
+    "Use Power Infusion, Blood Fury, and Berserking when Summon Demonic Tyrant is active.",
+    "Use on-use Trinkets, ideally synchronized with Summon Demonic Tyrant.",
+    "Cast Power Siphon if you have 1 or fewer stacks of Demonic Core.",
+    "Cast Hand of Gul'dan if the Dominion of Argus buff is active.",
+    "Cast Grimoire: Imp Lord and Grimoire: Fel Ravager on cooldown.",
     "Cast Summon Doomguard on cooldown.",
     "Cast Call Dreadstalkers on cooldown.",
     "Cast Summon Demonic Tyrant on cooldown.",
+    "Cast Implosion if you have at least 6 Wild Imps and the To Hell and Back talent is active.",
     "Cast Hand of Gul'dan whenever you have 3 or more Soul Shards.",
-    "Use Infernal Bolt if available and you have fewer than 3 Soul Shards.",
-    "If talented into Doom, use Demonbolt with a Demonic Core stack to apply the Doom debuff to targets missing it.",
-    "Cast Demonbolt with Demonic Core procs if you have fewer than 4 Soul Shards.",
-    "Use Shadow Bolt as your filler to generate Soul Shards."
+    "Cast Infernal Bolt if you have fewer than 3 Soul Shards.",
+    "Cast Demonbolt to apply or refresh Doom if it is not active and you have a Demonic Core stack.",
+    "Cast Demonbolt if you have Demonic Core stacks and fewer than 4 Soul Shards.",
+    "Cast Shadow Bolt as a filler to generate Soul Shards when no other actions are available."
   ]
 }

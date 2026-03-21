@@ -4,20 +4,20 @@
   "heroSpec": "Mountain Thane",
   "buildName": "default",
   "priorityList": [
-    "Use Pummel to interrupt enemy spellcasting.",
-    "Cast Odyn's Fury on cooldown.",
+    "Cast Odyn's Fury as your top priority.",
     "Use Recklessness and Avatar on cooldown, ideally together.",
     "Cast Thunder Blast if you have 2 stacks of the Thunder Blast buff.",
-    "Cast Thunder Blast while Avatar is active.",
-    "Cast Thunder Clap (or Thunder Blast) if your Whirlwind cleave buff is missing to ensure your attacks hit all targets.",
-    "Cast Rampage if you are at 100+ Rage or if Enrage is about to expire.",
-    "Cast Bloodbath (empowered Bloodthirst) on cooldown.",
-    "Cast Rampage while Recklessness is active to avoid overcapping Rage.",
-    "Cast Bloodthirst to generate Rage and maintain Enrage.",
+    "Cast Thunder Blast whenever Avatar is active.",
+    "Cast Thunder Clap if your Whirlwind cleave buff is missing to ensure your attacks hit multiple targets.",
+    "Cast Thunder Clap if Avatar is active and there are more than 6 enemies.",
+    "Cast Rampage if you are about to cap Rage (100+) or if your Enrage buff is about to expire.",
+    "Cast Bloodbath as a high priority strike.",
+    "Cast Rampage while Recklessness is active.",
+    "Cast Thunder Clap while Avatar is active.",
+    "Cast Bloodthirst whenever available.",
     "Cast Thunder Blast whenever available.",
-    "Cast Execute if the target is in execute range or if Sudden Death procs.",
-    "Cast Thunder Clap as your primary filler for AoE damage and Rage generation.",
-    "Cast Crushing Blow or Raging Blow as secondary fillers.",
-    "Use offensive trinkets and racial combat buffs (like Berserking) during Recklessness."
+    "Cast Execute on targets within health range or when Sudden Death procs.",
+    "Cast Thunder Clap as your primary filler for AoE damage and Whirlwind stacks.",
+    "Cast Crushing Blow or Raging Blow if no higher priority abilities are available."
   ]
 }

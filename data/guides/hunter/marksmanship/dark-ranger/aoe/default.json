@@ -4,15 +4,20 @@
   "heroSpec": "Dark Ranger",
   "buildName": "default",
   "priorityList": [
-    "Cast Black Arrow whenever available.",
-    "Cast Multi-Shot if Trick Shots is not active to trigger the buff for your next Aimed Shot or Rapid Fire.",
-    "Cast Multi-Shot to spend Precise Shots stacks.",
-    "Activate Trueshot as your primary offensive cooldown, ideally when Volley is available.",
-    "Cast Volley on cooldown to maintain Trick Shots and deal burst damage.",
-    "Cast Aimed Shot whenever Trick Shots is active and you have charges.",
-    "Cast Rapid Fire whenever Trick Shots is active.",
-    "Cast Wailing Arrow on cooldown.",
-    "Use offensive trinkets and racial abilities during Trueshot for maximum benefit.",
-    "Cast Steady Shot if you are low on Focus and have no other priority abilities available."
+    "Cast Black Arrow on cooldown.",
+    "Use Multi-Shot if the Trick Shots buff is missing to enable your AoE cleave.",
+    "Use Trueshot as your primary offensive cooldown.",
+    "Cast Volley on cooldown to trigger Trick Shots and deal burst damage.",
+    "Use Multi-Shot to spend Precise Shots stacks to benefit from AoE cleave.",
+    "Cast Rapid Fire while Trick Shots is active, prioritizing it if Bulletstorm is about to expire or you have an Unload proc.",
+    "Cast Aimed Shot only while the Trick Shots buff is active to ensure it hits multiple targets.",
+    "Cast Wailing Arrow on cooldown for significant AoE damage.",
+    "Cast Rapid Fire as a priority filler whenever Trick Shots is active.",
+    "Use Steady Shot if you need to generate Focus or have no other abilities available.",
+    "Use offensive trinkets during Trueshot, specifically when the buff has more than 14 seconds remaining.",
+    "Use racial combat buffs (like Berserking or Blood Fury) while Trueshot is active.",
+    "Apply Power Infusion if Trueshot has more than 12 seconds of duration remaining.",
+    "Use an offensive potion during Trueshot if Bloodlust is active or the fight is ending soon.",
+    "Summon your pet before combat if you have the Unbreakable Bond talent."
   ]
 }
