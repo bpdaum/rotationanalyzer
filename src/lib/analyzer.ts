@@ -17,6 +17,8 @@ export interface AnalysisResult {
     tldr: string;
     feedback: AnalysisFeedback[];
     missingSpells: string[];
+    isWrongSpec?: boolean;
+    suggestedSpec?: string;
 }
 
 const SPEC_MECHANICS: Record<string, string[]> = {
@@ -81,6 +83,11 @@ ${conciseTimeline}
 As a world-first raider, your mindset is about perfection and fundamental concepts like "Always Be Casting" (ABC). 
 Compare the player's chronological casts to the provided optimal rotation guidelines using the provided text as your primary evidence.
 
+CRITICAL INSTRUCTION: SPEC VALIDATION.
+- First, check if the spells cast in the log actually match the requested Class/Spec. 
+- If the player is clearly playing a completely different spec (e.g., they cast "Bloodthirst" and "Rampage" but the requested spec is "Arms Warrior", or they cast "Regrowth" as a Mage), set "isWrongSpec": true and provide a "suggestedSpec" (e.g., "Fury Warrior" or "Restoration Druid").
+- If it is the correct spec or you are unsure, set "isWrongSpec": false.
+
 CRITICAL INSTRUCTION: HIERARCHY OF TRUTH.
 - The SimulationCraft APL lines (starting with '--- SimulationCraft APL ---') are the MOST MATHEMATICALLY ACCURATE guidelines.
 - The Icy Veins and WoWhead sections are "General" rules for humans. 
@@ -104,6 +111,8 @@ Provide a JSON object with this exact structure (no markdown fences, just the JS
   "score": <number between 0 and 100 representing how well they followed the guidelines>,
   "tldr": "<World-first raider summary of their performance and the #1 thing to work on>",
   "missingSpells": [<array of strings of critical spells they failed to cast entirely>],
+  "isWrongSpec": <boolean, true if they played a different spec than requested (or false)>,
+  "suggestedSpec": "<A string naming the actual spec they played if isWrongSpec is true, otherwise omit or empty>",
   "feedback": [
     {
       "type": "error" | "warning" | "info" | "good",

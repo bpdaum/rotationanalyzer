@@ -43,7 +43,7 @@ function parseTimestampToMs(dateStr: string, timeStr: string): number {
  * Parses a WoW combat log (.txt) and extracts a timeline of the player's spell casts
  * and aura (buff/debuff) tracking events.
  */
-export function parseCombatLog(logText: string): ParsedLog {
+export function parseCombatLog(logText: string, expectedCharacterName?: string): ParsedLog {
     const lines = logText.split('\n');
     const events: CombatEvent[] = [];
     const auraTracks: AuraTrackEvent[] = [];
@@ -87,9 +87,15 @@ export function parseCombatLog(logText: string): ParsedLog {
         const sourceFlags = columns[3];
         const destGuid = columns[5];
 
-        if (!playerGuid && sourceGuid.startsWith('Player-') && sourceFlags === '0x511') {
-            playerGuid = sourceGuid;
-            playerName = sourceNameRaw.replace(/"/g, '');
+        if (!playerGuid && sourceGuid.startsWith('Player-')) {
+            const currentName = sourceNameRaw.replace(/"/g, '').split('-')[0];
+            if (expectedCharacterName && currentName.toLowerCase() === expectedCharacterName.toLowerCase()) {
+                playerGuid = sourceGuid;
+                playerName = currentName;
+            } else if (!expectedCharacterName && sourceFlags === '0x511') {
+                playerGuid = sourceGuid;
+                playerName = currentName;
+            }
         }
 
         // Only track aura events that happen TO the player.

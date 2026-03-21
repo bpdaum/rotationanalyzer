@@ -25,7 +25,7 @@ export async function POST(request: Request) {
         const logText = await file.text();
 
         // 1. Parse log
-        const parsedContext = parseCombatLog(logText);
+        const parsedContext = parseCombatLog(logText, characterName);
 
         // 2. Load guide from static JSON (purely offline source)
         let rotation = loadGuide(classSlug, specSlug, heroSpec, combatType);

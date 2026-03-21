@@ -129,25 +129,43 @@ export default function Home() {
         <div className="animate-fade-in" style={{ marginTop: '40px' }}>
           <hr style={{ borderColor: 'var(--color-border)', margin: '40px 0' }} />
 
-          <div className="flex flex-col gap-lg" style={{ maxWidth: '100%', margin: '0 auto' }}>
-            <div className="flex justify-between items-center text-muted" style={{ textTransform: 'capitalize' }}>
-              <h2>Results for {data.rotation.specSlug} {data.rotation.classSlug}</h2>
+          {data.analysis.isWrongSpec ? (
+            <div className="card text-center" style={{ borderColor: 'var(--color-warning)', background: 'rgba(243, 156, 18, 0.1)' }}>
+              <div style={{ fontSize: '3rem', marginBottom: '16px' }}>🤔</div>
+              <h2 style={{ color: 'var(--color-warning)', marginBottom: '12px' }}>Spec Mismatch Detected</h2>
+              <p style={{ fontSize: '1.1rem', marginBottom: '8px' }}>
+                It looks like the character in this log wasn't playing <strong><span style={{ textTransform: 'capitalize' }}>{data.rotation.specSlug.replace('-', ' ')} {data.rotation.classSlug.replace('-', ' ')}</span></strong>.
+              </p>
+              {data.analysis.suggestedSpec && (
+                <p style={{ fontSize: '1.1rem', fontWeight: 500 }}>
+                  Based on the spells cast, they might have been playing <span style={{ color: 'var(--color-primary)' }}>{data.analysis.suggestedSpec}</span>.
+                </p>
+              )}
+              <p className="text-muted" style={{ marginTop: '16px' }}>
+                Update your selection above and try analyzing again, or double-check the character name you entered.
+              </p>
             </div>
+          ) : (
+            <div className="flex flex-col gap-lg" style={{ maxWidth: '100%', margin: '0 auto' }}>
+              <div className="flex justify-between items-center text-muted" style={{ textTransform: 'capitalize' }}>
+                <h2>Results for {data.rotation.specSlug} {data.rotation.classSlug}</h2>
+              </div>
 
-            <Feedback
-              analysis={data.analysis}
-              timeline={data.timeline}
-              iconMap={iconMap}
-              onFeedbackClick={handleFeedbackClick}
-            />
-            <VisualTimeline
-              timeline={data.timeline}
-              auraTracks={data.auraTracks}
-              feedback={data.analysis.feedback}
-              iconMap={iconMap}
-            />
-            <Timeline timeline={data.timeline} iconMap={iconMap} />
-          </div>
+              <Feedback
+                analysis={data.analysis}
+                timeline={data.timeline}
+                iconMap={iconMap}
+                onFeedbackClick={handleFeedbackClick}
+              />
+              <VisualTimeline
+                timeline={data.timeline}
+                auraTracks={data.auraTracks}
+                feedback={data.analysis.feedback}
+                iconMap={iconMap}
+              />
+              <Timeline timeline={data.timeline} iconMap={iconMap} />
+            </div>
+          )}
         </div>
       )}
     </main>
