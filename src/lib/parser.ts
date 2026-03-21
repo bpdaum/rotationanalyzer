@@ -108,7 +108,7 @@ export function parseCombatLog(logText: string, expectedCharacterName?: string):
         if (eventType.startsWith('SPELL_AURA_') && destGuid === playerGuid) {
             const spellName = columns[10].replace(/"/g, '');
 
-            if (eventType === 'SPELL_AURA_APPLIED' || eventType === 'SPELL_AURA_REFRESH') {
+            if (eventType === 'SPELL_AURA_APPLIED') {
                 activeAuras[spellName] = 1;
 
                 if (openAuraTracks[spellName]) {
@@ -122,6 +122,17 @@ export function parseCombatLog(logText: string, expectedCharacterName?: string):
                     endTimeMs: timestampMs,
                     stacks: [{ timeMs: timestampMs, count: 1 }]
                 };
+
+            } else if (eventType === 'SPELL_AURA_REFRESH') {
+                if (!openAuraTracks[spellName]) {
+                    activeAuras[spellName] = 1;
+                    openAuraTracks[spellName] = {
+                        name: spellName,
+                        startTimeMs: timestampMs,
+                        endTimeMs: timestampMs,
+                        stacks: [{ timeMs: timestampMs, count: 1 }]
+                    };
+                }
 
             } else if (eventType === 'SPELL_AURA_APPLIED_DOSE') {
                 const dose = parseInt(columns[13], 10);
@@ -161,10 +172,24 @@ export function parseCombatLog(logText: string, expectedCharacterName?: string):
             const spellName = columns[10].replace(/"/g, '');
             const debuffKey = `${spellName}`; // Track by spell name (aggregated across targets)
 
-            if (eventType === 'SPELL_AURA_APPLIED' || eventType === 'SPELL_AURA_REFRESH') {
-                activeDebuffs[debuffKey] = (activeDebuffs[debuffKey] || 0) + 1;
+            if (eventType === 'SPELL_AURA_APPLIED') {
+                activeDebuffs[debuffKey] = 1;
 
+                if (openDebuffTracks[debuffKey]) {
+                    openDebuffTracks[debuffKey].endTimeMs = timestampMs;
+                    debuffTracks.push({ ...openDebuffTracks[debuffKey] });
+                }
+
+                openDebuffTracks[debuffKey] = {
+                    name: `⚔ ${spellName}`,
+                    startTimeMs: timestampMs,
+                    endTimeMs: timestampMs,
+                    stacks: [{ timeMs: timestampMs, count: 1 }]
+                };
+
+            } else if (eventType === 'SPELL_AURA_REFRESH') {
                 if (!openDebuffTracks[debuffKey]) {
+                    activeDebuffs[debuffKey] = 1;
                     openDebuffTracks[debuffKey] = {
                         name: `⚔ ${spellName}`,
                         startTimeMs: timestampMs,
