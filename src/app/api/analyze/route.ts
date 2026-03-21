@@ -55,6 +55,7 @@ export async function POST(request: Request) {
                 analysis,
                 timeline: parsedContext.timeline,
                 auraTracks: parsedContext.auraTracks,
+                debuffTracks: parsedContext.debuffTracks,
                 rotation,
             }
         });

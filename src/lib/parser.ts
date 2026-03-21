@@ -22,6 +22,7 @@ export interface AuraTrackEvent {
 export interface ParsedLog {
     timeline: CombatEvent[];
     auraTracks: AuraTrackEvent[];
+    debuffTracks: AuraTrackEvent[];
 }
 
 // Format: MM/DD/YYYY HH:MM:SS.MMM
@@ -54,6 +55,11 @@ export function parseCombatLog(logText: string, expectedCharacterName?: string):
 
     // Track active auras to summarize stacks on spell casts
     const activeAuras: Record<string, number> = {};
+
+    // Target debuff tracking (debuffs applied BY the player TO enemies)
+    const activeDebuffs: Record<string, number> = {};
+    const debuffTracks: AuraTrackEvent[] = [];
+    const openDebuffTracks: Record<string, AuraTrackEvent> = {};
 
     // In-progress aura tracking for the visual timeline
     // Key: spellName, Value: current active track
@@ -98,15 +104,13 @@ export function parseCombatLog(logText: string, expectedCharacterName?: string):
             }
         }
 
-        // Only track aura events that happen TO the player.
+        // Track aura events that happen TO the player (buffs)
         if (eventType.startsWith('SPELL_AURA_') && destGuid === playerGuid) {
             const spellName = columns[10].replace(/"/g, '');
-            // const auraType = columns[12]; // BUFF or DEBUFF
 
             if (eventType === 'SPELL_AURA_APPLIED' || eventType === 'SPELL_AURA_REFRESH') {
                 activeAuras[spellName] = 1;
 
-                // If it already existed but wasn't closed properly, close it first
                 if (openAuraTracks[spellName]) {
                     openAuraTracks[spellName].endTimeMs = timestampMs;
                     auraTracks.push({ ...openAuraTracks[spellName] });
@@ -115,7 +119,7 @@ export function parseCombatLog(logText: string, expectedCharacterName?: string):
                 openAuraTracks[spellName] = {
                     name: spellName,
                     startTimeMs: timestampMs,
-                    endTimeMs: timestampMs, // Will be updated on removal
+                    endTimeMs: timestampMs,
                     stacks: [{ timeMs: timestampMs, count: 1 }]
                 };
 
@@ -152,6 +156,56 @@ export function parseCombatLog(logText: string, expectedCharacterName?: string):
             }
         }
 
+        // Track debuffs applied BY the player TO targets (e.g., Freezing stacks)
+        if (eventType.startsWith('SPELL_AURA_') && sourceGuid === playerGuid && destGuid !== playerGuid && destGuid) {
+            const spellName = columns[10].replace(/"/g, '');
+            const debuffKey = `${spellName}`; // Track by spell name (aggregated across targets)
+
+            if (eventType === 'SPELL_AURA_APPLIED' || eventType === 'SPELL_AURA_REFRESH') {
+                activeDebuffs[debuffKey] = (activeDebuffs[debuffKey] || 0) + 1;
+
+                if (!openDebuffTracks[debuffKey]) {
+                    openDebuffTracks[debuffKey] = {
+                        name: `⚔ ${spellName}`,
+                        startTimeMs: timestampMs,
+                        endTimeMs: timestampMs,
+                        stacks: [{ timeMs: timestampMs, count: 1 }]
+                    };
+                }
+
+            } else if (eventType === 'SPELL_AURA_APPLIED_DOSE') {
+                const dose = parseInt(columns[13], 10);
+                const currentDose = isNaN(dose) ? (activeDebuffs[debuffKey] || 0) + 1 : dose;
+                activeDebuffs[debuffKey] = currentDose;
+
+                if (openDebuffTracks[debuffKey]) {
+                    openDebuffTracks[debuffKey].stacks.push({ timeMs: timestampMs, count: currentDose });
+                }
+
+            } else if (eventType === 'SPELL_AURA_REMOVED_DOSE') {
+                const dose = parseInt(columns[13], 10);
+                const currentDose = isNaN(dose) ? Math.max(0, (activeDebuffs[debuffKey] || 0) - 1) : dose;
+                activeDebuffs[debuffKey] = currentDose;
+
+                if (openDebuffTracks[debuffKey]) {
+                    openDebuffTracks[debuffKey].stacks.push({ timeMs: timestampMs, count: currentDose });
+                }
+
+                if (activeDebuffs[debuffKey] === 0) {
+                    delete activeDebuffs[debuffKey];
+                }
+
+            } else if (eventType === 'SPELL_AURA_REMOVED') {
+                delete activeDebuffs[debuffKey];
+
+                if (openDebuffTracks[debuffKey]) {
+                    openDebuffTracks[debuffKey].endTimeMs = timestampMs;
+                    debuffTracks.push({ ...openDebuffTracks[debuffKey] });
+                    delete openDebuffTracks[debuffKey];
+                }
+            }
+        }
+
         if (eventType === 'SPELL_CAST_SUCCESS' && sourceGuid === playerGuid) {
             const spellIdRaw = columns[9];
             const spellId = parseInt(spellIdRaw, 10) || 0;
@@ -159,6 +213,8 @@ export function parseCombatLog(logText: string, expectedCharacterName?: string):
             const spellName = spellNameRaw.replace(/"/g, '');
 
             const auraPairs = Object.entries(activeAuras).map(([name, count]) => count > 1 ? `${name} x${count}` : name);
+            // Include target debuff stacks so the AI can reason about them
+            const debuffPairs = Object.entries(activeDebuffs).map(([name, count]) => count > 1 ? `⚔${name} x${count}` : `⚔${name}`);
 
             events.push({
                 timestamp: timestampRaw,
@@ -166,7 +222,7 @@ export function parseCombatLog(logText: string, expectedCharacterName?: string):
                 spellId,
                 spellName,
                 sourceName: playerName || 'Unknown',
-                activeAuras: auraPairs,
+                activeAuras: [...auraPairs, ...debuffPairs],
             });
         }
     }
@@ -180,11 +236,18 @@ export function parseCombatLog(logText: string, expectedCharacterName?: string):
         auraTracks.push(track);
     }
 
+    for (const [name, track] of Object.entries(openDebuffTracks)) {
+        track.endTimeMs = lastTimestampMs;
+        debuffTracks.push(track);
+    }
+
     // Sort aura tracks primarily by start time
     auraTracks.sort((a, b) => a.startTimeMs - b.startTimeMs);
+    debuffTracks.sort((a, b) => a.startTimeMs - b.startTimeMs);
 
     return {
         timeline: events,
-        auraTracks
+        auraTracks,
+        debuffTracks
     };
 }

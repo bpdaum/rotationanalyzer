@@ -7,11 +7,12 @@ import type { AnalysisFeedback } from '@/lib/analyzer';
 interface VisualTimelineProps {
     timeline: CombatEvent[];
     auraTracks?: AuraTrackEvent[];
+    debuffTracks?: AuraTrackEvent[];
     feedback: AnalysisFeedback[];
     iconMap: Record<number, string>;
 }
 
-export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }: VisualTimelineProps) {
+export function VisualTimeline({ timeline, auraTracks = [], debuffTracks = [], feedback, iconMap }: VisualTimelineProps) {
     const scrollRef = useRef<HTMLDivElement>(null);
     const [activeTooltip, setActiveTooltip] = useState<number | null>(null);
 
@@ -60,12 +61,10 @@ export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }:
     };
 
     // Layout for aura tracks to prevent overlapping
-    // We'll just assign them to rows visually
     const auraRows: AuraTrackEvent[][] = [];
     auraTracks.forEach(track => {
         let placed = false;
         for (const row of auraRows) {
-            // Check if it fits in this row (needs some margin)
             const lastInRow = row[row.length - 1];
             if (lastInRow.endTimeMs + 500 <= track.startTimeMs) {
                 row.push(track);
@@ -78,9 +77,107 @@ export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }:
         }
     });
 
-    const MAIN_RAIL_HEIGHT = 120; // Space for the cast icons and text
+    // Layout for debuff tracks
+    const debuffRows: AuraTrackEvent[][] = [];
+    debuffTracks.forEach(track => {
+        let placed = false;
+        for (const row of debuffRows) {
+            const lastInRow = row[row.length - 1];
+            if (lastInRow.endTimeMs + 500 <= track.startTimeMs) {
+                row.push(track);
+                placed = true;
+                break;
+            }
+        }
+        if (!placed) {
+            debuffRows.push([track]);
+        }
+    });
+
+    const MAIN_RAIL_HEIGHT = 120;
     const AURA_ROW_HEIGHT = 28;
-    const containerHeight = MAIN_RAIL_HEIGHT + (auraRows.length * AURA_ROW_HEIGHT) + 20;
+    const SECTION_GAP = debuffRows.length > 0 && auraRows.length > 0 ? 8 : 0;
+    const aurasSectionHeight = auraRows.length * AURA_ROW_HEIGHT;
+    const debuffsSectionStart = MAIN_RAIL_HEIGHT + aurasSectionHeight + SECTION_GAP;
+    const containerHeight = debuffsSectionStart + (debuffRows.length * AURA_ROW_HEIGHT) + 20;
+
+    // Shared rendering function for buff/debuff rows
+    const renderTrackRows = (
+        rows: AuraTrackEvent[][],
+        baseTopPx: number,
+        prefix: string,
+        colorRgb: string, // e.g. '155, 89, 182' for purple or '192, 57, 43' for red
+        textColor: string,
+    ) => {
+        return rows.map((row, rowIndex) => {
+            const topPx = baseTopPx + (rowIndex * AURA_ROW_HEIGHT);
+            return row.flatMap((track, trackIndex) => {
+                if (!track.stacks || track.stacks.length === 0) return [];
+
+                // Find the max stack count in this track for scaling intensity
+                const maxStack = Math.max(...track.stacks.map(s => s.count));
+
+                return track.stacks.map((stack, stackIndex) => {
+                    const effStart = Math.max(stack.timeMs, firstEventMs);
+                    const nextTimeMs = stackIndex < track.stacks.length - 1 ? track.stacks[stackIndex + 1].timeMs : track.endTimeMs;
+                    const effEnd = Math.max(nextTimeMs, effStart);
+
+                    const leftPx = ((effStart - firstEventMs) / 1000) * PIXELS_PER_SECOND;
+                    const widthPx = Math.max(((effEnd - effStart) / 1000) * PIXELS_PER_SECOND, 6);
+
+                    // Progressive intensity: scale opacity from 0.1 to 0.35 based on stack ratio
+                    const intensity = maxStack > 1 ? 0.1 + (stack.count / maxStack) * 0.25 : 0.15;
+                    const borderIntensity = maxStack > 1 ? 0.3 + (stack.count / maxStack) * 0.3 : 0.4;
+
+                    return (
+                        <div key={`${prefix}-${rowIndex}-${trackIndex}-${stackIndex}`} style={{
+                            position: 'absolute',
+                            top: `${topPx}px`,
+                            left: `${leftPx}px`,
+                            width: `${widthPx}px`,
+                            height: '24px',
+                            background: `rgba(${colorRgb}, ${intensity})`,
+                            borderTop: `1px solid rgba(${colorRgb}, ${borderIntensity})`,
+                            borderBottom: `1px solid rgba(${colorRgb}, ${borderIntensity})`,
+                            borderLeft: stackIndex === 0 ? `1px solid rgba(${colorRgb}, ${borderIntensity})` : 'none',
+                            borderRight: stackIndex === track.stacks.length - 1 ? `1px solid rgba(${colorRgb}, ${borderIntensity})` : `1px solid rgba(${colorRgb}, ${borderIntensity * 0.5})`,
+                            borderRadius: stackIndex === 0 && stackIndex === track.stacks.length - 1 ? '4px'
+                                        : stackIndex === 0 ? '4px 0 0 4px'
+                                        : stackIndex === track.stacks.length - 1 ? '0 4px 4px 0'
+                                        : '0',
+                            display: 'flex',
+                            alignItems: 'center',
+                            padding: '0 4px',
+                            overflow: 'hidden',
+                            fontSize: '0.65rem',
+                            color: textColor,
+                            whiteSpace: 'nowrap',
+                            zIndex: 5,
+                            boxShadow: `inset 0 0 8px rgba(${colorRgb}, ${intensity * 0.5})`
+                        }}>
+                            {stackIndex === 0 && (
+                                <span style={{ fontWeight: 500, marginRight: '6px', overflow: 'hidden', textOverflow: 'ellipsis' }}>{track.name}</span>
+                            )}
+
+                            {stack.count > 1 && (
+                                <span style={{
+                                    background: `rgba(${colorRgb}, 0.6)`,
+                                    color: '#fff',
+                                    padding: '1px 4px',
+                                    borderRadius: '10px',
+                                    fontSize: '0.55rem',
+                                    fontWeight: 'bold',
+                                    marginLeft: stackIndex === 0 ? '0' : 'auto'
+                                }}>
+                                    x{stack.count}
+                                </span>
+                            )}
+                        </div>
+                    );
+                });
+            });
+        });
+    };
 
     return (
         <div className="card animate-fade-in" style={{ marginTop: '24px' }}>
@@ -281,72 +378,11 @@ export function VisualTimeline({ timeline, auraTracks = [], feedback, iconMap }:
                             </div>
                         );
                     })}
+                    {/* Buff Tracks (purple) */}
+                    {renderTrackRows(auraRows, MAIN_RAIL_HEIGHT, 'aura', '155, 89, 182', '#d2b4de')}
 
-                    {/* Aura Tracks */}
-                    {auraRows.map((row, rowIndex) => {
-                        const topPx = MAIN_RAIL_HEIGHT + (rowIndex * AURA_ROW_HEIGHT);
-                        return row.flatMap((track, trackIndex) => {
-                            if (!track.stacks || track.stacks.length === 0) return [];
-                            
-                            // Map each stack change into its own sequential visual segment
-                            return track.stacks.map((stack, stackIndex) => {
-                                const effStart = Math.max(stack.timeMs, firstEventMs);
-                                // The segment lasts until the next stack change, or the track's end time
-                                const nextTimeMs = stackIndex < track.stacks.length - 1 ? track.stacks[stackIndex + 1].timeMs : track.endTimeMs;
-                                const effEnd = Math.max(nextTimeMs, effStart);
-                                
-                                const leftPx = ((effStart - firstEventMs) / 1000) * PIXELS_PER_SECOND;
-                                // Min width so extremely short segments are still visible as ticks
-                                const widthPx = Math.max(((effEnd - effStart) / 1000) * PIXELS_PER_SECOND, 6);
-
-                                return (
-                                    <div key={`aura-${rowIndex}-${trackIndex}-${stackIndex}`} style={{
-                                        position: 'absolute',
-                                        top: `${topPx}px`,
-                                        left: `${leftPx}px`,
-                                        width: `${widthPx}px`,
-                                        height: '24px',
-                                        background: 'rgba(155, 89, 182, 0.15)', // Purple aura theme
-                                        borderTop: '1px solid rgba(155, 89, 182, 0.4)',
-                                        borderBottom: '1px solid rgba(155, 89, 182, 0.4)',
-                                        borderLeft: stackIndex === 0 ? '1px solid rgba(155, 89, 182, 0.4)' : 'none',
-                                        borderRight: stackIndex === track.stacks.length - 1 ? '1px solid rgba(155, 89, 182, 0.4)' : '1px solid rgba(155, 89, 182, 0.2)',
-                                        borderRadius: stackIndex === 0 && stackIndex === track.stacks.length - 1 ? '4px' 
-                                                    : stackIndex === 0 ? '4px 0 0 4px' 
-                                                    : stackIndex === track.stacks.length - 1 ? '0 4px 4px 0' 
-                                                    : '0',
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        padding: '0 4px',
-                                        overflow: 'hidden',
-                                        fontSize: '0.65rem',
-                                        color: '#d2b4de',
-                                        whiteSpace: 'nowrap',
-                                        zIndex: 5,
-                                        boxShadow: 'inset 0 0 8px rgba(155, 89, 182, 0.1)'
-                                    }}>
-                                        {stackIndex === 0 && (
-                                            <span style={{ fontWeight: 500, marginRight: '6px', overflow: 'hidden', textOverflow: 'ellipsis' }}>{track.name}</span>
-                                        )}
-
-                                        {stack.count > 1 && (
-                                            <span style={{
-                                                background: 'rgba(155, 89, 182, 0.6)',
-                                                color: '#fff',
-                                                padding: '1px 4px',
-                                                borderRadius: '10px',
-                                                fontSize: '0.55rem',
-                                                fontWeight: 'bold',
-                                                marginLeft: stackIndex === 0 ? '0' : 'auto'
-                                            }}>
-                                                x{stack.count}
-                                            </span>
-                                        )}
-                                    </div>
-                                );
-                            });
-                        });
-                    })}
+                    {/* Debuff Tracks (red/orange) */}
+                    {debuffRows.length > 0 && renderTrackRows(debuffRows, debuffsSectionStart, 'debuff', '231, 76, 60', '#f5b7b1')}
                 </div>
             </div>
         </div>

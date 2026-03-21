@@ -13,6 +13,7 @@ interface AnalysisPayload {
   analysis: AnalysisResult;
   timeline: CombatEvent[];
   auraTracks: AuraTrackEvent[];
+  debuffTracks: AuraTrackEvent[];
   rotation: ScrapedRotation;
 }
 
@@ -160,6 +161,7 @@ export default function Home() {
               <VisualTimeline
                 timeline={data.timeline}
                 auraTracks={data.auraTracks}
+                debuffTracks={data.debuffTracks}
                 feedback={data.analysis.feedback}
                 iconMap={iconMap}
               />
