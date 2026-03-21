@@ -4,17 +4,17 @@
   "heroSpec": "Frostfire",
   "buildName": "default",
   "priorityList": [
-    "Maintain Arcane Intellect and ensure your Water Elemental is summoned at all times.",
-    "Use offensive Trinkets, Potions, and Racial abilities immediately after casting Frozen Orb or Ray of Frost.",
-    "Cast Flurry if you have a Brain Freeze proc, especially outside of Icy Veins/Thermal Void windows.",
-    "Cast Frozen Orb on cooldown to generate Fingers of Frost and Frostfire stacks.",
-    "Cast Glacial Spike as soon as you reach 5 Icicles.",
+    "Maintain Arcane Intellect and pre-cast Glacial Spike or Frostfire Bolt before combat begins.",
+    "Use offensive cooldowns (trinkets, potions, and racials) when casting Frozen Orb or Ray of Frost.",
+    "Cast Flurry if Brain Freeze is active, unless Thermal Void is currently active.",
+    "Cast Frozen Orb on cooldown.",
+    "Cast Glacial Spike whenever you reach 5 Icicles.",
     "Cast Comet Storm on cooldown.",
-    "Cast Ice Lance whenever Fingers of Frost is active.",
+    "Cast Ice Lance if Fingers of Frost is active.",
     "Cast Ice Lance if the target has 10 or more stacks of the Freezing debuff.",
-    "Cast Flurry if you have a charge available to apply Winter's Chill before a big spell.",
-    "Cast Ray of Frost on cooldown, but avoid using it if you have a Frostfire Empowerment proc active.",
-    "Cast Frostbolt as your primary filler to generate Icicles and Brain Freeze procs.",
-    "Use Ice Lance while moving if you have no procs or other instant-cast abilities available."
+    "Cast Flurry if you have charges available to prevent capping.",
+    "Cast Ray of Frost, provided that Frostfire Empowerment is not currently active.",
+    "Cast Frostfire Bolt as your primary filler spell when no other priority actions are available.",
+    "If movement is required, use Ice Lance as a filler or Blizzard if Freezing Rain is active."
   ]
 }

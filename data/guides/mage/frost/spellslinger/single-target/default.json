@@ -4,19 +4,18 @@
   "heroSpec": "Spellslinger",
   "buildName": "default",
   "priorityList": [
-    "Ensure Arcane Intellect is active and summon your Water Elemental before combat.",
-    "Use offensive Trinkets, Potions, and Racials alongside Frozen Orb or Ray of Frost.",
-    "Cast Comet Storm if the Splinterstorm buff is not active.",
-    "Cast Flurry if Brain Freeze is active (prioritize using it outside of Thermal Void).",
-    "Cast Frozen Orb on cooldown to generate Fingers of Frost and Splinters.",
-    "Cast Ice Lance if Fingers of Frost is active.",
-    "Cast Glacial Spike when you have 5 Icicles.",
-    "Cast Ice Lance if the target has 6 or more stacks of the Freezing debuff from Splinterstorm.",
+    "Cast Arcane Intellect before combat begins.",
+    "Pre-cast Glacial Spike or Frostbolt immediately before the pull.",
+    "Use offensive Trinkets, Potions, and Racials alongside Frozen Orb or Ray of Frost to maximize burst windows.",
+    "Cast Comet Storm if the Splinterstorm buff is not active on you.",
+    "Cast Flurry if Brain Freeze is active, unless the Thermal Void buff is currently active.",
+    "Cast Frozen Orb on cooldown to generate resources and splinters.",
+    "Cast Ice Lance if you have the Fingers of Frost proc active.",
+    "Cast Glacial Spike whenever it is available (at 5 Icicles).",
+    "Cast Ice Lance if the target has 6 or more stacks of the Freezing (Winter's Chill) debuff.",
     "Cast Ray of Frost on cooldown.",
-    "Cast Flurry if you have charges available to apply Winter's Chill.",
-    "Cast Frostbolt as your primary filler to generate Icicles and procs.",
-    "During movement, use Blink/Shimmer or Ice Lance if no other instant casts are available.",
-    "Use Ray of Frost as an execute if the target is about to die (under 12 seconds).",
-    "Cast Ice Lance as an execute if the target is about to die (under 2 seconds)."
+    "Cast Flurry if charges are available to apply Winter's Chill to the target.",
+    "If forced to move, use Blink to maintain casting; otherwise, use Ice Nova, Cone of Cold, or Ice Lance.",
+    "Cast Frostbolt as your primary filler to generate Icicles and Brain Freeze procs."
   ]
 }

@@ -55,11 +55,11 @@ ${actionLines.join('\n').substring(0, 30000)}
 
 Task:
 Translate the complex SimulationCraft logic into a simplified, human-executable priority list.
-1. Strip out micro-optimizations (e.g., precise time_to_die checks, complicated pooling logic that a human can't execute perfectly).
-2. Prune any information or actions specifically meant forCOMPETING hero specializations.
-3. Keep the most important "If X, then Y" rules (e.g., "Cast Frost Strike to avoid capping Runic Power" or "Cast Arcane Surge if Arcane Charges == 4").
-4. If it's single target, ignore massive AoE abilities unless they are explicitly in the single-target rotation.
-5. Provide a maximum of 15 key rules.
+1. COMBAT TYPE FILTERING: If Combat Type is "AoE" or "Cleave", you MUST completely ignore lines from "actions.single_target" or purely single-target logic. If Combat Type is "Single Target", you MUST completely ignore lines from "actions.aoe" or "actions.cleave".
+2. ANTI-HALLUCINATION: Do NOT hallucinate legacy abilities (e.g., Frost Mages do NOT use Water Elemental). Only include abilities EXPLICITLY present in the provided APL text.
+3. Strip out micro-optimizations (e.g., precise time_to_die checks, complicated pooling logic that a human can't execute perfectly).
+4. Prune any information or actions specifically meant for COMPETING hero specializations.
+5. Keep the most important "If X, then Y" rules and output a maximum of 15 key rules.
 
 Format your response exactly as a JSON array of strings:
 [
@@ -88,6 +88,7 @@ async function main() {
     const SIMC_CACHE: Record<string, string> = {};
 
     for (const spec of DPS_SPECS) {
+        if (spec.classSlug !== 'mage' || spec.specSlug !== 'frost') continue;
         console.log(`\nFetching base APL for ${spec.classSlug} ${spec.specSlug}...`);
         const cacheKey = `${spec.classSlug}-${spec.specSlug}`;
         

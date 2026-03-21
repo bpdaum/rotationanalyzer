@@ -4,19 +4,20 @@
   "heroSpec": "Spellslinger",
   "buildName": "default",
   "priorityList": [
-    "Maintain Arcane Intellect and summon your Water Elemental before combat.",
-    "Use your Trinkets, Potion, and Racial abilities alongside Frozen Orb or Ray of Frost.",
-    "Cast Comet Storm if the Splinterstorm buff is not active.",
-    "Cast Blizzard whenever the Freezing Rain buff is active (procced by Frozen Orb).",
-    "Cast Frozen Orb on cooldown.",
-    "Cast Ice Lance if you have Fingers of Frost procs.",
-    "Cast Glacial Spike whenever you have 5 Icicles.",
-    "Cast Ice Lance if the target has 6 or more stacks of the Freezing (Winter's Chill) debuff.",
-    "On 4 or more enemies, cast Ice Nova followed by Cone of Cold if talented into Cone of Frost.",
-    "Cast Blizzard as a high priority in AoE (3+ targets) even without Freezing Rain.",
-    "Cast Flurry if you have a Brain Freeze proc.",
+    "Apply Arcane Intellect before combat begins.",
+    "Use offensive Trinkets, Potions, and Racial abilities during Frozen Orb or Ray of Frost windows.",
+    "Cast Comet Storm as a top priority if the Splinterstorm buff is not active.",
+    "Cast Blizzard immediately whenever the Freezing Rain buff is active.",
+    "Cast Flurry when Brain Freeze is active, especially if Thermal Void is not currently active.",
+    "Cast Frozen Orb on cooldown to maximize splinter generation and procs.",
+    "Cast Ice Lance if you have the Fingers of Frost proc active.",
+    "Cast Glacial Spike as soon as it is available (at 5 Icicles).",
+    "Cast Ice Lance if the target has 6 or more stacks of the Freezing debuff.",
+    "Cast Ice Nova if there are 4 or more enemies (requires Cone of Frost talent).",
+    "Cast Cone of Cold if there are 4 or more enemies (requires Cone of Frost talent).",
+    "Cast Blizzard as a priority filler if there are 5 or more enemies and you have Freezing Winds and Freezing Rain talents.",
+    "Cast Flurry if you have a charge available to avoid capping.",
     "Cast Ray of Frost on cooldown.",
-    "Cast Flurry if you have charges available to apply Winter's Chill.",
-    "Cast Frostbolt as your main filler spell to generate Icicles and procs."
+    "Use Frostbolt as your primary filler, or Ice Lance if you must cast while moving."
   ]
 }
