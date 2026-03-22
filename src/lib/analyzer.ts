@@ -143,10 +143,11 @@ CRITICAL INSTRUCTION: SimC VARIABLE TRANSLATION.
 - \`buff.arcane_salvo.react\`: Refers to 'Arcane Salvo' stacks (specific to Spellslinger).
 - \`buff.arcane_charge.stack\`: Refers to the number of Arcane Charges.
 
-CRITICAL INSTRUCTION: EVIDENCE-BASED EXPERTISE.
-- You must explain WHY a sequence is optimal (procs, resource generation), but YOUR FEEDBACK MUST BE MAJORLY GROUNDED IN THE PROVIDED GUIDELINES.
-- You are REQUIRED to provide a direct quote from the "Optimal Rotation Guidelines" that supports every piece of feedback.
-- Do NOT hallucinate mechanics or spells not in the guidelines.
+CRITICAL INSTRUCTION: EVIDENCE-BASED EXPERTISE & ANTI-HALLUCINATION.
+- You must explain WHY a sequence is optimal STRICTLY by referencing the conditions present in the provided APL.
+- DO NOT invent, hallucinate, or reference historical class mechanics (e.g., "Shatter combos", "Winter's Chill", "Munching", "Shattering Glacial Spike") UNLESS they are EXPLICITLY MENTIONED in the text of the APL rules provided.
+- If an APL rule simply says "Cast Flurry if Brain Freeze is active", evaluate the cast SOLELY on whether Brain Freeze was active. Do NOT extrapolate that Flurry was required to shatter an adjacent cast unless the rule dictates that dependency.
+- You are REQUIRED to provide a direct quote from the "Optimal Rotation Guidelines" that supports every single piece of feedback. If you cannot find a direct quote, do not output the feedback.
 
 Provide a JSON object with this exact structure (no markdown fences, just the JSON):
 {
