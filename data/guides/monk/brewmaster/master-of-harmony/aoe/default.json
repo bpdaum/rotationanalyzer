@@ -1,0 +1,23 @@
+{
+  "classSlug": "monk",
+  "specSlug": "brewmaster",
+  "heroSpec": "Master of Harmony",
+  "buildName": "default",
+  "priorityList": [
+    "Use Racial abilities and offensive trinkets on cooldown.",
+    "Use Black Ox Brew if you are talented into Aspect of Harmony and have less than one charge of Celestial Brew remaining.",
+    "Use Celestial Brew while the Aspect of Harmony (Spender) buff is active.",
+    "Use Keg Smash while both Aspect of Harmony (Spender) and Empty Barrel buffs are active.",
+    "Invoke Niuzao the Black Ox on cooldown.",
+    "Prioritize Breath of Fire and Keg Smash while Niuzao is active if talented into Wisdom of the Wall.",
+    "Use Blackout Kick to generate the Blackout Combo buff if you do not already have it.",
+    "Use Purifying Brew frequently to manage Stagger and maintain brew flow.",
+    "Cast Chi Burst on cooldown for burst AoE damage.",
+    "Use Exploding Keg on cooldown, especially when Keg Smash is recharging.",
+    "Use Empty the Cellar (Master of Harmony) on cooldown, ideally when Celestial Brew is not immediately available.",
+    "Use Keg Smash as your high-priority rotational ability to maximize damage and brew reduction.",
+    "Use Breath of Fire on cooldown to maintain damage reduction and the burning DoT on enemies.",
+    "Maintain Rushing Jade Wind for consistent passive AoE damage.",
+    "Use Blackout Kick on cooldown and Tiger Palm as a filler/energy dump."
+  ]
+}

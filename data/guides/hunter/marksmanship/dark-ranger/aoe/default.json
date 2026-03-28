@@ -4,20 +4,15 @@
   "heroSpec": "Dark Ranger",
   "buildName": "default",
   "priorityList": [
-    "Cast Black Arrow on cooldown.",
-    "Use Multi-Shot if the Trick Shots buff is missing to enable your AoE cleave.",
-    "Use Trueshot as your primary offensive cooldown.",
-    "Cast Volley on cooldown to trigger Trick Shots and deal burst damage.",
-    "Use Multi-Shot to spend Precise Shots stacks to benefit from AoE cleave.",
-    "Cast Rapid Fire while Trick Shots is active, prioritizing it if Bulletstorm is about to expire or you have an Unload proc.",
+    "Use Algethar Puzzle Box and Aimed Shot during the pre-combat window.",
+    "Cast Black Arrow as your top priority whenever it is available.",
+    "Cast Multi-Shot if the Trick Shots buff is not active or if you have the Precise Shots buff.",
+    "Activate Trueshot on cooldown as your primary offensive window.",
+    "Use Volley on cooldown to immediately grant the Trick Shots buff.",
     "Cast Aimed Shot only while the Trick Shots buff is active to ensure it hits multiple targets.",
-    "Cast Wailing Arrow on cooldown for significant AoE damage.",
-    "Cast Rapid Fire as a priority filler whenever Trick Shots is active.",
-    "Use Steady Shot if you need to generate Focus or have no other abilities available.",
-    "Use offensive trinkets during Trueshot, specifically when the buff has more than 14 seconds remaining.",
-    "Use racial combat buffs (like Berserking or Blood Fury) while Trueshot is active.",
-    "Apply Power Infusion if Trueshot has more than 12 seconds of duration remaining.",
-    "Use an offensive potion during Trueshot if Bloodlust is active or the fight is ending soon.",
-    "Summon your pet before combat if you have the Unbreakable Bond talent."
+    "Cast Rapid Fire while the Trick Shots buff is active, prioritizing it if the Bulletstorm buff is about to expire or the target is below 20% health.",
+    "Cast Wailing Arrow on cooldown.",
+    "Use offensive racial abilities (such as Berserking, Blood Fury, or Fireblood) and combat Potions while Trueshot is active.",
+    "Use Steady Shot as a filler to generate Focus when no other abilities are available."
   ]
 }

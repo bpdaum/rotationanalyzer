@@ -1,0 +1,20 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "protection",
+  "heroSpec": "Colossus",
+  "buildName": "default",
+  "priorityList": [
+    "Keep Shield Block active at all times, refreshing when it has 10 or fewer seconds remaining.",
+    "Use Ignore Pain to prevent capping Rage, especially when Shield Slam or Demoralizing Shout are coming off cooldown.",
+    "Cast Demolish once you have accumulated 3 or more stacks of Colossal Might.",
+    "Cast Avatar if the Thunder Blast buff is missing or has 2 or fewer stacks remaining.",
+    "Use Ravager, Champion's Spear, and Shield Charge on cooldown for AoE damage and Rage generation.",
+    "Cast Demoralizing Shout on cooldown to benefit from the Booming Voice damage and Rage buff.",
+    "Use Thunder Blast or Thunder Clap to apply and maintain the Rend bleed on all targets.",
+    "Prioritize Thunder Blast as your primary rotational ability in AoE encounters.",
+    "Cast Execute on targets in AoE if you have a Sudden Death proc or high Rage while Heavy Handed is talented.",
+    "Use Shield Slam as your priority generator if Rage is below 60 or if Violent Outburst is active.",
+    "Use Thunder Clap as your main filler ability when Thunder Blast is not available.",
+    "Spend excess Rage on Revenge if you are above 70 Rage to avoid capping resources."
+  ]
+}

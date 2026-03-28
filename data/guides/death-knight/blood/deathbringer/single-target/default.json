@@ -1,0 +1,23 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "blood",
+  "heroSpec": "Deathbringer",
+  "buildName": "default",
+  "priorityList": [
+    "Use Vampiric Blood if it is not currently active.",
+    "Cast Raise Dead on cooldown.",
+    "Use Death Strike if the Coagulopathy buff is about to expire (within 1 GCD).",
+    "Use Dancing Rune Weapon only if you do not currently have the Exterminate buff or the Reaper's Mark debuff active.",
+    "Use Death Strike if Runic Power is nearly capped (deficit less than 20, or less than 26 during Dancing Rune Weapon).",
+    "Cast Reaper's Mark on cooldown.",
+    "Cast Death and Decay if you do not currently have the Death and Decay buff active.",
+    "Use Marrowrend when the Exterminate buff is active.",
+    "Use Death's Caress to maintain Bone Shield (if below 6 stacks or 3 seconds remaining) when you have fewer than 4 Runes available.",
+    "Use Marrowrend to maintain Bone Shield (if below 6 stacks or 3 seconds remaining).",
+    "Use Death Strike as your primary Runic Power spender.",
+    "Use Blood Boil as a filler for damage and threat.",
+    "Use Consumption while Dancing Rune Weapon is not active.",
+    "Use Heart Strike as your primary Rune spender.",
+    "Use offensive Trinkets and Racials if Dancing Rune Weapon is on cooldown for more than 78 seconds or the fight is nearly over."
+  ]
+}

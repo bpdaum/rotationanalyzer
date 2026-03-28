@@ -4,19 +4,18 @@
   "heroSpec": "Dark Ranger",
   "buildName": "default",
   "priorityList": [
-    "Summon your pet before combat starts.",
-    "Use offensive racials, trinkets, and potions when Takedown is ready or its buff is active.",
-    "Use Aspect of the Eagle if the target is further than 6 yards away.",
-    "Use Kill Command if you have zero stacks of Tip of the Spear.",
-    "Use Boomstick if you have at least one stack of Tip of the Spear and Takedown is not ready.",
-    "Use Wildfire Bomb if Tip of the Spear is active and you are about to reach maximum bomb charges.",
-    "Use Kill Command if Takedown is about to become available to ensure you have Tip of the Spear stacks ready.",
-    "Use Takedown if Tip of the Spear is active (or at zero stacks if Twin Fangs is talented).",
-    "Use Moonlight Chakram if you have at least one stack of Tip of the Spear.",
-    "Use Flamefang Pitch whenever available.",
-    "Use Raptor Strike (or Mongoose Bite) if Tip of the Spear is active or to maintain the Raptor Swipe buff.",
-    "Use Kill Command to generate Focus and Tip of the Spear stacks while Takedown is on cooldown.",
-    "Use Wildfire Bomb as a filler if Tip of the Spear is not available.",
-    "Use Takedown as a final priority if available."
+    "Use offensive cooldowns, racial abilities, and trinkets when Takedown (Black Arrow) is active or ready to be cast.",
+    "Cast Kill Command if you have zero stacks of Tip of the Spear to generate the buff.",
+    "Cast Wildfire Bomb if you have Tip of the Spear stacks and the ability is about to reach maximum charges.",
+    "Cast Takedown (Black Arrow) if you have Tip of the Spear stacks (or at zero stacks if the Twin Fangs talent is active).",
+    "Cast Boomstick (Explosive Shot) if you have Tip of the Spear stacks active.",
+    "Cast Flamefang Pitch on cooldown if talented.",
+    "Cast Raptor Strike (or Mongoose Bite) if Tip of the Spear is active or if the Raptor Swipe buff is missing.",
+    "Cast Kill Command if Takedown (Black Arrow) is about to come off cooldown to ensure you have Tip of the Spear stacks ready.",
+    "Cast Wildfire Bomb if Tip of the Spear is active.",
+    "Cast Kill Command as a general filler to generate Tip of the Spear stacks whenever available.",
+    "Cast Takedown (Black Arrow) as a filler if no other higher priority actions are available.",
+    "Use Aspect of the Eagle if you are outside of melee range to continue attacking.",
+    "Use a Potion if the target is near death or Takedown (Black Arrow) is ready."
   ]
 }

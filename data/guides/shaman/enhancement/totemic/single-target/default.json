@@ -5,19 +5,19 @@
   "buildName": "default",
   "priorityList": [
     "Maintain Windfury Weapon, Flametongue Weapon, and Lightning Shield at all times.",
-    "Use Voltaic Blaze or Flame Shock if Flame Shock is not ticking on the target.",
+    "Cast Voltaic Blaze or Flame Shock if Flame Shock is not ticking on the target.",
     "Cast Surging Totem on cooldown.",
-    "Use Trinkets and Potions during Ascendance, Doom Winds, or while Surging Totem is active.",
-    "Cast Sundering if Whirling Earth is active, or to trigger Surging Elements and Feral Spirit.",
-    "Use Lava Lash if Whirling Fire or Hot Hand is active.",
+    "Use offensive trinkets, potions, and racial abilities during Ascendance, Doom Winds, or while Surging Totem is active.",
+    "Cast Sundering if Whirling Earth is active or if you have the Surging Elements or Feral Spirit talents.",
+    "Cast Lava Lash if Whirling Fire or Hot Hand is active.",
     "Cast Doom Winds on cooldown.",
-    "Use Crash Lightning if the Crash Lightning buff is missing or if Storm Unleashed is talented.",
-    "Cast Primordial Storm if you have 10 stacks of Maelstrom Weapon, or at 5+ stacks if the buff is about to expire.",
-    "Cast Ascendance (ideally after a Maelstrom spender to trigger Thorim's Invocation).",
-    "Use Windstrike (during Ascendance) or Stormstrike (during Doom Winds) to benefit from Thorim's Invocation.",
-    "Cast Lightning Bolt when at 10 stacks of Maelstrom Weapon.",
-    "Use Lava Lash as your primary melee filler.",
-    "Use Stormstrike and Voltaic Blaze as secondary melee fillers.",
-    "Cast Lightning Bolt if you have 5 or more stacks of Maelstrom Weapon and no higher priority abilities are available."
+    "Cast Primordial Storm if you have 10 Maelstrom Weapon stacks, or if the buff is expiring soon and you have at least 5 stacks.",
+    "During Ascendance, prioritize Windstrike.",
+    "Cast Ascendance when ready to spend Maelstrom Weapon on a Thorim's Invocation-empowered Lightning Bolt.",
+    "Cast Stormstrike and Crash Lightning during Doom Winds or Ascendance windows to trigger Thorim's Invocation.",
+    "Cast Lightning Bolt if you have 10 Maelstrom Weapon stacks.",
+    "Cast Crash Lightning if the Crash Lightning buff is not active.",
+    "Cast Lava Lash and Stormstrike as fillers when no higher-priority abilities are available.",
+    "Cast Lightning Bolt if you have 5 or more Maelstrom Weapon stacks and no other priority actions."
   ]
 }

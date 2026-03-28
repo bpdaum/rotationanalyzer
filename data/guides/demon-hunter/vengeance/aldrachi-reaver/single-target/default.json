@@ -1,0 +1,23 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "vengeance",
+  "heroSpec": "Aldrachi Reaver",
+  "buildName": "default",
+  "priorityList": [
+    "Use Demon Spikes off-GCD to maintain active mitigation, ensuring it does not cap charges.",
+    "Cast Metamorphosis whenever available or if the Untethered Rage proc is active.",
+    "Apply Fiery Brand to maintain the Fiery Demise debuff on the target, especially before using major cooldowns.",
+    "Cast Reaver's Glaive as soon as the buff is available to begin the Aldrachi cycle.",
+    "During the Aldrachi cycle, use Soul Cleave if both Rending Strike and Glaive Flurry buffs are active.",
+    "During the Aldrachi cycle, use Fracture if only the Rending Strike buff is active.",
+    "During the Aldrachi cycle, use Soul Cleave if only the Glaive Flurry buff is active.",
+    "Cast Spirit Bomb if the Fiery Demise debuff is active and you have at least 3 Soul Fragments.",
+    "Cast Sigil of Spite if you have 2 or fewer Soul Fragments and Fiery Brand is active or your cooldowns are ready.",
+    "Cast Soul Carver if you have 3 or fewer Soul Fragments and Fiery Brand is active or your cooldowns are ready.",
+    "Cast Fel Devastation as long as you are not currently in an Aldrachi Reaver buff window (Rending Strike/Glaive Flurry).",
+    "Cast Spirit Bomb to spend Soul Fragments when you have 4 or more (3 or more during Metamorphosis or Fiery Brand).",
+    "Cast Fracture to generate Soul Fragments if you are below your fragment cap (usually 4-5).",
+    "Use Immolation Aura and Sigil of Flame on cooldown to generate Fury and damage.",
+    "Use Felblade as a filler for Fury generation and Soul Cleave to dump excess Fury if Spirit Bomb is not needed."
+  ]
+}

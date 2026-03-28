@@ -1,0 +1,23 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "vengeance",
+  "heroSpec": "Fel-Scarred",
+  "buildName": "default",
+  "priorityList": [
+    "Keep Demon Spikes active as much as possible while in combat.",
+    "Use offensive trinkets and potions during Metamorphosis or when execute is active.",
+    "Apply Fiery Brand to maintain the Fiery Demise buff, especially before high-damage sequences.",
+    "Cast Metamorphosis when ready, ideally after consuming 3+ Soul Fragments with Spirit Bomb.",
+    "Cast Fel Devastation on cooldown to trigger or extend Metamorphosis and Fel-Scarred buffs.",
+    "Use Soul Carver if you have 3 or fewer Soul Fragments to maximize generation.",
+    "Cast Sigil of Spite if you have 2 or fewer Soul Fragments.",
+    "During the Voidfall spending buff, prioritize Soul Cleave as your main spender.",
+    "Cast Spirit Bomb when you have 4 or more Soul Fragments (or 3+ if Fiery Demise is active).",
+    "Use Immolation Aura on cooldown to generate Fury and extend Fiery Brand via Charred Flesh.",
+    "Use Fracture if you are about to cap charges or if you need Soul Fragments for Spirit Bomb.",
+    "Use Felblade as a filler to generate Fury and close gaps.",
+    "Cast Sigil of Flame as a filler for additional damage and generation.",
+    "Use Soul Cleave as a secondary spender if you have excess Fury and are not at high Soul Fragments.",
+    "Use Throw Glaive as a last resort filler when no other abilities are available."
+  ]
+}

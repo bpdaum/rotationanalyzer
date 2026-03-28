@@ -1,0 +1,23 @@
+{
+  "classSlug": "monk",
+  "specSlug": "brewmaster",
+  "heroSpec": "Shado-Pan",
+  "buildName": "default",
+  "priorityList": [
+    "Use Celestial Brew when the Aspect of Harmony Spender buff is active to maximize your shield.",
+    "Invoke Niuzao the Black Ox on cooldown for significant AoE damage and mitigation.",
+    "Cast Keg Smash as your highest priority for AoE damage and to generate Brew charges.",
+    "Cast Empty the Cellar if Aspect of Harmony is talented and Celestial Brew has more than 15 seconds remaining on cooldown.",
+    "Use Exploding Keg if Keg Smash is not at maximum charges.",
+    "Maintain the Blackout Combo buff by using Blackout Kick whenever it is available.",
+    "Use Purifying Brew frequently to clear Stagger and maintain defensive stability.",
+    "Cast Breath of Fire on cooldown, prioritizing windows when Niuzao is active or Flurry Strikes is triggered.",
+    "Use Black Ox Brew if you are low on Energy or to immediately recharge Celestial Brew.",
+    "Use Chi Burst on cooldown for additional AoE burst damage.",
+    "Maintain Rushing Jade Wind for constant passive AoE damage.",
+    "Use Tiger Palm to consume Blackout Combo buffs or to prevent capping your Energy.",
+    "Cast Fortifying Brew as your primary long-term defensive cooldown.",
+    "Use Expel Harm for self-healing or as a low-priority rotational filler.",
+    "Activate racial combat buffs (like Blood Fury or Berserking) and potions during high-intensity combat windows."
+  ]
+}

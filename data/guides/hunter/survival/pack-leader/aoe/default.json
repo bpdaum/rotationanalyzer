@@ -4,18 +4,19 @@
   "heroSpec": "Pack Leader",
   "buildName": "default",
   "priorityList": [
-    "Summon your pet and use Aspect of the Eagle if you are forced out of melee range.",
-    "Use Takedown (Coordinated Assault) along with your Trinkets and Racial buffs.",
-    "Use Kill Command if you have fewer than 2 stacks of Tip of the Spear and any Howl of the Pack Leader buff (Wyvern, Boar, or Bear) is active.",
-    "Use Kill Command if Takedown is almost off cooldown and you have fewer than 2 stacks of Tip of the Spear.",
-    "Use Takedown if you have at least 1 stack of Tip of the Spear (or 0 stacks if Twin Fangs is talented).",
-    "Cast Flamefang Pitch whenever available.",
-    "Use Wildfire Bomb if you are about to reach maximum charges to avoid capping.",
-    "Use Boomstick whenever Tip of the Spear is active.",
-    "Use Wildfire Bomb whenever Tip of the Spear is active.",
-    "Use Raptor Strike (or Mongoose Bite) if Tip of the Spear is active or to maintain the Raptor Swipe cleave buff.",
-    "Use Kill Command as a filler to generate Focus and Tip of the Spear stacks whenever Takedown is on cooldown.",
-    "Use Wildfire Bomb as a low-priority filler.",
-    "Use Takedown as a final filler if available."
+    "Use Muzzle to interrupt spellcasting as needed.",
+    "Use Aspect of the Eagle if you are outside of melee range to continue attacking.",
+    "Activate Takedown along with your trinkets and racial abilities for your primary burst window.",
+    "Use Kill Command if you have fewer than 2 stacks of Tip of the Spear and any Pack Leader buff (Wyvern, Boar, or Bear) is active.",
+    "Use Kill Command if Takedown is nearly off cooldown and you have fewer than 2 stacks of Tip of the Spear.",
+    "Cast Takedown if you have Tip of the Spear stacks (or at 0 stacks if talented into Twin Fangs).",
+    "Cast Flamefang Pitch on cooldown.",
+    "Cast Wildfire Bomb if it is about to reach maximum charges to prevent capping.",
+    "Use Boomstick whenever you have a Tip of the Spear stack active.",
+    "Cast Wildfire Bomb whenever you have a Tip of the Spear stack active.",
+    "Use Raptor Strike (or Mongoose Bite) if Tip of the Spear is active or if your Raptor Swipe cleave buff is missing.",
+    "Use Kill Command as your primary generator for Focus and Tip of the Spear stacks.",
+    "Cast Wildfire Bomb as a filler if no other high-priority actions are available.",
+    "Use Takedown whenever it becomes available if not already used."
   ]
 }

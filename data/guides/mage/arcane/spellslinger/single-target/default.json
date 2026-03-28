@@ -4,18 +4,20 @@
   "heroSpec": "Spellslinger",
   "buildName": "default",
   "priorityList": [
-    "Cast Arcane Surge as your primary offensive cooldown to begin your burn phase.",
-    "Cast Touch of the Magi while Arcane Surge is active, or whenever it is available if Arcane Surge has more than 30 seconds remaining on cooldown.",
-    "Use offensive trinkets, potions, and racial abilities (like Berserking or Blood Fury) during your Arcane Surge and Touch of the Magi windows.",
-    "Cast Arcane Barrage at 4 Arcane Charges if Arcane Salvo is at maximum stacks (20).",
-    "Cast Arcane Barrage at the very end of Arcane Surge or Touch of the Magi if Arcane Salvo has 15 or more stacks.",
-    "Cast Arcane Missiles when Clearcasting is active, unless you are already at maximum Arcane Salvo stacks.",
-    "Cast Arcane Orb if you have fewer than 3 Arcane Charges to quickly build power, especially after casting Arcane Barrage.",
-    "Use Presence of Mind to cast Arcane Blast when you have fewer than 2 Arcane Charges and no Clearcasting procs.",
-    "Cast Arcane Pulse if you have fewer than 3 Arcane Charges and your mana is above 30%.",
-    "Cast Arcane Blast as your main filler to generate Arcane Charges and fish for Clearcasting procs.",
-    "Use Evocation if your mana falls below 10% and your major cooldowns are not about to expire.",
-    "Cast Mirror Image before combat or during downtime for defense.",
-    "Cast Arcane Barrage as a final action if the target is about to die."
+    "Maintain Arcane Intellect and use Mirror Image pre-combat.",
+    "Cast Arcane Surge as your primary burst initiator, followed immediately by Touch of the Magi (off-GCD).",
+    "Use Mana Potion, Blood Fury, Berserking, and offensive Trinkets during the Arcane Surge and Touch of the Magi window.",
+    "Use Evocation if mana is below 10% and both Arcane Surge and Touch of the Magi are on cooldown.",
+    "Use Arcane Barrage when you have 4 Arcane Charges and Arcane Salvo stacks have reached 20 (or 25 if Sunfury-aligned).",
+    "Cast Arcane Orb to generate Arcane Charges if you have fewer than 3 charges and Touch of the Magi is not immediately ready.",
+    "Spend Clearcasting procs on Arcane Missiles to build Arcane Salvo stacks, ideally keeping stacks below 15.",
+    "Use Presence of Mind to cast instant Arcane Blasts when at 0 or 1 Arcane Charges to quickly ramp up.",
+    "Use Arcane Pulse if you have fewer than 3 Arcane Charges and mana is above 30%.",
+    "Cast Arcane Blast as your primary filler while at 4 Arcane Charges during burst or high-mana periods.",
+    "Cast Arcane Barrage at 4 charges if Touch of the Magi is about to expire to benefit from the accumulated damage.",
+    "Use Arcane Barrage at 4 charges to dump Arcane Salvo stacks if Arcane Surge or Touch of the Magi is about to end.",
+    "Maintain Arcane Charges and avoid using Arcane Barrage unless specifically dumping Salvo stacks or resetting for mana conservation outside of burst.",
+    "If the target is about to die, prioritize Arcane Barrage and Arcane Missiles to finish the combat.",
+    "Use Counterspell to interrupt enemy spellcasting as needed."
   ]
 }

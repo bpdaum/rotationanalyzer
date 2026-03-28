@@ -4,19 +4,20 @@
   "heroSpec": "Diabolist",
   "buildName": "default",
   "priorityList": [
-    "Summon Felguard and cast Power Siphon before combat begins.",
-    "Use Potion, Power Infusion, and Combat Racials while Demonic Tyrant is active.",
-    "Use on-use Trinkets during Demonic Tyrant or when Tyrant is on cooldown for more than 20 seconds.",
-    "Cast Power Siphon if you have 1 or fewer stacks of Demonic Core.",
+    "Use Power Siphon if you have 1 or fewer Demonic Core stacks remaining.",
     "Cast Hand of Gul'dan immediately if the Dominion of Argus buff is active.",
-    "Cast Grimoire: Felguard (or Grimoire: Imp Lord) and Summon Doomguard on cooldown.",
-    "Cast Call Dreadstalkers on cooldown; if talented into Reign of Tyranny, avoid casting if Tyrant is 12-20 seconds from being ready.",
-    "Cast Summon Demonic Tyrant once you have reached 5 Soul Shards.",
-    "Cast Ruination whenever the proc is available.",
-    "Cast Hand of Gul'dan if you have 5 Soul Shards, or if you have 3+ Soul Shards and Tyrant is more than 5 seconds from being ready.",
+    "Cast Grimoire: Imp Lord on cooldown.",
+    "Cast Grimoire: Fel Ravager on cooldown.",
+    "Cast Summon Doomguard on cooldown.",
+    "Cast Call Dreadstalkers on cooldown.",
+    "Cast Summon Demonic Tyrant when you have 5 Soul Shards.",
+    "Cast Ruination whenever available.",
+    "Cast Hand of Gul'dan if you have 5 Soul Shards, or at 3+ Soul Shards if Summon Demonic Tyrant has more than 5 seconds remaining on cooldown.",
+    "Cast Implosion if you have at least 6 Wild Imps active and the To Hell and Back talent is enabled.",
     "Cast Infernal Bolt if you have fewer than 3 Soul Shards.",
-    "Cast Demonbolt if you have a Demonic Core proc and fewer than 4 Soul Shards.",
-    "If talented into Doom, prioritize casting Demonbolt on targets that do not currently have the Doom debuff.",
-    "Cast Shadow Bolt as your primary filler to generate Soul Shards when no other actions are available."
+    "Cast Demonbolt if you have Demonic Core stacks and fewer than 4 Soul Shards.",
+    "Use Shadow Bolt as a filler to generate Soul Shards.",
+    "Use offensive trinkets, racial abilities, and potions while Summon Demonic Tyrant is active.",
+    "During precombat, use Power Siphon and begin casting Shadow Bolt or Demonbolt (if Ruination is talented)."
   ]
 }

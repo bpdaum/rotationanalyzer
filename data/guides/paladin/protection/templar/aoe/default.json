@@ -1,0 +1,23 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "protection",
+  "heroSpec": "Templar",
+  "buildName": "default",
+  "priorityList": [
+    "Use Avenging Wrath when Divine Toll has 10 seconds or less remaining on cooldown.",
+    "Cast Divine Toll while Avenging Wrath is active.",
+    "Cast Hammer of Light if the target has the Judgment debuff and either Undisputed Ruling is down or the Hammer window is expiring.",
+    "Spend Holy Power on Shield of the Righteous if Hammer of Light is not ready, or to prevent overcapping after using Divine Toll.",
+    "Cast Holy Armaments (Sacred Weapon) if the buff is missing or has less than 6 seconds remaining.",
+    "If Hammer of Light is ready but Judgment is not on the target, cast Hammer of Wrath or Judgment to apply it.",
+    "Cast Avenger's Shield if Vanguard is active or during Avenging Wrath.",
+    "Cast Holy Armaments (Holy Bulwark) if you have 2 charges or Avenging Wrath is coming off cooldown in less than 5 seconds.",
+    "Cast Consecration if you have 5 stacks of Divine Guidance or if it is not currently active.",
+    "Cast Hammer of Wrath whenever available.",
+    "Cast Judgment if it is about to reach maximum charges.",
+    "Cast Avenger's Shield as a priority filler.",
+    "Cast Blessed Hammer or Hammer of the Righteous if the Blessed Assurance buff is active.",
+    "Cast Blessed Hammer or Hammer of the Righteous to generate Holy Power.",
+    "Use Word of Glory if you have a Shining Light proc."
+  ]
+}

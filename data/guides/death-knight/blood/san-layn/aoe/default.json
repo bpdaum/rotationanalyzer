@@ -1,0 +1,23 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "blood",
+  "heroSpec": "San'layn",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Vampiric Blood at all times for maximum survivability.",
+    "Use Dancing Rune Weapon as your primary offensive and defensive cooldown.",
+    "Maintain at least 6 stacks of Bone Shield using Marrowrend or Death's Caress.",
+    "Use Death Strike to refresh the Coagulopathy buff if it is about to expire.",
+    "During Gift of the San'layn, prioritize Heart Strike to maintain Essence of the Blood Queen stacks (up to 7) and duration.",
+    "During Gift of the San'layn, use Death Strike to spend Runic Power if the deficit is less than 36.",
+    "Cast Death and Decay whenever Crimson Scourge procs to enable Heart Strike cleave in AoE.",
+    "Use Heart Strike whenever the Vampiric Strike proc is available.",
+    "Use Death Strike to prevent Runic Power capping if the deficit is less than 20.",
+    "Use Blood Boil to maintain Blood Plague or to trigger Boiling Point echoes when the buff is active.",
+    "Use Consumption as an empowered filler ability.",
+    "Use Heart Strike as your primary rune spender when you have 2 or more runes available.",
+    "Use Blood Boil as a filler for AoE damage and threat generation.",
+    "Use offensive trinkets, potions, and racial abilities, ideally while Dancing Rune Weapon is on cooldown.",
+    "Keep Raise Dead active at all times."
+  ]
+}

@@ -4,15 +4,17 @@
   "heroSpec": "Sentinel",
   "buildName": "default",
   "priorityList": [
-    "Summon your pet before combat if you have the Unbreakable Bond talent.",
-    "Use offensive racial abilities and combat potions while Trueshot is active to maximize burst damage.",
-    "Sync on-use trinkets with Trueshot, especially the Algethar Puzzle Box if equipped.",
-    "Cast Multi-Shot if the Trick Shots buff is missing or to spend Precise Shots stacks, prioritizing targets without Sentinel's Mark to spread the debuff.",
-    "Use Trueshot on cooldown.",
+    "Pre-combat: Summon your pet (if Unbreakable Bond is talented) and use Steady Shot.",
+    "Cast Multi-Shot if the Trick Shots buff is inactive or to spend Precise Shots stacks.",
+    "Cast Rapid Fire if your Bulletstorm buff is about to expire before your next Aimed Shot.",
+    "Activate Trueshot whenever it is available.",
     "Cast Volley on cooldown to trigger the Trick Shots effect.",
-    "Cast Aimed Shot while Trick Shots is active, prioritizing targets already afflicted by Sentinel's Mark.",
+    "Cast Aimed Shot while Trick Shots is active, prioritizing targets with the Sentinel's Mark debuff.",
     "Cast Moonlight Chakram on cooldown.",
-    "Cast Rapid Fire while Trick Shots is active, or use it to prevent the Bulletstorm buff from expiring.",
-    "Cast Steady Shot as a filler to generate Focus when no other abilities are available."
+    "Cast Rapid Fire while Trick Shots is active.",
+    "Use Steady Shot as a filler to generate Focus when no other abilities are available.",
+    "Use offensive racial abilities (such as Berserking, Blood Fury, or Ancestral Call) while Trueshot is active.",
+    "Use on-use trinkets during Trueshot windows, specifically synchronizing them with the 2-minute cooldown.",
+    "Use a combat potion during Trueshot, ideally when paired with Bloodlust or when the fight is nearly over."
   ]
 }

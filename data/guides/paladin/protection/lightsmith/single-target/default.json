@@ -1,0 +1,23 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "protection",
+  "heroSpec": "Lightsmith",
+  "buildName": "default",
+  "priorityList": [
+    "Pre-combat: Ensure Devotion Aura, Rite of Sanctification, and Rite of Adjuration are active.",
+    "Cast Avenging Wrath when Divine Toll is ready or will be available within 10 seconds.",
+    "Use Divine Toll while Avenging Wrath is active.",
+    "Cast Hammer of Light if the target has the Judgment debuff and Hammer of Light is expiring or Undisputed Ruling is missing.",
+    "Spend Holy Power on Shield of the Righteous if Hammer of Light is not ready, or if you have a free proc.",
+    "Use Holy Armaments to maintain Sacred Weapon uptime (buff remaining < 6 seconds).",
+    "Cast Hammer of Wrath or Judgment if Hammer of Light is ready but the target lacks the Judgment debuff.",
+    "Cast Avenger's Shield when Vanguard is active or during Avenging Wrath with Apex procs.",
+    "Use Holy Armaments to cycle through Holy Bulwark if Avenging Wrath is nearly ready or if you have 2 charges.",
+    "Cast Consecration if you reach 5 stacks of Divine Guidance.",
+    "Cast Hammer of Wrath as your priority generator.",
+    "Cast Judgment to generate Holy Power and maintain high uptime on the debuff.",
+    "Cast Avenger's Shield as a standard generator.",
+    "Use Blessed Hammer (or Hammer of the Righteous) if the Blessed Assurance buff is active.",
+    "Maintain Consecration and use free Word of Glory procs from Shining Light."
+  ]
+}

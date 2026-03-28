@@ -5,19 +5,18 @@
   "buildName": "default",
   "priorityList": [
     "Maintain Lightning Shield, Flametongue Weapon, and Thunderstrike Ward at all times.",
-    "Cast Stormkeeper pre-combat or whenever Ascendance has more than 10 seconds remaining on its cooldown.",
-    "Cast Ancestral Swiftness on cooldown.",
-    "Cast Ascendance if Stormkeeper is on cooldown for more than 15 seconds.",
-    "Use offensive trinkets and racial abilities during Ascendance or if the fight is about to end.",
+    "Cast Stormkeeper if Ascendance has more than 10 seconds remaining on its cooldown or is ready to use.",
+    "Cast Ancestral Swiftness on cooldown to summon Ancestors.",
     "Cast Nature's Swiftness on cooldown.",
-    "Apply or refresh Flame Shock (or use Voltaic Blaze) if Master of the Elements is not active and the DoT is refreshable.",
-    "Cast Lava Burst if Master of the Elements is down and you have room for Maelstrom, especially with a Lava Surge proc.",
-    "Cast Tempest if the Master of the Elements buff is active.",
-    "Use Stormkeeper-empowered Lightning Bolts, preferably while Master of the Elements is active.",
-    "Spend Maelstrom on Elemental Blast as your primary spender.",
-    "Spend Maelstrom on Earth Shock if Elemental Blast is not available.",
-    "Cast Tempest whenever it is available if not used for Master of the Elements.",
-    "Cast Lightning Bolt as your primary filler to generate Maelstrom.",
-    "When moving, use Spiritwalker's Grace; otherwise, use Flame Shock, Voltaic Blaze, or Frost Shock."
+    "Cast Ascendance if Stormkeeper has more than 15 seconds remaining on its cooldown.",
+    "Use offensive Trinkets, Potions, and Racial abilities during Ascendance.",
+    "Cast Flame Shock if it is missing or refreshable, but only if the Master of the Elements buff is not active.",
+    "Cast Voltaic Blaze if the Master of the Elements buff is not active and Flame Shock needs refreshing.",
+    "Cast Lava Burst (prioritizing Lava Surge procs) if Master of the Elements is not active and you will not overcap Maelstrom.",
+    "Cast Lightning Bolt while Stormkeeper is active, ideally to consume a Master of the Elements buff.",
+    "Cast Elemental Blast to spend Maelstrom.",
+    "Cast Earth Shock to spend Maelstrom if Elemental Blast is not known or available.",
+    "Use Lightning Bolt as your primary filler spell.",
+    "Use Flame Shock, Voltaic Blaze, or Frost Shock if you are forced to move and cannot cast fillers."
   ]
 }

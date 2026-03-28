@@ -4,19 +4,18 @@
   "heroSpec": "Voidweaver",
   "buildName": "default",
   "priorityList": [
-    "Maintain Shadowform at all times.",
+    "Keep Shadowform active at all times.",
+    "Maintain Vampiric Touch on your target to ensure all primary damage-over-time effects are active.",
     "Cast Halo on cooldown.",
-    "Cast Power Infusion, ideally coinciding with your main burst window.",
-    "Cast Voidform (or Dark Ascension) if your damage-over-time effects are active on the target.",
-    "Cast Void Torrent on cooldown to trigger and sustain your Entropic Rift.",
-    "Prioritize Void Blast above all else while Entropic Rift is active.",
-    "Cast Void Volley on cooldown.",
-    "Cast Shadow Word: Madness if you are near maximum Insanity, have a Mind Devourer proc, or during Entropic Rift.",
-    "Use Tentacle Slam to refresh Vampiric Touch or if you are about to cap charges.",
-    "Cast Shadow Word: Death on targets below 20% health or to trigger Devour Matter.",
+    "Use Power Infusion and Voidform (if talented) simultaneously, ensuring your primary dots are already applied.",
+    "Use offensive trinkets and racial abilities during Power Infusion or when Entropic Rift is active.",
+    "Cast Shadow Word: Madness if you are near maximum Insanity (deficit <= 35), have a Mind Devourer proc, or while Entropic Rift is active.",
+    "Prioritize casting Void Volley and Void Blast during the Entropic Rift window.",
+    "Cast Tentacle Slam if its dot is refreshable or you are about to cap at two charges.",
+    "Cast Void Torrent when your dots are active on the target and you are not holding for specific add spawns.",
     "Cast Mind Blast to generate Insanity and avoid capping charges.",
-    "Use Mind Flay: Insanity when available as your high-priority filler.",
-    "Manually apply or refresh Vampiric Touch and Shadow Word: Pain if they are not active and Tentacle Slam is unavailable.",
-    "Use Mind Flay as your standard filler when all other abilities are on cooldown."
+    "Cast Mind Flay: Insanity when the proc is available.",
+    "Cast Shadow Word: Death if the target is below 20% health or if the Deathspeaker talent procs.",
+    "Cast Mind Flay as your filler spell when no higher priority actions are available."
   ]
 }

@@ -4,16 +4,17 @@
   "heroSpec": "Soul Harvester",
   "buildName": "default",
   "priorityList": [
-    "Pre-combat: Summon your pet and use Grimoire of Sacrifice if you have the talent.",
-    "Maintain Haunt on your target at all times.",
-    "Keep Agony and Corruption active on the target; refresh them when they are within the pandemic window (30% remaining duration).",
-    "Cast Dark Harvest if you have fewer than 3 Soul Shards and the cast will finish before your dots expire.",
-    "Cast Summon Darkglare once Dark Harvest is on cooldown.",
-    "Use offensive Trinkets, Potions, and Racial abilities while Summon Darkglare is active or if the fight is ending.",
-    "Cast Malefic Grasp if you have 2 or more stacks of Nightfall or if Summon Darkglare is about to expire.",
-    "Use Drain Soul (or Shadow Bolt if not talented into Drain Soul) when you have 2 or more stacks of Nightfall.",
-    "Spend Soul Shards or Shard Instability procs on Unstable Affliction.",
-    "If the target will die in less than 8 seconds, prioritize spending any remaining Soul Shards on Unstable Affliction.",
-    "Channel Drain Soul (or cast Shadow Bolt) as your filler when no other priority actions are available."
+    "Pre-combat: Summon your pet (or use Grimoire of Sacrifice if talented) and pre-cast Haunt.",
+    "Maintain the Haunt debuff on your target at all times.",
+    "Maintain Agony on your target, refreshing it when it has less than 5 seconds remaining.",
+    "Maintain Corruption on your target, refreshing it when it has less than 5 seconds remaining.",
+    "Cast Dark Harvest if you have fewer than 3 Soul Shards and the cast will complete before your Agony or Corruption expires.",
+    "Summon Darkglare as soon as Dark Harvest is on cooldown.",
+    "Use offensive trinkets, combat potions, and racial abilities (like Berserking or Blood Fury) while Darkglare is active.",
+    "Cast Malefic Grasp if you have 2 stacks of Nightfall or if your Darkglare is about to expire.",
+    "Use Nightfall procs to cast Drain Soul (or Shadow Bolt if not talented into Drain Soul).",
+    "Spend Soul Shards on Unstable Affliction if you have shards available or a Shard Instability proc.",
+    "Cast Malefic Grasp as a filler while your Darkglare is active.",
+    "Use Drain Soul (or Shadow Bolt) as your primary filler spell when no other priority is met."
   ]
 }

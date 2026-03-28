@@ -1,0 +1,22 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "protection",
+  "heroSpec": "Mountain Thane",
+  "buildName": "default",
+  "priorityList": [
+    "Keep Shield Block active, refreshing if it has less than 10 seconds remaining.",
+    "Use Avatar if the Thunder Blast buff is absent or has 2 or fewer stacks remaining.",
+    "Use Ravager and Champion's Spear on cooldown.",
+    "Use Demoralizing Shout on cooldown if Booming Voice is talented.",
+    "Use Shield Charge on cooldown.",
+    "Use Ignore Pain to prevent capping rage, especially when Shield Slam or Shield Charge are about to become available.",
+    "Cast Thunder Blast as your highest priority rotational ability.",
+    "Cast Shield Slam on cooldown to generate rage.",
+    "Cast Thunder Clap if Ravager is active or if Thunder Blast is unavailable.",
+    "Cast Execute if Sudden Death procs or if you have at least 40 Rage during the execute phase.",
+    "Cast Revenge if you are near maximum rage (80+) or have a free proc.",
+    "Use Shattering Throw or Wrecking Throw as a filler if talented into Javelineer.",
+    "Use Devastate as a final filler when no other abilities are available.",
+    "Use combat racials (like Blood Fury or Berserking) and offensive trinkets during Avatar."
+  ]
+}

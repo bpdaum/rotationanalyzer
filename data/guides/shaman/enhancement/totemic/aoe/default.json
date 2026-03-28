@@ -5,19 +5,19 @@
   "buildName": "default",
   "priorityList": [
     "Maintain Windfury Weapon, Flametongue Weapon, and Lightning Shield at all times.",
-    "Apply Flame Shock to your primary target using Voltaic Blaze or Flame Shock.",
-    "Drop Surging Totem on cooldown and ensure it remains active.",
-    "Use Sundering if Whirling Earth is active or if you have the Surging Elements talent.",
-    "Use Lava Lash if Whirling Fire is active to consume the buff.",
-    "Cast Ascendance and Doom Winds during your burst window alongside offensive trinkets and racials.",
-    "Use Crash Lightning if Whirling Air is active and either Doom Winds or Ascendance is up (Thorim's Invocation).",
-    "Use Windstrike or Stormstrike while Whirling Air is active to benefit from Thorim's Invocation.",
-    "Cast Tempest when you reach 10 stacks of Maelstrom Weapon.",
-    "Cast Primordial Storm when you have 10 stacks of Maelstrom Weapon.",
-    "Spend Maelstrom Weapon stacks on Chain Lightning, ideally at 9-10 stacks, or at 5+ stacks if no other priority is available.",
-    "Use Voltaic Blaze whenever it is available as a priority filler.",
-    "Use Crash Lightning to maintain its cleave buff and as a general AoE filler.",
-    "Use Lava Lash as your primary melee filler when other high-priority abilities are on cooldown.",
-    "Use Stormstrike if you have nearly two full charges or have reached maximum stacks of Converging Storms."
+    "Cast Voltaic Blaze or Flame Shock if the target does not have Flame Shock ticking.",
+    "Drop Surging Totem on cooldown.",
+    "Activate Ascendance when Thorim's Invocation is ready to trigger Chain Lightning.",
+    "Cast Sundering if Whirling Earth is active or the Surging Elements talent is taken.",
+    "Cast Lava Lash if Whirling Fire is active or if Hot Hand is procced.",
+    "Use Doom Winds on cooldown.",
+    "Cast Crash Lightning if Whirling Air is active while Doom Winds or Ascendance is up.",
+    "Cast Tempest or Primordial Storm when at 10 Maelstrom Weapon stacks.",
+    "Cast Chain Lightning when at 9 or more Maelstrom Weapon stacks (or 10 with Surging Totem active).",
+    "Cast Voltaic Blaze whenever it becomes available.",
+    "Cast Crash Lightning to maintain its cleave buff and trigger Thorim's Invocation.",
+    "Cast Sundering if Surging Totem has more than 25 seconds remaining on its cooldown.",
+    "Use Stormstrike and Lava Lash as filler when higher priority abilities are unavailable.",
+    "Cast Chain Lightning to spend Maelstrom if you have 5 or more stacks and nothing else to press."
   ]
 }

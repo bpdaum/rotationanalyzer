@@ -4,17 +4,16 @@
   "heroSpec": "Sentinel",
   "buildName": "default",
   "priorityList": [
-    "Use Bestial Wrath on cooldown, ensuring it is paired with offensive trinkets, racial abilities, and potions.",
-    "Cast Black Arrow if your Beast Cleave buff is about to expire.",
-    "Use Wailing Arrow if Bestial Wrath has less than 5 seconds remaining or the fight is nearly over.",
-    "Cast Wild Thrash on cooldown.",
-    "Use Kill Command as your primary priority, especially when the Nature's Ally buff is active.",
-    "Cast Black Arrow immediately whenever the Withering Fire proc is active.",
-    "Use Barbed Shot if Bestial Wrath is about to come off cooldown (less than 1 GCD remaining).",
-    "Use Barbed Shot to maintain three stacks of Frenzy on your pet and to reduce the remaining cooldown of Bestial Wrath.",
-    "Cast Wailing Arrow on cooldown if not being held for the end of Bestial Wrath.",
-    "Cast Black Arrow on cooldown.",
-    "Use Cobra Shot as a filler if Wild Thrash is on cooldown, prioritizing it when the Hogstrider buff is active.",
-    "Activate offensive trinkets like Algethar Puzzle Box or Void Execution Mandate during Bestial Wrath windows."
+    "Ensure your pet is summoned before combat starts.",
+    "Use offensive Racials (like Berserking or Blood Fury) and Potions when Bestial Wrath is ready or active.",
+    "Use active Trinkets (such as Algethar Puzzle Box or Light Company Guidon) when Bestial Wrath is ready or active.",
+    "Cast Barbed Shot if Bestial Wrath is about to come off cooldown (less than 1 GCD remaining).",
+    "Cast Wild Thrash as your top priority for AoE damage and to trigger Beast Cleave.",
+    "Cast Bestial Wrath on cooldown.",
+    "Cast Kill Command whenever it is available as your primary rotational ability.",
+    "Prioritize Kill Command even more when Nature's Ally (Sentinel Owl) is active.",
+    "Cast Cobra Shot if the Hogstrider buff is active and you are fighting fewer than 4 targets.",
+    "Cast Barbed Shot to maintain Frenzy stacks on your pet and to prevent the ability from reaching maximum charges.",
+    "Use Cobra Shot as a filler when Wild Thrash and Kill Command are both on cooldown."
   ]
 }

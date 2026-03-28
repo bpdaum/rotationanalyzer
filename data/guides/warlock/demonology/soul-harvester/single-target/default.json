@@ -4,19 +4,19 @@
   "heroSpec": "Soul Harvester",
   "buildName": "default",
   "priorityList": [
-    "Use Power Infusion, Blood Fury, and Berserking when Summon Demonic Tyrant is active.",
-    "Use on-use Trinkets, ideally synchronized with Summon Demonic Tyrant.",
+    "Ensure your primary pet is summoned before combat starts.",
+    "Use your Potion, Power Infusion, and Racial abilities while Summon Demonic Tyrant is active.",
+    "Use offensive on-use Trinkets, ideally syncing them with Summon Demonic Tyrant.",
     "Cast Power Siphon if you have 1 or fewer stacks of Demonic Core.",
-    "Cast Hand of Gul'dan if the Dominion of Argus buff is active.",
-    "Cast Grimoire: Imp Lord and Grimoire: Fel Ravager on cooldown.",
+    "Cast Hand of Gul'dan immediately if the Dominion of Argus buff is active.",
+    "Cast Grimoire: Felguard (or Grimoire: Fel Ravager/Imp Lord) on cooldown.",
     "Cast Summon Doomguard on cooldown.",
     "Cast Call Dreadstalkers on cooldown.",
-    "Cast Summon Demonic Tyrant on cooldown.",
-    "Cast Implosion if you have at least 6 Wild Imps and the To Hell and Back talent is active.",
+    "Summon Demonic Tyrant on cooldown, ensuring major demons (Dreadstalkers, Grimoire) are already active.",
+    "Cast Implosion if you have 6 or more Wild Imps and have the 'To Hell and Back' talent active.",
     "Cast Hand of Gul'dan whenever you have 3 or more Soul Shards.",
     "Cast Infernal Bolt if you have fewer than 3 Soul Shards.",
-    "Cast Demonbolt to apply or refresh Doom if it is not active and you have a Demonic Core stack.",
-    "Cast Demonbolt if you have Demonic Core stacks and fewer than 4 Soul Shards.",
-    "Cast Shadow Bolt as a filler to generate Soul Shards when no other actions are available."
+    "Cast Demonbolt if you have a Demonic Core proc and fewer than 4 Soul Shards, prioritizing targets without the Doom debuff.",
+    "Cast Shadow Bolt as your primary filler to generate Soul Shards."
   ]
 }

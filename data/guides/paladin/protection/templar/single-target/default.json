@@ -1,0 +1,23 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "protection",
+  "heroSpec": "Templar",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Devotion Aura and your chosen Rites (Sanctification and Adjuration) at all times.",
+    "Use Avenging Wrath when Divine Toll is ready or will be ready within 10 seconds.",
+    "Cast Divine Toll while Avenging Wrath is active.",
+    "Cast Hammer of Light as your primary spender if the target has the Judgment debuff and you either lack the Undisputed Ruling buff or Hammer of Light is about to expire.",
+    "Use Shield of the Righteous as a Holy Power spender if Hammer of Light is unavailable, or if you have a free proc, or immediately after using Divine Toll.",
+    "Use Holy Armaments to maintain the Sacred Weapon buff if it is expiring or missing.",
+    "If Hammer of Light is ready but the target lacks the Judgment debuff, cast Hammer of Wrath or Judgment to apply it.",
+    "Cast Avenger's Shield if the Vanguard's Momentum buff is active or during Avenging Wrath.",
+    "Use Holy Armaments (Holy Bulwark) if you are about to use Avenging Wrath or if you have 2 charges stored.",
+    "Cast Consecration if you have 5 or more stacks of Divine Guidance.",
+    "Cast Hammer of Wrath on cooldown.",
+    "Cast Judgment if it is about to reach maximum charges.",
+    "Cast Avenger's Shield on cooldown.",
+    "Use Hammer of the Righteous (or Blessed Hammer) if the Blessed Assurance buff is active.",
+    "Maintain Consecration and use your remaining charges of Judgment and Hammer of the Righteous/Blessed Hammer as fillers."
+  ]
+}

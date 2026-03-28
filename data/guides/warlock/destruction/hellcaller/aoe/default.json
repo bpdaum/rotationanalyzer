@@ -4,19 +4,18 @@
   "heroSpec": "Hellcaller",
   "buildName": "default",
   "priorityList": [
-    "Summon Infernal on cooldown for major burst damage during AoE encounters.",
-    "Cast Malevolence as soon as it is available, ideally while Infernal is active.",
-    "Cast Cataclysm to apply Wither to all targets and provide initial burst.",
-    "Maintain Havoc on a secondary target when fighting 2-3 enemies to cleave your spells.",
-    "Cast Rain of Fire as your primary Soul Shard spender if there are 4 or more enemies.",
-    "Cast Chaos Bolt as your primary Soul Shard spender if there are 2-3 enemies.",
-    "Cast Soul Fire if you have fewer than 4 Soul Shards and the target will survive the cast.",
-    "Use Shadowburn if Malevolence is active or if you have Fiendish Cruelty procs.",
-    "Use Shadowburn as a finisher on targets below 20% health.",
-    "Cast Conflagrate to generate Soul Shards and maintain Backdraft stacks, ensuring you don't cap at 2 charges.",
-    "Manually refresh Wither on targets if Cataclysm is on cooldown and the DoT is entering its pandemic window (under 30% duration).",
-    "Use Incinerate as your primary filler, especially if Fire and Brimstone is talented and Backdraft is active.",
-    "Use Ruination whenever it becomes available from Diabolic Ritual procs.",
-    "Use your offensive trinkets and potions during your Infernal and Malevolence windows for maximum impact."
+    "Summon Infernal on cooldown for major burst windows.",
+    "Activate Malevolence on cooldown, ideally while Infernal is active.",
+    "Cast Ruination as soon as it becomes available.",
+    "Cast Cataclysm to apply Wither to all targets in the area.",
+    "Spend Soul Shards on Rain of Fire when facing 4 or more enemies.",
+    "Cast Shadowburn if Malevolence or Fiendish Cruelty is active, or if there are 3 or fewer enemies.",
+    "Cast Chaos Bolt as your primary Soul Shard spender if there are 3 or fewer enemies (or 4 with Havoc active).",
+    "Apply Havoc to a secondary target if Infernal is not active and the target will live at least 8 seconds.",
+    "Cast Soul Fire to generate Soul Shards if you have fewer than 4.",
+    "Manually apply or refresh Wither on targets if Cataclysm is on cooldown and they will live longer than 8 seconds.",
+    "Cast Conflagrate if you have fewer than 2 stacks of Backdraft or need to generate Soul Shards.",
+    "Cast Incinerate as your filler spell, or to spend Backdraft stacks if Fire and Brimstone is talented.",
+    "Use offensive trinkets, potions, and racial abilities during Infernal or Malevolence windows."
   ]
 }

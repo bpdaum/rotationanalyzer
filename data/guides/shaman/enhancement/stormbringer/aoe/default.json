@@ -5,19 +5,19 @@
   "buildName": "default",
   "priorityList": [
     "Maintain Windfury Weapon, Flametongue Weapon, and Lightning Shield at all times.",
-    "Apply and maintain Flame Shock on at least one target.",
-    "Use Ascendance if it will trigger an AoE Chain Lightning via Thorim's Invocation.",
-    "Use offensive Trinkets, Potions, and Racial abilities during Ascendance or Doom Winds windows.",
-    "Cast Doom Winds on cooldown to maximize physical and Windfury damage.",
-    "Cast Tempest at 10 Maelstrom Weapon stacks, unless both Ascendance and Doom Winds are active simultaneously.",
-    "Cast Primordial Storm when at 10 Maelstrom Weapon stacks.",
-    "Cast Chain Lightning when you have 9 or more Maelstrom Weapon stacks.",
-    "Cast Crash Lightning to maintain its cleave buff or while Doom Winds or Ascendance are active.",
-    "Cast Windstrike as your primary filler while Ascendance is active.",
-    "Cast Stormstrike if you are about to cap charges or to reach maximum stacks of Converging Storms.",
-    "Cast Sundering on cooldown, especially if Feral Spirits are active.",
-    "Cast Voltaic Blaze whenever it becomes available.",
-    "Cast Lava Lash as a low-priority filler when other major abilities are on cooldown.",
-    "Cast Chain Lightning with 5 or more Maelstrom Weapon stacks if no other higher priority actions are available."
+    "Apply and maintain Flame Shock on your primary target if it is not ticking.",
+    "Cast Ascendance when Thorim's Invocation will trigger Chain Lightning.",
+    "Use offensive Trinkets, Potions, and Racials during Ascendance or Doom Winds windows.",
+    "Cast Sundering if Surging Elements or Feral Spirit is talented.",
+    "Use Doom Winds on cooldown to maximize Windfury procs.",
+    "Cast Tempest when you have 10 stacks of Maelstrom Weapon, unless both Ascendance and Doom Winds are active.",
+    "Cast Primordial Storm when you have 10 stacks of Maelstrom Weapon.",
+    "Cast Crash Lightning to maintain its cleave buff and as a high-priority generator.",
+    "Cast Windstrike (replaces Stormstrike during Ascendance) as your primary generator.",
+    "Cast Stormstrike while Doom Winds is active or if you have nearly full charges.",
+    "Spend Maelstrom Weapon stacks on Chain Lightning when at 9 or more stacks.",
+    "Cast Voltaic Blaze whenever the proc is available.",
+    "Cast Lava Lash as a filler when higher priority rotational abilities are on cooldown.",
+    "Cast Chain Lightning when at 5 or more stacks of Maelstrom Weapon to avoid overcapping."
   ]
 }

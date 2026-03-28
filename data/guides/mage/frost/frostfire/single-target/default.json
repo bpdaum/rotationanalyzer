@@ -4,19 +4,18 @@
   "heroSpec": "Frostfire",
   "buildName": "default",
   "priorityList": [
-    "Cast Arcane Intellect and prepare Glacial Spike or Frostbolt before entering combat.",
-    "Use offensive trinkets, potions, and racial abilities when casting Frozen Orb, Ray of Frost, or while the target has the Freezing debuff.",
-    "Cast Flurry if Brain Freeze is active, but only if Thermal Void is NOT currently active.",
+    "Cast Arcane Intellect before combat.",
+    "Use damage-increasing trinkets, potions, and racial abilities on cooldown, ideally during burst windows.",
+    "Cast Flurry if Brain Freeze is active, unless Thermal Void is currently active.",
     "Cast Frozen Orb on cooldown to generate Fingers of Frost and Icicles.",
-    "Cast Glacial Spike whenever you reach 5 Icicles.",
+    "Cast Glacial Spike as soon as you have 5 Icicles.",
     "Cast Comet Storm on cooldown.",
-    "Cast Ice Lance if Fingers of Frost is active.",
+    "Cast Ice Lance if you have Fingers of Frost active.",
     "Cast Ice Lance if the target has 10 or more stacks of the Freezing debuff.",
-    "Cast Flurry when charges are available or off cooldown.",
-    "Cast Ray of Frost on cooldown.",
-    "Cast Frostbolt as your primary filler to generate Icicles and Brain Freeze procs.",
-    "If movement is required, use Blink or Shimmer to maintain uptime.",
-    "Use Ice Lance or Blizzard (if Freezing Rain is active) as mobile fillers if you must move and cannot Blink.",
-    "Use Ice Nova or Cone of Cold as emergency fillers while moving if talented into Cone of Frost."
+    "Cast Flurry whenever it is available to generate Winter's Chill.",
+    "Cast Ray of Frost on cooldown, especially if Frostfire Empowerment is not active.",
+    "Cast Frostbolt as your primary filler spell to generate procs and Icicles.",
+    "Use Blink or Shimmer to maintain casting uptime during movement.",
+    "If forced to move and no procs are available, use Ice Lance as a filler."
   ]
 }

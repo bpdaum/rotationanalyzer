@@ -1,0 +1,23 @@
+{
+  "classSlug": "monk",
+  "specSlug": "brewmaster",
+  "heroSpec": "Shado-Pan",
+  "buildName": "default",
+  "priorityList": [
+    "Use Racials, Trinkets, and Potions on cooldown.",
+    "Cast Black Ox Brew if you have zero Celestial Brew charges or are low on Energy.",
+    "If the Aspect of Harmony Spender buff is active, use Keg Smash if Empty Barrel is up, otherwise use Celestial Brew.",
+    "Cast Celestial Brew if you have high Aspect of Harmony accumulation (over 30% of max HP) or are about to cap charges.",
+    "Cast Blackout Kick on cooldown, ensuring you do not waste a Blackout Combo buff.",
+    "Use Purifying Brew and Fortifying Brew to manage incoming damage and stagger.",
+    "Use Chi Burst on cooldown.",
+    "Cast Invoke Niuzao the Black Ox on cooldown.",
+    "Cast Exploding Keg if you have no charges of Keg Smash available.",
+    "Cast Empty the Cellar if Celestial Brew has more than 15 seconds remaining on cooldown.",
+    "Cast Breath of Fire if Niuzao is active, to trigger Flurry Strikes, or when Blackout Kick is on cooldown.",
+    "Use Keg Smash to prevent capping charges or to trigger Flurry Strikes and Scalding Brew.",
+    "Keep Rushing Jade Wind active at all times.",
+    "Use Tiger Palm to dump excess energy or to consume Blackout Combo when Blackout Kick is nearly ready to be reset.",
+    "Use Expel Harm as a last-resort filler."
+  ]
+}

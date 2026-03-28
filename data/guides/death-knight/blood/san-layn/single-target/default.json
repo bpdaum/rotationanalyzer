@@ -1,0 +1,23 @@
+{
+  "classSlug": "death-knight",
+  "specSlug": "blood",
+  "heroSpec": "San'layn",
+  "buildName": "default",
+  "priorityList": [
+    "Cast Vampiric Blood if the buff is not already active.",
+    "Cast Raise Dead and Dancing Rune Weapon as your primary offensive cooldowns.",
+    "Cast Death Strike if the Coagulopathy buff is about to expire.",
+    "Cast Death's Caress if Bone Shield is missing, about to expire (less than 1.5s), or has only 1 stack.",
+    "Cast Blood Boil if Blood Plague is missing or about to expire (less than 3s).",
+    "Cast Death's Caress or Marrowrend if Bone Shield is below 6 stacks.",
+    "During Gift of the San'layn, use Heart Strike to maintain Essence of the Blood Queen stacks (under 7) or if the buff is expiring (under 1.5s).",
+    "During Gift of the San'layn, cast Death Strike if Runic Power deficit is less than 36.",
+    "Cast Death and Decay whenever Crimson Scourge procs.",
+    "Cast Heart Strike whenever Vampiric Strike is available.",
+    "Cast Death Strike if Runic Power is near maximum (deficit less than 20).",
+    "Cast Death Strike as your primary Runic Power spender.",
+    "Cast Consumption on cooldown.",
+    "Cast Heart Strike if you have 2 or more Runes available.",
+    "Use Blood Boil as a filler when no other priority actions are available."
+  ]
+}

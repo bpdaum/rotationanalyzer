@@ -1,0 +1,23 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "protection",
+  "heroSpec": "Colossus",
+  "buildName": "default",
+  "priorityList": [
+    "Ensure Battle Stance is active at all times.",
+    "Use Avatar on cooldown to maximize damage and rage generation.",
+    "Maintain Shield Block uptime, refreshing it if less than 10 seconds remain.",
+    "Cast Ignore Pain to avoid rage capping, especially before using Shield Slam, Shield Charge, or Demoralizing Shout.",
+    "Cast Demolish once you have reached at least 3 stacks of Colossal Might.",
+    "Cast Ravager on cooldown.",
+    "Cast Demoralizing Shout on cooldown if Booming Voice is talented for the damage and rage bonus.",
+    "Cast Champion's Spear and Shield Charge on cooldown.",
+    "Cast Shield Slam as your highest priority rotational ability.",
+    "Cast Thunder Clap as your secondary priority rotational ability.",
+    "Cast Execute if Sudden Death procs or if the target is in execute range and you have at least 40 Rage.",
+    "Cast Revenge if Ravager is active or if you have a free 'Revenge!' proc.",
+    "Cast Revenge to spend excess rage if you are above 80 Rage and Shield Slam is on cooldown.",
+    "Cast Wrecking Throw or Shattering Throw if Javelineer is talented and other abilities are on cooldown.",
+    "Use Devastate as a filler if no other abilities are available."
+  ]
+}

@@ -4,18 +4,18 @@
   "heroSpec": "Flameshaper",
   "buildName": "default",
   "priorityList": [
-    "Interrupt with Quell when the target is casting.",
-    "Use Dragonrage as your primary DPS cooldown if the target will live for at least 30 seconds.",
-    "Use Potions and Power Infusion while Dragonrage is active.",
-    "Use Tip the Scales during Dragonrage, ideally right before casting Eternity Surge.",
-    "Cast Eternity Surge (Level 1) whenever available.",
-    "Cast Fire Breath (Level 1) if the damage-over-time effect is refreshable.",
-    "Use On-Use Trinkets during Dragonrage, preferably after gaining 4+ stacks of Rising Fury.",
-    "Cast Disintegrate as your main Essence spender; chain your next Disintegrate when only 1 tick remains on the current channel.",
-    "Cast Living Flame when Burnout procs.",
-    "Cast Living Flame if Leaping Flames or Ancient Flame is active.",
-    "Use Verdant Embrace or Emerald Blossom to trigger Ancient Flame and Scarlet Adaptation, provided Dragonrage is not active.",
-    "Use Azure Strike as a filler when moving without Hover or if no other priorities are met.",
-    "Use Hover to maintain mobility and cast while moving."
+    "Use Dragonrage on cooldown if the target will survive for at least 30 seconds.",
+    "Use Power Infusion, combat potions, and on-use trinkets during Dragonrage to maximize burst.",
+    "Use Tip the Scales during Dragonrage to cast an instant Eternity Surge.",
+    "Cast Eternity Surge at Empower Level 1 as often as possible.",
+    "Cast Fire Breath at Empower Level 1 whenever the damage-over-time effect is refreshable.",
+    "Spend Essence and Essence Burst procs on Disintegrate as your primary spender.",
+    "Early-chain Disintegrate when 1 tick remains to maximize spell uptime.",
+    "Cast Living Flame immediately whenever the Burnout proc is active.",
+    "Cast Living Flame if the Ancient Flame or Leaping Flames buffs are active.",
+    "Cast Living Flame as your primary single-target filler spell.",
+    "Use Hover to maintain casting uptime during movement or if movement is expected within 6 seconds.",
+    "Use Verdant Embrace when Dragonrage is not active to trigger the Ancient Flame and Scarlet Adaptation buffs.",
+    "Cast Azure Strike as a filler only when moving if Hover is unavailable."
   ]
 }

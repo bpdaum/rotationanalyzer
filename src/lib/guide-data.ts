@@ -8,29 +8,32 @@ export interface ScrapedRotation {
     buildName: string;
     priorityList: string[];
 }/**
- * Every valid DPS spec + its available hero specs.
+ * Every valid spec (DPS/Tank) + its available hero specs.
  * Hero specs are listed per-spec (not per-class) for accuracy.
  * combatTypes: the combat profiles we scrape for.
  */
-export interface DpsSpecEntry {
+export interface SpecEntry {
     classSlug: string;
     specSlug: string;
     heroSpecs: string[];
     combatTypes: string[];
 }
 
-export const DPS_SPECS: DpsSpecEntry[] = [
+export const SUPPORTED_SPECS: SpecEntry[] = [
     // Death Knight
+    { classSlug: 'death-knight', specSlug: 'blood', heroSpecs: ['Deathbringer', "San'layn"], combatTypes: ['Single Target', 'AoE'] },
     { classSlug: 'death-knight', specSlug: 'frost', heroSpecs: ['Rider of the Apocalypse', 'Deathbringer'], combatTypes: ['Single Target', 'AoE'] },
     { classSlug: 'death-knight', specSlug: 'unholy', heroSpecs: ['Rider of the Apocalypse', "San'layn"], combatTypes: ['Single Target', 'AoE'] },
 
     // Demon Hunter
     { classSlug: 'demon-hunter', specSlug: 'havoc', heroSpecs: ['Aldrachi Reaver', 'Fel-Scarred'], combatTypes: ['Single Target', 'AoE'] },
+    { classSlug: 'demon-hunter', specSlug: 'vengeance', heroSpecs: ['Aldrachi Reaver', 'Fel-Scarred'], combatTypes: ['Single Target', 'AoE'] },
     { classSlug: 'demon-hunter', specSlug: 'devourer', heroSpecs: ['Annihilator', 'Void-Scarred'], combatTypes: ['Single Target', 'AoE'] },
 
     // Druid
     { classSlug: 'druid', specSlug: 'balance', heroSpecs: ['Keeper of the Grove', "Elune's Chosen"], combatTypes: ['Single Target', 'AoE'] },
     { classSlug: 'druid', specSlug: 'feral', heroSpecs: ['Wildstalker', 'Druid of the Claw'], combatTypes: ['Single Target', 'AoE'] },
+    { classSlug: 'druid', specSlug: 'guardian', heroSpecs: ["Elune's Chosen", 'Druid of the Claw'], combatTypes: ['Single Target', 'AoE'] },
 
     // Evoker
     { classSlug: 'evoker', specSlug: 'devastation', heroSpecs: ['Scalecommander', 'Flameshaper'], combatTypes: ['Single Target', 'AoE'] },
@@ -47,9 +50,11 @@ export const DPS_SPECS: DpsSpecEntry[] = [
     { classSlug: 'mage', specSlug: 'frost', heroSpecs: ['Spellslinger', 'Frostfire'], combatTypes: ['Single Target', 'AoE'] },
 
     // Monk
+    { classSlug: 'monk', specSlug: 'brewmaster', heroSpecs: ['Master of Harmony', 'Shado-Pan'], combatTypes: ['Single Target', 'AoE'] },
     { classSlug: 'monk', specSlug: 'windwalker', heroSpecs: ['Master of Harmony', 'Shado-Pan'], combatTypes: ['Single Target', 'AoE'] },
 
     // Paladin
+    { classSlug: 'paladin', specSlug: 'protection', heroSpecs: ['Lightsmith', 'Templar'], combatTypes: ['Single Target', 'AoE'] },
     { classSlug: 'paladin', specSlug: 'retribution', heroSpecs: ['Herald of the Sun', 'Templar'], combatTypes: ['Single Target', 'AoE'] },
 
     // Priest
@@ -72,6 +77,7 @@ export const DPS_SPECS: DpsSpecEntry[] = [
     // Warrior
     { classSlug: 'warrior', specSlug: 'arms', heroSpecs: ['Colossus', 'Slayer'], combatTypes: ['Single Target', 'AoE'] },
     { classSlug: 'warrior', specSlug: 'fury', heroSpecs: ['Slayer', 'Mountain Thane'], combatTypes: ['Single Target', 'AoE'] },
+    { classSlug: 'warrior', specSlug: 'protection', heroSpecs: ['Colossus', 'Mountain Thane'], combatTypes: ['Single Target', 'AoE'] },
 ];
 
 /**

@@ -1,0 +1,23 @@
+{
+  "classSlug": "warrior",
+  "specSlug": "protection",
+  "heroSpec": "Mountain Thane",
+  "buildName": "default",
+  "priorityList": [
+    "Maintain Shield Block at all times, ensuring the remaining duration stays above 10 seconds.",
+    "Use Ignore Pain to spend excess Rage (above 70) or to prevent capping before high-generator abilities like Shield Slam.",
+    "Cast Avatar if you have 2 or fewer stacks of Thunder Blast.",
+    "Cast Demoralizing Shout on cooldown if Booming Voice is talented for the damage and Rage buff.",
+    "Cast Ravager and Champion's Spear on cooldown for high AoE damage and Rage generation.",
+    "Use Shield Charge on cooldown for damage and to close gaps.",
+    "Use Thunder Blast or Thunder Clap immediately if Rend is not active on your targets.",
+    "Prioritize Thunder Blast when you have 2 stacks and at least 2 targets are present.",
+    "In AoE, prioritize Thunder Blast whenever Avatar is active.",
+    "Use Execute on 2+ targets if you have a Sudden Death proc or high Rage (with Heavy Handed talent).",
+    "Cast Thunder Clap while Avatar is active when facing 4 or more targets.",
+    "Use Shield Slam if Rage is below 60 or if Violent Outburst is active.",
+    "Use Thunder Blast as your primary rotational filler whenever available.",
+    "Use Thunder Clap as your secondary rotational filler to fill gaps.",
+    "Use Revenge to dump excess Rage (above 70 in AoE) or if it is free from procs."
+  ]
+}

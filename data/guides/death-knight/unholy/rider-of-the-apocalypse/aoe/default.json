@@ -4,19 +4,19 @@
   "heroSpec": "Rider of the Apocalypse",
   "buildName": "default",
   "priorityList": [
-    "Maintain Virulent Plague using Outbreak if it has fewer than 3 ticks remaining or is about to expire.",
-    "Cast Army of the Dead if available, ideally when you have at least 30 Runic Power or the Festering Scythe debuff is active.",
-    "Cast Dark Transformation if Army of the Dead is active or if Army of the Dead has more than 30 seconds remaining on its cooldown.",
-    "Cast Death and Decay if it is not currently active on the ground.",
-    "Cast Festering Strike if you have the Festering Scythe talent and the buff or debuff is about to expire (within 3 seconds).",
-    "Use Soul Reaper on targets below 35% health.",
-    "Cast Scourge Strike whenever you have 1 or more stacks of the Lesser Ghoul Ready buff to summon a Horseman.",
-    "Cast Festering Strike if you have 0 stacks of the Lesser Ghoul Ready buff to generate resources.",
-    "Cast Putrefy if it is at max charges or if Dark Transformation is on cooldown for more than 15 seconds.",
-    "Spend Runic Power on Epidemic if you have a Sudden Doom proc, have fewer than 2 Runes, or if the Forbidden Knowledge buff is active.",
-    "Use Epidemic as your primary Runic Power spender for 4 or more targets.",
-    "Use offensive Trinkets and Racial abilities (like Blood Fury or Berserking) while Dark Transformation or Horsemen are active.",
-    "Invoke Power Infusion when Horsemen, Dark Transformation, or Forbidden Knowledge are active.",
-    "Use Death Coil only as a secondary filler if Epidemic is not the priority (less than 4 targets)."
+    "Maintain Virulent Plague with Outbreak if it has fewer than 3 ticks remaining.",
+    "Cast Army of the Dead whenever available.",
+    "Cast Dark Transformation while Army of the Dead is active or if its cooldown is greater than 30 seconds.",
+    "Cast Death and Decay (Desecrate) if it is not already ticking on the ground.",
+    "Use Festering Strike if the Festering Scythe buff or debuff is about to expire.",
+    "Cast Soul Reaper if the target is below 35% health.",
+    "Use Scourge Strike if you have at least 1 stack of Lesser Ghoul Ready to summon a Rider of the Apocalypse.",
+    "Cast Epidemic to spend Runic Power when you have Sudden Doom procs or fewer than 2 Runes (priority at 4+ enemies).",
+    "Cast Death Coil to spend Runic Power when you have Sudden Doom procs or fewer than 2 Runes (priority at 1-3 enemies).",
+    "Cast Putrefy if it is at max charges or if Dark Transformation is on cooldown.",
+    "Use Festering Strike to generate resources if you have 0 stacks of Lesser Ghoul Ready.",
+    "Cast Epidemic as your primary Runic Power spender if there are 4+ enemies.",
+    "Cast Death Coil as your Runic Power spender if there are fewer than 4 enemies.",
+    "Use offensive Trinkets and Racials during Dark Transformation or while Riders are active."
   ]
 }

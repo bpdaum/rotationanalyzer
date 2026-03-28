@@ -4,20 +4,20 @@
   "heroSpec": "Colossus",
   "buildName": "default",
   "priorityList": [
-    "Charge to engage and Pummel to interrupt enemy spellcasting.",
-    "Maintain Rend on all targets, using Thunder Clap to apply/refresh it if talented.",
-    "Use Sweeping Strikes if Colossus Smash has more than 10 seconds remaining on its cooldown.",
+    "Charge to initiate combat and Pummel to interrupt casts.",
+    "Use Thunder Clap or Rend to apply and maintain the Rend dot on all targets.",
+    "Use Sweeping Strikes if Colossus Smash is on cooldown for more than 10 seconds or if Broad Strokes is not talented.",
     "Cast Ravager when Colossus Smash is nearly ready (less than 3 seconds remaining).",
-    "Use Avatar and Colossus Smash (or Warbreaker) together as your primary burst window.",
+    "Activate Avatar and Colossus Smash (or Warbreaker) to begin your primary burst window.",
     "Cast Champion's Spear while the Colossus Smash debuff is active on targets.",
-    "Use Demolish immediately if you reach 10 stacks of Colossal Might.",
-    "Use Demolish while Colossus Smash is active, provided it has at least 2 seconds remaining.",
-    "Use Cleave as your primary Rage spender for AoE damage.",
-    "Use Whirlwind if you have 3 stacks of Collateral Damage and Fervor of Battle is talented.",
-    "In Execute phase, prioritize Mortal Strike if you have 2 stacks of Executioner's Precision.",
-    "Use Overpower to generate Rage and build stacks of Martial Prowess.",
-    "Use Execute whenever Sudden Death procs or when targets are in the Execute health range.",
-    "Use Bladestorm as a powerful filler during the Colossus Smash window.",
-    "Sync on-use damage trinkets and racial buffs (like Blood Fury or Berserking) with Avatar and Colossus Smash."
+    "Cast Demolish when you reach 10 stacks of Colossal Might or during the Colossus Smash window.",
+    "Use Cleave as your primary spender and priority attack in AoE situations.",
+    "Cast Whirlwind if you have the Fervor of Battle talent and 3 stacks of Collateral Damage.",
+    "Use Mortal Strike as a high-priority filler to consume procs.",
+    "Cast Overpower to generate Martial Prowess stacks and maintain rotational flow.",
+    "Use Execute on Sudden Death procs or if targets are in the Execute health range.",
+    "Use Bladestorm as a filler while the Colossus Smash debuff is active.",
+    "Use Wrecking Throw or Slam only as a final resort if all other abilities are on cooldown.",
+    "Sync on-use Trinkets and offensive Racials (like Berserking or Blood Fury) with Avatar and Colossus Smash."
   ]
 }

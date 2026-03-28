@@ -4,20 +4,20 @@
   "heroSpec": "Deathbringer",
   "buildName": "default",
   "priorityList": [
-    "Interrupt with Mind Freeze whenever possible.",
-    "Cast Reaper's Mark if Pillar of Frost is ready or will be ready within 1.5 seconds.",
-    "Cast Pillar of Frost if Reaper's Mark is on cooldown (more than 10s remaining) or recently applied.",
-    "Activate Breath of Sindragosa during Pillar of Frost if you have at least 60 Runic Power.",
+    "Use Mind Freeze to interrupt spellcasting.",
+    "Cast Reaper's Mark when Pillar of Frost is nearly ready to ensure they overlap.",
+    "Cast Pillar of Frost if Reaper's Mark is active or if Reaper's Mark will not be available for at least 10 seconds.",
+    "Use Breath of Sindragosa during Pillar of Frost if you have at least 60 Runic Power.",
     "Cast Remorseless Winter on cooldown if talented into Gathering Storm.",
-    "Cast Frostwyrm's Fury at the very end of Pillar of Frost or when Unholy Strength is about to expire.",
-    "Use Empower Rune Weapon if you have fewer than 2 Runes or if Killing Machine is not active.",
-    "Cast Obliterate if you have 2 stacks of Killing Machine, or 1 stack with 3+ Runes available.",
-    "Cast Howling Blast on Rime procs if you have the Frostbound Will talent or if Frost Fever is not ticking.",
-    "Cast Frost Strike if the target has 5 stacks of Razorice and you have the Shattering Blade talent.",
+    "Cast Frostwyrm's Fury during Pillar of Frost, but only if Reaper's Mark is not currently active on the target.",
+    "Use Raise Dead on cooldown and Empower Rune Weapon if you are low on Runes or Runic Power.",
+    "Use offensive trinkets and potions specifically during your Pillar of Frost window.",
+    "Cast Obliterate if you have 2 stacks of Killing Machine or if you have 1 stack and at least 3 Runes.",
+    "Cast Howling Blast if Rime is active and you have the Frostbound Will talent.",
+    "Cast Frost Strike if Shattering Blade is talented and the target has 5 stacks of Razorice.",
     "Cast Howling Blast on any Rime proc.",
-    "Cast Frost Strike if you are near maximum Runic Power to avoid capping.",
-    "Cast Obliterate if Killing Machine is active and you are not pooling Runes for an upcoming Reaper's Mark.",
-    "Cast Frost Strike to spend excess Runic Power as a general filler.",
-    "Cast Obliterate as a filler when not pooling Runes and not in a specialized window."
+    "Cast Frost Strike if Runic Power is nearly capped (deficit less than 30).",
+    "Cast Obliterate on any remaining Killing Machine procs.",
+    "Cast Frost Strike to spend Runic Power and Obliterate as your primary Rune spender."
   ]
 }

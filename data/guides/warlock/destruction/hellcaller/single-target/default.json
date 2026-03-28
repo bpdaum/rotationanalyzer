@@ -4,19 +4,20 @@
   "heroSpec": "Hellcaller",
   "buildName": "default",
   "priorityList": [
-    "Summon your pet or use Grimoire of Sacrifice if talented.",
-    "Cast Soul Fire as a pre-cast or whenever you have 4 or fewer Soul Shards.",
-    "Summon Infernal on cooldown.",
-    "Cast Malevolence, ideally while your Infernal is active.",
-    "Use offensive trinkets, potions, and racial buffs during your Infernal or Malevolence windows.",
-    "Maintain the Wither damage-over-time effect; refresh it if it has less than 5 seconds remaining or before a Chaos Bolt lands if talented into Internal Combustion.",
-    "Cast Conflagrate if you have 4 or fewer Soul Shards and no Backdraft stacks.",
-    "Cast Shadowburn if the target is below 20% health or if the Fiendish Cruelty buff is active, especially during Malevolence or Infernal.",
-    "Cast Chaos Bolt if you have 4 or more Soul Shards, or while Malevolence or Infernal is active.",
-    "Cast Infernal Bolt if you have 3 or fewer Soul Shards.",
-    "Cast Channel Demonfire on cooldown.",
+    "Summon your pet (or use Grimoire of Sacrifice) before combat begins.",
+    "Use Summon Infernal on cooldown as your primary offensive burst.",
+    "Use Malevolence on cooldown, ideally synchronized with Summon Infernal or other damage buffs.",
+    "Use Soul Fire if you have 4 or fewer Soul Shards.",
+    "Cast Chaos Bolt if you have 4 or more Soul Shards, or while Malevolence or Summon Infernal is active.",
+    "Use Conflagrate if you have 4 or fewer Soul Shards and no Backdraft stacks.",
+    "Use Shadowburn if the target is below 20% health or if the Fiendish Cruelty/Conflagration of Chaos buffs are active during burst phases.",
+    "Maintain Wither on your target at all times; refresh it if it has less than 30% duration remaining.",
+    "If Internal Combustion is talented, ensure Wither is refreshed before casting Chaos Bolt.",
+    "Use Infernal Bolt whenever available if you have 3 or fewer Soul Shards.",
+    "Cast Channel Demonfire on cooldown as long as Wither is active on the target.",
     "Cast Incinerate if the Chaotic Inferno buff is active and you have 4 or fewer Soul Shards.",
-    "Cast Cataclysm on cooldown if Lake of Fire is talented.",
-    "Cast Incinerate as your primary filler."
+    "Use Cataclysm on cooldown if Lake of Fire is talented.",
+    "Use Incinerate as your main filler to generate Soul Shards.",
+    "Activate offensive trinkets, potions, and racial combat abilities (like Berserking or Blood Fury) during your Summon Infernal window."
   ]
 }

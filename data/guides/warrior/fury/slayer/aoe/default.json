@@ -4,20 +4,20 @@
   "heroSpec": "Slayer",
   "buildName": "default",
   "priorityList": [
-    "Cast Whirlwind if the Whirlwind cleave buff is missing.",
-    "Use Recklessness and Avatar together on cooldown.",
-    "Use offensive trinkets during Recklessness.",
-    "Cast Rampage if you are near max Rage (110+) or if Enrage is about to expire.",
-    "Use Bladestorm while Enraged, ideally during Recklessness.",
+    "Cast Whirlwind if the Whirlwind cleave buff is missing to enable multi-target damage.",
+    "Cast Recklessness and Avatar on cooldown, ideally synchronized with each other.",
+    "Cast Rampage if Enrage is about to expire or if you have 110 or more Rage.",
+    "Cast Bladestorm while Enraged, specifically when Recklessness is active or has more than 10 seconds remaining on cooldown.",
     "Cast Odyn's Fury on cooldown.",
-    "Cast Bloodbath whenever available.",
+    "Cast Bloodbath (Enraged Bloodthirst) on cooldown.",
     "Cast Execute if Sudden Death procs.",
-    "Cast Rampage while Recklessness is active to dump Rage.",
-    "Cast Crushing Blow.",
-    "Cast Bloodthirst to generate Rage and Enrage.",
-    "Maintain Rend if the duration is under 6 seconds.",
-    "Cast Execute on targets in health range (below 20% or 35% with Massacre).",
-    "Cast Rampage as a general filler to maintain Enrage.",
-    "Cast Whirlwind as a filler to maintain cleave stacks and generate Rage."
+    "Cast Rampage while Recklessness is active to maximize Rage spending.",
+    "Cast Whirlwind while Recklessness is active to maintain cleave stacks.",
+    "Cast Crushing Blow (Enraged Raging Blow) on cooldown.",
+    "Cast Bloodthirst to generate Rage and maintain Enrage.",
+    "Cast Rend if the bleed duration is less than 6 seconds.",
+    "Cast Execute on targets below the health threshold.",
+    "Cast Rampage as your primary Rage spender.",
+    "Cast Whirlwind or Raging Blow as fillers to generate Rage and maintain cleave."
   ]
 }

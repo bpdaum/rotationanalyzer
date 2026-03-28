@@ -4,17 +4,18 @@
   "heroSpec": "Pack Leader",
   "buildName": "default",
   "priorityList": [
-    "Use offensive Trinkets, Racials, and Potions when Takedown is ready or its buff is active.",
-    "Use Aspect of the Eagle if you are outside of melee range of your target.",
-    "Cast Kill Command if you have fewer than 2 stacks of Tip of the Spear and any Pack Leader buff (Wyvern, Boar, or Bear) is active.",
-    "Cast Kill Command if Takedown is about to come off cooldown and you have fewer than 2 stacks of Tip of the Spear.",
-    "Cast Takedown if Tip of the Spear is active, or at 0 stacks if you have the Twin Fangs talent.",
-    "Cast Flamefang Pitch on cooldown.",
-    "Cast Boomstick if Tip of the Spear is active.",
-    "Cast Wildfire Bomb if Tip of the Spear is active and it will extend Fury of the Wyvern.",
-    "Cast Raptor Strike (or Mongoose Bite) if Tip of the Spear is active or to refresh the Raptor Swipe damage buff.",
-    "Cast Kill Command while Takedown is on cooldown to generate resources and stacks.",
-    "Cast Wildfire Bomb whenever a charge is available.",
-    "Cast Takedown as a filler if available."
+    "Use Racial abilities, Potions, and Trinkets when Coordinated Assault (Takedown) is active or ready.",
+    "Use Kill Command if you have fewer than 2 stacks of Tip of the Spear and a Pack Leader Howl buff (Wyvern, Boar, or Bear) is active.",
+    "Use Wildfire Bomb if Wyvern's Cry is active and about to expire to extend Fury of the Wyvern.",
+    "Use Kill Command if Coordinated Assault (Takedown) is about to come off cooldown and you have fewer than 2 stacks of Tip of the Spear.",
+    "Use Raptor Strike (or Mongoose Bite) if your Raptor Swipe (Mongoose Fury) buff is missing and Coordinated Assault is nearly ready.",
+    "Use Explosive Shot (Boomstick) if Tip of the Spear is active.",
+    "Use Coordinated Assault (Takedown) if you have at least 1 stack of Tip of the Spear (or 0 stacks if talented into Twin Fangs).",
+    "Use Flamefang Pitch on cooldown.",
+    "Use Wildfire Bomb if Tip of the Spear is active and Coordinated Assault is not currently running.",
+    "Use Raptor Strike (or Mongoose Bite) if Tip of the Spear is active or the Raptor Swipe buff is missing.",
+    "Use Kill Command as your primary generator when Coordinated Assault (Takedown) is on cooldown.",
+    "Use Wildfire Bomb if no other high-priority actions are available.",
+    "Use Aspect of the Eagle if you are forced out of melee range (6+ yards) of your target."
   ]
 }

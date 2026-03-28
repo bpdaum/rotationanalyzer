@@ -4,18 +4,19 @@
   "heroSpec": "Soul Harvester",
   "buildName": "default",
   "priorityList": [
-    "Cast Seed of Corruption pre-combat or to apply and refresh Corruption on all targets.",
+    "Summon your pet and use Grimoire of Sacrifice if the talent is selected before combat.",
+    "Cast Seed of Corruption as your opener and whenever Corruption is missing or needs refreshing on enemy groups.",
     "Maintain Haunt on your primary target at all times.",
     "Cast Dark Harvest on cooldown.",
-    "Maintain Agony on all targets (up to 5 targets in heavy AoE), prioritizing refreshes when duration is under 5 seconds.",
-    "Summon Darkglare on cooldown.",
-    "In AoE (3+ targets), spend Soul Shards on Seed of Corruption if Sow the Seeds is talented.",
-    "In Cleave (2 targets) or if Sow the Seeds is not talented, spend Soul Shards on Unstable Affliction.",
+    "Maintain Agony on up to 5 targets, refreshing it when it has less than 5 seconds remaining.",
+    "Summon Darkglare on cooldown to extend your damage-over-time effects.",
+    "Use Seed of Corruption as your primary Soul Shard spender in AoE if you have the Sow the Seeds talent.",
+    "Use Unstable Affliction as your Soul Shard spender in 2-target cleave or if you do not have the Sow the Seeds talent.",
+    "Cast Seed of Corruption when you have maximum stacks of Nightfall if you have the Nocturnal Yield talent.",
     "Use Malefic Grasp, Drain Soul, or Shadow Bolt whenever you have 2 or more stacks of Nightfall.",
-    "Cast Malefic Grasp immediately if Darkglare is about to expire to maximize its benefit.",
-    "Cast Unstable Affliction if Shard Instability is active, even in AoE scenarios.",
-    "Refresh Agony on any target if its remaining duration is less than 50% of its total length.",
-    "Activate offensive cooldowns, including trinkets, potions, and racials (like Berserking or Blood Fury), while Darkglare is active.",
-    "Use Drain Soul or Shadow Bolt as your filler when you have no other priority actions and Nightfall is not at high stacks."
+    "In 2-target cleave, prioritize casting Unstable Affliction if you have 5 Soul Shards or a Shard Instability proc.",
+    "Cast Malefic Grasp immediately if your Darkglare is about to expire.",
+    "Use offensive Trinkets, Potions, and Racial abilities while Darkglare is active.",
+    "Use Drain Soul or Shadow Bolt as your filler spell, prioritizing the consumption of Nightfall procs."
   ]
 }

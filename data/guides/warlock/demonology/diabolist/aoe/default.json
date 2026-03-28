@@ -4,17 +4,17 @@
   "heroSpec": "Diabolist",
   "buildName": "default",
   "priorityList": [
-    "Use Power Siphon if you have 1 or fewer Demonic Core stacks.",
-    "Cast Hand of Guldan when Dominion of Argus is active.",
+    "Use Power Siphon if you have 1 or fewer stacks of Demonic Core.",
+    "Cast Hand of Gul'dan immediately if the Dominion of Argus buff is active.",
     "Use Grimoire: Imp Lord, Grimoire: Fel Ravager, and Summon Doomguard on cooldown.",
-    "Cast Call Dreadstalkers on cooldown, ideally synced with Demonic Tyrant preparation.",
-    "Summon Demonic Tyrant when you have 5 Soul Shards.",
-    "Cast Implosion if you have 6 or more Wild Imps active.",
-    "Cast Ruination whenever it is available.",
-    "Cast Hand of Guldan if you have 5 Soul Shards, or if you have at least 3 Shards and Demonic Tyrant is not coming off cooldown within 5 seconds.",
-    "Cast Infernal Bolt if you have fewer than 3 Soul Shards.",
-    "Cast Demonbolt if you have Demonic Core stacks and fewer than 4 Soul Shards, prioritizing targets that do not have the Doom debuff.",
-    "Use Shadow Bolt as a filler to generate Soul Shards.",
-    "Use offensive Trinkets, Racials, and Potions while your Demonic Tyrant is active."
+    "Cast Call Dreadstalkers on cooldown.",
+    "Cast Summon Demonic Tyrant when you have 5 Soul Shards.",
+    "Use Implosion if you have 6 or more Wild Imps and there are 3 or more targets.",
+    "Cast Ruination whenever available.",
+    "Cast Hand of Gul'dan if you have 5 Soul Shards, or at 3 or more Soul Shards if the Demonic Tyrant cooldown is greater than 5 seconds.",
+    "Cast Infernal Bolt if you have fewer than 3 Soul Shards to generate resources.",
+    "Cast Demonbolt with Demonic Core procs if you have fewer than 4 Soul Shards, prioritizing targets without the Doom debuff.",
+    "Use Shadow Bolt or Infernal Bolt as filler to generate Soul Shards.",
+    "Use offensive trinkets, racials, and combat potions while your Demonic Tyrant is active."
   ]
 }

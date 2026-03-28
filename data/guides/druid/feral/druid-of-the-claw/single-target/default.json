@@ -4,20 +4,19 @@
   "heroSpec": "Druid of the Claw",
   "buildName": "default",
   "priorityList": [
-    "Enter Cat Form and Prowl before combat.",
-    "Use Tiger's Fury on cooldown, ensuring it is active before using major cooldowns or builders.",
-    "Cast Rake from Prowl or Shadowmeld to apply an empowered bleed to start combat.",
+    "Maintain Cat Form and use Prowl before engaging in combat.",
+    "Use Tiger's Fury on cooldown, ideally when energy is low or just before activating Berserk or Incarnation.",
     "Cast Ravage (Chomp) whenever the Chomp Enabler buff is active.",
-    "Use Ferocious Bite immediately when Apex Predator's Craving procs.",
-    "Activate Berserk or Incarnation: King of the Jungle while Tiger's Fury is active.",
-    "Cast Feral Frenzy or Frantic Frenzy when at 2 or fewer Combo Points while Tiger's Fury is active.",
-    "Use Convoke the Spirits while Tiger's Fury is active, preferably after a finisher when at 0-2 Combo Points.",
-    "Spend 4 or more Combo Points on Rip if the bleed is refreshable and Tiger's Fury is active.",
-    "Spend 5 Combo Points on Ferocious Bite as your primary finisher.",
-    "Use Shadowmeld to refresh Rake if it is refreshable to benefit from the stealth damage bonus.",
-    "Maintain Rake on the target, refreshing when it has less than 4 seconds remaining.",
-    "Maintain Moonfire on the target if talented into Lunar Inspiration.",
-    "Use Shred as your primary builder to generate Combo Points.",
-    "Use Regrowth with Predatory Swiftness procs if configured for survival or Bloodtalons maintenance."
+    "Cast Rake while Prowl or Shadowmeld is active; use Shadowmeld in combat to apply an empowered Rake if it is refreshable.",
+    "Activate Berserk (or Incarnation: King of the Jungle) while Tiger's Fury is active.",
+    "Use Feral Frenzy (or Frantic Frenzy) if you have 2 or fewer Combo Points, or up to 4 during Berserk/Incarnation.",
+    "Use Convoke the Spirits while Tiger's Fury or Berserk is active, ideally at low Combo Points immediately after a finisher.",
+    "Cast Ferocious Bite for free whenever the Apex Predator's Craving proc is active.",
+    "Spend 5 Combo Points (4 during Berserk) on Rip if the bleed is refreshable.",
+    "Spend 5 Combo Points (4 during Berserk) on Ferocious Bite. If Berserk is not active, pool enough energy to cast it at 50 energy for maximum damage.",
+    "Maintain the Rake bleed on your target, refreshing it if it has less than 4 seconds remaining or if Tiger's Fury is active to increase its damage.",
+    "Maintain Moonfire on your target (if talented) and refresh it when it is about to expire.",
+    "Use Shred as your primary builder to generate Combo Points when no priority bleeds need refreshing.",
+    "Use Regrowth to consume Predatory Swiftness procs if healing is required or the variable is enabled."
   ]
 }

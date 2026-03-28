@@ -4,17 +4,20 @@
   "heroSpec": "Dark Ranger",
   "buildName": "default",
   "priorityList": [
-    "Use Offensive Cooldowns, Racials, and Trinkets when Takedown (Black Arrow) is active or ready to be cast.",
-    "Use Potions when Takedown is ready or if the fight is nearly over.",
-    "Use Aspect of the Eagle if you are further than 6 yards from your target to continue using melee abilities.",
-    "Cast Kill Command as your top priority if you have zero stacks of Tip of the Spear.",
-    "Cast Boomstick whenever Tip of the Spear is active.",
-    "Cast Wildfire Bomb when Tip of the Spear is active, prioritizing targets with Sentinel's Mark or when you are about to cap charges.",
-    "Cast Kill Command if Takedown is about to come off cooldown and you have fewer than 2 stacks of Tip of the Spear.",
-    "Cast Takedown (Black Arrow) whenever Tip of the Spear is active.",
-    "Cast Moonlight Chakram when Tip of the Spear is active.",
-    "Cast Flamefang Pitch when Tip of the Spear is active.",
-    "Cast Raptor Strike (or Butchery) if you need to refresh the Raptor Swipe cleave buff or if Tip of the Spear is active.",
-    "Cast Kill Command as a general filler to generate Focus and Tip of the Spear stacks."
+    "Summon your pet and use Wildfire Bomb before combat begins.",
+    "Use offensive cooldowns, racial abilities, and trinkets when Takedown is active or its cooldown is ready.",
+    "Use Kill Command if you have no stacks of Tip of the Spear.",
+    "Use Kill Command if you have fewer than 2 stacks of Tip of the Spear and any Pack Leader buffs (Wyvern, Boar, or Bear) are active.",
+    "Cast Takedown when you have Tip of the Spear stacks (or at 0 stacks if the Twin Fangs talent is taken).",
+    "Use Flamefang Pitch on cooldown.",
+    "Cast Wildfire Bomb if you are about to reach maximum charges to avoid capping.",
+    "Use Boomstick while Tip of the Spear is active.",
+    "Cast Wildfire Bomb when Tip of the Spear is active.",
+    "Use Moonlight Chakram when Tip of the Spear is active.",
+    "Cast Raptor Strike (or Mongoose Bite) to refresh the Raptor Swipe cleave buff or if Tip of the Spear is active.",
+    "Use Kill Command as a filler to generate Focus and Tip of the Spear stacks.",
+    "Use Wildfire Bomb as a filler if no higher priority actions are available.",
+    "Cast Takedown as a filler if it is available.",
+    "Use Aspect of the Eagle if you are forced out of melee range of your target."
   ]
 }

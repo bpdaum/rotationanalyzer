@@ -4,17 +4,17 @@
   "heroSpec": "Sentinel",
   "buildName": "default",
   "priorityList": [
-    "Pre-cast Aimed Shot and Steady Shot before combat begins.",
-    "Cast Volley on cooldown.",
-    "Activate Trueshot when available, ideally coinciding with Volley.",
-    "Use offensive racial abilities and combat potions during Trueshot.",
-    "Use on-use trinkets during Trueshot or when Trueshot has more than 20 seconds remaining on its cooldown.",
-    "Cast Rapid Fire if you have the Unload talent and either (Precise Shots is active with fewer than 10 Bulletstorm stacks) or the target is below 20% health.",
-    "Cast Arcane Shot to consume Precise Shots stacks.",
-    "Cast Rapid Fire if your Bulletstorm buff will expire before you can finish an Aimed Shot cast.",
-    "Cast Aimed Shot when Volley is on cooldown (longer than 2 seconds) or during Trueshot, prioritizing targets with Sentinel's Mark.",
+    "Summon your pet before combat if you have the Unbreakable Bond talent.",
+    "Open combat by casting Aimed Shot.",
+    "Cast Volley on cooldown to trigger Sentinel and Trick Shots mechanics.",
+    "Activate Trueshot as soon as it is available, ideally while Volley is active.",
+    "Use offensive Trinkets, Racial abilities (like Berserking or Blood Fury), and Potions while Trueshot is active.",
+    "Cast Arcane Shot whenever Precise Shots is active to consume the buff.",
+    "Cast Rapid Fire if the Unload talent is active and either the target is below 20% health or you have high stacks of Bulletstorm.",
+    "Cast Aimed Shot if you are at or near 2 charges to prevent capping.",
     "Cast Moonlight Chakram on cooldown.",
-    "Cast Rapid Fire on cooldown.",
-    "Cast Steady Shot if you need to generate Focus or have no other abilities available."
+    "Cast Rapid Fire on cooldown to generate Focus and maintain the Bulletstorm buff.",
+    "Cast Aimed Shot as your primary Focus spender when other high-priority abilities are on cooldown.",
+    "Use Steady Shot as a filler to generate Focus when you have nothing else to press."
   ]
 }

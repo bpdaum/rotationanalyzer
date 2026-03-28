@@ -4,17 +4,18 @@
   "heroSpec": "Dark Ranger",
   "buildName": "default",
   "priorityList": [
-    "Initiate combat by casting Aimed Shot followed by Steady Shot.",
-    "Cast Black Arrow on cooldown as your highest priority.",
-    "Use Trueshot whenever available, ideally when the target is at low health or you have maximum Bullseye stacks.",
-    "Use offensive Trinkets, Racial abilities, and Potions while Trueshot is active.",
-    "Cast Rapid Fire if the Unload talent is active and either the target's health is below 20% or you have the No Scope talent.",
-    "Spend Precise Shots stacks on Arcane Shot.",
-    "Cast Rapid Fire if the Bulletstorm buff duration is shorter than an Aimed Shot cast time.",
+    "Pre-combat: Cast Aimed Shot and Steady Shot before the pull, and ensure your pet is summoned if using the Unbreakable Bond talent.",
+    "Cast Black Arrow whenever available as your highest priority.",
+    "Cast Trueshot on cooldown, ideally syncing it with the start of the fight or high Bullseye stacks.",
+    "Use offensive racial abilities (Berserking, Blood Fury, Fireblood) and combat potions while Trueshot is active.",
+    "Sync 'On-Use' trinkets with Trueshot windows, particularly when Trueshot has more than 14 seconds of duration remaining.",
+    "Cast Rapid Fire if the Unload talent is active and you have low Bulletstorm stacks (<10) or the target is below 20% health.",
+    "Cast Arcane Shot to consume Precise Shots procs.",
+    "Cast Rapid Fire if the Bulletstorm buff is about to expire (duration is less than an Aimed Shot cast).",
     "Cast Volley on cooldown.",
-    "Cast Aimed Shot as your primary spender and to prevent yourself from capping at 2 charges.",
-    "Cast Wailing Arrow on cooldown.",
-    "Cast Rapid Fire on cooldown if not already used for higher-priority procs.",
-    "Use Steady Shot as a filler when you need to generate Focus or have no other abilities available."
+    "Cast Aimed Shot to prevent charge capping, prioritizing targets with Spotter's Mark.",
+    "Cast Wailing Arrow whenever available.",
+    "Cast Rapid Fire on cooldown to generate Focus and deal damage.",
+    "Cast Steady Shot as a filler when you have no other actions available and need to generate Focus."
   ]
 }

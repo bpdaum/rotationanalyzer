@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { DPS_SPECS, getGuidePath } from '../src/lib/guide-data';
+import { SUPPORTED_SPECS, getGuidePath } from '../src/lib/guide-data';
 
 const GUIDES_DIR = path.join(process.cwd(), 'data', 'guides');
 
@@ -87,7 +87,7 @@ async function main() {
 
     const SIMC_CACHE: Record<string, string> = {};
 
-    for (const spec of DPS_SPECS) {
+    for (const spec of SUPPORTED_SPECS) {
         console.log(`\nFetching base APL for ${spec.classSlug} ${spec.specSlug}...`);
         const cacheKey = `${spec.classSlug}-${spec.specSlug}`;
         

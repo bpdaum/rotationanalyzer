@@ -4,20 +4,20 @@
   "heroSpec": "Mountain Thane",
   "buildName": "default",
   "priorityList": [
-    "Charge to engage and Pummel to interrupt enemy casts.",
+    "Use Charge to engage the target or if you are out of melee range.",
+    "Use Pummel to interrupt enemy spellcasting.",
     "Use Odyn's Fury on cooldown.",
-    "Use Recklessness and Avatar together, along with offensive Trinkets and Potions.",
-    "Cast Rampage if Rage is 100 or higher, or if Enrage is about to expire.",
+    "Cast Recklessness and Avatar together as your primary offensive cooldowns.",
+    "Cast Rampage if Enrage is about to expire or if you have 100 or more Rage.",
     "Cast Thunder Blast if you have 2 stacks of the Thunder Blast buff.",
-    "Cast Bloodbath whenever available.",
-    "Cast Rampage if Recklessness is active to spend generated Rage.",
+    "Cast Bloodbath whenever it is available.",
+    "Cast Rampage while Recklessness is active to dump Rage.",
     "Cast Thunder Blast while Avatar is active.",
-    "Cast Bloodthirst whenever available.",
-    "Cast Execute whenever available.",
-    "Cast Crushing Blow whenever available.",
-    "Cast Thunder Blast whenever available.",
-    "Cast Rampage to spend remaining Rage and maintain Enrage.",
-    "Cast Raging Blow if no higher priority abilities are ready.",
-    "Use Thunder Clap or Whirlwind as a low-priority filler."
+    "Cast Bloodthirst on cooldown.",
+    "Cast Execute whenever it is available.",
+    "Cast Crushing Blow whenever it is available.",
+    "Cast Thunder Blast to consume any remaining procs.",
+    "Cast Rampage as your primary Rage spender.",
+    "Use Raging Blow, Thunder Clap, or Whirlwind as fillers if nothing else is available."
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "classSlug": "paladin",
+  "specSlug": "protection",
+  "heroSpec": "Lightsmith",
+  "buildName": "default",
+  "priorityList": [
+    "Ensure Devotion Aura, Rite of Sanctification, and Rite of Adjuration are active before combat.",
+    "Use Avenging Wrath if Divine Toll is available or will be within 10 seconds.",
+    "Cast Divine Toll while Avenging Wrath is active to maximize Holy Power generation.",
+    "Cast Sacred Weapon (Holy Armaments) if the buff is missing or has less than 6 seconds remaining.",
+    "Spend Holy Power on Shield of the Righteous as your primary spender.",
+    "Cast Hammer of Wrath whenever available, especially during Avenging Wrath.",
+    "Cast Avenger's Shield if the Vanguard buff is active or during Avenging Wrath.",
+    "Use Holy Bulwark (Holy Armaments) if Avenging Wrath is nearly ready (under 5 seconds) or if you have 2 charges.",
+    "Cast Consecration if you reach 5 stacks of Divine Guidance.",
+    "Cast Judgment if it is about to reach maximum charges to avoid wasting cooldown time.",
+    "Cast Avenger's Shield to generate Holy Power and trigger Grand Crusader.",
+    "Cast Blessed Hammer (or Hammer of the Righteous) if the Blessed Assurance buff is active.",
+    "Cast Judgment as a primary Holy Power generator.",
+    "Maintain Consecration on the ground at all times.",
+    "Use Word of Glory only when the Shining Light proc makes it free."
+  ]
+}

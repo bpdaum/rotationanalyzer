@@ -1,0 +1,23 @@
+{
+  "classSlug": "demon-hunter",
+  "specSlug": "vengeance",
+  "heroSpec": "Aldrachi Reaver",
+  "buildName": "default",
+  "priorityList": [
+    "Interrupt with Disrupt and maintain Demon Spikes (off-GCD) as your primary defensive priority.",
+    "Cast Reaver's Glaive whenever the buff is available to begin the Aldrachi Reaver combat cycle.",
+    "When both Rending Strike and Glaive Flurry buffs are active, prioritize Fracture to maximize AoE damage.",
+    "When only the Glaive Flurry buff is active, cast Spirit Bomb at 5 Fragments, otherwise cast Soul Cleave to consume the buff.",
+    "When only the Rending Strike buff is active, use Fracture to consume the buff and generate fragments.",
+    "Use Metamorphosis if Untethered Rage procs or whenever available to boost survivability and damage.",
+    "Apply Fiery Brand to a primary target, especially if Fiery Demise is talented, to initiate your high-damage window.",
+    "During Fiery Demise windows, prioritize Soul Carver and Sigil of Spite if you have 2 or fewer Fragments.",
+    "During Fiery Demise windows, cast Spirit Bomb when at 3+ Fragments and use Immolation Aura to extend fire damage.",
+    "Use Fel Devastation as long as you do not currently have Rending Strike or Glaive Flurry buffs active.",
+    "Cast Sigil of Spite and Soul Carver on cooldown when your Spirit Bomb/Fiery Demise window is ready or when low on Fragments.",
+    "Use Fracture as your primary generator whenever you have fewer than 3-5 Soul Fragments.",
+    "Spend Soul Fragments on Spirit Bomb in AoE situations once you reach your fragment cap (usually 4-5).",
+    "Maintain high uptime on Immolation Aura and use Sigil of Flame on cooldown for consistent AoE damage.",
+    "Use Felblade as a filler to generate Fury or bridge gaps in your rotation."
+  ]
+}

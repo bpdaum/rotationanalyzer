@@ -4,16 +4,15 @@
   "heroSpec": "Pack Leader",
   "buildName": "default",
   "priorityList": [
-    "Summon your pet before starting combat.",
-    "Use Algethar Puzzle Box before the pull or when Bestial Wrath's cooldown is less than 2 seconds.",
-    "Use offensive racials (such as Berserking, Blood Fury, or Fireblood) and Combat Potions while Bestial Wrath is active.",
-    "Activate offensive trinkets (e.g., Light Company Guidon, Void Execution Mandate) when Bestial Wrath is active.",
-    "Cast Barbed Shot if Bestial Wrath's cooldown is less than one global cooldown to ensure you maximize cooldown reduction.",
-    "Cast Wild Thrash on cooldown.",
-    "Cast Bestial Wrath as soon as it becomes available.",
-    "Cast Kill Command as your primary priority to trigger Pack Leader abilities and maintain pet damage.",
-    "Cast Cobra Shot if Wild Thrash is on cooldown, the Hogstrider buff is active, and there are fewer than 4 enemies.",
-    "Cast Barbed Shot to maintain pet Frenzy stacks or to prevent charges from capping.",
-    "Cast Cobra Shot as a filler whenever Wild Thrash is on cooldown."
+    "Summon your pet before combat starts.",
+    "Use Bestial Wrath on cooldown.",
+    "Sync offensive Racials (Berserking, Blood Fury, Ancestral Call, Fireblood) and Potions with Bestial Wrath.",
+    "Use on-use Trinkets when Bestial Wrath is ready or active.",
+    "Cast Barbed Shot if Bestial Wrath has less than one GCD remaining on its cooldown to maximize resets.",
+    "Cast Wild Thrash on cooldown to trigger Beast Cleave and maximize AoE damage.",
+    "Use Kill Command as your primary damage dealer and generator.",
+    "Cast Cobra Shot if the Hogstrider buff is active, Wild Thrash is on cooldown, and there are fewer than 4 targets.",
+    "Cast Barbed Shot to maintain Frenzy stacks and reduce the cooldown of Bestial Wrath, prioritizing targets with the lowest DoT duration.",
+    "Use Cobra Shot as a filler during Beast Cleave whenever Wild Thrash is on cooldown."
   ]
 }

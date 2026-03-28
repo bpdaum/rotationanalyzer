@@ -4,19 +4,18 @@
   "heroSpec": "San'layn",
   "buildName": "default",
   "priorityList": [
-    "Keep Virulent Plague active using Outbreak, especially if it has fewer than 3 ticks remaining or before Dark Transformation.",
-    "Cast Army of the Dead when ready, ideally when you have at least 30 Runic Power.",
-    "Cast Dark Transformation while Army of the Dead is active or if its cooldown is longer than 30 seconds.",
-    "Cast Soul Reaper if the target is below 35% health or to maintain Reaping during Dark Transformation windows.",
-    "Cast Putrefy if you have maximum charges or if Dark Transformation has more than 15 seconds remaining on cooldown.",
-    "Use Festering Strike if Festering Scythe is talented and the buff or debuff is about to expire (less than 3 seconds).",
-    "Cast Death Coil if Sudden Doom is active, you have fewer than 2 Runes, or Forbidden Knowledge is active with fewer than 4 Runes.",
-    "Cast Festering Strike if you have 0 stacks of the Lesser Ghoul Ready buff to generate a ghoul.",
-    "Cast Scourge Strike if you have 1 or more stacks of the Lesser Ghoul Ready buff.",
-    "Cast Death Coil as your primary Runic Power spender to avoid capping or to trigger Runic Corruption.",
-    "Use Blood Fury, Berserking, or Fireblood racials during Dark Transformation.",
-    "Use offensive Trinkets when your cooldowns (Army of the Dead or Dark Transformation) are active.",
-    "Cast Putrefy as a filler if Soul Reaper is not ready and Dark Transformation is on cooldown for more than 12 seconds.",
-    "Use Power Infusion (if available) during Army of the Dead or Dark Transformation windows."
+    "Summon your pet with Raise Dead before combat starts.",
+    "Maintain Virulent Plague on the target using Outbreak.",
+    "Cast Army of the Dead if you have at least 30 Runic Power.",
+    "Cast Dark Transformation while Army of the Dead is active or if Army's cooldown is longer than 30 seconds.",
+    "Cast Soul Reaper if the target is below 35% health.",
+    "If Festering Scythe is talented, cast Festering Strike to maintain the Festering Scythe buff and debuff.",
+    "Cast Putrefy if you are at max charges or if Dark Transformation has more than 15 seconds remaining on its cooldown.",
+    "Cast Death Coil if you have a Sudden Doom proc or if you have fewer than 2 Runes available to avoid capping resources.",
+    "Cast Festering Strike only if you have 0 stacks of Lesser Ghoul Ready.",
+    "Cast Scourge Strike whenever you have 1 or more stacks of Lesser Ghoul Ready.",
+    "Cast Death Coil as your primary Runic Power spender and filler.",
+    "Use offensive racial abilities like Blood Fury or Berserking during Dark Transformation or when other major cooldowns are active.",
+    "Use combat potions and trinkets during Dark Transformation or when your pets are active for maximum burst."
   ]
 }

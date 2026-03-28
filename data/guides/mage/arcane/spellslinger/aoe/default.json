@@ -4,19 +4,18 @@
   "heroSpec": "Spellslinger",
   "buildName": "default",
   "priorityList": [
-    "Use Counterspell to interrupt enemy casts.",
-    "Cast Arcane Surge as your primary cooldown to initiate your burst window.",
-    "Use Touch of the Magi (off-GCD) while Arcane Surge is active or if Arcane Surge is more than 30 seconds away.",
-    "Use Evocation if your Mana is below 10% and Arcane Surge is not active.",
-    "Use offensive Trinkets and Racials during Arcane Surge and Touch of the Magi windows.",
-    "Cast Arcane Orb to generate Arcane Charges if you have fewer than 4 charges, especially when facing 4 or more enemies.",
-    "Cast Arcane Barrage when at 4 Arcane Charges if you have 20 or more stacks of Arcane Salvo.",
-    "Cast Arcane Barrage just before Arcane Surge or Touch of the Magi expires if you have at least 15 stacks of Arcane Salvo.",
-    "Cast Arcane Missiles when Clearcasting is active, provided Arcane Salvo stacks are below 15 (to avoid overcapping).",
-    "Use Presence of Mind to cast instant Arcane Blasts if you have fewer than 2 Arcane Charges and Arcane Orb is unavailable.",
-    "Cast Arcane Pulse if talented and facing 3 or more enemies.",
-    "Cast Arcane Orb immediately after an Arcane Barrage in AoE scenarios to quickly rebuild charges.",
-    "Cast Arcane Blast as a filler to build Arcane Charges if Arcane Orb is on cooldown.",
-    "Cast Arcane Barrage if the target is about to die or to dump charges at the end of a pull."
+    "Use Counterspell to interrupt enemy casts as needed.",
+    "Channel Evocation if mana is below 10% and Arcane Surge is nearly ready to be used.",
+    "Cast Arcane Surge as your primary combat cooldown to begin your burst window.",
+    "Use Touch of the Magi (off-GCD) while Arcane Surge is active, or if Arcane Surge is on cooldown for more than 30 seconds.",
+    "Activate offensive Trinkets, Racials, and Potions during Arcane Surge and Touch of the Magi windows for maximum impact.",
+    "Cast Arcane Orb to generate Arcane Charges, prioritizing it when you have fewer than 4 charges or are facing 4 or more enemies.",
+    "Cast Arcane Barrage if you have 4 Arcane Charges and Arcane Salvo has reached 20 stacks.",
+    "Cast Arcane Barrage at the very end of Arcane Surge or Touch of the Magi if you have 15 or more Arcane Salvo stacks.",
+    "Use Arcane Missiles when Clearcasting is active to build Arcane Salvo stacks, but avoid using it if Salvo is already at 15-20 stacks.",
+    "Use Presence of Mind to cast instant Arcane Blasts when you are at low Arcane Charges and Arcane Orb is unavailable.",
+    "Cast Arcane Pulse whenever 3 or more enemies are present to generate Splinters and charges.",
+    "Use Arcane Blast as your filler to build Arcane Charges when Arcane Orb and Arcane Pulse are on cooldown.",
+    "Cast Arcane Barrage at 4 Arcane Charges as a filler to reset your rotation when not in a burst window."
   ]
 }

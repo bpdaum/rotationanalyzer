@@ -4,14 +4,16 @@
   "heroSpec": "Pack Leader",
   "buildName": "default",
   "priorityList": [
-    "Ensure your pet is summoned before combat starts.",
-    "Cast Bestial Wrath as your primary offensive cooldown whenever available.",
-    "Combine Bestial Wrath with racial abilities like Berserking, Blood Fury, or Fireblood.",
-    "Use offensive potions and on-use trinkets (e.g., Algethar Puzzle Box, Light Company Guidon) during Bestial Wrath windows.",
-    "Cast Barbed Shot if Bestial Wrath is about to come off cooldown (less than 1 GCD remaining) to maximize cooldown reduction.",
-    "Cast Kill Command as your highest priority filler, especially when Pack Leader buffs like Nature's Ally are active or Howl of the Pack is ready.",
-    "Cast Kill Command if it is not currently benefitting from an Apex Predator proc.",
-    "Cast Barbed Shot to maintain pet Frenzy stacks and continue reducing the cooldown of Bestial Wrath.",
-    "Cast Cobra Shot as a filler when Kill Command is on cooldown and you have available Focus."
+    "Summon your pet before combat starts.",
+    "Use Algethar's Puzzle Box pre-combat and whenever Bestial Wrath is nearly ready (within 2 seconds).",
+    "Use offensive racials (Berserking, Blood Fury, or Ancestral Call) and combat potions when Bestial Wrath is ready.",
+    "Sync use-effect trinkets (such as Light Company Guidon or Void Execution Mandate) with Bestial Wrath usage.",
+    "Cast Barbed Shot if Bestial Wrath has less than 1.5 seconds remaining on cooldown to prepare Frenzy stacks.",
+    "Cast Bestial Wrath on cooldown.",
+    "Cast Kill Command as your highest priority attack, especially when Nature's Ally or Howl buffs are active.",
+    "Cast Barbed Shot to maintain 3 stacks of Frenzy on your pet or to prevent the ability from reaching 2 full charges.",
+    "Cast Cobra Shot during Bestial Wrath to reset the cooldown of Kill Command if the Killer Cobra talent is active.",
+    "Use any remaining on-use trinkets (such as Ranger Captain's Iridescent Insignia or Void Stalker's Contract) on cooldown.",
+    "Cast Cobra Shot as a filler when Kill Command is on cooldown and you have excess Focus."
   ]
 }
